@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ucToolBarUserMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ucToolBarUserMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ucToolBarUserMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 1, 0, 1</value>
+  </data>
+  <data name="ucToolBarUserMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>789, 39</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ucToolBarUserMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ucToolBarUserMenu.Name" xml:space="preserve">
+    <value>ucToolBarUserMenu</value>
+  </data>
+  <data name="&gt;&gt;ucToolBarUserMenu.Type" xml:space="preserve">
+    <value>ACPP.Modules.UIControls.ucToolBar, ACPP, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucToolBarUserMenu.Parent" xml:space="preserve">
+    <value>pnlUserMenu</value>
+  </data>
+  <data name="&gt;&gt;ucToolBarUserMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlUserMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlUserMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlUserMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>789, 32</value>
+  </data>
+  <data name="pnlUserMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlUserMenu.Name" xml:space="preserve">
+    <value>pnlUserMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlUserMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pnlUserMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlUserMenu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblUserRecordCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblUserRecordCount.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblUserRecordCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>755, 6</value>
+  </data>
+  <data name="lblUserRecordCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 13</value>
+  </data>
+  <data name="lblUserRecordCount.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblUserRecordCount.Text" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="&gt;&gt;lblUserRecordCount.Name" xml:space="preserve">
+    <value>lblUserRecordCount</value>
+  </data>
+  <data name="&gt;&gt;lblUserRecordCount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblUserRecordCount.Parent" xml:space="preserve">
+    <value>pnlUserMenuBottom</value>
+  </data>
+  <data name="&gt;&gt;lblUserRecordCount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRecordCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblRecordCount.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRecordCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>770, 6</value>
+  </data>
+  <data name="lblRecordCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>7, 13</value>
+  </data>
+  <data name="lblRecordCount.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblRecordCount.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblRecordCount.Name" xml:space="preserve">
+    <value>lblRecordCount</value>
+  </data>
+  <data name="&gt;&gt;lblRecordCount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblRecordCount.Parent" xml:space="preserve">
+    <value>pnlUserMenuBottom</value>
+  </data>
+  <data name="&gt;&gt;lblRecordCount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkShowFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="chkShowFilter.Properties.Caption" xml:space="preserve">
+    <value>Show &lt;b&gt;F&lt;/b&gt;ilter</value>
+  </data>
+  <data name="chkShowFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 19</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v13.2" name="DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="chkShowFilter.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v13.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxMy4yLCBWZXJzaW9uPTEzLjIu
+        Ny4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjEzLjIsIFZlcnNpb249MTMuMi43LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBwAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wCWl0ZW1UeXBlMQVpdGVtMQQAAAQEBAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAABCCVEZXZFeHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAACFEZXZFeHByZXNz
+        LlV0aWxzLlRvb2xUaXBUaXRsZUl0ZW0CAAAAJURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRl
+        bVR5cGUCAAAAHERldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0CAAAAAgAAAAX8////H0RldkV4cHJl
+        c3MuVXRpbHMuRGVmYXVsdEJvb2xlYW4BAAAAB3ZhbHVlX18ACAMAAAACAAAAAAIAAAAF+////yVEZXZF
+        eHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAkGAAAA
+        Afn////7////AAAAAAkIAAAADAkAAABRU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3Vs
+        dHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQYAAAAhRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwVGl0bGVJdGVtCgAAAA1BbGxvd0h0bWxUZXh0BEljb24FSW1hZ2UKSW1hZ2VB
+        bGlnbgpJbWFnZUluZGV4E0ltYWdlVG9UZXh0RGlzdGFuY2UKTGVmdEluZGVudAhNYXhXaWR0aBJPd25l
+        ckFsbG93SHRtbFRleHQEVGV4dAQEBAQAAAAAAAEfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgkAAAAVU3lzdGVtLkRyYXdpbmcuQml0bWFwCQAAACZEZXZF
+        eHByZXNzLlV0aWxzLlRvb2xUaXBJbWFnZUFsaWdubWVudAIAAAAICAgIAQIAAAAB9v////z///8CAAAA
+        CgkLAAAABfT///8mRGV2RXhwcmVzcy5VdGlscy5Ub29sVGlwSW1hZ2VBbGlnbm1lbnQBAAAAB3ZhbHVl
+        X18ACAIAAAAAAAAA/////w4AAAAAAAAAPAEAAAAGDQAAAAtTaG93IEZpbHRlcgUIAAAAHERldkV4cHJl
+        c3MuVXRpbHMuVG9vbFRpcEl0ZW0KAAAADUFsbG93SHRtbFRleHQESWNvbgVJbWFnZQpJbWFnZUFsaWdu
+        CkltYWdlSW5kZXgTSW1hZ2VUb1RleHREaXN0YW5jZQpMZWZ0SW5kZW50CE1heFdpZHRoEk93bmVyQWxs
+        b3dIdG1sVGV4dARUZXh0BAQEBAAAAAAAAR9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAwAA
+        ABNTeXN0ZW0uRHJhd2luZy5JY29uCQAAABRTeXN0ZW0uRHJhd2luZy5JbWFnZQkAAAAmRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwSW1hZ2VBbGlnbm1lbnQCAAAACAgICAECAAAAAfL////8////AgAAAAoKAfH/
+        ///0////AAAAAP////8OAAAABgAAADwBAAAABhAAAAAqICAgICAgICAgQ2hlY2sgdGhpcyB0byBGaWx0
+        ZXIgdGhlIHJlY29yZHMuBQsAAAAVU3lzdGVtLkRyYXdpbmcuQml0bWFwAQAAAAREYXRhBwIJAAAACREA
+        AAAPEQAAAL0CAAAC/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsU
+        FRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8l
+        Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAKAAoD
+        ASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+        AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6
+        Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKz
+        tLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEB
+        AQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEI
+        FEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hp
+        anN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX
+        2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDF0bSdX0/X9Nmn0u8iMVzFJ+9t3UABwcnI
+        6cV7H/wkV5/zzg/75P8AjR4o/wCQhH/1xH8zWPXzmb5viJ4hxi+Xl006noYTCU407vW5/9kL
+</value>
+  </data>
+  <data name="chkShowFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Name" xml:space="preserve">
+    <value>chkShowFilter</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Parent" xml:space="preserve">
+    <value>pnlUserMenuBottom</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlUserMenuBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="pnlUserMenuBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 428</value>
+  </data>
+  <data name="pnlUserMenuBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>789, 24</value>
+  </data>
+  <data name="pnlUserMenuBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlUserMenuBottom.Name" xml:space="preserve">
+    <value>pnlUserMenuBottom</value>
+  </data>
+  <data name="&gt;&gt;pnlUserMenuBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pnlUserMenuBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlUserMenuBottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gcUserView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gcUserView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gvUserView.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gvUserView.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gvUserView.AppearancePrint.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colUserId.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colUserId.Caption" xml:space="preserve">
+    <value>User Id</value>
+  </data>
+  <data name="colUserName.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colUserName.Caption" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="colUserName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colUserName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colUserName.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="colFirstName.Caption" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="colFirstName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colFirstName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colFirstName.Width" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="colLastName.Caption" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="colLastName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colLastName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colLastName.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="colUserRole.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colUserRole.Caption" xml:space="preserve">
+    <value>User Role</value>
+  </data>
+  <data name="colUserRole.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colUserRole.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colUserRole.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colAddress.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colAddress.Caption" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="colAddress.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colAddress.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colAddress.Width" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="colContactNumber.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colContactNumber.Caption" xml:space="preserve">
+    <value>Contact Number</value>
+  </data>
+  <data name="colContactNumber.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colContactNumber.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colContactNumber.Width" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="colEmailAddress.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colEmailAddress.Caption" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="colEmailAddress.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colEmailAddress.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colEmailAddress.Width" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="colUserPhoto.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colUserPhoto.Caption" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="colUserPhoto.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colUserPhoto.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="colUserPhoto.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="gcUserView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>789, 396</value>
+  </data>
+  <data name="gcUserView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gcUserView.Name" xml:space="preserve">
+    <value>gcUserView</value>
+  </data>
+  <data name="&gt;&gt;gcUserView.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcUserView.Parent" xml:space="preserve">
+    <value>pnlUserFill</value>
+  </data>
+  <data name="&gt;&gt;gcUserView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlUserFill.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlUserFill.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 32</value>
+  </data>
+  <data name="pnlUserFill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>789, 396</value>
+  </data>
+  <data name="pnlUserFill.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlUserFill.Name" xml:space="preserve">
+    <value>pnlUserFill</value>
+  </data>
+  <data name="&gt;&gt;pnlUserFill.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pnlUserFill.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlUserFill.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>789, 452</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>User View</value>
+  </data>
+  <data name="&gt;&gt;gvUserView.Name" xml:space="preserve">
+    <value>gvUserView</value>
+  </data>
+  <data name="&gt;&gt;gvUserView.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colUserId.Name" xml:space="preserve">
+    <value>colUserId</value>
+  </data>
+  <data name="&gt;&gt;colUserId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colUserName.Name" xml:space="preserve">
+    <value>colUserName</value>
+  </data>
+  <data name="&gt;&gt;colUserName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colFirstName.Name" xml:space="preserve">
+    <value>colFirstName</value>
+  </data>
+  <data name="&gt;&gt;colFirstName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colLastName.Name" xml:space="preserve">
+    <value>colLastName</value>
+  </data>
+  <data name="&gt;&gt;colLastName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colUserRole.Name" xml:space="preserve">
+    <value>colUserRole</value>
+  </data>
+  <data name="&gt;&gt;colUserRole.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colAddress.Name" xml:space="preserve">
+    <value>colAddress</value>
+  </data>
+  <data name="&gt;&gt;colAddress.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colContactNumber.Name" xml:space="preserve">
+    <value>colContactNumber</value>
+  </data>
+  <data name="&gt;&gt;colContactNumber.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colEmailAddress.Name" xml:space="preserve">
+    <value>colEmailAddress</value>
+  </data>
+  <data name="&gt;&gt;colEmailAddress.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colUserPhoto.Name" xml:space="preserve">
+    <value>colUserPhoto</value>
+  </data>
+  <data name="&gt;&gt;colUserPhoto.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryPeUserPhoto.Name" xml:space="preserve">
+    <value>repositoryPeUserPhoto</value>
+  </data>
+  <data name="&gt;&gt;repositoryPeUserPhoto.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmUserView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ACPP.frmFinanceBase, ACPP, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

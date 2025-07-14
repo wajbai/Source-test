@@ -1,0 +1,4182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCOUNTING_PERIOD_ACTIVE" xml:space="preserve">
+    <value>La période de transaction est active. Ne peut être supprimée.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_ADD_CAPTION" xml:space="preserve">
+    <value>Période comptable (Ajouter)</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_CANNOT_DELETE" xml:space="preserve">
+    <value>Impossible de supprimer. La transaction est effectuée pour cet exercice financier/cette période comptable.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_CHANGE_PERIOD" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir modifier la période de transaction ?</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_EDIT_CAPTION" xml:space="preserve">
+    <value>Période comptable (Editer)</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_NOT_CREATED" xml:space="preserve">
+    <value>La période de transaction n'est pas encore créée ou n'est pas active. Voulez-vous créer la période de transaction maintenant ou la rendre active ?</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_ONE_ACTIVE" xml:space="preserve">
+    <value>Une période comptable doit être active.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails de la période de transaction</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_SAVE_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_YEAR_EQUAL_EMPTY" xml:space="preserve">
+    <value>la période de transaction de l’année est inférieure à celle de l'année écoulée.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_YEAR_FROM_EMPTY" xml:space="preserve">
+    <value>La date de début de la période de transaction est vide.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_YEAR_TO_EMPTY" xml:space="preserve">
+    <value>La période de transaction de l'année à ce jour est vide.</value>
+  </data>
+  <data name="ACCOUNT_NUMBER" xml:space="preserve">
+    <value>Numéro de compte</value>
+  </data>
+  <data name="ACCOUNT_NUMBER_AVAILABLE" xml:space="preserve">
+    <value>Le numéro de compte FD est déjà disponible.</value>
+  </data>
+  <data name="ACCUMULATED_INTEREST" xml:space="preserve">
+    <value>Intérêts cumulés</value>
+  </data>
+  <data name="ACTIVE_BUDGET_IS_MADE" xml:space="preserve">
+    <value>Le budget actif est déjà établi pour le projet. Le budget sera sauvegardé en mode inactif.</value>
+  </data>
+  <data name="ADDRESS_ADD_CAPTION" xml:space="preserve">
+    <value>Adresse (Ajouter)</value>
+  </data>
+  <data name="ADDRESS_COUNTRY_EMPTY" xml:space="preserve">
+    <value>Le pays est vide.</value>
+  </data>
+  <data name="ADDRESS_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="ADDRESS_EDIT_CAPTION" xml:space="preserve">
+    <value>Adresse (Editer)</value>
+  </data>
+  <data name="ADDRESS_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom est vide.</value>
+  </data>
+  <data name="ADDRESS_SAVE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement enregistré</value>
+  </data>
+  <data name="AGENT_EMPTY" xml:space="preserve">
+    <value>Agent est vide</value>
+  </data>
+  <data name="ALLOCATION_AMOUNT_IS_NOT_EQUAL" xml:space="preserve">
+    <value>Le montant alloué n'est pas égal au montant total du centre de coûts.</value>
+  </data>
+  <data name="ALLOT_FUND_AND_TRY_AGAIN" xml:space="preserve">
+    <value>Associe les grands livres au projet pour allouer des fonds et réessayer.</value>
+  </data>
+  <data name="ALREADY_MAPPPED_WITH_ANOTHER_LEGAL_ENTITY" xml:space="preserve">
+    <value>Le compte bancaire FCRA sélectionné est déjà associé à une autre entité juridique.</value>
+  </data>
+  <data name="AMCDATE_VALIDATION" xml:space="preserve">
+    <value>Amc A Date est inférieure à la Amc De date</value>
+  </data>
+  <data name="AMCGROUP_IS_EMPTY" xml:space="preserve">
+    <value>AMC Group est vide.</value>
+  </data>
+  <data name="AMCPREMIUM_AMOUNT" xml:space="preserve">
+    <value>AMC Montant est vide.</value>
+  </data>
+  <data name="AMCPROVIDER_IS_EMPYT" xml:space="preserve">
+    <value>Fournisseur est vide</value>
+  </data>
+  <data name="AMCVOUCHER_ADD_CAPTION" xml:space="preserve">
+    <value>Entretien annuel Asset</value>
+  </data>
+  <data name="AMCVOUCHER_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Montant est vide</value>
+  </data>
+  <data name="AMCVOUCHER_DUE_DATE_EMPTY" xml:space="preserve">
+    <value>Date d'échéance est vide</value>
+  </data>
+  <data name="AMCVOUCHER_EDIT_CAPTION" xml:space="preserve">
+    <value>Asset Maintenance annuelle (Edit)</value>
+  </data>
+  <data name="AMCVOUCHER_ENTRY" xml:space="preserve">
+    <value>AMC Entrée</value>
+  </data>
+  <data name="AMCVOUCHER_PRINT_CAPTION" xml:space="preserve">
+    <value> Détails annuels Maintenance des coûts</value>
+  </data>
+  <data name="AMCVOUCHER_START_DATE_EMPTY" xml:space="preserve">
+    <value>Date de début est vide</value>
+  </data>
+  <data name="AMCVOUCHER_VIEW" xml:space="preserve">
+    <value>AMC Voir</value>
+  </data>
+  <data name="AMC_EXPENSE_LEDGER_EMPTY" xml:space="preserve">
+    <value>AMC Expense Ledger est vide</value>
+  </data>
+  <data name="AMC_FROM_EMPTY" xml:space="preserve">
+    <value>AMC De ne doit pas être vide.</value>
+  </data>
+  <data name="AMC_NO_MAPPED_ITEMS" xml:space="preserve">
+    <value>éléments d'actifs ne sont pas mappés.</value>
+  </data>
+  <data name="AMC_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails d'entretien annuel</value>
+  </data>
+  <data name="AMC_RENEWAL_DATE_VALIDATION" xml:space="preserve">
+    <value>Date de AMC / Date de renouvellement ne doit pas être inférieure à AMC À ce jour.</value>
+  </data>
+  <data name="AMC_RENEWAL_DELETE_CONFIRMATION" xml:space="preserve">
+    <value>l'histoire du renouveau et éléments cartographiés du groupe seletced seront deleted.Do vous voulez continuer?</value>
+  </data>
+  <data name="AMC_TO_EMPTY" xml:space="preserve">
+    <value>AMC Pour ne doit pas être vide.</value>
+  </data>
+  <data name="AMOUNT" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="AMOUNT_MISMATCHED_WITH_SPLITED_AMOUNT" xml:space="preserve">
+    <value>Non-concordance entre le montant total et le montant fractionné</value>
+  </data>
+  <data name="ANNUAL_BUDGET" xml:space="preserve">
+    <value>Budget annuel</value>
+  </data>
+  <data name="APPEND_CONFORM" xml:space="preserve">
+    <value>L'importation ajoutera les enregistrements. Voulez-vous vraiment continuer ?</value>
+  </data>
+  <data name="ASSETBLOCK_ADD_CAPTION" xml:space="preserve">
+    <value>Block (Ajouter)</value>
+  </data>
+  <data name="ASSETBLOCK_EDIT_CAPTION" xml:space="preserve">
+    <value>Block (Edit)</value>
+  </data>
+  <data name="ASSETBLOCK_NAME_EMPTY" xml:space="preserve">
+    <value>Block est vide</value>
+  </data>
+  <data name="ASSETBLOCK_PRINT_CAPTION" xml:space="preserve">
+    <value>Liste de blocage</value>
+  </data>
+  <data name="ASSETCATEGORY_ADD_CAPTION" xml:space="preserve">
+    <value>Catégorie (Ajouter)</value>
+  </data>
+  <data name="ASSETCATEGORY_EDIT_CAPTION" xml:space="preserve">
+    <value>Catégorie (Edit)</value>
+  </data>
+  <data name="ASSETCATEGORY_NAME_EMPTY" xml:space="preserve">
+    <value>Nom de la catégorie est vide.</value>
+  </data>
+  <data name="ASSETCATEGORY_PARENTGROUP_EMPTY" xml:space="preserve">
+    <value>Sous est vide.</value>
+  </data>
+  <data name="ASSETCATEGORY_PRINT_CAPTION" xml:space="preserve">
+    <value>Catégorie Détails</value>
+  </data>
+  <data name="ASSETCATEGORY_VIEW_CAPTION" xml:space="preserve">
+    <value>Catégorie d'actif</value>
+  </data>
+  <data name="ASSETCLASS_ADD_CAPTION" xml:space="preserve">
+    <value>Asset Class (Ajouter)</value>
+  </data>
+  <data name="ASSETCLASS_CANNOT_DELETE" xml:space="preserve">
+    <value>Catégorie d'actif ne peut pas être supprimé. Il a association.</value>
+  </data>
+  <data name="ASSETCLASS_DEPRECIATION_EMPTY" xml:space="preserve">
+    <value>Amortissement (%) est vide.</value>
+  </data>
+  <data name="ASSETCLASS_EDIT_CAPTION" xml:space="preserve">
+    <value>Asset Class (Edit)</value>
+  </data>
+  <data name="ASSETCLASS_METHOD_EMPTY" xml:space="preserve">
+    <value>Méthode d'amortissement est vide.</value>
+  </data>
+  <data name="ASSETCLASS_NAME_EMPTY" xml:space="preserve">
+    <value>Nom de classe est vide.</value>
+  </data>
+  <data name="ASSETCLASS_PARENTCLASS_EMPTY" xml:space="preserve">
+    <value>Classe Parent est vide.</value>
+  </data>
+  <data name="ASSETCLASS_PRINT_CAPTION" xml:space="preserve">
+    <value>Catégorie d'actif Détails</value>
+  </data>
+  <data name="ASSETCLASS_VIEW_CAPTION" xml:space="preserve">
+    <value>classe d'actifs</value>
+  </data>
+  <data name="ASSETCUSTODIANS_ADD_CAPTION" xml:space="preserve">
+    <value>Dépositaire (Ajouter)</value>
+  </data>
+  <data name="ASSETCUSTODIANS_EDIT_CAPTION" xml:space="preserve">
+    <value>Dépositaire (Edit)</value>
+  </data>
+  <data name="ASSETCUSTODIANS_ENDDATE_EMPTY" xml:space="preserve">
+    <value>Date de fin est vide.</value>
+  </data>
+  <data name="ASSETCUSTODIANS_NAME_EMPTY" xml:space="preserve">
+    <value>Dépositaire est vide.</value>
+  </data>
+  <data name="ASSETCUSTODIANS_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails dépositaire</value>
+  </data>
+  <data name="ASSETCUSTODIANS_ROLE_EMPTY" xml:space="preserve">
+    <value>Rôle est vide.</value>
+  </data>
+  <data name="ASSETCUSTODIANS_STARTDATE_EMPTY" xml:space="preserve">
+    <value>Date de début est vide.</value>
+  </data>
+  <data name="ASSETCUSTODIANS_TYPE_EMPTY" xml:space="preserve">
+    <value>Type de vide.</value>
+  </data>
+  <data name="ASSETITEM_ACCOUNTLEDGER_EMPTY" xml:space="preserve">
+    <value>Compte Ledger est vide.</value>
+  </data>
+  <data name="ASSETITEM_ADD_CAPTION" xml:space="preserve">
+    <value>Asset Item (Ajouter)</value>
+  </data>
+  <data name="ASSETITEM_ASSETCLASS_EMPTY" xml:space="preserve">
+    <value>Catégorie d'actif est vide.</value>
+  </data>
+  <data name="ASSETITEM_DEPRECIATIONLEDGER_EMPTY" xml:space="preserve">
+    <value>Amortissement Ledger est vide.</value>
+  </data>
+  <data name="ASSETITEM_DISPOSALLEDGER_EMPTY" xml:space="preserve">
+    <value>Élimination Ledger est vide.</value>
+  </data>
+  <data name="ASSETITEM_EDIT_CAPTION" xml:space="preserve">
+    <value>Asset Item (Edit)</value>
+  </data>
+  <data name="ASSETITEM_METHOD_EMPTY" xml:space="preserve">
+    <value>Méthode est vide.</value>
+  </data>
+  <data name="ASSETITEM_NAME_EMPYTY" xml:space="preserve">
+    <value>Asset article est vide.</value>
+  </data>
+  <data name="ASSETITEM_PRINT_CAPTION" xml:space="preserve">
+    <value>Asset Détails de l'article</value>
+  </data>
+  <data name="ASSETITEM_STARTINNO_EMPTY" xml:space="preserve">
+    <value>Numéro de départ est vide.</value>
+  </data>
+  <data name="ASSETITEM_UNIT_EMPTY" xml:space="preserve">
+    <value>Unité est vide.</value>
+  </data>
+  <data name="ASSETITEM_WIDTH_EMPTY" xml:space="preserve">
+    <value>Largeur est vide</value>
+  </data>
+  <data name="ASSET_ACCOUNT_LEDGER" xml:space="preserve">
+    <value>Compte Ledger est vide</value>
+  </data>
+  <data name="ASSET_AMC_RENEWAL_ALERT" xml:space="preserve">
+    <value>AMC Renouvellement est vide</value>
+  </data>
+  <data name="ASSET_AMC_RENEWAL_EMPTY" xml:space="preserve">
+    <value>Date de AMC / Date de renouvellement ne doit pas être vide.</value>
+  </data>
+  <data name="ASSET_DEPRECIATION_LEDGER" xml:space="preserve">
+    <value>Méthode d'amortissement est vide</value>
+  </data>
+  <data name="ASSET_DISPOSAL_LEDGER" xml:space="preserve">
+    <value>Élimination Ledger est vide</value>
+  </data>
+  <data name="ASSET_ID_EMPTY" xml:space="preserve">
+    <value>Asset ID est vide</value>
+  </data>
+  <data name="ASSET_INSURANCE_ALERT" xml:space="preserve">
+    <value>L'assurance est vide</value>
+  </data>
+  <data name="ASSET_NAME" xml:space="preserve">
+    <value>Nom de l'actif est vide</value>
+  </data>
+  <data name="ASSET_NO_ITEM_DETAIL" xml:space="preserve">
+    <value>L'élément sélectionné ne sont pas disponibles, s'il vous plaît sélectionner un autre élément.</value>
+  </data>
+  <data name="ASSET_PREFIX_EMPTY" xml:space="preserve">
+    <value>Prefix est vide</value>
+  </data>
+  <data name="ASSET_PRINT_CAPTION" xml:space="preserve">
+    <value>Atout</value>
+  </data>
+  <data name="ASSET_SUFFIX_EMPTY" xml:space="preserve">
+    <value>Suffixe est vide</value>
+  </data>
+  <data name="ASSET_UPDATE_DETAILS" xml:space="preserve">
+    <value>Mise à jour Asset Détails avec succès</value>
+  </data>
+  <data name="ASSOCIATION_WITH_TDS" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer ce entry.It a association avec TDS réservation.</value>
+  </data>
+  <data name="ASSOCICATION_WITH_TDS_PAYMENT" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer cette voucher.It a assocication avec TDS Paiement</value>
+  </data>
+  <data name="AUDITLOCKTYPEEMPTY" xml:space="preserve">
+    <value>Audit Type de fermeture est vide.</value>
+  </data>
+  <data name="AUDITOR_ADD_CAPTION" xml:space="preserve">
+    <value>Auditeur (Ajouter)</value>
+  </data>
+  <data name="AUDITOR_BEGIN_DATE" xml:space="preserve">
+    <value>Audit À ce jour ne doit pas être inférieure à la vérification De la date.</value>
+  </data>
+  <data name="AUDITOR_DELETE_SUCCESS" xml:space="preserve">
+    <value>enregistrement supprimé</value>
+  </data>
+  <data name="AUDITOR_EDIT_CAPTION" xml:space="preserve">
+    <value>Vérificateur (Edit)</value>
+  </data>
+  <data name="AUDITOR_INFO_ADD" xml:space="preserve">
+    <value>Infos Audit (Ajouter)</value>
+  </data>
+  <data name="AUDITOR_INFO_AUDITOR_EMPTY" xml:space="preserve">
+    <value>Vérificateur Info est vide.</value>
+  </data>
+  <data name="AUDITOR_INFO_CLOSEDON_EMPTY" xml:space="preserve">
+    <value>Audit Pour est vide.</value>
+  </data>
+  <data name="AUDITOR_INFO_DELETE_SUCCESS" xml:space="preserve">
+    <value>enregistrement supprimé</value>
+  </data>
+  <data name="AUDITOR_INFO_EDIT" xml:space="preserve">
+    <value>Infos audit (Edit)</value>
+  </data>
+  <data name="AUDITOR_INFO_PRINT_CAPTION" xml:space="preserve">
+    <value>Infos Audit Détails</value>
+  </data>
+  <data name="AUDITOR_INFO_PROJECT_EMPTY" xml:space="preserve">
+    <value>Projet est vide.</value>
+  </data>
+  <data name="AUDITOR_INFO_STARTEDON_EMPTY" xml:space="preserve">
+    <value>Audit De est vide</value>
+  </data>
+  <data name="AUDITOR_INFO_SUCCESS" xml:space="preserve">
+    <value>Enregistré</value>
+  </data>
+  <data name="AUDITOR_IS_EMPTY" xml:space="preserve">
+    <value>Vérificateur est vide</value>
+  </data>
+  <data name="AUDITOR_NAME_EMPTY" xml:space="preserve">
+    <value>Nom de l'auditeur est vide.</value>
+  </data>
+  <data name="AUDITOR_ON_FROM" xml:space="preserve">
+    <value>Audité À la date ne doit pas être inférieure à la vérification De la date.</value>
+  </data>
+  <data name="AUDITOR_ON_TO" xml:space="preserve">
+    <value>Audité En date devrait être inférieure à la vérification à ce jour.</value>
+  </data>
+  <data name="AUDITOR_PRINT_CAPTION" xml:space="preserve">
+    <value>Liste des vérificateurs</value>
+  </data>
+  <data name="AUDITOR_SAVE_SUCCESS" xml:space="preserve">
+    <value>Enregistré</value>
+  </data>
+  <data name="AUDITTYPE_PRINT_CAPTION" xml:space="preserve">
+    <value>Type de vérification Détails</value>
+  </data>
+  <data name="AUDIT_ADD_CAPTION" xml:space="preserve">
+    <value>Type de vérification(Ajouter)</value>
+  </data>
+  <data name="AUDIT_DELETE" xml:space="preserve">
+    <value>enregistrement supprimé</value>
+  </data>
+  <data name="AUDIT_DELETE_SUCCESS" xml:space="preserve">
+    <value>L'enregistrement est supprimé avec succès</value>
+  </data>
+  <data name="AUDIT_EDIT_CAPTION" xml:space="preserve">
+    <value>Type de vérification(Edit)</value>
+  </data>
+  <data name="AUDIT_LOCK_TYPE" xml:space="preserve">
+    <value>Lock Type de vérification</value>
+  </data>
+  <data name="AUDIT_NAME_EMPTY" xml:space="preserve">
+    <value>Nom de la vérification est vide</value>
+  </data>
+  <data name="AUDIT_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails de la vérification</value>
+  </data>
+  <data name="AUDIT_SAVE_FAILURE" xml:space="preserve">
+    <value>Enregistrement non Saved</value>
+  </data>
+  <data name="AUDIT_SAVE_SUCCESS" xml:space="preserve">
+    <value>fiche conservée</value>
+  </data>
+  <data name="AUDIT_TYPE_IS_EMPTY" xml:space="preserve">
+    <value>Type d'audit est vide</value>
+  </data>
+  <data name="BALANCE" xml:space="preserve">
+    <value>Solde</value>
+  </data>
+  <data name="BALANCE_UPDATED" xml:space="preserve">
+    <value>Mise à jour réussie du solde</value>
+  </data>
+  <data name="BANKACCOUNT_NOT_BELONG_TO_SAME_LEGALENTITY" xml:space="preserve">
+    <value>Le compte bancaire n'appartient pas à la même entité juridique</value>
+  </data>
+  <data name="BANKACCOUNT_NOT_IN_SAME_LEGALENTITY" xml:space="preserve">
+    <value>Le compte bancaire n'appartient pas à la même entité juridique pour le projet sélectionné</value>
+  </data>
+  <data name="BANK_ACCCOUNT_FAILURE" xml:space="preserve">
+    <value>Le compte bancaire n'est pas sauvegardé.</value>
+  </data>
+  <data name="BANK_ACCOUNT" xml:space="preserve">
+    <value>Compte bancaire</value>
+  </data>
+  <data name="BANK_ACCOUNT_ADD" xml:space="preserve">
+    <value>Compte bancaire (Ajouter)</value>
+  </data>
+  <data name="BANK_ACCOUNT_CLOSEDATE_TRANSACTION" xml:space="preserve">
+    <value>La transaction est effectuée pour cette date de clôture, le compte bancaire ne peut pas être clôturé.</value>
+  </data>
+  <data name="BANK_ACCOUNT_CLOSEDATE_VALIDATION" xml:space="preserve">
+    <value>La date de clôture de la banque ne doit pas être inférieure à la date d'ouverture de la banque.</value>
+  </data>
+  <data name="BANK_ACCOUNT_CODE_EMPTY" xml:space="preserve">
+    <value>Le code du compte bancaire est vide.</value>
+  </data>
+  <data name="BANK_ACCOUNT_DELETED" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="BANK_ACCOUNT_EDIT" xml:space="preserve">
+    <value>Compte bancaire (éditer)</value>
+  </data>
+  <data name="BANK_ACCOUNT_PRINT_CAPTION" xml:space="preserve">
+    <value>Coordonnées du compte bancaire</value>
+  </data>
+  <data name="BANK_ACCOUNT_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="BANK_ADD_CAPTION" xml:space="preserve">
+    <value>Banque (Ajouter)</value>
+  </data>
+  <data name="BANK_BRANCH_EMPTY" xml:space="preserve">
+    <value>Le nom de la filiale est vide.</value>
+  </data>
+  <data name="BANK_CODE_EMPTY" xml:space="preserve">
+    <value>Le code banque est vide.</value>
+  </data>
+  <data name="BANK_DELETE" xml:space="preserve">
+    <value>Il n'y a pas d'enregistrement à supprimer.</value>
+  </data>
+  <data name="BANK_DELETE_ASSOCIATION" xml:space="preserve">
+    <value>La banque ne peut pas être supprimée. Elle a une association.</value>
+  </data>
+  <data name="BANK_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="BANK_EDIT_CAPTION" xml:space="preserve">
+    <value>Banque (Editer)</value>
+  </data>
+  <data name="BANK_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom de la banque est vide.</value>
+  </data>
+  <data name="BANK_OPERATING_CAPTION" xml:space="preserve">
+    <value>Banque d'opération</value>
+  </data>
+  <data name="BANK_PRINT_CAPTION" xml:space="preserve">
+    <value>Coordonnées bancaires ou détails de la banque</value>
+  </data>
+  <data name="BANK_RECONCILIATION" xml:space="preserve">
+    <value>Conciliation bancaire</value>
+  </data>
+  <data name="BANK_SAVE_FAILURE" xml:space="preserve">
+    <value>L'enregistrement est disponible.</value>
+  </data>
+  <data name="BANK_SAVE_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="BAPTISM_ADD_CAPTION" xml:space="preserve">
+    <value>Baptême Register (Ajouter)</value>
+  </data>
+  <data name="BAPTISM_COUNTRY" xml:space="preserve">
+    <value>Baptême Pays est vide</value>
+  </data>
+  <data name="BAPTISM_EDIT_CAPTION" xml:space="preserve">
+    <value>Baptême Register (Edit)</value>
+  </data>
+  <data name="BAPTISM_PARISH" xml:space="preserve">
+    <value>Nom Parish est vide</value>
+  </data>
+  <data name="BAPTISM_PRINT_CAPTION" xml:space="preserve">
+    <value>Baptême Inscription Détails</value>
+  </data>
+  <data name="BAPTISM_REG_REFRENCE" xml:space="preserve">
+    <value>Référence du registre est vide</value>
+  </data>
+  <data name="BILL_NO_EMPTY" xml:space="preserve">
+    <value>Numéro du projet de loi est vide.</value>
+  </data>
+  <data name="BOOK_BEGINNING_DATE_EMPTY" xml:space="preserve">
+    <value>La date de début du livre ne doit pas être vide.</value>
+  </data>
+  <data name="BRANCH_CODE_MATCH_ERROR" xml:space="preserve">
+    <value>Le code de branche de la licence ne correspond pas au code de branche du Master XML. Voulez-vous continuer ?</value>
+  </data>
+  <data name="BRANCH_OFFICE_CODE_EMPTY" xml:space="preserve">
+    <value>Le code de l'agence est vide</value>
+  </data>
+  <data name="BREAKUP_AMOUNT_EXCEEDS" xml:space="preserve">
+    <value>Le montant ne peut pas être supérieur au montant donné.</value>
+  </data>
+  <data name="BREAKUP_AMOUNT_GREATER_THAN" xml:space="preserve">
+    <value>Le montant donné est supérieur au montant</value>
+  </data>
+  <data name="BREAKUP_AMOUNT_LESS_THAN" xml:space="preserve">
+    <value>Montant donné est inférieur au montant</value>
+  </data>
+  <data name="BREAKUP_AMOUT_ZERO" xml:space="preserve">
+    <value>Le montant doit être supérieur à 0</value>
+  </data>
+  <data name="BREAKUP_DATE_EXCEPTION" xml:space="preserve">
+    <value>La distribution spécifiée n'est pas valide</value>
+  </data>
+  <data name="BREAKUP_FD_NUMBER_EMPTY" xml:space="preserve">
+    <value>Le numéro FD ne doit pas être vide</value>
+  </data>
+  <data name="BREAKUP_GRID_ERROR" xml:space="preserve">
+    <value>Breakup erreur Détails de validation</value>
+  </data>
+  <data name="BREAKUP_INTEREST_RATE_EMPTY_ZERO" xml:space="preserve">
+    <value>Le taux d'intérêt ne peut pas être vide ou nul</value>
+  </data>
+  <data name="BREAKUP_INTEREST_RATE_NEGATIVE" xml:space="preserve">
+    <value>Le taux d'intérêt ne peut pas être négatif</value>
+  </data>
+  <data name="BREAKUP_NEGATIVE_BALANCE" xml:space="preserve">
+    <value>Solde négatif, l'entrée sera enlever à moins que la valeur est modifiée.</value>
+  </data>
+  <data name="BREAKUP_NOT_TALLIED" xml:space="preserve">
+    <value>Montant ne correspond pas</value>
+  </data>
+  <data name="BREAKUP_PERCENTAGE_NEGATIVE" xml:space="preserve">
+    <value>Pourcentage ne peut pas être négatif.</value>
+  </data>
+  <data name="BREAKUP_REQUIRED_FIELD" xml:space="preserve">
+    <value>Remplissez tous les champs.</value>
+  </data>
+  <data name="BREAKUP_SAVED_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="BREAKUP_ZERO_ENTRY" xml:space="preserve">
+    <value>Zéro entrée sera supprimée.</value>
+  </data>
+  <data name="BRS_MATERIALIZED_DATE" xml:space="preserve">
+    <value>La date matérialisée doit être supérieure à la date du bon.</value>
+  </data>
+  <data name="BUDGET_ADD_CAPTION" xml:space="preserve">
+    <value>Budget - Période (Ajouter)</value>
+  </data>
+  <data name="BUDGET_ALREADY_MADE" xml:space="preserve">
+    <value>Un budget est déjà prévu pour ce projet et pour ce type de budget.</value>
+  </data>
+  <data name="BUDGET_ANNUAL" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="BUDGET_ANNUAL_ADD_CAPTION" xml:space="preserve">
+    <value>Budget (ajouter)</value>
+  </data>
+  <data name="BUDGET_ANNUAL_EDIT_CAPTION" xml:space="preserve">
+    <value>Budget (éditer)</value>
+  </data>
+  <data name="BUDGET_CANNOT_ACTIVE_DELETE" xml:space="preserve">
+    <value>Impossible à supprimer, le budget est en mode actif</value>
+  </data>
+  <data name="BUDGET_DATE_FROM_EMPTY" xml:space="preserve">
+    <value>La date de début ne peut pas être vide</value>
+  </data>
+  <data name="BUDGET_DATE_TO_EMPTY" xml:space="preserve">
+    <value>La date de ne peut être vide</value>
+  </data>
+  <data name="BUDGET_DETAILS" xml:space="preserve">
+    <value>Détails du budget</value>
+  </data>
+  <data name="BUDGET_DETAILS_ARE_SAVED" xml:space="preserve">
+    <value>Les détails du budget sont sauvegardés</value>
+  </data>
+  <data name="BUDGET_EDIT_CAPTION" xml:space="preserve">
+    <value>Budget - Période (éditerr)</value>
+  </data>
+  <data name="BUDGET_FOR" xml:space="preserve">
+    <value>Budget pour</value>
+  </data>
+  <data name="BUDGET_IMPORT_NO_BUDGET_FOR_PROJECT" xml:space="preserve">
+    <value>Le budget n'a pas encore été créé pour ce projet</value>
+  </data>
+  <data name="BUDGET_IMPORT_PERCENTAGE_EMPTY" xml:space="preserve">
+    <value>Le pourcentage ne peut pas être vide</value>
+  </data>
+  <data name="BUDGET_LEDGER_NOT_MAPPED_TO_PROJECT" xml:space="preserve">
+    <value>Les grands livres ne sont pas mis en correspondance avec le budget pour ce projet.</value>
+  </data>
+  <data name="BUDGET_MADE_ALREADY" xml:space="preserve">
+    <value>Un budget est déjà prévu pour le projet</value>
+  </data>
+  <data name="BUDGET_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom du budget est vide</value>
+  </data>
+  <data name="BUDGET_NAME_SHOULD_NOT_EMPTY" xml:space="preserve">
+    <value>Le nom du budget ne doit pas être vide</value>
+  </data>
+  <data name="BUDGET_NO_PROJECTS" xml:space="preserve">
+    <value>Aucun projet n'est créé. Souhaitez-vous créer un projet ?</value>
+  </data>
+  <data name="BUDGET_PERCENTAGE_VALIDATION" xml:space="preserve">
+    <value>Le pourcentage doit être supérieur à zéro.</value>
+  </data>
+  <data name="BUDGET_PERIOD" xml:space="preserve">
+    <value>Budget - Période</value>
+  </data>
+  <data name="BUDGET_PROJECT_EMPTY" xml:space="preserve">
+    <value>Le projet est vide</value>
+  </data>
+  <data name="BUDGET_TYPE_EMPTY" xml:space="preserve">
+    <value>Le type de budget doit être sélectionné</value>
+  </data>
+  <data name="CANNOT_CHANGE_FDLEDGE_BANKACCOUNT" xml:space="preserve">
+    <value>Vous ne pouvez pas modifier le projet, le grand livre FD et le compte bancaire pour ce dépôt fixe parce qu'il est associé au renouvellement du FD.</value>
+  </data>
+  <data name="CANNOT_CHANGE_PROJECT_FDLEDGER" xml:space="preserve">
+    <value>Vous ne pouvez pas modifier le projet et le grand livre FD pour ce dépôt fixe car il est associé au renouvellement FD.</value>
+  </data>
+  <data name="CANNOT_SELECT_ALL_LEDGER" xml:space="preserve">
+    <value>Il n'est pas possible de sélectionner tous les livres, il doit y avoir au moins un livre à mettre en correspondance.</value>
+  </data>
+  <data name="CANNOT_WITHDRAW" xml:space="preserve">
+    <value>Impossible de retirer ce dépôt fixe, car le montant du retrait et le montant des intérêts sont nuls.</value>
+  </data>
+  <data name="CASHBANK_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Les informations requises ne sont pas remplies, le montant en espèces/en banque est vide.</value>
+  </data>
+  <data name="CASHBANK_LEDGER_EMPTY" xml:space="preserve">
+    <value>Les informations requises ne sont pas remplies, le grand livre de caisse/banque est vide.</value>
+  </data>
+  <data name="CASHBANK_MUST_CREDITED" xml:space="preserve">
+    <value>Le montant de l'encaissement est égal ou supérieur au montant du paiement. Les espèces/la banque doivent être créditées</value>
+  </data>
+  <data name="CASHBANK_MUST_DEBITED" xml:space="preserve">
+    <value>Le montant du paiement est égal ou supérieur au montant de l'encaissement. L'argent liquide/la banque doit être débité (e)</value>
+  </data>
+  <data name="CATEGORY_CAN_DELETE" xml:space="preserve">
+    <value>La catégorie ne peut pas être supprimée. Elle est associée.</value>
+  </data>
+  <data name="CHANGE_THE_PROJECT_DATE" xml:space="preserve">
+    <value>Veuillez modifier la date de début et la date de fin du projet et réessayer.</value>
+  </data>
+  <data name="CLOSED_ON" xml:space="preserve">
+    <value>Fermé le</value>
+  </data>
+  <data name="COMMON_BACKUP_CONFIRMATION" xml:space="preserve">
+    <value>Voulez-vous sauvegarder les données AcMeERP ?</value>
+  </data>
+  <data name="COMMON_DELETED_CONFIRMATION" xml:space="preserve">
+    <value>enregistrement supprimé</value>
+  </data>
+  <data name="COMMON_DELETE_CONFIRMATION" xml:space="preserve">
+    <value>Supprimer cette entrée?</value>
+  </data>
+  <data name="COMMON_DELETE_FAILURE" xml:space="preserve">
+    <value>Impossible de supprimer</value>
+  </data>
+  <data name="COMMON_EMAIL_INVALID" xml:space="preserve">
+    <value>L'adresse e-mail n'est pas valide.</value>
+  </data>
+  <data name="COMMON_GRID_CANCEL_EMPTY" xml:space="preserve">
+    <value>Aucun enregistrement n'est disponible dans la grille à annuler.</value>
+  </data>
+  <data name="COMMON_GRID_EMPTY" xml:space="preserve">
+    <value>Aucun enregistrement n'est disponible dans la grille pour être modifié/supprimé.</value>
+  </data>
+  <data name="COMMON_IMPORT_CONFIRMATION" xml:space="preserve">
+    <value>Voulez-vous ajouter une annexe ?.</value>
+  </data>
+  <data name="COMMON_IMPORT_SUCCESS" xml:space="preserve">
+    <value>L'importation a été effectuée avec succès</value>
+  </data>
+  <data name="COMMON_INVALID_EXCEPTION" xml:space="preserve">
+    <value>L'information requise n'est pas renseignée.</value>
+  </data>
+  <data name="COMMON_MESSAGE_TITLE" xml:space="preserve">
+    <value>Acme.erp</value>
+  </data>
+  <data name="COMMON_NOSELECTION_FOR_DELETE" xml:space="preserve">
+    <value>Aucun enregistrement n'est sélectionné pour la suppression.</value>
+  </data>
+  <data name="COMMON_NOSELECTION_FOR_EDIT" xml:space="preserve">
+    <value>Aucun enregistrement n'est sélectionné pour l'édition.</value>
+  </data>
+  <data name="COMMON_NO_RECORDS_TO_EXPORT" xml:space="preserve">
+    <value>Aucun enregistrement à exporter.</value>
+  </data>
+  <data name="COMMON_NO_RECORDS_TO_SAVE" xml:space="preserve">
+    <value>Aucun enregistrement à sauvegarder.</value>
+  </data>
+  <data name="COMMON_PRINT_MESSAGE" xml:space="preserve">
+    <value>Il n'y a pas d'enregistrement à imprimer.</value>
+  </data>
+  <data name="COMMON_PROCESS_DIALOG_CAPTION" xml:space="preserve">
+    <value>Traitement...</value>
+  </data>
+  <data name="COMMON_RESTORE_CONFIRMATION" xml:space="preserve">
+    <value>Voulez-vous restaurer les données AcMeERP ?</value>
+  </data>
+  <data name="COMMON_SAVED_CONFIRMATION" xml:space="preserve">
+    <value>Enregistrement sauvegardé</value>
+  </data>
+  <data name="COMMON_SAVE_FAILURE" xml:space="preserve">
+    <value>Le dossier est disponible.</value>
+  </data>
+  <data name="COMMON_URL_INVALID" xml:space="preserve">
+    <value>URL invalide</value>
+  </data>
+  <data name="COMMON_USER_RIGHTS" xml:space="preserve">
+    <value>Vous n'avez pas le droit d'éditer.</value>
+  </data>
+  <data name="COMMON_WAIT_DIALOG_CAPTION" xml:space="preserve">
+    <value>Chargement...</value>
+  </data>
+  <data name="COMMON_WELCOME_NOTE" xml:space="preserve">
+    <value>Bienvenue à AcME ERP</value>
+  </data>
+  <data name="CONFIRMATION_ADD_CAPTION" xml:space="preserve">
+    <value>Confirmation (Ajouter)</value>
+  </data>
+  <data name="CONFIRMATION_EDIT_CAPTION" xml:space="preserve">
+    <value>Confirmation (Edit)</value>
+  </data>
+  <data name="CONFIRMATION_MESSAGE" xml:space="preserve">
+    <value>Êtes-vous sûr d'écraser ou d'ajouter ? S'il s'agit d'écraser, cliquez sur "Oui" ou sur "Non" pour ajouter.</value>
+  </data>
+  <data name="CONFIRMATION_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails du registre de confirmation</value>
+  </data>
+  <data name="CONFIRMATION_VIEW_CAPTION" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="CONFIRM_PRINT_VOUCHER" xml:space="preserve">
+    <value>Voulez-vous imprimer?</value>
+  </data>
+  <data name="CONTRA" xml:space="preserve">
+    <value>CONTRA</value>
+  </data>
+  <data name="CONVERSIONOF_EMPTY" xml:space="preserve">
+    <value>Conversion de nombre est vide.</value>
+  </data>
+  <data name="COST_CENTER_ADD_CAPTION" xml:space="preserve">
+    <value>Centre de coûts (Ajouter)</value>
+  </data>
+  <data name="COST_CENTER_CODE_EMPTY" xml:space="preserve">
+    <value>Le code du centre de coûts est vide.</value>
+  </data>
+  <data name="COST_CENTER_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="COST_CENTER_EDIT_CAPTION" xml:space="preserve">
+    <value>Centre de coûts (Éditer)</value>
+  </data>
+  <data name="COST_CENTER_LEDGER_OPTION_FAILURE" xml:space="preserve">
+    <value>Sélectionner grands livres pour faire correspondre les options des grands livres.</value>
+  </data>
+  <data name="COST_CENTER_MAPPING_SUCESS" xml:space="preserve">
+    <value>Le(s) centre(s) de coûts a(ont) été associé(s) avec succès.</value>
+  </data>
+  <data name="COST_CENTER_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom du centre de coûts est vide.</value>
+  </data>
+  <data name="COST_CENTER_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails du centre de coûts</value>
+  </data>
+  <data name="COST_CENTER_SAVE_FAILURE" xml:space="preserve">
+    <value>L'enregistrement est disponible.</value>
+  </data>
+  <data name="COST_CENTER_SUCSESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="COST_CENTER_TYPE_EMPTY" xml:space="preserve">
+    <value>Sélectionnez le type de centre de coûts (Cr/Dr).</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_ADD_CAPTION" xml:space="preserve">
+    <value>Catégorie de centre de coûts (Ajouter)</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_EDIT_CAPTION" xml:space="preserve">
+    <value>Catégorie de centre de coûts (Modifier)</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_EMPTY" xml:space="preserve">
+    <value>La catégorie de centre de coûts est vide.</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails de la catégorie de centre de coûts</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_SAVE_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="COST_CENTRE_CATOGORY_AVAILABLE" xml:space="preserve">
+    <value>L'enregistrement est disponible.</value>
+  </data>
+  <data name="COST_CENTRE_COST_CATEGORY_UNMAP" xml:space="preserve">
+    <value>Impossible à supprimer, il s'agit d'une association.</value>
+  </data>
+  <data name="COUNTRY_ADD_CAPTION" xml:space="preserve">
+    <value>Pays (Ajouter)</value>
+  </data>
+  <data name="COUNTRY_CODE_EMPTY" xml:space="preserve">
+    <value>Le code pays est vide.</value>
+  </data>
+  <data name="COUNTRY_DELETE_FAILURE" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer</value>
+  </data>
+  <data name="COUNTRY_DELETE_SUCCESS" xml:space="preserve">
+    <value>enregistrement supprimé</value>
+  </data>
+  <data name="COUNTRY_EDIT_CAPTION" xml:space="preserve">
+    <value>Pays (Edit)</value>
+  </data>
+  <data name="COUNTRY_ISDCODE_EXIST" xml:space="preserve">
+    <value>Le code ISD est déjà disponible.</value>
+  </data>
+  <data name="COUNTRY_ISD_CODE_EMPTY" xml:space="preserve">
+    <value>Le code ISD du pays est vide.</value>
+  </data>
+  <data name="COUNTRY_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom du pays est vide.</value>
+  </data>
+  <data name="COUNTRY_NAME_EXIST" xml:space="preserve">
+    <value>Nom déjà existant.</value>
+  </data>
+  <data name="COUNTRY_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails du pays</value>
+  </data>
+  <data name="COUNTRY_SAVE_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="CROPPING_CONFIRMATION" xml:space="preserve">
+    <value>Voulez-vous recadrer cette zone?</value>
+  </data>
+  <data name="CROPPING_EXCEPTION" xml:space="preserve">
+    <value>Mémoire insuffisante</value>
+  </data>
+  <data name="CROPPING_EXCEPTION_MESSAGE" xml:space="preserve">
+    <value>Sélection contour va au-delà de l'image, essayez de sélectionner l'image.</value>
+  </data>
+  <data name="CROPPING_IMAGE_RESIZE" xml:space="preserve">
+    <value>taille de l'image Unsupported, S'il vous plaît changer la taille de l'image.</value>
+  </data>
+  <data name="CROPPING_TITLE" xml:space="preserve">
+    <value>image Recadrage</value>
+  </data>
+  <data name="CURRENCY_CODE_EMPTY" xml:space="preserve">
+    <value>Code de devise est vide.</value>
+  </data>
+  <data name="CURRENCY_NAME_EMPTY" xml:space="preserve">
+    <value>Nom de la devise est vide.</value>
+  </data>
+  <data name="CURRENCY_SYMBOL_EMPTY" xml:space="preserve">
+    <value>Symbole monétaire est vide.</value>
+  </data>
+  <data name="CUSTODIAN_IMPORT_SUCCESSFULLY" xml:space="preserve">
+    <value>Dépositaire Imported avec succès</value>
+  </data>
+  <data name="CUSTODIAN_NOT_AVAIL" xml:space="preserve">
+    <value>Détails Dépositaire sont pas disponibles.</value>
+  </data>
+  <data name="DASHBOARD_ALERTS_TITLE" xml:space="preserve">
+    <value>Alertes</value>
+  </data>
+  <data name="DASHBOARD_AMEDMENTS_TITLE" xml:space="preserve">
+    <value>Modifications</value>
+  </data>
+  <data name="DASHBOARD_BALANCE_TITLE" xml:space="preserve">
+    <value>Solde sur</value>
+  </data>
+  <data name="DASHBOARD_BANK_RECONCILIATION_TITLE" xml:space="preserve">
+    <value>Déclaration de rapprochement bancaire que sur</value>
+  </data>
+  <data name="DASHBOARD_BANK_TITLE" xml:space="preserve">
+    <value>Banque</value>
+  </data>
+  <data name="DASHBOARD_BRS_TITLE" xml:space="preserve">
+    <value>Rapprochement bancaire</value>
+  </data>
+  <data name="DASHBOARD_CASH_BANK_FD_TITLE" xml:space="preserve">
+    <value>Banque de trésorerie Fd</value>
+  </data>
+  <data name="DASHBOARD_CASH_TITLE" xml:space="preserve">
+    <value>Argent liquide</value>
+  </data>
+  <data name="DASHBOARD_CHEQUE_HAS_TITLE" xml:space="preserve">
+    <value>Chèque doit être Réconcilié / Effacé</value>
+  </data>
+  <data name="DASHBOARD_CHEQUE_HAVE_TITLE" xml:space="preserve">
+    <value>Les chèques doivent être conciliés / Effacé</value>
+  </data>
+  <data name="DASHBOARD_FD_ACCOUNT_TITLE" xml:space="preserve">
+    <value>compte FD</value>
+  </data>
+  <data name="DASHBOARD_FD_TITLE" xml:space="preserve">
+    <value>FD</value>
+  </data>
+  <data name="DASHBOARD_FIXED_DEPOSIT_TITLE" xml:space="preserve">
+    <value>Dépôt fixe</value>
+  </data>
+  <data name="DASHBOARD_LICENSE_TITLE" xml:space="preserve">
+    <value>Messages Portal</value>
+  </data>
+  <data name="DASHBOARD_MATURES_ON_TITLE" xml:space="preserve">
+    <value>vient à échéance le</value>
+  </data>
+  <data name="DASHBOARD_NEGATIVE_BALANCE_TITLE" xml:space="preserve">
+    <value>Solde négatif</value>
+  </data>
+  <data name="DASHBOARD_PORTALMESSAGE_TITLE" xml:space="preserve">
+    <value>Télécharger Bon état</value>
+  </data>
+  <data name="DASHBOARD_PROJECT_TITLE" xml:space="preserve">
+    <value>Des projets</value>
+  </data>
+  <data name="DASHBOARD_RECEIPT_PAYMENT_TITLE" xml:space="preserve">
+    <value>Accusé de réception et de paiement que sur</value>
+  </data>
+  <data name="DATA_SYNCHRONISATION_SUCCESS" xml:space="preserve">
+    <value>Data Sync .. a été achevée avec succès</value>
+  </data>
+  <data name="DATA_SYNCHRONISATION_SUCCESSLOG" xml:space="preserve">
+    <value>Data Sync .. a été complété avec succès.</value>
+  </data>
+  <data name="DATA_SYN_FILE_SELECTION" xml:space="preserve">
+    <value>Aucun fichier est sélectionné pour importer</value>
+  </data>
+  <data name="DATA_SYN_ONLINE" xml:space="preserve">
+    <value>Démarrer la synchronisation des données par le biais en ligne</value>
+  </data>
+  <data name="DATETOEMPTY" xml:space="preserve">
+    <value>Jusqu'à la date est vide.</value>
+  </data>
+  <data name="DATE_FROM_EMPTY" xml:space="preserve">
+    <value>La date du début est vide.</value>
+  </data>
+  <data name="DECIMAL_PLACE_EMPTY" xml:space="preserve">
+    <value>Décimale est vide.</value>
+  </data>
+  <data name="DEDUCTEE_TYPE" xml:space="preserve">
+    <value>Type de cotisante</value>
+  </data>
+  <data name="DEDUCTEE_TYPE_IS_REQUIRED" xml:space="preserve">
+    <value>Cotisante type est nécessaire pour le divers créanciers Ledger, Si TDS applicable.</value>
+  </data>
+  <data name="DEDUCT_TDS" xml:space="preserve">
+    <value>déduire TDS</value>
+  </data>
+  <data name="DEFERENT_LEGAL_ENTITY_RESTRICTED_WITH_BANK_ACCOUNT" xml:space="preserve">
+    <value>Projet (s) sélectionné ne fait pas partie de la même entité juridique.</value>
+  </data>
+  <data name="DEPRECIATIONVOUCHER_PRINT_CAPTION" xml:space="preserve">
+    <value>Amortissements Voucher Détails</value>
+  </data>
+  <data name="DEPRECIATION_ADD_CAPTION" xml:space="preserve">
+    <value>Amortissement (Ajouter)</value>
+  </data>
+  <data name="DEPRECIATION_EDIT_CAPTION" xml:space="preserve">
+    <value>Amortissement (Edit)</value>
+  </data>
+  <data name="DEPRECIATION_EMPTY" xml:space="preserve">
+    <value>Renseignements requis non rempli, dépréciation est vide</value>
+  </data>
+  <data name="DEPRECIATION_ENTRY" xml:space="preserve">
+    <value>amortissement Entrée</value>
+  </data>
+  <data name="DEPRECIATION_GROUP_EMPTY" xml:space="preserve">
+    <value>L'amortissement est vide</value>
+  </data>
+  <data name="DEPRECIATION_NAME_EMPTY" xml:space="preserve">
+    <value>Amortissement Nom est vide.</value>
+  </data>
+  <data name="DEPRECIATION_PRINT_CAPTION" xml:space="preserve">
+    <value>amortissement Détails</value>
+  </data>
+  <data name="DEPRECIATION_TODATE_EMPTY" xml:space="preserve">
+    <value>L'amortissement à ce jour est vide</value>
+  </data>
+  <data name="DEPRECIATION_VIEW" xml:space="preserve">
+    <value>amortissement Voir</value>
+  </data>
+  <data name="DEPRECIATION_VIEW_SCREEN" xml:space="preserve">
+    <value>amortissement Détails</value>
+  </data>
+  <data name="DEPRECIATION_VOUCHER_ADD_CAPTION" xml:space="preserve">
+    <value>Dépréciation d'actifs</value>
+  </data>
+  <data name="DEPRECIATION_VOUCHER_EDIT_CAPTION" xml:space="preserve">
+    <value>Dépréciation d'actifs (Edit)</value>
+  </data>
+  <data name="DEPRECIATION_YRS_EMPTY" xml:space="preserve">
+    <value>Amortissement Yrs est vide.</value>
+  </data>
+  <data name="DEPRECIATON_LOCATION_EMPTY" xml:space="preserve">
+    <value>L'emplacement est vide</value>
+  </data>
+  <data name="DIFFERENT_LOCKING_PERIOD" xml:space="preserve">
+    <value>Vous ne pouvez pas définir la période de verrouillage différent pour ce</value>
+  </data>
+  <data name="DISPOSAL_ADD_CAPTION" xml:space="preserve">
+    <value>Bon - Asset Dispose</value>
+  </data>
+  <data name="DISPOSAL_CAPTION" xml:space="preserve">
+    <value>Disposer</value>
+  </data>
+  <data name="DISPOSAL_DETAILS" xml:space="preserve">
+    <value>élimination Détails</value>
+  </data>
+  <data name="DISPOSAL_EDIT_CAPTION" xml:space="preserve">
+    <value>Bon - Asset Dispose (Edit)</value>
+  </data>
+  <data name="DISPOSAL_ENTRY" xml:space="preserve">
+    <value>élimination Entrée</value>
+  </data>
+  <data name="DISPOSAL_PRINT_CAPTION" xml:space="preserve">
+    <value>Élimination Voucher Détails</value>
+  </data>
+  <data name="DISPOSAL_VIEW" xml:space="preserve">
+    <value>élimination Voir</value>
+  </data>
+  <data name="DISPOSE" xml:space="preserve">
+    <value>DISPOSITION</value>
+  </data>
+  <data name="DOES_NOT_FALL_BETWEEN_TRANSACTION_PERIOD" xml:space="preserve">
+    <value>date de début du projet et la date de fermeture ne tombe pas entre la période de transaction.</value>
+  </data>
+  <data name="DONATE" xml:space="preserve">
+    <value>DON</value>
+  </data>
+  <data name="DONATE_ADD_CAPTION" xml:space="preserve">
+    <value>Bon - Asset don</value>
+  </data>
+  <data name="DONATE_DETAILS" xml:space="preserve">
+    <value>Donation Détails</value>
+  </data>
+  <data name="DONATE_EDIT_CAPTION" xml:space="preserve">
+    <value>Bon - Asset Donate (Edit)</value>
+  </data>
+  <data name="DONORTITLE_ADD_CAPTION" xml:space="preserve">
+    <value>Donateur Titre (Ajouter)</value>
+  </data>
+  <data name="DONORTITLE_EDIT_CAPTION" xml:space="preserve">
+    <value>Donateur Titre (Edit)</value>
+  </data>
+  <data name="DONOR_ADD_CAPTION" xml:space="preserve">
+    <value>Donateur (Ajouter)</value>
+  </data>
+  <data name="DONOR_CONTRIBUTION_ACTUAL_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Montant de la contribution réelle est vide.</value>
+  </data>
+  <data name="DONOR_CONTRIBUTION_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Contribution des donateurs Montant est vide.</value>
+  </data>
+  <data name="DONOR_COUNTRY_EMPTY" xml:space="preserve">
+    <value>Country est vide.</value>
+  </data>
+  <data name="DONOR_DELETE_SUCCESS" xml:space="preserve">
+    <value>enregistrement supprimé</value>
+  </data>
+  <data name="DONOR_EDIT_CAPTION" xml:space="preserve">
+    <value>Donateur (Edit)</value>
+  </data>
+  <data name="DONOR_IMPORT_SUCCESSFULLY" xml:space="preserve">
+    <value>Donateur importé avec succès</value>
+  </data>
+  <data name="DONOR_NAME_EMPTY" xml:space="preserve">
+    <value>Nom du donateur est vide.</value>
+  </data>
+  <data name="DONOR_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails des donateurs</value>
+  </data>
+  <data name="DONOR_PUPOSE_EMPTY" xml:space="preserve">
+    <value>Le but est vide.</value>
+  </data>
+  <data name="DONOR_REFERRED_STAFF_DETAILS" xml:space="preserve">
+    <value>Renvoyé Détails Personnel</value>
+  </data>
+  <data name="DONOR_REGISTRATION_TYPE_ADD_CAPTION" xml:space="preserve">
+    <value>Type d'immatriculation (Ajouter)</value>
+  </data>
+  <data name="DONOR_REGISTRATION_TYPE_EDIT_CAPTION" xml:space="preserve">
+    <value>Type d'inscription (Edit)</value>
+  </data>
+  <data name="DONOR_REGISTRATION_TYPE_EMPTY" xml:space="preserve">
+    <value>Type d'inscription est vide</value>
+  </data>
+  <data name="DONOR_SAVE_SUCCESS" xml:space="preserve">
+    <value>Enregistré</value>
+  </data>
+  <data name="DONOR_STATE_EMPTY" xml:space="preserve">
+    <value>État est vide</value>
+  </data>
+  <data name="DONOR_TITLENAME_EMPTY" xml:space="preserve">
+    <value>titre du donneur est vide</value>
+  </data>
+  <data name="DSYNC_CHECK_INTERNET_CONNECTION" xml:space="preserve">
+    <value>Impossible d'accéder au portail. Veuillez vérifier votre connexion internet.</value>
+  </data>
+  <data name="DSYNC_CONFIRMATION_BRANCH_HEADOFFICE_VOUCHERS" xml:space="preserve">
+    <value>Etes-vous sûr d'importer des bons Branch Office au siège social?</value>
+  </data>
+  <data name="DSYNC_CONFIRMATION_IMPORT_MASTERS" xml:space="preserve">
+    <value>Etes-vous sûr d'importer Maîtres?</value>
+  </data>
+  <data name="DSYNC_DATAFROM_HEADOFFICE_BRANCHOFFICE" xml:space="preserve">
+    <value>Démarrer l'importation de données à partir Siège social à la Direction Office.</value>
+  </data>
+  <data name="DSYNC_EXPORT_VOUCHERS_FAILURE" xml:space="preserve">
+    <value>Problème dans l'exportation Les bons de réduction.</value>
+  </data>
+  <data name="DSYNC_EXPORT_VOUCHERS_SUCCESS" xml:space="preserve">
+    <value>fichier Voucher est téléchargé dans le portail. Statut sera communiquée à l'administrateur de la Direction générale.</value>
+  </data>
+  <data name="DSYNC_IMPORT_BRANCH_TO_HEADOFFICE" xml:space="preserve">
+    <value>Il y a problème dans les données d'importation du siège social à la base de la succursale</value>
+  </data>
+  <data name="DSYNC_IMPORT_BRANCH_TO_HEADOFFICEVOUCHER" xml:space="preserve">
+    <value>Démarrer l'importation de données de l'Office de la succursale au siège.</value>
+  </data>
+  <data name="DSYNC_IMPORT_FCPURPOSE_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>Importation FC But du siège social à la Direction Office.</value>
+  </data>
+  <data name="DSYNC_IMPORT_LEDGERGROUP_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>groupe Importer Maître Ledger du siège social à la Direction Office.</value>
+  </data>
+  <data name="DSYNC_IMPORT_LEDGER_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>groupe Importer Ledger / Ledger du siège social à la Direction Office.</value>
+  </data>
+  <data name="DSYNC_IMPORT_LEGALENTITY_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>Importation d'entité légale du siège social à la succursale</value>
+  </data>
+  <data name="DSYNC_IMPORT_MASTER_PROBLEM" xml:space="preserve">
+    <value>Problème dans l'importation Maître</value>
+  </data>
+  <data name="DSYNC_IMPORT_PROJECTCATOGORY_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>Importer un projet Catégorie de Siège social à la Direction Office.</value>
+  </data>
+  <data name="DSYNC_IMPORT_PROJECT_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>Détails du projet d'importation de siège social à la Direction Office.</value>
+  </data>
+  <data name="DSYNC_MAP_HEADOFFICE_lEDGERS" xml:space="preserve">
+    <value>Merci de mapper tous les Ledgers Branch Mismatched avec les grands livres Siège et essayez à nouveau.</value>
+  </data>
+  <data name="DSYNC_MASTER_SUCCESS" xml:space="preserve">
+    <value>Maîtres importés avec succès.</value>
+  </data>
+  <data name="DSYNC_NO_RECORD_EXISTS" xml:space="preserve">
+    <value>Aucun enregistrement est disponible pour exporter</value>
+  </data>
+  <data name="DSYNC_PROBLEM_IMPORT_BRANCH_HEADOFFICE" xml:space="preserve">
+    <value>Il y a problème dans les données d'importation du siège social à la base de la succursale</value>
+  </data>
+  <data name="DSYNC_PROBLEM_IMPORT_RECORDS" xml:space="preserve">
+    <value>Problème dans l'importation des enregistrements</value>
+  </data>
+  <data name="DSYNC_SELECT_ONE_PROJECT" xml:space="preserve">
+    <value>Sélectionnez au moins un projet pour exporter des bons</value>
+  </data>
+  <data name="DSYNC_SELECT_XML_IMPORT" xml:space="preserve">
+    <value>Sélectionnez le fichier XML à importer.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_BRANCH_TO_HEADOFFICE_VOUCHER" xml:space="preserve">
+    <value>Les bons de réduction avec succès importés du bureau de la succursale au siège.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_DATAFROM_HEADOFFICE_BRANCHOFFICE" xml:space="preserve">
+    <value>Les données avec succès importés du Siège social à la Direction Office.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_FCPURPOSE_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>Avec succès importé FC But du siège social à la Direction Office.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_LEDGERGROUP_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>Réussir Imported Maître Ledger Groupe du siège social à la Direction Office.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_LEDGER_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>Avec succès l'importation Ledger et Ledger Groupe du siège social à la Direction Office.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_LEGALENTITY_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>Avec succès importé entité juridique du siège social à la succursale</value>
+  </data>
+  <data name="DSYNC_SUCCESS_PROJECTCATOGORY_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>Avec succès importé Projet Catégorie du siège social à la succursale.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_PROJECT_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>Avec succès les détails du projet d'importation de siège social à la Direction Office.</value>
+  </data>
+  <data name="DSYNC_VALIDATEPROJECT_BRANCH_TO_HEADOFFICE" xml:space="preserve">
+    <value>Projet utilisé dans Branch Office ne sont pas disponibles dans le bureau Head. Le Nom du projet aurait été modifié ou supprimé par la Direction générale. \ N Le projet est requis</value>
+  </data>
+  <data name="DSYNC_VALIDATE_DATE" xml:space="preserve">
+    <value>Jusqu'à la date doit être supérieur Date à partir de</value>
+  </data>
+  <data name="DSYNC_VALIDATE_OP_TRANS" xml:space="preserve">
+    <value>Les bons de réduction sont disponibles pour ce livre. Il ne peut pas être supprimé.</value>
+  </data>
+  <data name="DSYNC_WELCOME_SYNCHRONISATION" xml:space="preserve">
+    <value>Bienvenue à Acme ERP Data Sync ...</value>
+  </data>
+  <data name="DUE_DATE_EMPTY" xml:space="preserve">
+    <value>Date d'échéance est vide</value>
+  </data>
+  <data name="DUE_DATE_GREATER_THAN_START_DATE" xml:space="preserve">
+    <value>Date d'échéance devrait être supérieure à la date de début</value>
+  </data>
+  <data name="EMPTY_SHEET" xml:space="preserve">
+    <value>détails Master ne sont pas disponibles.</value>
+  </data>
+  <data name="ENTRIES_WILL_BE_CLEARED" xml:space="preserve">
+    <value>Les entrées seront effacées. Voulez-vous passer à une entrée unique ?</value>
+  </data>
+  <data name="ERROR_MESSAGE" xml:space="preserve">
+    <value>Il y a un problème dans l'importation de Tally vers AcME ERP</value>
+  </data>
+  <data name="ERROR_SHOWING_TDS" xml:space="preserve">
+    <value>Erreur dans Affichage écran TDS de paiement.</value>
+  </data>
+  <data name="EXECUTIVE_ADD_CAPTION" xml:space="preserve">
+    <value>Organes directeurs (Ajouter)</value>
+  </data>
+  <data name="EXECUTIVE_COUNTRY_EMPTY" xml:space="preserve">
+    <value>Country est vide</value>
+  </data>
+  <data name="EXECUTIVE_DELETE_SUCCESS" xml:space="preserve">
+    <value>enregistrement supprimé</value>
+  </data>
+  <data name="EXECUTIVE_DOB_EXIT" xml:space="preserve">
+    <value>Date de naissance ne peut pas être inférieure à la date de sortie.</value>
+  </data>
+  <data name="EXECUTIVE_EDIT_CAPTION" xml:space="preserve">
+    <value>Organes directeurs (Éditer)</value>
+  </data>
+  <data name="EXECUTIVE_EMAIL_EMPTY" xml:space="preserve">
+    <value>Email est vide</value>
+  </data>
+  <data name="EXECUTIVE_EXIT_JOIN" xml:space="preserve">
+    <value>Date de sortie ne peut pas être inférieur à date d'adhésion.</value>
+  </data>
+  <data name="EXECUTIVE_JOIN_DOB" xml:space="preserve">
+    <value>Date d'adhésion ne peut pas être inférieur à Date de naissance.</value>
+  </data>
+  <data name="EXECUTIVE_NAME_EMPTY" xml:space="preserve">
+    <value>Nom est vide.</value>
+  </data>
+  <data name="EXECUTIVE_NATIONALITY_EMPTY" xml:space="preserve">
+    <value>Nationalité est vide.</value>
+  </data>
+  <data name="EXECUTIVE_PRINT_CAPTION" xml:space="preserve">
+    <value>Conseil détails du corps</value>
+  </data>
+  <data name="EXECUTIVE_SAVE_FAILURE" xml:space="preserve">
+    <value>Le dossier est disponible!</value>
+  </data>
+  <data name="EXECUTIVE_SAVE_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="EXPENSE_LEDGER_EMPTY" xml:space="preserve">
+    <value>Le grand livre des dépenses est vide</value>
+  </data>
+  <data name="FAMILYMEMBER_ADD_CAPTION" xml:space="preserve">
+    <value>Membre de la famille (Ajouter)</value>
+  </data>
+  <data name="FAMILYMEMBER_EDIT_CAPTION" xml:space="preserve">
+    <value>Membre de la famille (Éditer)</value>
+  </data>
+  <data name="FAMILYMEMBER_PRINT_CAPTION" xml:space="preserve">
+    <value>Familial Détails de membre</value>
+  </data>
+  <data name="FAMILY_REGISTER_PRINT_CAPTION" xml:space="preserve">
+    <value>Famille Enregistrer Détails</value>
+  </data>
+  <data name="FDPOST_INTEREST_DELETE" xml:space="preserve">
+    <value>Supprimer l'intérêt de la poste FD</value>
+  </data>
+  <data name="FDPOST_INTEREST_MODIFY" xml:space="preserve">
+    <value>Modifier l'intérêt de la poste FD</value>
+  </data>
+  <data name="FD_ACCOUNT_ADD" xml:space="preserve">
+    <value>Ouverture FD (Add)</value>
+  </data>
+  <data name="FD_ACCOUNT_EDIT" xml:space="preserve">
+    <value>Ouverture FD (Edit)</value>
+  </data>
+  <data name="FD_ACCOUNT_INV_PRINT_CAPTION" xml:space="preserve">
+    <value>Dépôt fixe des détails de l'investissement</value>
+  </data>
+  <data name="FD_ACCOUNT_OP_PRINT_CAPTION" xml:space="preserve">
+    <value>Dépôt fixe du solde d'ouverture</value>
+  </data>
+  <data name="FD_ADD" xml:space="preserve">
+    <value>Dépôt fixe (ajouter)</value>
+  </data>
+  <data name="FD_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Le montant du dépôt fixe ne peut pas être vide.</value>
+  </data>
+  <data name="FD_AMOUNT_GREATER_THAN_ZERO" xml:space="preserve">
+    <value>Le montant doit être supérieur à zéro</value>
+  </data>
+  <data name="FD_BANK_CASH_GOES_CREDIT" xml:space="preserve">
+    <value>Le solde de la banque / de la caisse est créditeur. Voulez-vous continuer ?</value>
+  </data>
+  <data name="FD_BANK_CONFIRMATION" xml:space="preserve">
+    <value>Souhaitez-vous poursuivre avec la banque que vous avez sélectionnée ?</value>
+  </data>
+  <data name="FD_BANK_INTEREST_LED_EMPTY" xml:space="preserve">
+    <value>Le grand livre des intérêts bancaires est vide</value>
+  </data>
+  <data name="FD_BANK_IS_NOT_CORRECT" xml:space="preserve">
+    <value>Le compte bancaire sélectionné n'est pas approprié. Sélectionnez le compte bancaire investi approprié à renouveler.</value>
+  </data>
+  <data name="FD_CANNOT_DELETE_ASSCOCIATE_RENEWAL" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer ce dépôt fixe car il est associé à Renouvellement FD / Intérêts post FD.</value>
+  </data>
+  <data name="FD_CANNOT_INVEST" xml:space="preserve">
+    <value>Le dépôt fixe ne peut pas être investi</value>
+  </data>
+  <data name="FD_CANNOT_POST_INTEREST" xml:space="preserve">
+    <value>Vous ne pouvez pas comptabiliser d'intérêts pour ce dépôt fixe</value>
+  </data>
+  <data name="FD_CANNOT_REALIZED" xml:space="preserve">
+    <value>Le dépôt fixe ne peut être réalisé</value>
+  </data>
+  <data name="FD_CANNOT_RENEW" xml:space="preserve">
+    <value>Le dépôt fixe ne peut pas être renouvelé</value>
+  </data>
+  <data name="FD_CANNOT_UNMAP_MAKE_ZERO" xml:space="preserve">
+    <value>Impossible dissocier. Mettez le montant à zéro et réessayez.</value>
+  </data>
+  <data name="FD_CASH_BANK_EMPTY" xml:space="preserve">
+    <value>Le grand livre de caisse/banque est vide</value>
+  </data>
+  <data name="FD_CASH_BANK_LEDGERS" xml:space="preserve">
+    <value>Le grand livre des comptes bancaires est vide</value>
+  </data>
+  <data name="FD_CONFIRMATION_DELETE" xml:space="preserve">
+    <value>Il s'agit d'un bon de dépôt fixe fermé. Voulez-vous continuer ?</value>
+  </data>
+  <data name="FD_CREATED_DATE" xml:space="preserve">
+    <value>La date de création doit être inférieure à l'année financière pour définir le solde d'ouverture, Souhaitez-vous investir ? Cliquez sur le lien Investissement pour investir le montant.</value>
+  </data>
+  <data name="FD_CREATED_DATE_EMPTY" xml:space="preserve">
+    <value>La date de création ne peut pas être vide.</value>
+  </data>
+  <data name="FD_CREATED_DATE_LESS_THAN_FINANCIAL_YEAR" xml:space="preserve">
+    <value>La date de création doit être inférieure à la date de début d'exercice de l'exercice financier. Pour investir, aller à Investissement</value>
+  </data>
+  <data name="FD_DELETED" xml:space="preserve">
+    <value>Détails du dépôt fixe supprimé</value>
+  </data>
+  <data name="FD_DEPOSIT" xml:space="preserve">
+    <value>Détails du dépôt fixe</value>
+  </data>
+  <data name="FD_EDIT" xml:space="preserve">
+    <value>Dépôt Fixe (éditer)</value>
+  </data>
+  <data name="FD_INTEREST_RATE_EMPTY" xml:space="preserve">
+    <value>Le taux d'intérêt ne peut pas être vide</value>
+  </data>
+  <data name="FD_INVESTENT_DATE_AS_ON" xml:space="preserve">
+    <value>Date d'investissement au</value>
+  </data>
+  <data name="FD_INVESTMENT_ADD" xml:space="preserve">
+    <value>Investissement Dépôt Fixe (Ajouter)</value>
+  </data>
+  <data name="FD_INVESTMENT_AMOUNT" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="FD_INVESTMENT_CAPTION" xml:space="preserve">
+    <value>Investissement FD</value>
+  </data>
+  <data name="FD_INVESTMENT_EDIT" xml:space="preserve">
+    <value>Dépôt Fixe Investment (éditer)</value>
+  </data>
+  <data name="FD_INVESTMENT_GROUP_CAPTION" xml:space="preserve">
+    <value>Détails de l'investissement</value>
+  </data>
+  <data name="FD_INVESTMENT_UNMAPPING" xml:space="preserve">
+    <value>Impossible à dissocier, l'investissement est fait pour ce grand livre.</value>
+  </data>
+  <data name="FD_LEDGER" xml:space="preserve">
+    <value>Grand livre Dépôt Fixe</value>
+  </data>
+  <data name="FD_LEDGER_ADD" xml:space="preserve">
+    <value>Grand livre Dépôt Fixe (Ajouter)</value>
+  </data>
+  <data name="FD_LEDGER_CODE" xml:space="preserve">
+    <value>Le code du grand livre FD est vide.</value>
+  </data>
+  <data name="FD_LEDGER_EDIT" xml:space="preserve">
+    <value>Grand livre Dépôt Fixe (éditer)</value>
+  </data>
+  <data name="FD_LEDGER_NAME" xml:space="preserve">
+    <value>Le nom du grand livre FD est vide.</value>
+  </data>
+  <data name="FD_LEDGER_NOT_MAPPED_TO_PROJECT" xml:space="preserve">
+    <value>Les grands livres ne sont pas associés à ce projet.</value>
+  </data>
+  <data name="FD_LEDGER_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails du grand livre Dépôt Fixe</value>
+  </data>
+  <data name="FD_MATURITY_DATE" xml:space="preserve">
+    <value>La date d'échéance ne peut être inférieure à la date de renouvellement.</value>
+  </data>
+  <data name="FD_MATURITY_DATE_EMPTY" xml:space="preserve">
+    <value>La date d'échéance ne peut pas être vide.</value>
+  </data>
+  <data name="FD_MATURITY_DATE_FINANCIAL_YEAR" xml:space="preserve">
+    <value>La date d'échéance doit être supérieure à la date de début d'année financière du dépôt fixe d'ouverture.</value>
+  </data>
+  <data name="FD_MATURITY_DATE_GREATER_THAN_CREATED_DATE" xml:space="preserve">
+    <value>Date d'échéance ne peut pas être supérieure Date de création</value>
+  </data>
+  <data name="FD_MATURITY_DATE_LESS_THAN_CREATED_DATE" xml:space="preserve">
+    <value>La date d'échéance ne peut être supérieure à la date de création</value>
+  </data>
+  <data name="FD_NOT_APPROPRIATE_BANK" xml:space="preserve">
+    <value>Le compte bancaire sélectionné n'est pas approprié.</value>
+  </data>
+  <data name="FD_NUMBER_EMPTY" xml:space="preserve">
+    <value>Le numéro de dépôt fixe ne peut pas être vide.</value>
+  </data>
+  <data name="FD_OPENING_CAPTION" xml:space="preserve">
+    <value>Ouverture de Dépôt Fixe</value>
+  </data>
+  <data name="FD_OPENING_GROUP_CAPTION" xml:space="preserve">
+    <value>Ouverture</value>
+  </data>
+  <data name="FD_OPENING_UNMAPPING" xml:space="preserve">
+    <value>Impossible de dissocier, le solde d'ouverture est défini pour ce grand livre.</value>
+  </data>
+  <data name="FD_OP_AMOUNT" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="FD_OP_DATE_AS_ON" xml:space="preserve">
+    <value>Date du solde d'ouverture au</value>
+  </data>
+  <data name="FD_POSTINTEREST" xml:space="preserve">
+    <value>Intérêts postaux de Dépôt Fixe</value>
+  </data>
+  <data name="FD_POST_INTEREST_MODIFY" xml:space="preserve">
+    <value>FD Poster intérêt Modifier</value>
+  </data>
+  <data name="FD_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails du dépôt fixe</value>
+  </data>
+  <data name="FD_REALISED" xml:space="preserve">
+    <value>Le dépôt fixe est réalisé</value>
+  </data>
+  <data name="FD_RENEWAL" xml:space="preserve">
+    <value>Renouvellement du Dépôt Fixe</value>
+  </data>
+  <data name="FD_RENEWAL_CANNOT_DELETE" xml:space="preserve">
+    <value>Le renouvellement du FD ne peut pas être supprimé</value>
+  </data>
+  <data name="FD_RENEWAL_CANNOT_EDIT" xml:space="preserve">
+    <value>Le renouvellement du FD ne peut pas être édité</value>
+  </data>
+  <data name="FD_RENEWAL_CAPTION" xml:space="preserve">
+    <value>Renouvellement du Dépôt Fixe</value>
+  </data>
+  <data name="FD_RENEWAL_DATE_NOT_GREATER_THAN_MATURITY_DATE" xml:space="preserve">
+    <value>La date de renouvellement doit être supérieure à la date de dernière échéance.</value>
+  </data>
+  <data name="FD_RENEWAL_DATE_WITHIN_TRANSACTION" xml:space="preserve">
+    <value>La date de renouvellement doit être comprise dans la période de transaction pour renouveler ce dépôt fixe.</value>
+  </data>
+  <data name="FD_RENEWAL_DELETE" xml:space="preserve">
+    <value>Supprimer Renouvellement du Dépôt Fixe</value>
+  </data>
+  <data name="FD_RENEWAL_DETAILS" xml:space="preserve">
+    <value>Détails du renouvellement du FD</value>
+  </data>
+  <data name="FD_RENEWAL_MODIFY" xml:space="preserve">
+    <value>Modifier Renouvellement du Dépôt Fixe</value>
+  </data>
+  <data name="FD_RENEWED_DATE" xml:space="preserve">
+    <value>La date de renouvellement ne peut être inférieure à la date d'échéance actuelle.</value>
+  </data>
+  <data name="FD_SET_OPENING_BALANCE_ALERT" xml:space="preserve">
+    <value>La date de création doit être inférieure à la date de début d'exercice de l'année financière. Pour investir, allez à Investissement.</value>
+  </data>
+  <data name="FD_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="FD_TRANSACTION_MADE_ANOTHER_PERIOD" xml:space="preserve">
+    <value>La transaction est effectuée dans une autre période de transaction, il n'est donc pas possible de retirer le dépôt fixe.</value>
+  </data>
+  <data name="FD_UNMAPPING" xml:space="preserve">
+    <value>Impossible de dissocier ce dépôt fixe parce que l'ouverture ou l'investissement a été effectué pour ce dépôt fixe du grand livre</value>
+  </data>
+  <data name="FD_WITHDRAWAL" xml:space="preserve">
+    <value>Retrait du Dépôt Fixe</value>
+  </data>
+  <data name="FD_WITHDRAWALAMOUNT_EXCEED" xml:space="preserve">
+    <value>Le montant du retrait doit être inférieur au montant investi.</value>
+  </data>
+  <data name="FD_WITHDRAWAL_ON_EMPTY" xml:space="preserve">
+    <value>La date de retrait est vide</value>
+  </data>
+  <data name="FD_WITHDRAWAL_ON_GREATER_THAN_RENEWAL_DATE" xml:space="preserve">
+    <value>La date de retrait doit être supérieure à la date du dernier renouvellement ou à la date du dernier intérêt postal.</value>
+  </data>
+  <data name="FD_WITHDRAW_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Le montant du retrait est vide</value>
+  </data>
+  <data name="FD_WITHDRAW_AMOUNT_VALIDATION" xml:space="preserve">
+    <value>Le montant du retrait ne peut pas être supérieur au montant principal.</value>
+  </data>
+  <data name="FILE_NAME_EMPTY" xml:space="preserve">
+    <value>Le fichier est vide</value>
+  </data>
+  <data name="FILE_NOT_EXIT" xml:space="preserve">
+    <value>Le fichier est pas sortie dans l'emplacement actuel.</value>
+  </data>
+  <data name="FILE_OPEND" xml:space="preserve">
+    <value>fichier Excel est déjà ouvert à proximité lors de l'importation</value>
+  </data>
+  <data name="FIRSTUNIT_EMPTY" xml:space="preserve">
+    <value>Première unité est vide.</value>
+  </data>
+  <data name="FIRST_NAME" xml:space="preserve">
+    <value>Prénom est vide</value>
+  </data>
+  <data name="FIXED_ASSET_REGISTER_PRINT_CAPTION" xml:space="preserve">
+    <value>Fixed Asset Register Détails</value>
+  </data>
+  <data name="FIXED_DEPOSIT_LEDGER_EMPTY" xml:space="preserve">
+    <value>Fixe fort Ledger est vide</value>
+  </data>
+  <data name="FIXED_LEDGER_DELETE" xml:space="preserve">
+    <value>Standard / Default Ledger ne peut pas être supprimé</value>
+  </data>
+  <data name="FIXED_LEDGER_EDIT" xml:space="preserve">
+    <value>Standard / Default Ledger ne peut être modifié</value>
+  </data>
+  <data name="GOVERNING_BODIES" xml:space="preserve">
+    <value>organes</value>
+  </data>
+  <data name="GRID_EMPTY" xml:space="preserve">
+    <value>Grille est vide</value>
+  </data>
+  <data name="GROUP_ADD_CAPTION" xml:space="preserve">
+    <value>Ledger Group (Ajouter)</value>
+  </data>
+  <data name="GROUP_CAN_DELETE" xml:space="preserve">
+    <value>Groupe ne peut être supprimé. Il a association.</value>
+  </data>
+  <data name="GROUP_CAN_EDIT" xml:space="preserve">
+    <value>Groupe ne peut pas être modifié. Il a association.</value>
+  </data>
+  <data name="GROUP_CODE_EMPTY" xml:space="preserve">
+    <value>Code groupe est vide.</value>
+  </data>
+  <data name="GROUP_DELETE_SUCCESS" xml:space="preserve">
+    <value>enregistrement supprimé</value>
+  </data>
+  <data name="GROUP_EDIT_CAPTION" xml:space="preserve">
+    <value>Ledger Group (Edit)</value>
+  </data>
+  <data name="GROUP_FIXED_EDIT" xml:space="preserve">
+    <value>Fixe la nature ne peut pas être modifié.</value>
+  </data>
+  <data name="GROUP_IMPORT_SUCCESSFULLY" xml:space="preserve">
+    <value>Groupe importé avec succès</value>
+  </data>
+  <data name="GROUP_LEVEL_CHECK" xml:space="preserve">
+    <value>Au niveau du groupe suivant ne peut pas être ajouté.</value>
+  </data>
+  <data name="GROUP_NAME_EMPTY" xml:space="preserve">
+    <value>Groupe est vide.</value>
+  </data>
+  <data name="GROUP_NATURE_DELETE" xml:space="preserve">
+    <value>Fixe la nature ne peut pas être supprimé.</value>
+  </data>
+  <data name="GROUP_NOT_AVAIL" xml:space="preserve">
+    <value>Détails du groupe ne sont pas disponibles.</value>
+  </data>
+  <data name="GROUP_PARENT_EMPTY" xml:space="preserve">
+    <value>Sélectionnez Groupe Parent.</value>
+  </data>
+  <data name="GROUP_SAVE_FAILURE" xml:space="preserve">
+    <value>Détails Groupe ne sont pas sauvegardées.</value>
+  </data>
+  <data name="GROUP_SAVE_SUCCESS" xml:space="preserve">
+    <value>Enregistré</value>
+  </data>
+  <data name="HAS_FD_ACCOUNT_NUMBER" xml:space="preserve">
+    <value>FD Numéro de compte est déjà disponible</value>
+  </data>
+  <data name="HEAD_OFFICE_CODE_EMPTY" xml:space="preserve">
+    <value>Head Office Code est vide</value>
+  </data>
+  <data name="HEAD_OFFICE_CODE_MATCH_ERROR" xml:space="preserve">
+    <value>Licence de Code Headoffice ne correspond pas avec le code de bureau maître XML Head. Voulez-vous continuer?</value>
+  </data>
+  <data name="HINT_INVALID" xml:space="preserve">
+    <value>Hint est invalide.</value>
+  </data>
+  <data name="IMPORT_SUCCESSFULLY" xml:space="preserve">
+    <value>Projet a été importé avec succès</value>
+  </data>
+  <data name="INCOME_LEDGER_EMPTY" xml:space="preserve">
+    <value>Revenu Ledger est vide</value>
+  </data>
+  <data name="INKIND" xml:space="preserve">
+    <value>EN NATURE</value>
+  </data>
+  <data name="INKINDARTICLE_ABBREVATION_EMPTY" xml:space="preserve">
+    <value>En nature Code article est vide.</value>
+  </data>
+  <data name="INKINDARTICLE_ADD_CAPTION" xml:space="preserve">
+    <value>Article en nature (Ajouter).</value>
+  </data>
+  <data name="INKINDARTICLE_DELETE_SUCCESS" xml:space="preserve">
+    <value>enregistrement supprimé</value>
+  </data>
+  <data name="INKINDARTICLE_EDIT_CAPTION" xml:space="preserve">
+    <value>Article en nature (Edit)</value>
+  </data>
+  <data name="INKINDARTICLE_NAME_EMPTY" xml:space="preserve">
+    <value>In Kind Nom de l'article est vide.</value>
+  </data>
+  <data name="INKINDARTICLE_PRINT_CAPTION" xml:space="preserve">
+    <value>À l'article Kind</value>
+  </data>
+  <data name="INKINDARTICLE_SAVE_SUCCESS" xml:space="preserve">
+    <value>Enregistré</value>
+  </data>
+  <data name="INKIND_DETAILS" xml:space="preserve">
+    <value>In-Kind Détails</value>
+  </data>
+  <data name="INKIND_ITEM" xml:space="preserve">
+    <value>In Kind article est vide</value>
+  </data>
+  <data name="INKIND_LEDGER" xml:space="preserve">
+    <value>In Kind Ledger est vide</value>
+  </data>
+  <data name="INKIND_LEDGER_ITEM" xml:space="preserve">
+    <value>Ledger est en nature pas mappé pour ce projet.</value>
+  </data>
+  <data name="INKIND_PURPOSE" xml:space="preserve">
+    <value>But en nature est vide.</value>
+  </data>
+  <data name="INKIND_VALUE" xml:space="preserve">
+    <value>valeur en nature est vide.</value>
+  </data>
+  <data name="INSTITUTE_NAME_EMPTY" xml:space="preserve">
+    <value>Institut Nom est vide</value>
+  </data>
+  <data name="INSTITUTIONAL_TYPE_ADD" xml:space="preserve">
+    <value>Type de Institutionnel (Ajouter)</value>
+  </data>
+  <data name="INSTITUTIONAL_TYPE_EDIT" xml:space="preserve">
+    <value>Type de Institutionnel (Edit)</value>
+  </data>
+  <data name="INSTITUTIONAL_TYPE_EMPTY" xml:space="preserve">
+    <value>Type de Institutionnel est vide.</value>
+  </data>
+  <data name="INSURABLE_VALUE_EMPTY" xml:space="preserve">
+    <value>Valeur assurable est vide.</value>
+  </data>
+  <data name="INSURANCE_ADD_CAPTION" xml:space="preserve">
+    <value>Régime d'assurance (Ajouter)</value>
+  </data>
+  <data name="INSURANCE_COMPANY_NAME_EMPTY" xml:space="preserve">
+    <value>Company est vide</value>
+  </data>
+  <data name="INSURANCE_CREATE_RENEW_CONFIRMATION" xml:space="preserve">
+    <value>No records est disponible pour créer l'assurance</value>
+  </data>
+  <data name="INSURANCE_EDIT_CAPTION" xml:space="preserve">
+    <value>Régime d'assurance (Éditer)</value>
+  </data>
+  <data name="INSURANCE_ENTRY" xml:space="preserve">
+    <value>Entrée</value>
+  </data>
+  <data name="INSURANCE_NAME_EMPTY" xml:space="preserve">
+    <value>Politique est vide.</value>
+  </data>
+  <data name="INSURANCE_PERIOD_FROM_AND_TO_VALIDATION" xml:space="preserve">
+    <value>Depuis la date ne doit pas être supérieure à la date Pour</value>
+  </data>
+  <data name="INSURANCE_PERION_FROM_EMPTY" xml:space="preserve">
+    <value>Période d'assurance De est vide</value>
+  </data>
+  <data name="INSURANCE_PERION_TO_EMPTY" xml:space="preserve">
+    <value>Assurance période est vide</value>
+  </data>
+  <data name="INSURANCE_PLAN_EMPTY" xml:space="preserve">
+    <value>Régime d'assurance est vide</value>
+  </data>
+  <data name="INSURANCE_POLICY_EMPTY" xml:space="preserve">
+    <value>Politique de l'assurance est vide</value>
+  </data>
+  <data name="INSURANCE_PRIMIUM_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Prime d'assurance Montant est vide</value>
+  </data>
+  <data name="INSURANCE_PRINT_CAPTION" xml:space="preserve">
+    <value>Régime d'assurance Détails</value>
+  </data>
+  <data name="INSURANCE_PRODUCT_NAME_EMPTY" xml:space="preserve">
+    <value>Le produit est vide</value>
+  </data>
+  <data name="INSURANCE_RENEWALADD_CAPTION" xml:space="preserve">
+    <value>Entrée Renouvellement</value>
+  </data>
+  <data name="INSURANCE_RENEWALEDIT_CAPTION" xml:space="preserve">
+    <value>Renouvellement Entrée (Edit)</value>
+  </data>
+  <data name="INSURANCE_RENEW_PRINT_CAPTION" xml:space="preserve">
+    <value>Assurance Renouveler Détails</value>
+  </data>
+  <data name="INSURANCE_SUM_INSURCED_EMPTY" xml:space="preserve">
+    <value>Somme d'assurance Assuré est vide</value>
+  </data>
+  <data name="INSURANCE_TYPE_EMPTY" xml:space="preserve">
+    <value>Type d'assurance est vide</value>
+  </data>
+  <data name="INSURANCE_VIEW" xml:space="preserve">
+    <value>Vue</value>
+  </data>
+  <data name="INTEREST_DATE_EMPTY" xml:space="preserve">
+    <value>Post date d'intérêt est vide.</value>
+  </data>
+  <data name="INTEREST_DATE_IS_GREATER_THAN" xml:space="preserve">
+    <value>Post date d'intérêt ne devrait pas être supérieure ou égale à la dernière date d'échéance.</value>
+  </data>
+  <data name="INTEREST_DATE_IS_LESS_THAN" xml:space="preserve">
+    <value>Post date d'intérêt ne devrait pas être inférieure ou égale à la création / dernier renouvellement / post-date d'intérêt.</value>
+  </data>
+  <data name="INVALID_EXCEL_FORMAT" xml:space="preserve">
+    <value>Invalid Excel Header Format</value>
+  </data>
+  <data name="INVALID_SHEET" xml:space="preserve">
+    <value>Données invalides.</value>
+  </data>
+  <data name="INVALID_TRANSACTION" xml:space="preserve">
+    <value>Les transactions sont pas importées correctement, car il y a enregistrement invalide</value>
+  </data>
+  <data name="INWARD_BILL_NO_EMPTY" xml:space="preserve">
+    <value>Le projet de loi ne soit vide</value>
+  </data>
+  <data name="ITEM__NOT_AVAIL" xml:space="preserve">
+    <value>Détails de l'article ne sont pas disponibles.</value>
+  </data>
+  <data name="JOURNAL_ADD_CAPTION" xml:space="preserve">
+    <value>Journal (Ajouter)</value>
+  </data>
+  <data name="JOURNAL_CANNOT_DELETE" xml:space="preserve">
+    <value>Impossible de supprimer, ceci est une entrée fermée de bons du journal</value>
+  </data>
+  <data name="JOURNAL_CANNOT_EDIT" xml:space="preserve">
+    <value>Impossible d’éditer, ceci est une entrée fermée de bons du journal</value>
+  </data>
+  <data name="JOURNAL_EDIT_CAPTION" xml:space="preserve">
+    <value>Journal (éditer)</value>
+  </data>
+  <data name="LAST_POST_ON" xml:space="preserve">
+    <value>Dernière écriture le</value>
+  </data>
+  <data name="LEDGERS_TOBE_MERGED" xml:space="preserve">
+    <value>Grands Livres disponibles</value>
+  </data>
+  <data name="LEDGER_ACCOUNT_DATE_EMPTY" xml:space="preserve">
+    <value>La date du compte est vide.</value>
+  </data>
+  <data name="LEDGER_ACCOUNT_NUMBER_EMPTY" xml:space="preserve">
+    <value>Le numéro de compte est vide.</value>
+  </data>
+  <data name="LEDGER_ACCOUNT_TYPE_EMPTY" xml:space="preserve">
+    <value>Type de compte est vide.</value>
+  </data>
+  <data name="LEDGER_ADD_CAPTION" xml:space="preserve">
+    <value>Grand livre (Ajouter)</value>
+  </data>
+  <data name="LEDGER_BANK_EMPTY" xml:space="preserve">
+    <value>Nom de la banque est vide.</value>
+  </data>
+  <data name="lEDGER_CODE_EMPTY" xml:space="preserve">
+    <value>Code du grand livre est vide.</value>
+  </data>
+  <data name="LEDGER_DATE_OPEN_EMPTY" xml:space="preserve">
+    <value>La date d'ouverture du compte est vide.</value>
+  </data>
+  <data name="LEDGER_DELETED" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="LEDGER_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="LEDGER_EDIT_CAPTION" xml:space="preserve">
+    <value>Grand livre (éditer)</value>
+  </data>
+  <data name="LEDGER_FAILURE" xml:space="preserve">
+    <value>Les détails du grand livre ne sont pas sauvegardés.</value>
+  </data>
+  <data name="LEDGER_GROUP_EMPTY" xml:space="preserve">
+    <value>Le groupe de grands livres est vide.</value>
+  </data>
+  <data name="LEDGER_MAPPED" xml:space="preserve">
+    <value>Le grand livre est associé à un ou plusieurs projets, désassocier le grand livre pour le supprimer.</value>
+  </data>
+  <data name="LEDGER_MAPPING_SUCCESS" xml:space="preserve">
+    <value>Le(s) grand(s) livre(s) a(ont) été mappé(s) avec succès.</value>
+  </data>
+  <data name="LEDGER_MERGED" xml:space="preserve">
+    <value>Sélectionner le grand livre à fusionner</value>
+  </data>
+  <data name="LEDGER_MERGED_WITH" xml:space="preserve">
+    <value>Sélectionner le grand livre à fusionner avec</value>
+  </data>
+  <data name="LEDGER_NAME" xml:space="preserve">
+    <value>Nom du grand livre</value>
+  </data>
+  <data name="LEDGER_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom du grand livre est vide.</value>
+  </data>
+  <data name="LEDGER_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails du grand livre</value>
+  </data>
+  <data name="LEDGER_SUCCESS" xml:space="preserve">
+    <value>Enregistré</value>
+  </data>
+  <data name="LEDGER_TITLE" xml:space="preserve">
+    <value>Grand livre</value>
+  </data>
+  <data name="LEDGER_TRANSACTION_MADE" xml:space="preserve">
+    <value>Une transaction a été effectuée pour ce grand livre, elle ne peut pas être dissociée.</value>
+  </data>
+  <data name="LEDGER_TYPE_EMPTY" xml:space="preserve">
+    <value>Le type de grand livre est vide.</value>
+  </data>
+  <data name="LEGAL_ENTITY_ADD" xml:space="preserve">
+    <value>Entité légale (Ajouter)</value>
+  </data>
+  <data name="LEGAL_ENTITY_EDIT" xml:space="preserve">
+    <value>Entité légale (éditer)</value>
+  </data>
+  <data name="LEGAL_ENTITY_PRINT_CAPTION" xml:space="preserve">
+    <value>Entité légale</value>
+  </data>
+  <data name="LEGAL_ENTITY_REGNO_EMPTY" xml:space="preserve">
+    <value>Société / Reg No est vide</value>
+  </data>
+  <data name="LEGAL_ENTITY_UNMAP" xml:space="preserve">
+    <value>Impossible de supprimer, il a Association.</value>
+  </data>
+  <data name="LICENSE_ASSOCIATION_NATURE_EMPTY" xml:space="preserve">
+    <value>Nature de l'Association est vide</value>
+  </data>
+  <data name="LICENSE_DENOMIATION_EMPTY" xml:space="preserve">
+    <value>Dénomination est vide.</value>
+  </data>
+  <data name="LICENSE_GENERATE_CONFIRMATION" xml:space="preserve">
+    <value>Clé de licence est generated.Do vous voulez sauver?</value>
+  </data>
+  <data name="LICENSE_MULTIPLE_ASSOCIATION_NATURE_EMPTY" xml:space="preserve">
+    <value>Sélectionner au moins un Nature de l'Association</value>
+  </data>
+  <data name="LOADING_VOUCHERS" xml:space="preserve">
+    <value>Bons de chargement ..</value>
+  </data>
+  <data name="LOCAL_PROJECT_RESTRICTED_WITH_BANK_ACCOUNT" xml:space="preserve">
+    <value>Projet étranger (s) ne peuvent être mappé avec FCRA Comptes bancaires</value>
+  </data>
+  <data name="LOCATION_ADD_CAPTION" xml:space="preserve">
+    <value>Lieu (Ajouter)</value>
+  </data>
+  <data name="LOCATION_AVAILABLE" xml:space="preserve">
+    <value>Déjà emplacement est disponible dans le bloc sélectionné.</value>
+  </data>
+  <data name="LOCATION_EDIT_CAPTION" xml:space="preserve">
+    <value>Lieu (Edit)</value>
+  </data>
+  <data name="LOCATION_NAME_EMPTY" xml:space="preserve">
+    <value>L'emplacement est vide.</value>
+  </data>
+  <data name="LOCATION_NOT_AVAIL" xml:space="preserve">
+    <value>Détails de l'emplacement ne sont pas disponibles.</value>
+  </data>
+  <data name="LOCATION_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails de l'emplacement</value>
+  </data>
+  <data name="LOCATION_TYPE_EMPTY" xml:space="preserve">
+    <value>Type de vide.</value>
+  </data>
+  <data name="LOCATION_VIEW_CAPTION" xml:space="preserve">
+    <value>Emplacement</value>
+  </data>
+  <data name="LOCK_MASTERS_MESSAGE" xml:space="preserve">
+    <value>Ajouter option Modifier / est verrouillé par le siège social de l'administrateur. Contactez Head Office Admin pour plus d'assistance.</value>
+  </data>
+  <data name="LOCK_TRANS_TYPE" xml:space="preserve">
+    <value>Bon verrouillage Détails</value>
+  </data>
+  <data name="LOCK_TYPE_ADD_CAPTION" xml:space="preserve">
+    <value>Type de verrou (Ajouter)</value>
+  </data>
+  <data name="LOCK_TYPE_EDIT_CAPTION" xml:space="preserve">
+    <value>Lock Type (Edit)</value>
+  </data>
+  <data name="LOCK_VOUCHER_ADD_CAPTION" xml:space="preserve">
+    <value>Verrouiller Bon (Ajouter)</value>
+  </data>
+  <data name="LOCK_VOUCHER_EDIT_CAPTION" xml:space="preserve">
+    <value>Verrouiller Bon (Edit)</value>
+  </data>
+  <data name="MANUFACTURE_ADD_CAPTION" xml:space="preserve">
+    <value>Fabricant (Ajouter)</value>
+  </data>
+  <data name="MANUFACTURE_EDIT_CAPTION" xml:space="preserve">
+    <value>Fabricant (Edit)</value>
+  </data>
+  <data name="MANUFACTURE_VIEW_CAPTION" xml:space="preserve">
+    <value>Fabricant</value>
+  </data>
+  <data name="MAPPED_LEDGERS_TO_PROJECT_TO_ALLOTFUND" xml:space="preserve">
+    <value>Ledgers mappés au projet d'allouer fonds.</value>
+  </data>
+  <data name="MAPPED_SUCESSFULLY" xml:space="preserve">
+    <value>Les grands livres de stock ont été associés avec succès.</value>
+  </data>
+  <data name="MAPPING_BUDGET_MADE" xml:space="preserve">
+    <value>Le budget est établi pour le grand livre, il ne peut pas être dissocié.</value>
+  </data>
+  <data name="MAPPING_CONTRIBUTION_SUCCESS" xml:space="preserve">
+    <value>L’association de la/des contribution(s) a été effectué avec succès.</value>
+  </data>
+  <data name="MAPPING_COST_CATEGORY_SUCCESS" xml:space="preserve">
+    <value>Le (s) centre(s) de coût a(ont) été associé (s) avec succès.</value>
+  </data>
+  <data name="MAPPING_DONOR_SUCCESS" xml:space="preserve">
+    <value>Le(s) donateur(s) a (ont) été associé (s) avec succès.</value>
+  </data>
+  <data name="MAPPING_FD_LEDGER_RESTRICTION" xml:space="preserve">
+    <value>Le grand livre des dépôts fixes ne peut pas être associé à plusieurs projets.</value>
+  </data>
+  <data name="MAPPING_LEDGER_CANNOT_SET_OP_FD_LEDGER" xml:space="preserve">
+    <value>Impossible de définir le solde d'ouverture pour ce grand livre de dépôt fixe.</value>
+  </data>
+  <data name="MAPPING_MAKE_AMOUNT_ZERO" xml:space="preserve">
+    <value>Essayez, après avoir mis le montant à 0 et sauvegardé l'enregistrement, de le dissocier.</value>
+  </data>
+  <data name="MAPPING_NEGATIVE_BALANCE" xml:space="preserve">
+    <value>Le solde d'ouverture ne peut pas être négatif.</value>
+  </data>
+  <data name="MAPPING_TRANSACTION_MADE_ALREADY" xml:space="preserve">
+    <value>Une transaction a été effectuée pour ce(s) poste(s), elle ne peut pas être associée.</value>
+  </data>
+  <data name="MAP_LEDGERS_TO_PROJECT" xml:space="preserve">
+    <value>Carte des livres au Projet pour rendre le budget et essayer à nouveau</value>
+  </data>
+  <data name="MASTER_EMPTY" xml:space="preserve">
+    <value>Sélectionnez l'une des informations de base à importer.</value>
+  </data>
+  <data name="MASTER_VOUCHER_MAPPING" xml:space="preserve">
+    <value>de Bons sont mappés à ce projet.</value>
+  </data>
+  <data name="MERGED_SUCCESSFULLY" xml:space="preserve">
+    <value>Les grands livres sont fusionnés avec succès</value>
+  </data>
+  <data name="MERGE_LEDGER_STRONG_MESSAGE" xml:space="preserve">
+    <value>Les grands livres fusionnés seront supprimés définitivement. Voulez-vous vraiment continuer ?</value>
+  </data>
+  <data name="MIGRATION_ACCESS_DB_EMPTY" xml:space="preserve">
+    <value>Une base de données MS Access est nécessaire.</value>
+  </data>
+  <data name="MIGRATION_COMPLETED_SUCCESSFULLY" xml:space="preserve">
+    <value>Le Transfert est terminé avec succès.</value>
+  </data>
+  <data name="MIGRATION_CONFIRMATION" xml:space="preserve">
+    <value>Voulez-vous vraiment continuer la migration ?</value>
+  </data>
+  <data name="MIGRATION_CONNECTION_FAILED" xml:space="preserve">
+    <value>La connexion n'est pas établie.</value>
+  </data>
+  <data name="MIGRATION_CONNECTION_SUCCEED" xml:space="preserve">
+    <value>Connexion réussie.</value>
+  </data>
+  <data name="MIGRATION_DESTINATION_DB_FAILS" xml:space="preserve">
+    <value>La connexion à la base de données de destination a échoué, la connexion à la base de données source a réussi.</value>
+  </data>
+  <data name="MIGRATION_ERROR_TRANSACTION_BALANCE" xml:space="preserve">
+    <value>Erreur dans le rafraîchissement du solde de la transaction.</value>
+  </data>
+  <data name="MIGRATION_FILE_EMPTY" xml:space="preserve">
+    <value>Le nom du fichier est vide.</value>
+  </data>
+  <data name="MIGRATION_LOG_FILE_OPEN" xml:space="preserve">
+    <value>Voulez-vous ouvrir le fichier journal ?</value>
+  </data>
+  <data name="MIGRATION_RECORD_AVAILABLE" xml:space="preserve">
+    <value>L'enregistrement est disponible, voulez-vous supprimer les enregistrements et continuer la migration ? +Environment.NewLine +Yes :Supprimer et continuer+Environment.NewLine +No :Migrer avec les anciens enregistrements+Environment.NewLine +Cancel :  Stop Migration.</value>
+  </data>
+  <data name="MIGRATION_SOURCE_DB_FAILS" xml:space="preserve">
+    <value>Échec de la connexion de la source des bases des données</value>
+  </data>
+  <data name="MIGRATION_TITLE" xml:space="preserve">
+    <value>Migration des données</value>
+  </data>
+  <data name="MIGRATION_VOUCHER_TRANS_FAILS" xml:space="preserve">
+    <value>Échec de la mise à jour des bons de caisse, le CashID n'est pas défini, réessayez.</value>
+  </data>
+  <data name="NAME_EMPTY" xml:space="preserve">
+    <value>Nom est vide.</value>
+  </data>
+  <data name="NATURE_OF_PAYMENT" xml:space="preserve">
+    <value>Nature des paiements</value>
+  </data>
+  <data name="NATURE_OF_PAYMENT_EMPTY" xml:space="preserve">
+    <value>Nature de paiement est vide.</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_PASSKEY_EMPTY" xml:space="preserve">
+    <value>clé Pass est vide</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_PASSWORD_EMPTY" xml:space="preserve">
+    <value>Mot de passe est vide</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_PORT_EMPTY" xml:space="preserve">
+    <value>Port est vide</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_SENDERID_EMPTY" xml:space="preserve">
+    <value>Sender Id est vide</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_SERVER_EMPTY" xml:space="preserve">
+    <value>Nom du serveur est vide</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_USERNAME_EMPTY" xml:space="preserve">
+    <value>Nom d'utilisateur est vide</value>
+  </data>
+  <data name="NETWORK_INS_TYPE_CAPTION" xml:space="preserve">
+    <value>type de Institutional</value>
+  </data>
+  <data name="NO_ASSET_SELECTED" xml:space="preserve">
+    <value>Aucun actif est sélectionné.</value>
+  </data>
+  <data name="NO_DIFFERENCE" xml:space="preserve">
+    <value>Pas de différence</value>
+  </data>
+  <data name="NO_OF_POSTS" xml:space="preserve">
+    <value>Pas de messages</value>
+  </data>
+  <data name="NO_RECORD" xml:space="preserve">
+    <value>Aucun enregistrement à sauvegarder.</value>
+  </data>
+  <data name="NO_RECORDS_TO_SAVE" xml:space="preserve">
+    <value>Aucun enregistrement à sauvegarder.</value>
+  </data>
+  <data name="NO_RECORD_IS_AVAILABLE" xml:space="preserve">
+    <value>Aucun enregistrement n'est disponible.</value>
+  </data>
+  <data name="NO_RIGHTS_FOR_ADDITION" xml:space="preserve">
+    <value>Vous n'avez pas le droit d'ajouter.</value>
+  </data>
+  <data name="NO_RIGHTS_FOR_DELETION" xml:space="preserve">
+    <value>Vous n'avez pas le droit de supprimer</value>
+  </data>
+  <data name="NO_RIGHTS_FOR_PRINT" xml:space="preserve">
+    <value>Vous n'avez pas le droit d'imprimer</value>
+  </data>
+  <data name="NO_RIGHTS_TO_DELETE_CONTRA" xml:space="preserve">
+    <value>Vous n'avez pas le droit de supprimer ce Contra-Bons</value>
+  </data>
+  <data name="NO_RIGHTS_TO_DELETE_PAYMENT" xml:space="preserve">
+    <value>Vous n'avez pas le droit de supprimer ce Bon de paiement</value>
+  </data>
+  <data name="NO_RIGHTS_TO_DELETE_RECEIPT" xml:space="preserve">
+    <value>Vous n'avez pas le droit de supprimer ce ticket de caisse.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_EDIT_CONTRA" xml:space="preserve">
+    <value>Vous n'avez pas le droit d'éditer ce bon d’achat.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_EDIT_PAYMENT" xml:space="preserve">
+    <value>Aucun droit d’éditer ce bon de paiement.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_EDIT_RECEIPT" xml:space="preserve">
+    <value>Vous n'avez pas le droit d'éditer ce ticket de bon.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_MOVE_CONTRA_VOUCHER" xml:space="preserve">
+    <value>Vous n'avez pas le droit de déplacer ce bon d’achat.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_MOVE_PAYMENT_VOUCHER" xml:space="preserve">
+    <value>Aucun droit de déplacer ce bon de paiement.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_MOVE_RECEIPT_VOUCHER" xml:space="preserve">
+    <value>Aucun droit de déplacer ce bon de paiement.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_TAKE_PRINTOUT" xml:space="preserve">
+    <value>Pas de droit d’imprimer une copie de ce bon de réception</value>
+  </data>
+  <data name="NO_RIGHTS_TO_TAKE_PRINTOUT_PAYMENT" xml:space="preserve">
+    <value>Aucun droit d'imprimer ce bon de paiement.</value>
+  </data>
+  <data name="OFFERING_TYPE _EMPTY" xml:space="preserve">
+    <value>Type de placement est vide.</value>
+  </data>
+  <data name="OFFERING_TYPE_ADD_CAPTION" xml:space="preserve">
+    <value>Type de placement (Ajouter)</value>
+  </data>
+  <data name="OFFERING_TYPE_EDIT_CAPTION" xml:space="preserve">
+    <value>Type de placement (Edit)</value>
+  </data>
+  <data name="OFFERING_TYPE_VIEW" xml:space="preserve">
+    <value>Type de placement</value>
+  </data>
+  <data name="OPEN_FILE" xml:space="preserve">
+    <value>Voulez-vous ouvrir le fichier ?</value>
+  </data>
+  <data name="OPEN_THE_FILE" xml:space="preserve">
+    <value>Voulez-vous ouvrir le fichier ?</value>
+  </data>
+  <data name="OP_BALANCE" xml:space="preserve">
+    <value>Solde O/P</value>
+  </data>
+  <data name="OVERWRITE_CONFORM" xml:space="preserve">
+    <value>L'écrasement supprimera tous les anciens enregistrements. Voulez-vous vraiment écraser ?</value>
+  </data>
+  <data name="PARTY_LEDGER_EMPTY" xml:space="preserve">
+    <value>Party Ledger est vide.</value>
+  </data>
+  <data name="PARTY_PAYMENTS" xml:space="preserve">
+    <value>Paiements Party</value>
+  </data>
+  <data name="PASSWORDEMPTY" xml:space="preserve">
+    <value>Le mot de passe est vide.</value>
+  </data>
+  <data name="PASSWORD_HINT_EMPTY" xml:space="preserve">
+    <value>L'indice est vide.</value>
+  </data>
+  <data name="PASSWORD_INVALID" xml:space="preserve">
+    <value>Le mot de passe n'est pas valide.</value>
+  </data>
+  <data name="PASSWORD_RESET" xml:space="preserve">
+    <value>Le mot de passe a été réinitialisé avec succès.</value>
+  </data>
+  <data name="PAYMENT" xml:space="preserve">
+    <value>PAIEMENT</value>
+  </data>
+  <data name="PERCENTAGE_NEGATIVE" xml:space="preserve">
+    <value>Pourcentage ne peut pas être en valeur négative.</value>
+  </data>
+  <data name="PGCGRANDTOTAL_CAPTION" xml:space="preserve">
+    <value>somme finale</value>
+  </data>
+  <data name="POLICY_EMPTY" xml:space="preserve">
+    <value>Politique est vide</value>
+  </data>
+  <data name="POLICY_NO_EMPTY" xml:space="preserve">
+    <value>Numéro de police est vide</value>
+  </data>
+  <data name="PORTAL_DATASYN_MESSAGE_SAVED" xml:space="preserve">
+    <value>Messages Portal enregistrés avec succès</value>
+  </data>
+  <data name="PORTAL_NO_RECORD" xml:space="preserve">
+    <value>Messages Portail pas enregistré</value>
+  </data>
+  <data name="PORTAL_SERVICE_NOT_AVIALABLE" xml:space="preserve">
+    <value>Connexion Internet ne sont pas disponibles.</value>
+  </data>
+  <data name="PREMIUM_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Montant Premium est vide</value>
+  </data>
+  <data name="PRESS" xml:space="preserve">
+    <value>presse</value>
+  </data>
+  <data name="PRINCIPAL_AMOUNT" xml:space="preserve">
+    <value>Le montant principal</value>
+  </data>
+  <data name="PRINT_CAPTION" xml:space="preserve">
+    <value>Détails d'achat d'actions.</value>
+  </data>
+  <data name="PROBLEM_IN_SAVING" xml:space="preserve">
+    <value>Problème dans Saving Legal Entity Détails.</value>
+  </data>
+  <data name="PROJECT" xml:space="preserve">
+    <value>Projet</value>
+  </data>
+  <data name="PROJECT_ADD_CAPTION" xml:space="preserve">
+    <value>Projet (Ajouter)</value>
+  </data>
+  <data name="PROJECT_AVAILABLE_VOUCHERS" xml:space="preserve">
+    <value>Plusieurs Recettes/Paiements/Contraste/Journal ont été sélectionnés.</value>
+  </data>
+  <data name="PROJECT_CANNOT_DELETE_OPENING_BALANCE" xml:space="preserve">
+    <value>Impossible de supprimer, le grand livre de caisse a un solde d'ouverture pour ce projet.</value>
+  </data>
+  <data name="PROJECT_CATEGORY_ADD_CAPTION" xml:space="preserve">
+    <value>Catégorie de projet (Ajouter)</value>
+  </data>
+  <data name="PROJECT_CATEGORY_EDIT_CAPTION" xml:space="preserve">
+    <value>Catégorie de projet (éditer)</value>
+  </data>
+  <data name="PROJECT_CATEGORY_EMPTY" xml:space="preserve">
+    <value>La catégorie de projet est vide.</value>
+  </data>
+  <data name="PROJECT_CATEGORY_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails de la catégorie de projet</value>
+  </data>
+  <data name="PROJECT_CATOGORY_AVAILABLE" xml:space="preserve">
+    <value>L'enregistrement est disponible.</value>
+  </data>
+  <data name="PROJECT_CATOGORY_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="PROJECT_CATOGORY_EMPTY" xml:space="preserve">
+    <value>La catégorie de projet est vide.</value>
+  </data>
+  <data name="PROJECT_CATOGORY_SAVE_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="PROJECT_CODE_EMPTY" xml:space="preserve">
+    <value>Le code du projet est vide.</value>
+  </data>
+  <data name="PROJECT_DATE_VALIDATION" xml:space="preserve">
+    <value>La date de clôture ne peut être inférieure à la date de début.</value>
+  </data>
+  <data name="PROJECT_DELETE_ASSOCIATION" xml:space="preserve">
+    <value>Le projet ne peut pas être supprimé. Il est associé.</value>
+  </data>
+  <data name="PROJECT_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="PROJECT_EDIT_CAPTION" xml:space="preserve">
+    <value>Projet (éditer)</value>
+  </data>
+  <data name="PROJECT_EXISTS" xml:space="preserve">
+    <value>Le code du projet/nom du projet existe déjà.</value>
+  </data>
+  <data name="PROJECT_IS_NOT_CREATED" xml:space="preserve">
+    <value>Le projet n'est pas encore créé. Voulez-vous créer le projet ?</value>
+  </data>
+  <data name="PROJECT_IS_NOT_CREATED_FOR_MAKING_BUDGET" xml:space="preserve">
+    <value>Le projet n'est pas créé pour établir un budget</value>
+  </data>
+  <data name="PROJECT_MAPPING_SUCCESS" xml:space="preserve">
+    <value>Le(s) projet(s) a(ont) été associé(s) avec succès.</value>
+  </data>
+  <data name="PROJECT_MAP_LEDGER" xml:space="preserve">
+    <value>Le projet est clôturé.  Le grand livre ne peut pas être associé.</value>
+  </data>
+  <data name="PROJECT_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom du projet est vide.</value>
+  </data>
+  <data name="PROJECT_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails du projet</value>
+  </data>
+  <data name="PROJECT_PROJECT_VOUCHERS" xml:space="preserve">
+    <value>Il n'est pas possible d'ajouter plusieurs Recettes/Paiements/Contraste/Journal.</value>
+  </data>
+  <data name="PROJECT_PURPOSE_EMPTY" xml:space="preserve">
+    <value>L'objet est vide</value>
+  </data>
+  <data name="PROJECT_PURPOSE_TRANSACTION_MADE" xml:space="preserve">
+    <value>La transaction est effectuée dans ce but.</value>
+  </data>
+  <data name="PROJECT_START_DATE_EMPTY" xml:space="preserve">
+    <value>La date de démarrage est vide</value>
+  </data>
+  <data name="PROJECT_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="PROJECT_TRANSACTION_MADE" xml:space="preserve">
+    <value>Impossible de supprimer, la transaction effectuée pour ce projet.</value>
+  </data>
+  <data name="PROJECT_VOUCHER" xml:space="preserve">
+    <value>Il n'est pas possible de sélectionner plus d'un reçu, d'un paiement, d'un contrat et d'un journal.</value>
+  </data>
+  <data name="PROJECT_VOUCHER_INFO" xml:space="preserve">
+    <value>Au moins l'un des éléments suivants doit être sélectionné : reçu, paiement et contrat.</value>
+  </data>
+  <data name="PROJECT__LEDGER_MAPPED" xml:space="preserve">
+    <value>Impossible de supprimer, plusieurs grands livres sont associés pour ce projet.</value>
+  </data>
+  <data name="PROSPECT_ADDRESS_EMPTY" xml:space="preserve">
+    <value>Adresse est vide</value>
+  </data>
+  <data name="PROSPECT_ADD_CAPTION" xml:space="preserve">
+    <value>Prospect (Ajouter)</value>
+  </data>
+  <data name="PROSPECT_CITY_EMPTY" xml:space="preserve">
+    <value>Ville / Commune est vide</value>
+  </data>
+  <data name="PROSPECT_EDIT_CAPTION" xml:space="preserve">
+    <value>Prospect (Edit)</value>
+  </data>
+  <data name="PROVIDER_EMPTY" xml:space="preserve">
+    <value>Fournisseur est vide</value>
+  </data>
+  <data name="PURCHASE" xml:space="preserve">
+    <value>ACHAT</value>
+  </data>
+  <data name="PURCHASE_ADD_CAPTION" xml:space="preserve">
+    <value>Bon - achat d'actifs</value>
+  </data>
+  <data name="PURCHASE_ASSETLOCATION_VALIDATION" xml:space="preserve">
+    <value>Renseignements requis pas rempli, l'emplacement est vide</value>
+  </data>
+  <data name="PURCHASE_ASSET_CASH_BANK_LEDGER_EMPTY" xml:space="preserve">
+    <value>Trésorerie / Banque Ledger est vide</value>
+  </data>
+  <data name="PURCHASE_CAPTION" xml:space="preserve">
+    <value>Achat (Ajouter)</value>
+  </data>
+  <data name="PURCHASE_DATE_EMPTY" xml:space="preserve">
+    <value>La date est vide.</value>
+  </data>
+  <data name="PURCHASE_DATE_EMTPTY" xml:space="preserve">
+    <value>La date d'achat est vide.</value>
+  </data>
+  <data name="PURCHASE_DETAILS" xml:space="preserve">
+    <value>Les détails d'achat</value>
+  </data>
+  <data name="PURCHASE_DISCOUNT_VALIDATION" xml:space="preserve">
+    <value>Remise doit être inférieure ou égale à Montant</value>
+  </data>
+  <data name="PURCHASE_EDIT" xml:space="preserve">
+    <value>Achat (Edit)</value>
+  </data>
+  <data name="PURCHASE_EDIT_CAPTION" xml:space="preserve">
+    <value>Achat d'actifs (Edit) - Voucher</value>
+  </data>
+  <data name="PURCHASE_ENTRY" xml:space="preserve">
+    <value>Achat Entrée</value>
+  </data>
+  <data name="PURCHASE_LEDGER_EMPTY" xml:space="preserve">
+    <value>TVA Ledger est vide.</value>
+  </data>
+  <data name="PURCHASE_NETAMOUNT_EMPTY" xml:space="preserve">
+    <value>Montant net est vide.</value>
+  </data>
+  <data name="PURCHASE_PRINT_CAPTION" xml:space="preserve">
+    <value>Bon d'achat Détails</value>
+  </data>
+  <data name="PURCHASE_VENDOR_EMPTY" xml:space="preserve">
+    <value>Vendeur est vide.</value>
+  </data>
+  <data name="PURCHASE_VIEW" xml:space="preserve">
+    <value>Achat</value>
+  </data>
+  <data name="PURPOSE" xml:space="preserve">
+    <value>Objet</value>
+  </data>
+  <data name="PURPOSE_ADD_CAPTION" xml:space="preserve">
+    <value>Objectifs (Ajouter)</value>
+  </data>
+  <data name="PURPOSE_CODE_EMPTY" xml:space="preserve">
+    <value>Le code du but est vide.</value>
+  </data>
+  <data name="PURPOSE_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="PURPOSE_EDIT_CAPTION" xml:space="preserve">
+    <value>Objectifs (éditer)</value>
+  </data>
+  <data name="PURPOSE_HEAD_EMPTY" xml:space="preserve">
+    <value>L'en-tête de l'objet est vide.</value>
+  </data>
+  <data name="PURPOSE_MAPPED" xml:space="preserve">
+    <value>Le(s) objet(s) a(ont) été associé(s) avec succès</value>
+  </data>
+  <data name="PURPOSE_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails du but</value>
+  </data>
+  <data name="PURPOSE_SAVE_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="RECEIPT" xml:space="preserve">
+    <value>RECEPTION</value>
+  </data>
+  <data name="RECEIVER_MANUFACTURE_EMPTY" xml:space="preserve">
+    <value>Nom est vide</value>
+  </data>
+  <data name="RECEIVES_ADD_CAPTION" xml:space="preserve">
+    <value>Recevoir (Ajouter)</value>
+  </data>
+  <data name="RECEIVES_EDIT_CAPTION" xml:space="preserve">
+    <value>Recevoir (Edit)</value>
+  </data>
+  <data name="RECEIVE_ADD_CAPTION" xml:space="preserve">
+    <value>Bon - Recevoir en nature (Ajouter)</value>
+  </data>
+  <data name="RECEIVE_ASSETLOCATION_VALIDATION" xml:space="preserve">
+    <value>L'information requise n'est pas remplie, l'emplacement est vide</value>
+  </data>
+  <data name="RECEIVE_CAPTION" xml:space="preserve">
+    <value>A recevoir</value>
+  </data>
+  <data name="RECEIVE_DATE_EMPTY" xml:space="preserve">
+    <value>La date de réception est vide.</value>
+  </data>
+  <data name="RECEIVE_EDIT_CAPTION" xml:space="preserve">
+    <value>Bon - Réception en nature (éditer)</value>
+  </data>
+  <data name="RECEIVE_ENTRY" xml:space="preserve">
+    <value>Entrée en nature reçus</value>
+  </data>
+  <data name="RECEIVE_GRID_EMPTY" xml:space="preserve">
+    <value>Remplir tous les champs obligatoires.</value>
+  </data>
+  <data name="RECEIVE_MANUFACTURE_EMPTY" xml:space="preserve">
+    <value>Nom du fabricant est vide</value>
+  </data>
+  <data name="RECEIVE_NETAMOUNT_EMPTY" xml:space="preserve">
+    <value>Montant net est vide.</value>
+  </data>
+  <data name="RECEIVE_PRINT_CAPTION" xml:space="preserve">
+    <value>Reçu en nature Détails</value>
+  </data>
+  <data name="RECEIVE_VIEW" xml:space="preserve">
+    <value>Recevoir en nature</value>
+  </data>
+  <data name="RECIPIENT_NAME_EMPTY" xml:space="preserve">
+    <value>Nom du bénéficiaire est vide.</value>
+  </data>
+  <data name="RECORD_HAS_BEEN_DELETED" xml:space="preserve">
+    <value>L'enregistrement a déjà été supprimé par</value>
+  </data>
+  <data name="REFERRED_STAFF_ADD_CAPTION" xml:space="preserve">
+    <value>Le personnel visé (Ajouter)</value>
+  </data>
+  <data name="REFERRED_STAFF_EDIT_CAPTION" xml:space="preserve">
+    <value>Renvoyé du personnel (Edit)</value>
+  </data>
+  <data name="REFRENCE_NUMBER_EMPTY" xml:space="preserve">
+    <value>Le numéro de référence est vide.</value>
+  </data>
+  <data name="REGENARATION_PERIODTO_MISIMATCH" xml:space="preserve">
+    <value>La période au ne doit pas être inférieure à la période de. Veuillez saisir la date de validité.</value>
+  </data>
+  <data name="REGENERATE_VOUCHERS" xml:space="preserve">
+    <value>Le format du numéro du bon actif est différent. Régénérer les bons au format actif et réessayer.</value>
+  </data>
+  <data name="REGENERATING_VOUCHER_NUMBER" xml:space="preserve">
+    <value>Régénération du numéro de bon...</value>
+  </data>
+  <data name="REGENERATION_FAILS" xml:space="preserve">
+    <value>La régénération a échoué. Le projet actif</value>
+  </data>
+  <data name="RENEWAL_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Le montant du renouvellement est vide.</value>
+  </data>
+  <data name="RENEWAL_DATE_EMPTY" xml:space="preserve">
+    <value>La date de renouvellement ne doit pas être vide.</value>
+  </data>
+  <data name="RENEWAL_MADE_ALREADY" xml:space="preserve">
+    <value>Le renouvellement du Dépôt Fixe a été effectué à cette date.</value>
+  </data>
+  <data name="RENEWAL_NO_RECORD" xml:space="preserve">
+    <value>Aucun enregistrement n'est sélectionné pour être modifié, veuillez sélectionner un enregistrement.</value>
+  </data>
+  <data name="RENEWAL_ON" xml:space="preserve">
+    <value>Renouvellement le</value>
+  </data>
+  <data name="RENEWAL_VIEW_NO_RECORD_TO_RENEW" xml:space="preserve">
+    <value>Aucun enregistrement n'est disponible dans la grille pour le renouvellement</value>
+  </data>
+  <data name="RENEW_ADD_CAPTION" xml:space="preserve">
+    <value>Renouveler l'assurance (Ajouter)</value>
+  </data>
+  <data name="RENEW_EDIT_CAPTION" xml:space="preserve">
+    <value>Renouveler l'assurance (Edit)</value>
+  </data>
+  <data name="REPORT_BANK_EMPTY" xml:space="preserve">
+    <value>Une banque doit être sélectionnée.</value>
+  </data>
+  <data name="REPORT_BUDGET_EMPTY" xml:space="preserve">
+    <value>Le nom du budget doit être sélectionné.</value>
+  </data>
+  <data name="REPORT_COSTCENTRE_EMPTY" xml:space="preserve">
+    <value>Un centre de coût doit être sélectionné.</value>
+  </data>
+  <data name="REPORT_FINACIAL_RECORDS_CASH_BANK_EMPTY" xml:space="preserve">
+    <value>Sélectionnez Cash/Bon de Banque</value>
+  </data>
+  <data name="REPORT_LEDGER_EMPTY" xml:space="preserve">
+    <value>Un grand livre doit être sélectionné.</value>
+  </data>
+  <data name="REPORT_PROJECT_EMPTY" xml:space="preserve">
+    <value>Un projet doit être sélectionné.</value>
+  </data>
+  <data name="REQUIRED_INFORMATION_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Information requise non remplie, le montant est vide</value>
+  </data>
+  <data name="REQUIRED_INFORMATION_LEDGER_EMPTY" xml:space="preserve">
+    <value>Information requise non remplie, le grand livre est vide</value>
+  </data>
+  <data name="REQUIRED_INFORMATION_NOT_FILLED" xml:space="preserve">
+    <value>Information requise non remplie, Transaction n'est pas complètement remplie</value>
+  </data>
+  <data name="REQUIRED_INFORMATION_TRANSMODE_EMPTY" xml:space="preserve">
+    <value>Information requise non remplie, le mode de transaction est vide</value>
+  </data>
+  <data name="RESET_PASSWORD" xml:space="preserve">
+    <value>Réinitialiser le mot de passe</value>
+  </data>
+  <data name="RETENTION_YRS_EMPTY" xml:space="preserve">
+    <value>Rétention ans est vide.</value>
+  </data>
+  <data name="SALAVAGE_VALUE_EMPTY" xml:space="preserve">
+    <value>La valeur de récupération est vide.</value>
+  </data>
+  <data name="SALES" xml:space="preserve">
+    <value>VENTES</value>
+  </data>
+  <data name="SALES_ADD_CAPTION" xml:space="preserve">
+    <value>Bon - Asset Sales</value>
+  </data>
+  <data name="SALES_ASSET_ID_EMPTY" xml:space="preserve">
+    <value>Renseignements requis pas rempli, Asset Id est vide</value>
+  </data>
+  <data name="SALES_ASSET_NAME_EMPTY" xml:space="preserve">
+    <value>Renseignements requis pas rempli, Nom de l'actif est vide</value>
+  </data>
+  <data name="SALES_CAPTION" xml:space="preserve">
+    <value>Ventes</value>
+  </data>
+  <data name="SALES_DETAILS" xml:space="preserve">
+    <value>Détails de vente</value>
+  </data>
+  <data name="SALES_EDIT_CAPTION" xml:space="preserve">
+    <value>Les ventes d'actifs (Edit) - Voucher</value>
+  </data>
+  <data name="SALES_ENTRY" xml:space="preserve">
+    <value>Entrée de vente</value>
+  </data>
+  <data name="SALES_GRID_EMPTY" xml:space="preserve">
+    <value>Il n'y a pas de dossier pour enregistrer.</value>
+  </data>
+  <data name="SALES_PRINT_CAPTION" xml:space="preserve">
+    <value>Sales Voucher Détails</value>
+  </data>
+  <data name="SALES_QUANTITY_EMPTY" xml:space="preserve">
+    <value>Renseignements requis pas rempli, la quantité est vide</value>
+  </data>
+  <data name="SALES_RATE_EMPTY" xml:space="preserve">
+    <value>Renseignements requis pas rempli, Rate est vide</value>
+  </data>
+  <data name="SALES_VIEW" xml:space="preserve">
+    <value>Sales Voir</value>
+  </data>
+  <data name="SAME_UNIT_ERROR" xml:space="preserve">
+    <value>Impossible de sélectionner la première unité et la seconde unité même. S'il vous plaît sélectionner deuxième unité correctement.</value>
+  </data>
+  <data name="SAVED_PRINT_VOUCHER" xml:space="preserve">
+    <value>Enregistrement sauvegardé.  Voulez-vous imprimer ?</value>
+  </data>
+  <data name="SAVE_WITHOUT_DONOR" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir enregistrer sans les informations sur les donateurs parce que ces informations sont nécessaires pour la FCRA et les déclarations d'impôt sur le revenu ?</value>
+  </data>
+  <data name="SECONDUNIT_EMPTY" xml:space="preserve">
+    <value>La deuxième unité est vide.</value>
+  </data>
+  <data name="SELECT_ALL" xml:space="preserve">
+    <value>Tout sélectionner</value>
+  </data>
+  <data name="SELECT_ANYTDS_LEDGER" xml:space="preserve">
+    <value>Sélectionnez l'un quelconque des TDS Ledger</value>
+  </data>
+  <data name="SELECT_THE_PURPOSE_TYPE" xml:space="preserve">
+    <value>Sélectionnez le type de but (Cr/Dr).</value>
+  </data>
+  <data name="SELECT_VALID_FILE" xml:space="preserve">
+    <value>Sélectionner un fichier valide</value>
+  </data>
+  <data name="SERVICE_ADD_CAPTION" xml:space="preserve">
+    <value>Entretien/Service (Ajouter)</value>
+  </data>
+  <data name="SERVICE_EDIT_CAPTION" xml:space="preserve">
+    <value>Maintenance/Service (Editer)</value>
+  </data>
+  <data name="SERVICE_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom du service est vide.</value>
+  </data>
+  <data name="SERVICE_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails du service</value>
+  </data>
+  <data name="SETTING_APPLICATION_RESTART_CONFIRMATION" xml:space="preserve">
+    <value>L'application sera redémarrée pour appliquer les paramètres. Voulez-vous continuer?</value>
+  </data>
+  <data name="SETTING_BOOK_BEGINNING_EMPTY" xml:space="preserve">
+    <value>La date de début du livre est vide.</value>
+  </data>
+  <data name="SETTING_CURRENCY_CODE_INVALID" xml:space="preserve">
+    <value>Code de la devise invalide</value>
+  </data>
+  <data name="SETTING_CURRENCY_INVALID" xml:space="preserve">
+    <value>Symbole de devise non valide</value>
+  </data>
+  <data name="SETTING_CURRENCY__POSITION_INVALID" xml:space="preserve">
+    <value>Position de la devise invalide</value>
+  </data>
+  <data name="SETTING_DATE_FORMAT_INVALID" xml:space="preserve">
+    <value>Format de date non valide</value>
+  </data>
+  <data name="SETTING_DATE_SEPARATOR_INVALID" xml:space="preserve">
+    <value>Séparateur de date incorrecte</value>
+  </data>
+  <data name="SETTING_DECIMAL_PLACES_INVALID" xml:space="preserve">
+    <value>Décimales non valides</value>
+  </data>
+  <data name="SETTING_DECIMAL_PLACES_SEPARATOR_INVALID" xml:space="preserve">
+    <value>Séparateur de décimales non valide</value>
+  </data>
+  <data name="SETTING_DEFAULT_LANGUAGE_SET" xml:space="preserve">
+    <value>Langue par défaut : anglais</value>
+  </data>
+  <data name="SETTING_DIGIT_GROUPING_INVALID" xml:space="preserve">
+    <value>Groupement de chiffres non valide</value>
+  </data>
+  <data name="SETTING_DIGIT_GROUPING_SEPARATOR_INVALID" xml:space="preserve">
+    <value>Séparateur de groupe de chiffres non valide</value>
+  </data>
+  <data name="SETTING_FOREIGN_BANKACCOUNT" xml:space="preserve">
+    <value>Le compte bancaire étranger désigné n'est pas valide.</value>
+  </data>
+  <data name="SETTING_LANGUAGE_INVALID" xml:space="preserve">
+    <value>La langue est incorrecte</value>
+  </data>
+  <data name="SETTING_NEGATIVE_SIGN_INVALID" xml:space="preserve">
+    <value>Signe négatif non valide</value>
+  </data>
+  <data name="SETTING_RESTART_PREVIEW" xml:space="preserve">
+    <value>Cliquez sur Ok pour le définir pour l'ensemble de l'application.</value>
+  </data>
+  <data name="SETTING_SUCCESS" xml:space="preserve">
+    <value>Le paramètre a été appliqué avec succès.</value>
+  </data>
+  <data name="SETTING_TRANSACTION_FAILURE" xml:space="preserve">
+    <value>La période de transaction n'a pas été définie.</value>
+  </data>
+  <data name="SETTING__FAILURE" xml:space="preserve">
+    <value>Impossible d'appliquer les paramètres.</value>
+  </data>
+  <data name="SOCIETY_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom de la société est vide</value>
+  </data>
+  <data name="SOCIETY_REG_NO" xml:space="preserve">
+    <value>Le numéro d'enregistrement de la société est vide</value>
+  </data>
+  <data name="SOLD_TO_EMPTY" xml:space="preserve">
+    <value>Vendu à vide</value>
+  </data>
+  <data name="STARTDATE_LESSTHAN_INVESTMENTDATE" xml:space="preserve">
+    <value>La date de début du projet ne peut être inférieure à la date d'investissement.</value>
+  </data>
+  <data name="START_DATE_AND_CLOSED_DATE_DOES_NOT_FALL" xml:space="preserve">
+    <value>La date de début du projet et la date de clôture ne sont pas comprises dans la période comptable.</value>
+  </data>
+  <data name="START_DATE_EMPTY" xml:space="preserve">
+    <value>La date de début est vide</value>
+  </data>
+  <data name="STATE_ADD_CAPTION" xml:space="preserve">
+    <value>Etat (Ajouter)</value>
+  </data>
+  <data name="STATE_COUNTRY_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom du pays est vide</value>
+  </data>
+  <data name="STATE_DELETE" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="STATE_DELETE_SUCCESS" xml:space="preserve">
+    <value>L'enregistrement a été supprimé avec succès.</value>
+  </data>
+  <data name="STATE_EDIT_CAPTION" xml:space="preserve">
+    <value>État (éditer)</value>
+  </data>
+  <data name="STATE_NAME_EMPTY" xml:space="preserve">
+    <value>L'Etat est vide</value>
+  </data>
+  <data name="STATE_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails de l'Etat</value>
+  </data>
+  <data name="STATE_SAVE_FAILURE" xml:space="preserve">
+    <value>L'enregistrement n'est pas sauvegardé</value>
+  </data>
+  <data name="STATE_SAVE_SUCCESS" xml:space="preserve">
+    <value>L'enregistrement a été sauvegardé avec succès</value>
+  </data>
+  <data name="STOCKCATEGORY_VIEW_CAPTION" xml:space="preserve">
+    <value>Stock Catégorie</value>
+  </data>
+  <data name="STOCKGROUP_VIEW_CAPTION" xml:space="preserve">
+    <value>Stock Group</value>
+  </data>
+  <data name="STOCK_ADD_CAPTION" xml:space="preserve">
+    <value>Stock (Ajouter)</value>
+  </data>
+  <data name="STOCK_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Information obligatoire est pas rempli, le montant total est vide</value>
+  </data>
+  <data name="STOCK_CATEGORY_EMPTY" xml:space="preserve">
+    <value>Catégorie est vide</value>
+  </data>
+  <data name="STOCK_EDIT_CAPTION" xml:space="preserve">
+    <value>Stock (Edit)</value>
+  </data>
+  <data name="STOCK_GROUP_EMPTY" xml:space="preserve">
+    <value>Groupe est vide</value>
+  </data>
+  <data name="STOCK_INVALID_GRID_ENTRY" xml:space="preserve">
+    <value>Remplissez tous les champs.</value>
+  </data>
+  <data name="STOCK_ITEM_EMPTY" xml:space="preserve">
+    <value>Information obligatoire est pas rempli, le nom d'objet est vide</value>
+  </data>
+  <data name="STOCK_LEDGER_EMPTY" xml:space="preserve">
+    <value>Information obligatoire est pas rempli, Trésorerie / Banque est vide</value>
+  </data>
+  <data name="STOCK_LOCATION_EMPTY" xml:space="preserve">
+    <value>Les informations obligatoires ne sont pas remplis, l'emplacement est vide</value>
+  </data>
+  <data name="STOCK_NAME_EMPTY" xml:space="preserve">
+    <value>Nom est vide</value>
+  </data>
+  <data name="STOCK_NO_ITEM_ROWS" xml:space="preserve">
+    <value>informations requried est pas rempli</value>
+  </data>
+  <data name="STOCK_PRINT_CAPTION" xml:space="preserve">
+    <value>Stock Détails</value>
+  </data>
+  <data name="STOCK_PURCHASE_QUANTITY_ZERO" xml:space="preserve">
+    <value>Quantité ne doit pas être inférieur à zéro</value>
+  </data>
+  <data name="STOCK_PURCHASE_RETURN_ADD" xml:space="preserve">
+    <value>Achat retour (Ajouter)</value>
+  </data>
+  <data name="STOCK_PURCHASE_RETURN_EDIT" xml:space="preserve">
+    <value>Achat retour (Edit)</value>
+  </data>
+  <data name="STOCK_QUANTITY_EMPTY" xml:space="preserve">
+    <value>Stock Quantité est vide.</value>
+  </data>
+  <data name="STOCK_QUANTITY_EXCEEDS" xml:space="preserve">
+    <value>Quantité dépasse la quantité disponible</value>
+  </data>
+  <data name="STOCK_RATE_PER_ITEM" xml:space="preserve">
+    <value>Stock par article est vide.</value>
+  </data>
+  <data name="STOCK_REGISTER" xml:space="preserve">
+    <value>Stock Register</value>
+  </data>
+  <data name="STOCK_RETURN_PRINT_CAPTION" xml:space="preserve">
+    <value>Achat Retour Détails</value>
+  </data>
+  <data name="STOCK_RETURN_TYPE_EMPTY" xml:space="preserve">
+    <value>Information obligatoire est pas rempli, le type de retour est vide</value>
+  </data>
+  <data name="STOCK_TOTAL_AMOUTN_EMPTY" xml:space="preserve">
+    <value>Information obligatoire est pas rempli, le type de retour est vide</value>
+  </data>
+  <data name="STOCK_TRANSFER_ADD_CAPTION" xml:space="preserve">
+    <value>Trasnsfer (Ajouter)</value>
+  </data>
+  <data name="STOCK_TRANSFER_DATE_EMPTY" xml:space="preserve">
+    <value>date de transfert est vide.</value>
+  </data>
+  <data name="STOCK_TRANSFER_EDIT_CAPTION" xml:space="preserve">
+    <value>Transfert (Edit)</value>
+  </data>
+  <data name="STOCK_TRANSFER_FROM_TO_LOCATION_SAME" xml:space="preserve">
+    <value>De Localisation et ToLocation ne peut pas être le même</value>
+  </data>
+  <data name="STOCK_TRANSFER_QTY_ZERO" xml:space="preserve">
+    <value>Quantité de Transfert ne peut pas être zéro.</value>
+  </data>
+  <data name="STOCK_UNIT_EMPTY" xml:space="preserve">
+    <value>Unité est vide</value>
+  </data>
+  <data name="STOCK_UNIT_PRICE_EMPTY" xml:space="preserve">
+    <value>Information obligatoire est pas rempli, le prix unitaire est vide</value>
+  </data>
+  <data name="STOCK_VENDOR_EMPTY" xml:space="preserve">
+    <value>Information obligatoire est pas rempli, le nom du vendeur est vide</value>
+  </data>
+  <data name="SUCCESS_MESSAGE" xml:space="preserve">
+    <value>Tally vers AcME ERP importé avec succès</value>
+  </data>
+  <data name="SYMBOL_EMPTY" xml:space="preserve">
+    <value>UoM est vide.</value>
+  </data>
+  <data name="TAX_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Le montant de la taxe est vide.</value>
+  </data>
+  <data name="TAX_AMOUNT_EXCEEDS" xml:space="preserve">
+    <value>Le montant de la remise dépasse le montant de l'achat</value>
+  </data>
+  <data name="TDSPAYMENTS" xml:space="preserve">
+    <value>Paiements TDS</value>
+  </data>
+  <data name="TDS_ADD" xml:space="preserve">
+    <value>TDS Ledger (Add)</value>
+  </data>
+  <data name="TDS_AMOUNT" xml:space="preserve">
+    <value>TDS Expense Ledger Montant est vide</value>
+  </data>
+  <data name="TDS_AMOUNT_LESS_VALIDATION" xml:space="preserve">
+    <value>Party Ledger montant ne peut être inférieur à Expense Ledger Montant</value>
+  </data>
+  <data name="TDS_AMOUNT_VALIDATION" xml:space="preserve">
+    <value>Évaluer le montant ne peut être supérieur à Expense Ledger Montant</value>
+  </data>
+  <data name="TDS_AMOUNT_VERIFICATION" xml:space="preserve">
+    <value>Voulez-vous corriger la valeur?</value>
+  </data>
+  <data name="TDS_APPLICABLE_FROM_EMPTY" xml:space="preserve">
+    <value>Applicable De ne doit pas être vide</value>
+  </data>
+  <data name="TDS_BALANCE" xml:space="preserve">
+    <value>TDS Solde</value>
+  </data>
+  <data name="TDS_BOOKING_DATE" xml:space="preserve">
+    <value>TDS Date de réservation est vide</value>
+  </data>
+  <data name="TDS_CODE_EMPTY" xml:space="preserve">
+    <value>Le code est vide</value>
+  </data>
+  <data name="TDS_CONFIRM_DELETE_POLICY_DEFINED" xml:space="preserve">
+    <value>Voulez-vous effacer les valeurs?</value>
+  </data>
+  <data name="TDS_DATE_DUPLICATE" xml:space="preserve">
+    <value>L'entrée est déjà disponible pour la date donnée pour la Nature des paiements</value>
+  </data>
+  <data name="TDS_DEDUCTEETYPES_ADD_CAPTION" xml:space="preserve">
+    <value>Types cotisante (Ajouter)</value>
+  </data>
+  <data name="TDS_DEDUCTEETYPES_EDIT_CAPTION" xml:space="preserve">
+    <value>Types cotisante (Éditer)</value>
+  </data>
+  <data name="TDS_DEDUCTEETYPES_PRINT_CAPTION" xml:space="preserve">
+    <value>Cotisante Détails Type</value>
+  </data>
+  <data name="TDS_DEDUCTEE_NAME_EMPTY" xml:space="preserve">
+    <value>Cotisante Nom est vide.</value>
+  </data>
+  <data name="TDS_DEDUCTEE_TYPE_EMPTY" xml:space="preserve">
+    <value>Cotisante type est pas sélectionné</value>
+  </data>
+  <data name="TDS_DEDUCT_TYPE" xml:space="preserve">
+    <value>Déduire type est vide</value>
+  </data>
+  <data name="TDS_DUTY_TAX_ADD_CAPTION" xml:space="preserve">
+    <value>Tax Duty (Ajouter)</value>
+  </data>
+  <data name="TDS_DUTY_TAX_EDIT_CAPTION" xml:space="preserve">
+    <value>Tax Duty (Éditer)</value>
+  </data>
+  <data name="TDS_DUTY_TAX_NAME_EMPTY" xml:space="preserve">
+    <value>Nom de l'impôt est vide.</value>
+  </data>
+  <data name="TDS_DUTY_TAX_PRINT_CAPTION" xml:space="preserve">
+    <value>Duty Détails Tax</value>
+  </data>
+  <data name="TDS_EDIT" xml:space="preserve">
+    <value>TDS Ledger (Edit)</value>
+  </data>
+  <data name="TDS_EXPENSE_LEDGER_EMPTY" xml:space="preserve">
+    <value>TDS Expense Ledger est vide</value>
+  </data>
+  <data name="TDS_GRID_EMPTY" xml:space="preserve">
+    <value>Faire TDS Réservation Détail de la dépense sélectionnée Ledger Party Ledger</value>
+  </data>
+  <data name="TDS_LEDGER_ADD_CAPTION" xml:space="preserve">
+    <value>TDS Ledger (Add)</value>
+  </data>
+  <data name="TDS_LEDGER_EDIT_CAPTION" xml:space="preserve">
+    <value>TDS Ledger (Edit)</value>
+  </data>
+  <data name="TDS_NAME_EMPTY" xml:space="preserve">
+    <value>Nom est vide</value>
+  </data>
+  <data name="TDS_NATUREOFPAYEMNTS_SECTION_EMPTY" xml:space="preserve">
+    <value>Section est Empty.Please ajouter la section.</value>
+  </data>
+  <data name="TDS_NATUREOFPAYMENTS_SECTION_EMPTYADD" xml:space="preserve">
+    <value>S'il vous plaît ajouter le TDS_SECTION premier.</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_ADD_CAPTION" xml:space="preserve">
+    <value>Nature des paiements (Ajouter)</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_EDIT_CAPTION" xml:space="preserve">
+    <value>Nature des paiements (Edit)</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_PAYMENT_CODE_EMPTY" xml:space="preserve">
+    <value>Code de paiement est vide.</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_PAYMENT_NAME_EMPTY" xml:space="preserve">
+    <value>Paiement Nom est vide.</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_PRINT_CAPTION" xml:space="preserve">
+    <value>Nature des détails de paiement</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_SECTION_CODE_EMPTY" xml:space="preserve">
+    <value>Section est vide.</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_SECTION_NAME_EMPTY" xml:space="preserve">
+    <value>Nom de la section est vide.</value>
+  </data>
+  <data name="TDS_NATURE_OF_PAYMENT_EMPTY" xml:space="preserve">
+    <value>Nature du paiement n'a pas été sélectionné</value>
+  </data>
+  <data name="TDS_PARTY_LEDGER_EMPTY" xml:space="preserve">
+    <value>TDS Party Ledger est emtpy</value>
+  </data>
+  <data name="TDS_PARTY_PAYMENT_CAPTION" xml:space="preserve">
+    <value>Paiement TDS Party</value>
+  </data>
+  <data name="TDS_PAYMENT_AMOUNT_VALIDATION" xml:space="preserve">
+    <value>TDS Montant du paiement dépasse le montant réel</value>
+  </data>
+  <data name="TDS_PAYMENT_CAPTION" xml:space="preserve">
+    <value>TDS Paiement</value>
+  </data>
+  <data name="TDS_PAYMENT_PRINT" xml:space="preserve">
+    <value>TDS Détails de paiement</value>
+  </data>
+  <data name="TDS_PENDING_TRANS_CONFIRMATION" xml:space="preserve">
+    <value>Record est non disponible</value>
+  </data>
+  <data name="TDS_POLICY_NATURE_OF_PAYMENT_EMPTY" xml:space="preserve">
+    <value>Sélectionnez la Nature des paiements.</value>
+  </data>
+  <data name="TDS_PRINT_CAPTION" xml:space="preserve">
+    <value>TDS Réservation</value>
+  </data>
+  <data name="TDS_SAVE_SUCCESS" xml:space="preserve">
+    <value>Enregistré</value>
+  </data>
+  <data name="TDS_SECTION_ADD_CAPTION" xml:space="preserve">
+    <value>Section TDS (Ajouter)</value>
+  </data>
+  <data name="TDS_SECTION_EDIT_CAPTION" xml:space="preserve">
+    <value>Section TDS (Éditer)</value>
+  </data>
+  <data name="TDS_SELECT_EMPTY" xml:space="preserve">
+    <value>Sélectionnez l'enregistrement</value>
+  </data>
+  <data name="TDS_TAX_TYPE_NOT_EXISTS" xml:space="preserve">
+    <value>Type d'impôt n'existe</value>
+  </data>
+  <data name="TDS_TRASN_DEDUCTEE_TYPE_EMPTY" xml:space="preserve">
+    <value>type Deductor est ne peut pas être vide</value>
+  </data>
+  <data name="TDS_VOUCHER_NUMBER_EMPTY" xml:space="preserve">
+    <value>TDS Nombre Voucher est vide</value>
+  </data>
+  <data name="TO_DOUBLE_ENTRY" xml:space="preserve">
+    <value>vers Saisie multiple</value>
+  </data>
+  <data name="TO_SINGLE_ENTRY" xml:space="preserve">
+    <value>vers Saisie simple</value>
+  </data>
+  <data name="TRANSACTION_AMOUNT_EXCEEDS" xml:space="preserve">
+    <value>Le montant de la transaction dépasse le montant prévu</value>
+  </data>
+  <data name="TRANSACTION_AMOUNT_NOT_EQUAL_ACTUAL_AMOUNT" xml:space="preserve">
+    <value>La transaction ne correspond pas au montant réel.</value>
+  </data>
+  <data name="TRANSACTION_BANK_LEDGER" xml:space="preserve">
+    <value>Grand livre de banque</value>
+  </data>
+  <data name="TRANSACTION_CASH_LEDGER" xml:space="preserve">
+    <value>Grand livre de caisse</value>
+  </data>
+  <data name="TRANSACTION_EXISTS" xml:space="preserve">
+    <value>Le compte bancaire ne peut pas être changé car la transaction existe pour le compte bancaire.</value>
+  </data>
+  <data name="TRANSACTION_FD" xml:space="preserve">
+    <value>Le solde OP ne peut pas être défini et ne peut pas être annulé pour le dépôt fixe.</value>
+  </data>
+  <data name="TRANSACTION_FD_LEDGER" xml:space="preserve">
+    <value>Compte Dépôt Fixe</value>
+  </data>
+  <data name="TRANSACTION_MADE_CANT_UNMAP" xml:space="preserve">
+    <value>Une transaction a été effectuée pour ce grand livre, elle ne peut Une transaction a été effectuée pour ce grand livre, elle ne peut pas être dissociée.</value>
+  </data>
+  <data name="TRANSACTION_MADE_LEDGER" xml:space="preserve">
+    <value>La transaction est faite pour ce grand livre, ne peut pas être supprimée.</value>
+  </data>
+  <data name="TRANSACTION_MADE_SOME_LEDGER_CANT_UNMAP" xml:space="preserve">
+    <value>La transaction est faite pour un ou plusieurs grand(s) livre(s), elle ne peut pas être dissociée.</value>
+  </data>
+  <data name="TRANSACTION_MOVE_GREATER_THAN_ONE" xml:space="preserve">
+    <value>Au moins un projet doit être sélectionné pour déplacer la transaction</value>
+  </data>
+  <data name="TRANSACTION_MOVE_SUCCESS" xml:space="preserve">
+    <value>Transaction effectuée avec succès</value>
+  </data>
+  <data name="TRANSACTION_PERIOD_SET_EMPTY" xml:space="preserve">
+    <value>La période de transaction n'est pas encore créée ou n'est pas active. Voulez-vous créer la période de transaction maintenant ou la rendre active ?</value>
+  </data>
+  <data name="TRANSFER_ADD_CAPTION" xml:space="preserve">
+    <value>Transfert d'actifs</value>
+  </data>
+  <data name="TRANSFER_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Montant est vide.</value>
+  </data>
+  <data name="TRANSFER_ASSETITEM_EMPTY" xml:space="preserve">
+    <value>Asset article est vide.</value>
+  </data>
+  <data name="TRANSFER_DATE_EMPTY" xml:space="preserve">
+    <value>La date est vide.</value>
+  </data>
+  <data name="TRANSFER_DATE_FUTURE" xml:space="preserve">
+    <value>date de transfert ne peut pas être à l'avenir.</value>
+  </data>
+  <data name="TRANSFER_EDIT_CAPTION" xml:space="preserve">
+    <value>Asset Transfer (Edit)</value>
+  </data>
+  <data name="TRANSFER_FROMLOCATION_EMPTY" xml:space="preserve">
+    <value>De L'emplacement est vide.</value>
+  </data>
+  <data name="TRANSFER_FROMLOCATION_GRID_EMPTY" xml:space="preserve">
+    <value>Pour Localisation grille est vide.</value>
+  </data>
+  <data name="TRANSFER_FROM_TO_SAME" xml:space="preserve">
+    <value>Du projet et l'emplacement est de même pour projet et l'emplacement</value>
+  </data>
+  <data name="TRANSFER_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails de transfert</value>
+  </data>
+  <data name="TRANSFER_REFRENCENO_EMPTY" xml:space="preserve">
+    <value>N ° de référence est vide.</value>
+  </data>
+  <data name="TRANSFER_TOLOCATION_EMPTY" xml:space="preserve">
+    <value>Pour L'emplacement est vide.</value>
+  </data>
+  <data name="TRANSFER_TOLOCATION_GRID_EMPTY" xml:space="preserve">
+    <value>De Situation grille est vide.</value>
+  </data>
+  <data name="TRANS_DATE" xml:space="preserve">
+    <value>La date de fin ne peut être inférieure à la date de début.</value>
+  </data>
+  <data name="TYPE" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="TYPE_EMPTY" xml:space="preserve">
+    <value>Type de vide.</value>
+  </data>
+  <data name="UNITOFMEASSURE_PRINT_CAPTION" xml:space="preserve">
+    <value>UoM Détails</value>
+  </data>
+  <data name="UNITOFMEASSURE_TYPE_EMPTY" xml:space="preserve">
+    <value>Type de vide.</value>
+  </data>
+  <data name="UNIT_OF_MEASURE_ADD" xml:space="preserve">
+    <value>UoM (Ajouter)</value>
+  </data>
+  <data name="UNIT_OF_MEASURE_EDIT" xml:space="preserve">
+    <value>UoM (Edit)</value>
+  </data>
+  <data name="UNMAP_CASH_LEDGER" xml:space="preserve">
+    <value>Le grand livre ne peut pas être dissocié.</value>
+  </data>
+  <data name="UNSELECT_ALL" xml:space="preserve">
+    <value>Tout déselectionner</value>
+  </data>
+  <data name="UPDATING_BALANCE" xml:space="preserve">
+    <value>Mise à jour de la balance ......</value>
+  </data>
+  <data name="USERROLE_CAPTION" xml:space="preserve">
+    <value>Rôle de l'utilisateur</value>
+  </data>
+  <data name="USERROLE_DELETE" xml:space="preserve">
+    <value>Vous n'avez pas l'autorisation de supprimer ce rôle d'utilisateur.</value>
+  </data>
+  <data name="USERROLE_EMPTY" xml:space="preserve">
+    <value>Le rôle de l'utilisateur est vide.</value>
+  </data>
+  <data name="USERROLE_EXITS" xml:space="preserve">
+    <value>Le rôle de l'utilisateur est déjà disponible.</value>
+  </data>
+  <data name="USERROLE_NAME" xml:space="preserve">
+    <value>Administrateur</value>
+  </data>
+  <data name="USER_ADD_CAPTION" xml:space="preserve">
+    <value>Utilisateur (Ajouter)</value>
+  </data>
+  <data name="USER_CHANGE_PASSWORD" xml:space="preserve">
+    <value>Changer le mot de passe</value>
+  </data>
+  <data name="USER_CONFIRM_PASSWORD_EMPTY" xml:space="preserve">
+    <value>Confirmer le mot de passe est vide.</value>
+  </data>
+  <data name="USER_CURRENT_PASSWORD_EMPTY" xml:space="preserve">
+    <value>Le mot de passe actuel est vide.</value>
+  </data>
+  <data name="USER_CURRENT_PASSWORD_FAIL" xml:space="preserve">
+    <value>Le mot de passe actuel n'est pas correct.</value>
+  </data>
+  <data name="USER_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="USER_EDIT_CAPTION" xml:space="preserve">
+    <value>Utilisateur (éditer)</value>
+  </data>
+  <data name="USER_FIRST_NAME_EMPTY" xml:space="preserve">
+    <value>Le prénom est vide.</value>
+  </data>
+  <data name="USER_FORGOT_PASSWORD" xml:space="preserve">
+    <value>Mot de passe oublié</value>
+  </data>
+  <data name="USER_INVALID" xml:space="preserve">
+    <value>Nom d'utilisateur ou mot de passe est invalide</value>
+  </data>
+  <data name="USER_LOGIN" xml:space="preserve">
+    <value>Page Title ::Connexion de l'utilisateur</value>
+  </data>
+  <data name="USER_LOGIN_SUCCESS" xml:space="preserve">
+    <value>Succès de la connexion</value>
+  </data>
+  <data name="USER_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom d'utilisateur est vide.</value>
+  </data>
+  <data name="USER_NEW_PASSWORD_EMPTY" xml:space="preserve">
+    <value>Le nouveau mot de passe est vide.</value>
+  </data>
+  <data name="USER_NEW_PASSWORD_MISMATCH" xml:space="preserve">
+    <value>Le nouveau mot de passe et le mot de passe de confirmation ne correspondent pas.</value>
+  </data>
+  <data name="USER_PASSWORD_EMPTY" xml:space="preserve">
+    <value>Le mot de passe est vide.</value>
+  </data>
+  <data name="USER_PASSWORD_UNMATCHED" xml:space="preserve">
+    <value>Le mot de passe est incorrect.</value>
+  </data>
+  <data name="USER_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails de l'utilisateur</value>
+  </data>
+  <data name="USER_RESET_PASSWORD_SUCCESS" xml:space="preserve">
+    <value>Le mot de passe a été réinitialisé.</value>
+  </data>
+  <data name="USER_RIGHTS_RESTART_CONFIRM" xml:space="preserve">
+    <value>Les droits de l'utilisateur sont définis pour le rôle sélectionné.</value>
+  </data>
+  <data name="USER_ROLE_ADD_CAPTION" xml:space="preserve">
+    <value>Rôle d'utilisateur (Ajouter)</value>
+  </data>
+  <data name="USER_ROLE_DELETE_FAILS" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer ce rôle d'utilisateur</value>
+  </data>
+  <data name="USER_ROLE_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="USER_ROLE_EDIT_CAPTION" xml:space="preserve">
+    <value>Rôle d'utilisateur (éditer)</value>
+  </data>
+  <data name="USER_ROLE_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails du rôle d'utilisateur</value>
+  </data>
+  <data name="USER_ROLE_SAVE_SUCCESS" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="USER_SAVED_SUCCESS" xml:space="preserve">
+    <value>Enregistré</value>
+  </data>
+  <data name="USER_SESSIONEXPIRY_INVALID" xml:space="preserve">
+    <value>Session expirée / Utilisateur non valide</value>
+  </data>
+  <data name="USER_VIEW" xml:space="preserve">
+    <value>Vue de l'utilisateur</value>
+  </data>
+  <data name="UTILIZE_CAPTION" xml:space="preserve">
+    <value>Utiliser</value>
+  </data>
+  <data name="VALIDATE_ACCOUNTING_YEAR" xml:space="preserve">
+    <value>La date de début et de fin du projet ne correspond pas à la période de transaction. Veuillez modifier la date de début et de fin du projet et réessayer.</value>
+  </data>
+  <data name="VALIDATE_DUE_DATE" xml:space="preserve">
+    <value>L'enregistrement est disponible pour cette date</value>
+  </data>
+  <data name="VENDOR_ADD_CAPTION" xml:space="preserve">
+    <value>Vendor (Ajouter)</value>
+  </data>
+  <data name="VENDOR_EDIT_CAPTION" xml:space="preserve">
+    <value>Vendor (Edit)</value>
+  </data>
+  <data name="VENDOR_NAME_EMPTY" xml:space="preserve">
+    <value>Nom est vide.</value>
+  </data>
+  <data name="VENDOR_NOT_AVAIL" xml:space="preserve">
+    <value>détails Vendeur ne sont pas disponibles.</value>
+  </data>
+  <data name="VENDOR_VIEW_CAPTION" xml:space="preserve">
+    <value>Vendeur</value>
+  </data>
+  <data name="VOUCHER" xml:space="preserve">
+    <value>bon d'achat</value>
+  </data>
+  <data name="VOUCHER_ADD_CAPTION" xml:space="preserve">
+    <value>Bon d'achat (Ajouter)</value>
+  </data>
+  <data name="VOUCHER_AMOUNT_LESS_THAN_ZERO" xml:space="preserve">
+    <value>Le montant ne peut être inférieur à zéro.</value>
+  </data>
+  <data name="VOUCHER_AMOUNT_MISMATCH" xml:space="preserve">
+    <value>Non concordance des montants</value>
+  </data>
+  <data name="VOUCHER_CANNOT_DELETE_ASSOCIATION_OCCURS" xml:space="preserve">
+    <value>Impossible à supprimer, il est associé à Dépôt Fixe Renouvellement / Retrait</value>
+  </data>
+  <data name="VOUCHER_CANNOT_DELETE_FD_RECEIPT_ENTRY" xml:space="preserve">
+    <value>Impossible de supprimer, il s'agit d'une entrée de bon de réception FD fermée.</value>
+  </data>
+  <data name="VOUCHER_CANNOT_EDIT_FD_CONTRA_ENTRY" xml:space="preserve">
+    <value>Impossible de modifier, fermeture FD Contre-entrée du Bon</value>
+  </data>
+  <data name="VOUCHER_CANNOT_EDIT_FD_RECEIPT_ENTRY" xml:space="preserve">
+    <value>Ne peut pas être modifié, fermeture d’un bon d’entrée de réception</value>
+  </data>
+  <data name="VOUCHER_CASHBANK_MAPPING_TO_PROJECT" xml:space="preserve">
+    <value>Les grands livres de caisse/banque ne sont pas associés à ce projet.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_ALLOCATION_AMOUNT_GREATER" xml:space="preserve">
+    <value>Le montant de l'allocation est supérieur au montant du centre de coûts.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_ALLOCATION_AMOUNT_LESS" xml:space="preserve">
+    <value>Le montant de la répartition est inférieur au montant total du centre de coûts.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Le montant est vide.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_DELETED_SUCCESSFULLY" xml:space="preserve">
+    <value>Le centre de coût du bon est supprimé.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_NAME_EMPTY" xml:space="preserve">
+    <value>Le centre de coût est vide.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_NAME_EXIST" xml:space="preserve">
+    <value>Le nom existe déjà.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_SAVED_SUCCESSFULLY" xml:space="preserve">
+    <value>Le bon du Centre de coût est sauvegardé.</value>
+  </data>
+  <data name="VOUCHER_DATE_LICENSE_PERIOD_VALIDATION" xml:space="preserve">
+    <value>Vous n'êtes pas autorisé à faire une entrée pour une période de licence expirée/future.</value>
+  </data>
+  <data name="VOUCHER_DEFAULT_CANNOT_DELETE" xml:space="preserve">
+    <value>Les bons par défaut ne peuvent pas être supprimés</value>
+  </data>
+  <data name="VOUCHER_DELETE" xml:space="preserve">
+    <value>Le bon est supprimé.</value>
+  </data>
+  <data name="VOUCHER_EDIT_CAPTION" xml:space="preserve">
+    <value>Bon (éditer)</value>
+  </data>
+  <data name="VOUCHER_ENTRY" xml:space="preserve">
+    <value>Entrée</value>
+  </data>
+  <data name="VOUCHER_FD_REALIZE_CONFIRMATION" xml:space="preserve">
+    <value>Le dépôt fixe n'est pas encore échu. Voulez-vous le realiser ?</value>
+  </data>
+  <data name="VOUCHER_IS_LOCKED" xml:space="preserve">
+    <value>Le bon est bloqué, il n'est pas possible de créer un bon pour le projet.</value>
+  </data>
+  <data name="VOUCHER_IS_LOCKED_CANNOT_DELETE" xml:space="preserve">
+    <value>Bon est locked.Cannot supprimer bon pour le projet</value>
+  </data>
+  <data name="VOUCHER_IS_LOCKED_CANNOT_EDIT" xml:space="preserve">
+    <value>Le bon est bloqué. Impossible de modifier le bon pour le projet.</value>
+  </data>
+  <data name="VOUCHER_IS_LOCKED_CANNOT_MOVE" xml:space="preserve">
+    <value>Le bon est verrouillé.ne peut pas déplacer le bon pour le projet</value>
+  </data>
+  <data name="VOUCHER_IS_LOCKED_CANNOT_PRINT" xml:space="preserve">
+    <value>Le bon est verrouillé.ne peut pas imprimer le bon pour le projet</value>
+  </data>
+  <data name="VOUCHER_LEDGER_MAPPING_TO_PROJECT" xml:space="preserve">
+    <value>Le(s) grand(s) livre(s) n'est (ne sont) pas associé(s) à ce projet.</value>
+  </data>
+  <data name="VOUCHER_METHOD_EMPTY" xml:space="preserve">
+    <value>La méthode du bon est vide.</value>
+  </data>
+  <data name="VOUCHER_METHOD_MANUAL" xml:space="preserve">
+    <value>La méthode du bon est manuelle pour le projet.</value>
+  </data>
+  <data name="VOUCHER_MOVE_TRANSACTION_SELECTION_EMPTY" xml:space="preserve">
+    <value>Aucune transaction n'est sélectionnée pour être déplacée</value>
+  </data>
+  <data name="VOUCHER_MULTY_ENTRY_CHECK" xml:space="preserve">
+    <value>Voulez-vous utiliser la saisie multiple ?</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_CASH_TRANSACTION_AMOUNT" xml:space="preserve">
+    <value>Le montant est vide.</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_CASH_TRANSACTION_LEDGER" xml:space="preserve">
+    <value>Sélectionner le(s) livre(s) de caisse/banque.</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_TRANSACTION_AMOUNT" xml:space="preserve">
+    <value>Le montant est vide.</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_TRANSACTION_LEDGER" xml:space="preserve">
+    <value>Sélectionner le grand livre.</value>
+  </data>
+  <data name="VOUCHER_MULTY_PAYMENT_CONFIRM" xml:space="preserve">
+    <value>Il s'agit d'un registre du grand livre. Voulez-vous l'accepter dans le bon de paiement ?</value>
+  </data>
+  <data name="VOUCHER_MULTY_RECEIPT_CONFIRM" xml:space="preserve">
+    <value>Il s'agit d'un livre de dépenses. Voulez-vous l'accepter dans le bon de réception ?</value>
+  </data>
+  <data name="VOUCHER_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom de la pièce justificative est vide.</value>
+  </data>
+  <data name="VOUCHER_NAME_EXISTS" xml:space="preserve">
+    <value>Le nom du bon existe déjà. Veuillez réessayer.</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_BANK" xml:space="preserve">
+    <value>Solde négatif en banque</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_CASH" xml:space="preserve">
+    <value>Solde négatif en espèces</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_CASHBANK" xml:space="preserve">
+    <value>Solde négatif en espèces, en banque et en dépôt fixe</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_FD" xml:space="preserve">
+    <value>Solde négatif en dépôt fixe</value>
+  </data>
+  <data name="VOUCHER_NO_RECORD" xml:space="preserve">
+    <value>Aucun enregistrement à sauvegarder</value>
+  </data>
+  <data name="VOUCHER_NUMBER_EMPTY" xml:space="preserve">
+    <value>Le numéro du bon est vide.</value>
+  </data>
+  <data name="VOUCHER_NUMBER_FORMAT_IS_MANUAL" xml:space="preserve">
+    <value>Le format du numéro de titre actif est manuel pour</value>
+  </data>
+  <data name="VOUCHER_PRINT_CAPTION" xml:space="preserve">
+    <value>Liste des bons</value>
+  </data>
+  <data name="VOUCHER_REGENERATE_SELECT_PROJECT" xml:space="preserve">
+    <value>Sélectionner un projet pour régénérer le bon</value>
+  </data>
+  <data name="VOUCHER_REGENERATION_FAILS" xml:space="preserve">
+    <value>La régénération a échoué. La méthode du bon actif est Manuel pour le projet</value>
+  </data>
+  <data name="VOUCHER_REGENERATION_SUCCESS" xml:space="preserve">
+    <value>Régénéré</value>
+  </data>
+  <data name="VOUCHER_SAVE" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="VOUCHER_SUCCESS" xml:space="preserve">
+    <value>Enregistré</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_CHANGE_TYPE" xml:space="preserve">
+    <value>Etes-vous sûr de vouloir changer le type de transaction ?</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_CONTRA" xml:space="preserve">
+    <value>Contra-bon</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_CONTRA_CHANGE_TYPE" xml:space="preserve">
+    <value>Les enregistrements seront effacés. Etes-vous sûr de vouloir changer le type de transaction ?</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_DATE" xml:space="preserve">
+    <value>La date de transaction est vide</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_PAYMENT" xml:space="preserve">
+    <value>Bon  - Paiement</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_RECEIPT" xml:space="preserve">
+    <value>Bon  - Reçu</value>
+  </data>
+  <data name="VOUCHER_TRANS_DATETO_MISMATCH" xml:space="preserve">
+    <value>La date de début ne doit pas être inférieure à la date de fin.</value>
+  </data>
+  <data name="VOUCHER_TYPE_EMPTY" xml:space="preserve">
+    <value>Le type de bon est vide</value>
+  </data>
+  <data name="VOUCHER_TYPE_NO_SELECTION" xml:space="preserve">
+    <value>Le type de bon n'est pas sélectionné</value>
+  </data>
+  <data name="VOUCHER_VALID_AMOUNT" xml:space="preserve">
+    <value>Le montant est supérieur au montant de l'imputation des coûts.</value>
+  </data>
+  <data name="VOUCHER_VIEW" xml:space="preserve">
+    <value>Vue</value>
+  </data>
+  <data name="WANT_TO_PROCEED" xml:space="preserve">
+    <value>Voulez-vous continuer ?</value>
+  </data>
+  <data name="WITHDRAW" xml:space="preserve">
+    <value>Retirer</value>
+  </data>
+  <data name="WITHDRAWAL" xml:space="preserve">
+    <value>Retrait</value>
+  </data>
+  <data name="WITHDRAW_AMOUNT" xml:space="preserve">
+    <value>Montant du retrait</value>
+  </data>
+  <data name="WITHDRAW_DATE_GREATER_THAN_CREATED_DATE" xml:space="preserve">
+    <value>La date de retrait doit être supérieure à la date du dernier renouvellement/de la dernière création</value>
+  </data>
+  <data name="WITHDRAW_DATE_GREATER_THAN_RENEWAL_DATE" xml:space="preserve">
+    <value>La date de retrait doit être supérieure à la date du dernier renouvellement.</value>
+  </data>
+  <data name="WITHDRAW_VIEW_NO_RECORD" xml:space="preserve">
+    <value>Aucun enregistrement n'est disponible pour le retrait</value>
+  </data>
+  <data name="WITHOUT_TRANS" xml:space="preserve">
+    <value>Il n'y a pas de transaction disponible pour import.Do que vous souhaitez importer?</value>
+  </data>
+  <data name="YES_KEYDOWN" xml:space="preserve">
+    <value>Oui KeyDown</value>
+  </data>
+  <data name="AUDIT_LOCK_TYPE_VIEW_CAPTION" xml:space="preserve">
+    <value>type de verrou</value>
+  </data>
+  <data name="DASHBOARD_TICKET_STATUS" xml:space="preserve">
+    <value>Statut du billet</value>
+  </data>
+  <data name="MODULE_FINANCE_TITLE" xml:space="preserve">
+    <value>Finances</value>
+  </data>
+  <data name="MODULE_DATA_UTILITY_TITLE" xml:space="preserve">
+    <value>Utilitaires</value>
+  </data>
+  <data name="MODULE_STATUTORY_TITTLE" xml:space="preserve">
+    <value>Statutaire</value>
+  </data>
+  <data name="COMMON_EXIT_APPLICATION" xml:space="preserve">
+    <value>Voulez-vous quitter l'application ?</value>
+  </data>
+  <data name="COMMON_LICENSE_PERIOD" xml:space="preserve">
+    <value>Période de licence :</value>
+  </data>
+  <data name="COMMON_LICENSE_TO_INFO" xml:space="preserve">
+    <value>à</value>
+  </data>
+  <data name="TICKET_STATUS_CAPTION" xml:space="preserve">
+    <value>Statut du billet</value>
+  </data>
+  <data name="DASH_REC_PAY_CAP" xml:space="preserve">
+    <value>Recettes et paiements du mois</value>
+  </data>
+  <data name="ACCOUNTING_SET_YEAR_VALIDATION" xml:space="preserve">
+    <value>La période de transaction est lancée</value>
+  </data>
+  <data name="ACMEERP_UP_TO_DATE" xml:space="preserve">
+    <value>Acme.erp est à jour</value>
+  </data>
+  <data name="ACMEERP_UP_TO_DATE_INFO" xml:space="preserve">
+    <value>Acme.erp est déjà à jour, voulez-vous quand même le mettre à jour ?</value>
+  </data>
+  <data name="AMOUNT_MISMATCH" xml:space="preserve">
+    <value>Le montant alloué ne peut être supérieur/inférieur au montant du paiement réel</value>
+  </data>
+  <data name="BACKUP_FINISED_SUCCESS" xml:space="preserve">
+    <value>La sauvegarde s'est terminée avec succès</value>
+  </data>
+  <data name="BRANCH_DB_DELETED" xml:space="preserve">
+    <value>La base de données de la branche est supprimée.</value>
+  </data>
+  <data name="BRANCH_DB_DELETE_CONFIRMATION" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir supprimer la base de données de la branche sélectionnée ?</value>
+  </data>
+  <data name="BRANCH_DB_SAVE" xml:space="preserve">
+    <value>La base de données de la branche est sauvegardée..</value>
+  </data>
+  <data name="BRANCH_NAME_EMPTY" xml:space="preserve">
+    <value>Le nom de la branche est vide.</value>
+  </data>
+  <data name="BRANCH_NAME_EXISTS_ALREADY" xml:space="preserve">
+    <value>Le nom de la branche existe déjà.</value>
+  </data>
+  <data name="BROWSE_GROUP_EMPTY" xml:space="preserve">
+    <value>Le groupe est vide</value>
+  </data>
+  <data name="BUDGET_HAS_TRANSACTION" xml:space="preserve">
+    <value>Des transactions sont disponibles pour ce budget.</value>
+  </data>
+  <data name="CASHBANK_NEGATIVE" xml:space="preserve">
+    <value>Il s'agit d'un solde négatif, poursuivez-vous ?</value>
+  </data>
+  <data name="CHANGE_PROJECT_START_DATE_CLOSED_DATE" xml:space="preserve">
+    <value>Veuillez modifier la date de début et la date de fin du projet et réessayer.</value>
+  </data>
+  <data name="CHECK_INTERNET_FTP_CONNECTION" xml:space="preserve">
+    <value>Impossible d'accéder au portail. Veuillez vérifier vos droits internet ou FTP</value>
+  </data>
+  <data name="COMMON_ACMEERP_BACKUP_DATA" xml:space="preserve">
+    <value>La sauvegarde s'est terminée avec succès</value>
+  </data>
+  <data name="COMMON_ACMEERP_CAPTION" xml:space="preserve">
+    <value>Acme.erp</value>
+  </data>
+  <data name="COMMON_ACMEERP_TITLE" xml:space="preserve">
+    <value>AcMeERP</value>
+  </data>
+  <data name="COMMON_FILE_BACKUP_INFO" xml:space="preserve">
+    <value>Le fichier</value>
+  </data>
+  <data name="COMMON_FINANCE_SETTING_SUCCESS_INFO" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="COMMON_FINISHED_BACKUP_DATA" xml:space="preserve">
+    <value>Sauvegarde terminée</value>
+  </data>
+  <data name="COMMON_HO_LEDGERS_NOTAVAILABLE_INFO" xml:space="preserve">
+    <value>Les grands livres du siège ne sont pas disponibles pour exporter des pièces justificatives. Veuiller télécharger les masters du bureau central et réessayer.</value>
+  </data>
+  <data name="COMMON_LICENSE_PEROID_EXPIRED_INFO" xml:space="preserve">
+    <value>Licence expirée</value>
+  </data>
+  <data name="COMMON_LICENSE_PEROID_EXPIRESIN_DAYS_INFO" xml:space="preserve">
+    <value>Jours</value>
+  </data>
+  <data name="COMMON_LICENSE_PEROID_EXPIRESIN_INFO" xml:space="preserve">
+    <value>La licence expire le</value>
+  </data>
+  <data name="COMMON_QUERY_EXECUTE_SUCESS" xml:space="preserve">
+    <value>Requête exécutée avec succès</value>
+  </data>
+  <data name="COMMON_QUERY_FINISHED" xml:space="preserve">
+    <value>terminé</value>
+  </data>
+  <data name="COMMON_RESTORE_BACKUP_DATA" xml:space="preserve">
+    <value>Voulez-vous restaurer les données AcMeERP ?</value>
+  </data>
+  <data name="COMMON_TDS_SETTING_SUCCESS_INFO" xml:space="preserve">
+    <value>Sauvegardé</value>
+  </data>
+  <data name="COMMON_TRANS_PEROID_CREATE_INFO" xml:space="preserve">
+    <value>La période de transaction n'est pas créée. Voulez-vous créer la période de transaction ?</value>
+  </data>
+  <data name="COMMON_USER_WELCOME_INFO" xml:space="preserve">
+    <value>Bienvenue</value>
+  </data>
+  <data name="COMMON_VOUCHER_LOCKED" xml:space="preserve">
+    <value>Le bon est bloqué, il n'est pas possible d'effectuer l'entrée du bon pour</value>
+  </data>
+  <data name="COST_CENTER_CODE_CAPTION" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="COULD_NOT_ESTABILISH_CONNECTION_WITH_TALLY" xml:space="preserve">
+    <value>Impossible d'établir une connexion avec Tally</value>
+  </data>
+  <data name="COULD_NOT_PROCESS_DATA_MIGRATION" xml:space="preserve">
+    <value>Impossible de traiter la migration des données pour la raison suivante {0}</value>
+  </data>
+  <data name="COULD_NOT_START_TALLY_MIGRATION" xml:space="preserve">
+    <value>Impossible de démarrer la migration Tally, les bons de commande par défaut sont manquants.</value>
+  </data>
+  <data name="COULD_NOT_UPDATE_LATEST_VERSION" xml:space="preserve">
+    <value>Impossible de mettre à jour la dernière version</value>
+  </data>
+  <data name="DATA_MIGRATION_COULD_NOT_PROCEED_INFO" xml:space="preserve">
+    <value>Impossible de procéder à la migration des données :</value>
+  </data>
+  <data name="DATE_CAPTION" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DB_CHANGED_CONFIRMATION" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir changer de base de données ?</value>
+  </data>
+  <data name="DB_CHANGED_SUCCESS" xml:space="preserve">
+    <value>La base de données a été modifiée avec succès. Cliquez sur ok pour redémarrer l'application.</value>
+  </data>
+  <data name="DB_RESORE_SUCCESS" xml:space="preserve">
+    <value>Restauré avec succès</value>
+  </data>
+  <data name="DB_THE_FILE" xml:space="preserve">
+    <value>Le fichier</value>
+  </data>
+  <data name="DELETE_RECORD_AND_CONTINUE_MIGRATION" xml:space="preserve">
+    <value>L'enregistrement est disponible, voulez-vous supprimer les enregistrements et continuer la migration ? {3}{0} Oui : Supprimer et continuer {1} Non : Fusionner avec les anciens enregistrements {2} Annuler : Arrêter la migration.</value>
+  </data>
+  <data name="FDCLOSEDREGISTER_VIEW_PRINT_CAPTION" xml:space="preserve">
+    <value>Registres clôturés des dépôts fixes</value>
+  </data>
+  <data name="FDREGISTER_VIEW_PRINT_CAPTION" xml:space="preserve">
+    <value>Registres des dépôts fixes</value>
+  </data>
+  <data name="LEDGERS_CAPTION" xml:space="preserve">
+    <value>Grands Livres</value>
+  </data>
+  <data name="LEDGER_GROUPS_DELETE_SUCCESS" xml:space="preserve">
+    <value>Les groupes de grands livres ont été supprimés avec succès.</value>
+  </data>
+  <data name="LEDGER_GROUP_CREATE_UNDER_PRIMARY_GROUP" xml:space="preserve">
+    <value>Quelques groupes de grands livres ont été créés sous le livre principal lui-même. Veuillez déplacer ces groupes de grands livres vers l'une des quatre natures et réessayez.</value>
+  </data>
+  <data name="LEDGER_MAPPING_LOCKED_HEADOFFICE_ADMIN" xml:space="preserve">
+    <value>La dissociation du grand livre est verrouillée par l'administrateur central. </value>
+  </data>
+  <data name="LEDGER_UNMAPPING_HEADOFFICE_ADMIN" xml:space="preserve">
+    <value>La dissociation du grand livre est verrouillée par l'administration centrale.</value>
+  </data>
+  <data name="MERGE_LEDGER_TDS_CONFIRMATION" xml:space="preserve">
+    <value>Le grand livre de fusion TDS sera définitivement supprimé et le grand livre Nature des paiements et Droits et taxes sera conservé. Voulez-vous réellement continuer ? </value>
+  </data>
+  <data name="MESSAGE_CAPTION" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="MODULE_FIXED_ASSET_TITTLE" xml:space="preserve">
+    <value>Immobilisations</value>
+  </data>
+  <data name="MODULE_NETWOKING_TITTLE" xml:space="preserve">
+    <value>Réseau</value>
+  </data>
+  <data name="MODULE_SETTING_TITLE" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="MODULE_SET_VISIBLE_CLOSE_ALL_TABS" xml:space="preserve">
+    <value>Fermer tous les onglets </value>
+  </data>
+  <data name="MODULE_SET_VISIBLE_CONFIGURATION_TAB" xml:space="preserve">
+    <value>Configuration de la base de données</value>
+  </data>
+  <data name="MODULE_SET_VISIBLE_DATE_TAB" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="MODULE_SET_VISIBLE_PROJECT_TAB" xml:space="preserve">
+    <value>Projet </value>
+  </data>
+  <data name="NO_ACCESS_EDIT_USER" xml:space="preserve">
+    <value>Vous n'avez pas le droit d’éditer cet utilisateur</value>
+  </data>
+  <data name="NO_ACCESS_EDIT_USER_ROLE" xml:space="preserve">
+    <value>Vous n'avez pas le droit d’éditer le rôle de cet utilisateur</value>
+  </data>
+  <data name="NO_DB_EXITS_IN_CONFIG_FILE" xml:space="preserve">
+    <value>Aucune base de données n'existe dans le fichier de configuration</value>
+  </data>
+  <data name="NO_DIFFERENCE1" xml:space="preserve">
+    <value>Pas de différence</value>
+  </data>
+  <data name="NO_INTERNET_CONNECTION" xml:space="preserve">
+    <value>Pas de connexion internet, veuillez la vérifier</value>
+  </data>
+  <data name="NO_LEDGER_GROUPS_SELECT" xml:space="preserve">
+    <value>Aucun groupe n'est sélectionné, essayez de sélectionner les grands livres.</value>
+  </data>
+  <data name="NO_LEDGER_GROUPS_SELECT1" xml:space="preserve">
+    <value>Aucun groupe n'est sélectionné, essayez de sélectionner les grands livres.</value>
+  </data>
+  <data name="NO_LEDGER_SELECT" xml:space="preserve">
+    <value>Aucun grand livre n'est sélectionné, essayez de sélectionner les grands livres.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_DELETE_USER" xml:space="preserve">
+    <value>Vous n'avez pas le droit de supprimer cet utilisateur</value>
+  </data>
+  <data name="NO_RIGHTS_TO_DELETE_USER1" xml:space="preserve">
+    <value>Vous n'avez pas le droit de supprimer cet utilisateur</value>
+  </data>
+  <data name="PROJECT_EXPORT_SUCCESS" xml:space="preserve">
+    <value>Projet(s) exécuté(s) avec succès</value>
+  </data>
+  <data name="PROJECT_NOT_SELECT" xml:space="preserve">
+    <value>Le projet n'est pas sélectionné. Sélectionnez un projet à associer au rôle de l'utilisateur.</value>
+  </data>
+  <data name="PROJECT_SELECTION_CREATE_PROJECT" xml:space="preserve">
+    <value>Les projets ne sont pas disponibles. Voulez-vous créer le projet ?</value>
+  </data>
+  <data name="PROJECT_START_DATE_CLOSED_DATE_FALL_BETWEEN_TRANS_PEROID" xml:space="preserve">
+    <value>La date de début et de fin du projet n'est pas comprise dans la période de transaction.</value>
+  </data>
+  <data name="REMOVE_PROJECT_SELECT_PROJECT_CONFIRMATION" xml:space="preserve">
+    <value>Le projet sélectionné sera supprimé définitivement. Voulez-vous toujours exporter le projet ?</value>
+  </data>
+  <data name="RESTORING_INFO" xml:space="preserve">
+    <value>Restaurer</value>
+  </data>
+  <data name="SELECTED_FILE_INVALID" xml:space="preserve">
+    <value>Le fichier sélectionné n'est pas valide</value>
+  </data>
+  <data name="SELECT_DB_TO_RESTORE" xml:space="preserve">
+    <value>Sélectionner la base de données à restaurer.</value>
+  </data>
+  <data name="SELECT_LICENSE_KEY_FOR_DB" xml:space="preserve">
+    <value>Sélectionner la clé de licence de la base de données</value>
+  </data>
+  <data name="SELECT_MULTIPLE_DB" xml:space="preserve">
+    <value>Sélectionner la clé de licence pour plusieurs bases de données</value>
+  </data>
+  <data name="SHOWALL_CAPTION" xml:space="preserve">
+    <value>Tout afficher</value>
+  </data>
+  <data name="SHOWALL_LEDGERS" xml:space="preserve">
+    <value>Afficher tous les grands livres</value>
+  </data>
+  <data name="SHOWALL_LEDGERS_BLUE" xml:space="preserve">
+    <value>Afficher tous les grands livres</value>
+  </data>
+  <data name="SHOWALL_LEDGERS_DARKGREEN" xml:space="preserve">
+    <value>Afficher tous les grands livres</value>
+  </data>
+  <data name="SPLIT_PROJECT_HAS_BEEN_CANCELLED" xml:space="preserve">
+    <value>Le projet de fractionnement a été annulé</value>
+  </data>
+  <data name="SPLIT_VOUCHER" xml:space="preserve">
+    <value>Fractionner le bon</value>
+  </data>
+  <data name="STATISTICSTYPE" xml:space="preserve">
+    <value>Type de statistiques</value>
+  </data>
+  <data name="STATISTICSTYPE_ADD_CAPTION" xml:space="preserve">
+    <value>Type de statistiques (Ajouter)</value>
+  </data>
+  <data name="STATISTICSTYPE_DELETE_SUCCESS" xml:space="preserve">
+    <value>Enregistrement supprimé</value>
+  </data>
+  <data name="STATISTICSTYPE_EDIT_CAPTION" xml:space="preserve">
+    <value>Type de statistiques (Editer)</value>
+  </data>
+  <data name="STATISTICSTYPE_EMPTY" xml:space="preserve">
+    <value>Le type de statistique est vide</value>
+  </data>
+  <data name="STATISTICSTYPE_PRINT_CAPTION" xml:space="preserve">
+    <value>Détails du type de statistiques</value>
+  </data>
+  <data name="STATISTICSTYPE_SAVE_FAILURE" xml:space="preserve">
+    <value>L'enregistrement n'est pas sauvegardé</value>
+  </data>
+  <data name="SUBJECT_CAPTION" xml:space="preserve">
+    <value>Le sujet est vide.</value>
+  </data>
+  <data name="SUBJUECT_EMPTY" xml:space="preserve">
+    <value>Le sujet est vide.</value>
+  </data>
+  <data name="TALLY_MIGRATION_MODE_OPTION" xml:space="preserve">
+    <value>{4} est disponible.{5} Voulez-vous supprimer le projet et continuer la migration ?{3}{0}Oui : Supprimer et continuer{1}Non : Fusionner avec les anciens enregistrements{2}Annuler : Arrêter la migration.</value>
+  </data>
+  <data name="TRANSACTION_IMPORTING_SUCCESS" xml:space="preserve">
+    <value>Les transactions sont importées avec succès.</value>
+  </data>
+  <data name="TRANSACTION_MOVE_CONFIRMATION" xml:space="preserve">
+    <value>Etes-vous sûr de vouloir déplacer la transaction ?</value>
+  </data>
+  <data name="TRANSACTION_MOVE_GRID_EMPTY" xml:space="preserve">
+    <value>Aucun enregistrement n'est disponible dans la grille pour supprimer ou déplacer.</value>
+  </data>
+  <data name="TRANSACTION_MOVE_NOT_SELECTED" xml:space="preserve">
+    <value>Aucun enregistrement n'est sélectionné</value>
+  </data>
+  <data name="TRANSACTION_MOVE_PROJECT_NOT_SELECTED" xml:space="preserve">
+    <value>Aucun projet n'est sélectionné pour être déplacé</value>
+  </data>
+  <data name="TRANSACTION_MOVE_SUCCESS_NOT_BANK_ACCOUNT" xml:space="preserve">
+    <value>La transaction a été déplacée avec succès sauf que le compte bancaire n'a pas été mis en correspondance avec les détails.</value>
+  </data>
+  <data name="TRANS_COSTCENTER_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Information requise non remplie, le montant est vide</value>
+  </data>
+  <data name="TRANS_COSTCENTER_NAME_EMPTY" xml:space="preserve">
+    <value>Information requise non renseignée, le nom du centre de coût est vide</value>
+  </data>
+  <data name="TRANS_COSTCENTER_VALIDATION_MESSAGE" xml:space="preserve">
+    <value>Information requise non remplie</value>
+  </data>
+  <data name="TRANS_JOURNAL_TDS_JOURNAL_DONE_VOUCHER" xml:space="preserve">
+    <value>Le paiement TDS a été effectué pour ce bon.</value>
+  </data>
+  <data name="TRANS_JOURNAL_VIEW_DELETE_REFERERED_VOUCHER" xml:space="preserve">
+    <value>Ce bon est référencé dans le bon de paiement, voulez-vous le supprimer ?</value>
+  </data>
+  <data name="TRANS_JOURNAL_VIEW_TRANS_LOCKED_INFO" xml:space="preserve">
+    <value>Le bon est verrouillé, il n'est pas possible de déplacer le bon pour le projet.</value>
+  </data>
+  <data name="TRANS_JOURNAL_VOUCHER_LOCKED_INFO" xml:space="preserve">
+    <value>Le bon est verrouillé, il n'est pas possible de supprimer ce bon pour le projet.</value>
+  </data>
+  <data name="TRANS_VIEW_ENTRY_CAN_EDIT_ASSET_MODULE" xml:space="preserve">
+    <value>L'entrée peut être modifiée dans le module Immobilisations.</value>
+  </data>
+  <data name="UILANGUAGE_CAPTION" xml:space="preserve">
+    <value>Langue de l'interface utilisateur</value>
+  </data>
+  <data name="UNABLE_TO_REACH_PORTAL_CHECK_INTERNET_CONNECTION" xml:space="preserve">
+    <value>Impossible d'accéder au portail. Veuillez vérifier votre connexion internet.</value>
+  </data>
+  <data name="UNUSED_LEDGER_DELETE_SUCCESS" xml:space="preserve">
+    <value>Les grands livres supprimés avec succès.</value>
+  </data>
+  <data name="UPDATER_VERSION" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="UPDATE_CAPTION" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="UPDATE_LEDGER_MAP_WITH_PROJECT" xml:space="preserve">
+    <value>Voulez-vous mettre à jour la cartographie des grands livres avec les projets ?</value>
+  </data>
+  <data name="UPDATE_LICENSE" xml:space="preserve">
+    <value>Actualiser la licence</value>
+  </data>
+  <data name="UPDATE_LICENSE_INFO" xml:space="preserve">
+    <value>Mettre à jour la licence</value>
+  </data>
+  <data name="UPDATE_MODE" xml:space="preserve">
+    <value>Mode Actualisation</value>
+  </data>
+  <data name="USERNAME_PASSWORD_CANNOT_SAME_FOR_ADMIN_USER" xml:space="preserve">
+    <value>Le nom d'utilisateur et le mot de passe ne peuvent pas être les mêmes pour l'utilisateur admin.</value>
+  </data>
+  <data name="USER_ROLE_CANNOT_EMPTY" xml:space="preserve">
+    <value>Le rôle de l'utilisateur ne peut pas être vide</value>
+  </data>
+  <data name="VOUCHER_CONTRA_NORIGHTS_DELETE" xml:space="preserve">
+    <value>Pas de droit de suppression de ce contra-bon</value>
+  </data>
+  <data name="VOUCHER_DAILY_COLLECTION_EMTPY" xml:space="preserve">
+    <value>L'encaissement journalier est vide.</value>
+  </data>
+  <data name="VOUCHER_PAYMENT_NORIGHTS_DELETE" xml:space="preserve">
+    <value>Pas de droits pour supprimer ce Bon de paiement</value>
+  </data>
+  <data name="VOUCHER_POST_ALREADY_INFORMATION" xml:space="preserve">
+    <value>Les enregistrements sélectionnés sont déjà comptabilisés.</value>
+  </data>
+  <data name="VOUCHER_POST_COLLECTION_CAPTION" xml:space="preserve">
+    <value>Enregistrer l'encaissement quotidien</value>
+  </data>
+  <data name="VOUCHER_POST_COLLECTION_INFORMATION" xml:space="preserve">
+    <value>Le bon a été comptabilisé avec succès.</value>
+  </data>
+  <data name="VOUCHER_POST_DAY_COLLECTION" xml:space="preserve">
+    <value>Comptabiliser l'encaissement journalier</value>
+  </data>
+  <data name="VOUCHER_PROJECT_EMPTY" xml:space="preserve">
+    <value>Le projet est vide</value>
+  </data>
+  <data name="VOUCHER_RECEIPT_NORIGHTS_DELETE" xml:space="preserve">
+    <value>Pas de droits pour supprimer ce bon d'encaissement</value>
+  </data>
+  <data name="LOGOUT" xml:space="preserve">
+    <value>Déconnectez-vous de l'application</value>
+  </data>
+  <data name="CANNOT_DELETE" xml:space="preserve">
+    <value>Impossible de suprimer. Cet enregistrement a une association</value>
+  </data>
+  <data name="ARE_REP_ENTRY" xml:space="preserve">
+    <value>Etes-vous sûr de répliquer l'entrée du bon ?</value>
+  </data>
+  <data name="BANK_CHEQUE_NUMBER" xml:space="preserve">
+    <value>Cheque Number is missing for Bank Account, Do you want to proceed without Cheque Number?</value>
+  </data>
+  <data name="CASH_EXCEEDS" xml:space="preserve">
+    <value>Le montant du grand livre de trésorerie dépasse le montant défini dans Paramètres. Voulez-vous continuer ?</value>
+  </data>
+  <data name="CC_LEDGER_AMOUNT" xml:space="preserve">
+    <value>Impossible de vérifier le montant du centre de coûts avec le montant du grand livre,</value>
+  </data>
+  <data name="CHANGE" xml:space="preserve">
+    <value>si tu changes</value>
+  </data>
+  <data name="CHEQUE_NUMBER" xml:space="preserve">
+    <value>Numéro du chèque</value>
+  </data>
+  <data name="DURING_PERIOD" xml:space="preserve">
+    <value>pendant la période</value>
+  </data>
+  <data name="GST_ALREADY" xml:space="preserve">
+    <value>Le numéro de facture TPS existe déjà</value>
+  </data>
+  <data name="GST_AMOUNT_AVAI" xml:space="preserve">
+    <value>Le montant de la TPS n'est pas disponible</value>
+  </data>
+  <data name="GST_ATTACH" xml:space="preserve">
+    <value>n'est pas disponible dans les détails de la facture de TPS, cliquez sur « Joindre la facture de TPS du fournisseur » et vérifiez les détails.</value>
+  </data>
+  <data name="GST_INVOICE" xml:space="preserve">
+    <value>Depuis la facture de TPS</value>
+  </data>
+  <data name="GST_INVOICE_REM" xml:space="preserve">
+    <value>GST Invoice details is removed</value>
+  </data>
+  <data name="GST_LEDGER_AVAI" xml:space="preserve">
+    <value>Les registres de TPS ne sont pas disponibles</value>
+  </data>
+  <data name="IS_AUTHORIZED" xml:space="preserve">
+    <value>Ce bon est-il autorisé ?</value>
+  </data>
+  <data name="IS_GST_PERCENTAGE" xml:space="preserve">
+    <value>est sélectionné, vous ne pouvez pas transmettre le pourcentage de TPS pour ce bon</value>
+  </data>
+  <data name="LEDGER_CC_ALLOCATIONS" xml:space="preserve">
+    <value>Le montant du grand livre ne correspond pas au montant de l'allocation du centre de coûts. Vérifiez les détails de l'allocation du centre de coûts.</value>
+  </data>
+  <data name="LEDGER_GST_INV" xml:space="preserve">
+    <value>Les grands livres ne correspondent pas dans les détails de la facture de TPS, cliquez sur « Joindre la facture de TPS du fournisseur » et vérifiez les détails.</value>
+  </data>
+  <data name="PAY_REF_VOUCHER" xml:space="preserve">
+    <value>Le paiement est effectué pour le bon de référence du journal. Si vous essayez de réduire la date, ce sera clair. Continuez-vous ?</value>
+  </data>
+  <data name="PRINT_CHQUE" xml:space="preserve">
+    <value>Voulez-vous imprimer un chèque ?</value>
+  </data>
+  <data name="PROVINCE_REGULATIONS" xml:space="preserve">
+    <value>Conformément à la réglementation provinciale, vous ne pouvez pas modifier les détails du bon, à l'exception des détails de la facture pour les bons compatibles avec la facture TPS.</value>
+  </data>
+  <data name="REF_AMOUNT" xml:space="preserve">
+    <value>Le grand livre dont le montant référencé sera effacé. Voulez-vous poursuivre?</value>
+  </data>
+  <data name="REF_AMOUNT_MIS" xml:space="preserve">
+    <value>Le montant de référence ne correspond pas au montant du solde et aux détails de référence du paiement par chèque/révision.</value>
+  </data>
+  <data name="REM_GST_INVOICE" xml:space="preserve">
+    <value>Êtes-vous sûr de supprimer les détails de la facture de TPS du fournisseur ?</value>
+  </data>
+  <data name="SHOULD_DUPLICATED" xml:space="preserve">
+    <value>ne doit pas être dupliqué pour le compte bancaire.</value>
+  </data>
+  <data name="SUB_LEDGER" xml:space="preserve">
+    <value>Les sous-livres ne sont pas disponibles pour le grand livre sélectionné.</value>
+  </data>
+  <data name="TRANSACTIONS_EXCEEDS" xml:space="preserve">
+    <value>La transaction dépasse le budget approuvé</value>
+  </data>
+  <data name="TRANSACTIONS_REF" xml:space="preserve">
+    <value>Le montant de la transaction ne correspond pas au montant de référence, vérifier/réviser les détails de référence du paiement</value>
+  </data>
+  <data name="VOCHER_ENTRY" xml:space="preserve">
+    <value>Bon (entrée répliquée)</value>
+  </data>
+  <data name="VOUCHER_DUPLICATE_CHEQUE" xml:space="preserve">
+    <value>Il a été utilisé pour un autre bon. Voulez-vous procéder avec un numéro de chèque en double ?</value>
+  </data>
+  <data name="LICENSE_KEY_UPDATED" xml:space="preserve">
+    <value>La clé de licence est mise à jour</value>
+  </data>
+  <data name="PROJECT_MUST_SEL" xml:space="preserve">
+    <value>Un Projet doit être sélectionné.</value>
+  </data>
+  <data name="AMOUNT_EMPTY" xml:space="preserve">
+    <value>Le montant est vide</value>
+  </data>
+  <data name="BA_SELECTED" xml:space="preserve">
+    <value>Un compte bancaire doit être sélectionné.</value>
+  </data>
+  <data name="BUDGET_ANN_YEAR" xml:space="preserve">
+    <value>Le rapport annuel budgétaire peut être pris jusqu'à un an</value>
+  </data>
+  <data name="BUDGET_AVAI" xml:space="preserve">
+    <value>Aucun budget n'est disponible.</value>
+  </data>
+  <data name="BUDGET_AVAI_COM" xml:space="preserve">
+    <value>Aucun budget n'est disponible pour comparer.</value>
+  </data>
+  <data name="BUDGET_MUST_SELECTED" xml:space="preserve">
+    <value>Un seul budget doit être sélectionné.</value>
+  </data>
+  <data name="CC_SELECTED" xml:space="preserve">
+    <value>Un centre de coûts doit être sélectionné !</value>
+  </data>
+  <data name="CL_SELECTED" xml:space="preserve">
+    <value>Un registre de trésorerie doit être sélectionné.</value>
+  </data>
+  <data name="CONSOLIDATED_OPTION" xml:space="preserve">
+    <value>As \"Consolidated\" option is already enabled, You can't set \"Show Detailed\" option</value>
+  </data>
+  <data name="COUNTRY_SELECTED" xml:space="preserve">
+    <value>Le pays doit être sélectionné !</value>
+  </data>
+  <data name="DATE_RANGE_CUR_YEAR" xml:space="preserve">
+    <value>La plage de dates doit correspondre à l'exercice financier en cours</value>
+  </data>
+  <data name="DED_MUST_SELECTED" xml:space="preserve">
+    <value>Un déducteur doit être sélectionné !.</value>
+  </data>
+  <data name="DONOR_SELECTED" xml:space="preserve">
+    <value>Donaud doit être sélectionné !</value>
+  </data>
+  <data name="FD_ACC_SELECTED" xml:space="preserve">
+    <value>Le compte FD doit être sélectionné.</value>
+  </data>
+  <data name="FEW_PROJECT_DUP" xml:space="preserve">
+    <value>Peu de projets sont dupliqués dans la liste</value>
+  </data>
+  <data name="IS_ALREADY" xml:space="preserve">
+    <value>est déjà disponible</value>
+  </data>
+  <data name="LCC_DISABLED" xml:space="preserve">
+    <value>As \"Show Ledger-wise Cost Centre Details\" option is enabled, \"Show By Cost Centre\" and \"Show By Cost Centre Category\" will be disabled</value>
+  </data>
+  <data name="LEDGER_SELECTED" xml:space="preserve">
+    <value>Un Ledger doit être sélectionné !</value>
+  </data>
+  <data name="LOCA_SELECTED" xml:space="preserve">
+    <value>L'emplacement doit être sélectionné !</value>
+  </data>
+  <data name="MAX_EXPORT" xml:space="preserve">
+    <value>Un maximum de 6 projets peuvent être visualisés correctement, modifier/corriger le format de papier approprié en conséquence ou exporter sous forme de fichier Exce</value>
+  </data>
+  <data name="MORE_BANK_LEDGER" xml:space="preserve">
+    <value>Il n'est pas possible de sélectionner plus d'un grand livre de caisse/banque.</value>
+  </data>
+  <data name="MULTI_ABS_YEAR" xml:space="preserve">
+    <value>Le rapport multi-résumés peut être pris jusqu'à un an</value>
+  </data>
+  <data name="NARRATION_CUM_DISABLED" xml:space="preserve">
+    <value>Lorsque l'option « Afficher le total cumulatif mensuel de la narration » est activée, toutes les autres options seront désactivées (à l'exception de l'affichage des soldes d'ouverture).</value>
+  </data>
+  <data name="NP_MUST_SELECTED" xml:space="preserve">
+    <value>Une nature de paiement doit être sélectionnée !</value>
+  </data>
+  <data name="ONEBANK_FD_SELECTED" xml:space="preserve">
+    <value>Au moins un compte bancaire ou un compte FD à sélectionner</value>
+  </data>
+  <data name="ONEBUDGET_SELECTED" xml:space="preserve">
+    <value>Au moins un budget doit être sélectionné.</value>
+  </data>
+  <data name="OPENING_DISABLED" xml:space="preserve">
+    <value>Comme l'option \"Afficher le solde d'ouverture (toutes natures) grands livres" est activée, l'option \"Afficher le solde d'ouverture uniquement pour les grands livres d'actif/passif\" sera désactivée.</value>
+  </data>
+  <data name="OP_LEDGERS" xml:space="preserve">
+    <value>Afficher le solde d'ouverture uniquement pour les grands livres actif/passif</value>
+  </data>
+  <data name="PROJECT_MUST_SEL1" xml:space="preserve">
+    <value>Un Projet doit être sélectionné.</value>
+  </data>
+  <data name="PROJECT_NAME" xml:space="preserve">
+    <value>Projet</value>
+  </data>
+  <data name="QUAR_ABS_QUAR" xml:space="preserve">
+    <value>Le rapport trimestriel multi-résumé peut être pris entre les trimestres</value>
+  </data>
+  <data name="REGISTRATION_SELECTED" xml:space="preserve">
+    <value>Le type d'inscription doit être sélectionné !</value>
+  </data>
+  <data name="REPORTS_EXCEL" xml:space="preserve">
+    <value>Le rapport sera divisé en fonction du nombre de grands livres. Veuillez l'exporter vers Excel.</value>
+  </data>
+  <data name="SING_EQUAL" xml:space="preserve">
+    <value>La taille du fichier image de signature est grande, veuillez sélectionner un fichier inférieur ou égal à 50 Ko.</value>
+  </data>
+  <data name="SING_HEIGHT" xml:space="preserve">
+    <value>La taille du fichier d’image de signe doit être (la largeur est &lt;= 800 et la hauteur est &lt;= 260)</value>
+  </data>
+  <data name="STATE_SELECTED" xml:space="preserve">
+    <value>L'État doit être sélectionné !</value>
+  </data>
+  <data name="TDS_LEDGER_SELECTED" xml:space="preserve">
+    <value>Un grand livre de partie TDS doit être sélectionné !</value>
+  </data>
+  <data name="INVESTED_AMOUNT" xml:space="preserve">
+    <value>Montant investi</value>
+  </data>
+  <data name="FD_WITHDRAWAL_AVAILABLE" xml:space="preserve">
+    <value>Fixed Deposit has Partial/Full Withdrwal vouchers, Can't modify it</value>
+  </data>
+  <data name="FD_RENEWALS_AVAILABLE" xml:space="preserve">
+    <value>Le dépôt fixe a ses propres bons de renouvellement, impossible de le modifier</value>
+  </data>
+</root>

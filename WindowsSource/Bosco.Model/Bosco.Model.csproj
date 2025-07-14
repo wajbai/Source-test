@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19174D3E-0259-4212-9BD8-479D08665238}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bosco.Model</RootNamespace>
+    <AssemblyName>Bosco.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/Bosco.Model/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Build\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v13.2.Extensions, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="SimpleEncrypt, Version=1.0.3048.24602, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Win\Resources\AcMeDll\SimpleEncrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AcmeerpAssemblyInfo.cs">
+      <Link>Properties\AcmeerpAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Donor\DonorFrontOfficeSystem.cs" />
+    <Compile Include="Donor\DonorManagementSystem.cs" />
+    <Compile Include="Donor\DonorRegistrationTypeSystem.cs" />
+    <Compile Include="Donor\DonorTitleSystem.cs" />
+    <Compile Include="Donor\InstitutionType.cs" />
+    <Compile Include="Donor\MasterDonorReferenceSystem.cs" />
+    <Compile Include="Donor\ProspectManagementSystem.cs" />
+    <Compile Include="Donor\RichEditMailMessageHTML.cs" />
+    <Compile Include="Dsync\PortalMessagesSystem.cs" />
+    <Compile Include="Inventory\Asset\AMCVoucherSystem.cs" />
+    <Compile Include="Inventory\Asset\AssetAMCRenewalSystem.cs" />
+    <Compile Include="Inventory\Asset\AssetCategorySystem.cs" />
+    <Compile Include="Inventory\Asset\AssetDepreciation.cs" />
+    <Compile Include="Inventory\Asset\AssetClassSystem.cs" />
+    <Compile Include="Inventory\Asset\AssetInwardOutwardSystem.cs" />
+    <Compile Include="Inventory\Asset\AssetItemSystem.cs" />
+    <Compile Include="Inventory\AssetStockProduct.cs" />
+    <Compile Include="Inventory\AssetStockFactory.cs" />
+    <Compile Include="Inventory\Asset\AssetDepreciationSystem.cs" />
+    <Compile Include="Inventory\Asset\AssetInsurancePlanSystem.cs" />
+    <Compile Include="Inventory\Asset\AssetLedgerMapping.cs" />
+    <Compile Include="Inventory\Asset\AssetInwardVoucherSystem.cs" />
+    <Compile Include="Inventory\Asset\AssetServiceSystem.cs" />
+    <Compile Include="Inventory\Asset\AssetUnitOfMeassureSystem.cs" />
+    <Compile Include="Inventory\Asset\InsuranceRenewSystem.cs" />
+    <Compile Include="Inventory\Asset\DepriciationVoucherSystem.cs" />
+    <Compile Include="Inventory\Asset\InsuranceRenewalSystem.cs" />
+    <Compile Include="Inventory\Asset\InsuranceSystem.cs" />
+    <Compile Include="Inventory\Asset\AssetMappingSystem.cs" />
+    <Compile Include="Inventory\Asset\BlockSystem.cs" />
+    <Compile Include="Inventory\Asset\TransferVoucherSystem.cs" />
+    <Compile Include="Inventory\ManufactureInfoSystem.cs" />
+    <Compile Include="Inventory\Stock\StockBalanceSystem.cs" />
+    <Compile Include="Inventory\Stock\StockItemTransferSystem.cs" />
+    <Compile Include="Inventory\Stock\StockLedgerMapping.cs" />
+    <Compile Include="Inventory\Stock\StockLocationSystem.cs" />
+    <Compile Include="Inventory\Stock\StockPurcahseReturnSystem.cs" />
+    <Compile Include="Inventory\Stock\StockPurchaseDetail.cs" />
+    <Compile Include="Inventory\Stock\StockPurchaseSalesSystem.cs" />
+    <Compile Include="Inventory\Stock\StockSalesSystem.cs" />
+    <Compile Include="Inventory\VendorInfoSystem.cs" />
+    <Compile Include="Inventory\CustodiansSystem.cs" />
+    <Compile Include="Inventory\Asset\AssetLocationSystem.cs" />
+    <Compile Include="Business\BalanceSystem1.cs" />
+    <Compile Include="Dsync\ExportVoucherSystem.cs" />
+    <Compile Include="Dsync\ImportMasterSystem.cs" />
+    <Compile Include="Dsync\SubBranchSystem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportCustomization\ReportCustomizationSystem.cs" />
+    <Compile Include="Setting\GlobalSetting.cs" />
+    <Compile Include="Setting\ISetting.cs" />
+    <Compile Include="Setting\UISetting.cs" />
+    <Compile Include="Inventory\Stock\StockCategorySystem.cs" />
+    <Compile Include="Inventory\Stock\StockGroupSystem.cs" />
+    <Compile Include="Inventory\Stock\StockItemSystem.cs" />
+    <Compile Include="SystemBase.cs" />
+    <Compile Include="TallyMigration\AcMePlusMigrationSystem.cs" />
+    <Compile Include="TallyMigration\BOSCOPACConnector.cs" />
+    <Compile Include="TallyMigration\BOSCOPACMigrationSystem.cs" />
+    <Compile Include="TallyMigration\dbfHandler.cs" />
+    <Compile Include="TallyMigration\ImportMasterDetailSystem.cs" />
+    <Compile Include="TallyMigration\TallyConnector.cs" />
+    <Compile Include="TallyMigration\TallyMigrationSystem.cs" />
+    <Compile Include="TDS\DeducteeTaxSystem.cs" />
+    <Compile Include="TDS\DeducteeTypeSystem.cs" />
+    <Compile Include="TDS\LedgerProfileSystem.cs" />
+    <Compile Include="TDS\NatureofPaymentsSystem.cs" />
+    <Compile Include="TDS\PartyPaymentSystem.cs" />
+    <Compile Include="TDS\TDSBookingSystem.cs" />
+    <Compile Include="TDS\TDSCompanyDeductorSystem.cs" />
+    <Compile Include="TDS\TDSDeductionSystem.cs" />
+    <Compile Include="TDS\TDSPaymentSystem.cs" />
+    <Compile Include="TDS\TDSSectionSystem.cs" />
+    <Compile Include="Transaction\BreakUpSystem.cs" />
+    <Compile Include="Transaction\DataSynchronization.cs" />
+    <Compile Include="Transaction\DenominationSystem.cs" />
+    <Compile Include="Transaction\FDAccountSystem.cs" />
+    <Compile Include="Transaction\FDRenewalSystem.cs" />
+    <Compile Include="Transaction\InKindReceivedSystem.cs" />
+    <Compile Include="Transaction\InKindUtilisedSystem.cs" />
+    <Compile Include="Transaction\VoucherTransactionSystem.cs" />
+    <Compile Include="UIModel\Master\AccouingPeriodSystem.cs" />
+    <Compile Include="UIModel\Master\AuditLockTransSystem.cs" />
+    <Compile Include="UIModel\Master\AuditSystem.cs" />
+    <Compile Include="UIModel\Master\BudgetSystem.cs" />
+    <Compile Include="UIModel\Master\SubLedgerSystem.cs" />
+    <Compile Include="UIModel\Master\CostCentreCategorySystem.cs" />
+    <Compile Include="UIModel\Master\DashBoardSystem.cs" />
+    <Compile Include="UIModel\Master\ExcelSupportSystem.cs" />
+    <Compile Include="UIModel\Master\GSTClassSystem.cs" />
+    <Compile Include="UIModel\Master\LegalEntitySystem.cs" />
+    <Compile Include="UIModel\Master\MappingSystem.cs" />
+    <Compile Include="UIModel\Master\NumberSystem.cs" />
+    <Compile Include="UIModel\Master\StateSystem.cs" />
+    <Compile Include="UIModel\Master\StatisticsTypeSystem.cs" />
+    <Compile Include="UIModel\UISettingSystem.cs" />
+    <Compile Include="UIModel\Master\AddressBookSystem.cs" />
+    <Compile Include="UIModel\Master\AuditInfoSystem.cs" />
+    <Compile Include="UIModel\Master\BankSystem.cs" />
+    <Compile Include="UIModel\Master\BankAccountSystem.cs" />
+    <Compile Include="UIModel\Master\AuditorSystem.cs" />
+    <Compile Include="UIModel\Master\LedgerSystem.cs" />
+    <Compile Include="UIModel\Master\CostCentreSystem.cs" />
+    <Compile Include="UIModel\Master\CountrySystem.cs" />
+    <Compile Include="UIModel\Master\DonorAuditorSystem.cs" />
+    <Compile Include="UIModel\Master\ExecutiveMemberSystem.cs" />
+    <Compile Include="UIModel\Master\InKindArticleSystem.cs" />
+    <Compile Include="UIModel\Master\LedgerGroupSystem.cs" />
+    <Compile Include="UIModel\Master\ProjectCatogorySystem.cs" />
+    <Compile Include="UIModel\Master\ProjectSystem.cs" />
+    <Compile Include="UIModel\Master\PurposeSystem.cs" />
+    <Compile Include="UIModel\Master\VoucherSystem.cs" />
+    <Compile Include="UIModel\SettingSystem.cs" />
+    <Compile Include="UIModel\UserManagement\ManageSecuritySystem.cs" />
+    <Compile Include="UIModel\UserManagement\MasterRightsSystem.cs" />
+    <Compile Include="UIModel\UserManagement\UserRightsSystem.cs" />
+    <Compile Include="UIModel\UserManagement\UserRoleSystem.cs" />
+    <Compile Include="UIModel\UserSystem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AcMEDSync\AcMEDSync.csproj">
+      <Project>{246D4396-6B15-410B-821A-FFFC735A69EB}</Project>
+      <Name>AcMEDSync</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bosco.DAO.Schema\Bosco.DAO.Schema.csproj">
+      <Project>{259CF580-C69A-4146-A20F-04F138D94874}</Project>
+      <Name>Bosco.DAO.Schema</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bosco.DAO\Bosco.DAO.csproj">
+      <Project>{74C2B1A6-AFC1-46E0-B164-E89836C8027E}</Project>
+      <Name>Bosco.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bosco.Utility\Bosco.Utility.csproj">
+      <Project>{4E519AC2-6104-4A87-AFAE-B4DC586201EB}</Project>
+      <Name>Bosco.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

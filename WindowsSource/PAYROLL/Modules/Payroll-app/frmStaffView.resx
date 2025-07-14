@@ -1,0 +1,1265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rgGroup.EditValue" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="rgGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>933, 40</value>
+  </data>
+  <data name="rgGroup.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="rgGroup.Properties.Items" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rgGroup.Properties.Items1" xml:space="preserve">
+    <value>In Service</value>
+  </data>
+  <data name="rgGroup.Properties.Items2" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rgGroup.Properties.Items3" xml:space="preserve">
+    <value>Out Of Service</value>
+  </data>
+  <data name="rgGroup.Properties.Items4" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rgGroup.Properties.Items5" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="rgGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 26</value>
+  </data>
+  <data name="rgGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;rgGroup.Name" xml:space="preserve">
+    <value>rgGroup</value>
+  </data>
+  <data name="&gt;&gt;rgGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rgGroup.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;rgGroup.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gcPaymonthStaffProfile.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gcPaymonthStaffProfile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt</value>
+  </data>
+  <data name="gcPaymonthStaffProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="gvPaymonthStaffProfile.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gvPaymonthStaffProfile.Appearance.FooterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="gvPaymonthStaffProfile.Appearance.FooterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="gvPaymonthStaffProfile.Appearance.FooterPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gvPaymonthStaffProfile.Appearance.FooterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Blue</value>
+  </data>
+  <data name="gvPaymonthStaffProfile.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colpaymonthstaffid.Caption" xml:space="preserve">
+    <value>StaffId</value>
+  </data>
+  <data name="coldPayrollid.Caption" xml:space="preserve">
+    <value>FD Account No</value>
+  </data>
+  <data name="coldPayrollid.Width" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="colPRName.Caption" xml:space="preserve">
+    <value>Paymonth</value>
+  </data>
+  <data name="colPRName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colPRName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colPRName.Width" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="colStaffGroupName.Caption" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="colStaffGroupName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colStaffGroupName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colStaffGroupName.Width" type="System.Int32, mscorlib">
+    <value>225</value>
+  </data>
+  <data name="colDepartmentId.Caption" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="colDepartmentId.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colDepartmentId.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colDepartmentId.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="colWorkLocation.Caption" xml:space="preserve">
+    <value>Work/Job Location</value>
+  </data>
+  <data name="colWorkLocation.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colWorkLocation.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colWorkLocation.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="colStatutoryComplaiance.Caption" xml:space="preserve">
+    <value>Statutory Complaiance</value>
+  </data>
+  <data name="colStatutoryComplaiance.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colStatutoryComplaiance.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colStatutoryComplaiance.Width" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="colAccountNumber.Caption" xml:space="preserve">
+    <value>Account Number</value>
+  </data>
+  <data name="colAccountNumber.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colAccountNumber.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colAccountNumber.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="colIFSCCode.Caption" xml:space="preserve">
+    <value>IFSC Code</value>
+  </data>
+  <data name="colIFSCCode.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colIFSCCode.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colIFSCCode.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="colBankBranch.Caption" xml:space="preserve">
+    <value>Bank &amp; Branch</value>
+  </data>
+  <data name="colBankBranch.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colBankBranch.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="colBankBranch.Width" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="colPaymentMode.Caption" xml:space="preserve">
+    <value>Payment Mode</value>
+  </data>
+  <data name="colPaymentMode.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colPaymentMode.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="colPaymentMode.Width" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="colStaffOrder.Caption" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="colStaffOrder.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colStaffOrder.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="colStaffOrder.Width" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="gcPaymonthStaffProfile.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
+  </data>
+  <data name="repositoryItemTextEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemTextEdit1.Mask.EditMask" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v13.2" name="DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="repositoryItemTextEdit1.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>Numeric</value>
+  </data>
+  <data name="repositoryItemTextEdit1.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repositoryItemButtonEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemButtonEdit2.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gcPaymonthStaffProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1221, 47</value>
+  </data>
+  <data name="gcPaymonthStaffProfile.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;gcPaymonthStaffProfile.Name" xml:space="preserve">
+    <value>gcPaymonthStaffProfile</value>
+  </data>
+  <data name="&gt;&gt;gcPaymonthStaffProfile.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcPaymonthStaffProfile.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;gcPaymonthStaffProfile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 344</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1225, 51</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ucToolBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ucToolBar1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 0</value>
+  </data>
+  <data name="ucToolBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1235, 33</value>
+  </data>
+  <data name="ucToolBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ucToolBar1.Name" xml:space="preserve">
+    <value>ucToolBar1</value>
+  </data>
+  <data name="&gt;&gt;ucToolBar1.Type" xml:space="preserve">
+    <value>PAYROLL.UserControl.UcToolBar, PAYROLL, Version=6.28.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucToolBar1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;ucToolBar1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="deDateAson.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="deDateAson.Location" type="System.Drawing.Point, System.Drawing">
+    <value>805, 43</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v13.2" name="DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="deDateAson.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Combo</value>
+  </data>
+  <data name="deDateAson.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Combo</value>
+  </data>
+  <data name="deDateAson.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>DateTimeAdvancingCaret</value>
+  </data>
+  <data name="deDateAson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="deDateAson.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;deDateAson.Name" xml:space="preserve">
+    <value>deDateAson</value>
+  </data>
+  <data name="&gt;&gt;deDateAson.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;deDateAson.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;deDateAson.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkShowFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 297</value>
+  </data>
+  <data name="chkShowFilter.Properties.Caption" xml:space="preserve">
+    <value>Show &lt;b&gt;F&lt;/b&gt;ilter</value>
+  </data>
+  <data name="chkShowFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="chkShowFilter.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v13.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxMy4yLCBWZXJzaW9uPTEzLjIu
+        Ny4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjEzLjIsIFZlcnNpb249MTMuMi43LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBwAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wCWl0ZW1UeXBlMQVpdGVtMQQAAAQEBAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAABCCVEZXZFeHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAACFEZXZFeHByZXNz
+        LlV0aWxzLlRvb2xUaXBUaXRsZUl0ZW0CAAAAJURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29sVGlwSXRl
+        bVR5cGUCAAAAHERldkV4cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0CAAAAAgAAAAX8////H0RldkV4cHJl
+        c3MuVXRpbHMuRGVmYXVsdEJvb2xlYW4BAAAAB3ZhbHVlX18ACAMAAAACAAAAAAIAAAAF+////yVEZXZF
+        eHByZXNzLlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAQAAAAd2YWx1ZV9fAAgCAAAAAQAAAAkGAAAA
+        Afn////7////AAAAAAkIAAAADAkAAABRU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249NC4wLjAuMCwgQ3Vs
+        dHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQYAAAAhRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwVGl0bGVJdGVtCgAAAA1BbGxvd0h0bWxUZXh0BEljb24FSW1hZ2UKSW1hZ2VB
+        bGlnbgpJbWFnZUluZGV4E0ltYWdlVG9UZXh0RGlzdGFuY2UKTGVmdEluZGVudAhNYXhXaWR0aBJPd25l
+        ckFsbG93SHRtbFRleHQEVGV4dAQEBAQAAAAAAAEfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVh
+        bgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgkAAAAVU3lzdGVtLkRyYXdpbmcuQml0bWFwCQAAACZEZXZF
+        eHByZXNzLlV0aWxzLlRvb2xUaXBJbWFnZUFsaWdubWVudAIAAAAICAgIAQIAAAAB9v////z///8CAAAA
+        CgkLAAAABfT///8mRGV2RXhwcmVzcy5VdGlscy5Ub29sVGlwSW1hZ2VBbGlnbm1lbnQBAAAAB3ZhbHVl
+        X18ACAIAAAAAAAAA/////w4AAAAAAAAAPAEAAAAGDQAAAAtTaG93IEZpbHRlcgUIAAAAHERldkV4cHJl
+        c3MuVXRpbHMuVG9vbFRpcEl0ZW0KAAAADUFsbG93SHRtbFRleHQESWNvbgVJbWFnZQpJbWFnZUFsaWdu
+        CkltYWdlSW5kZXgTSW1hZ2VUb1RleHREaXN0YW5jZQpMZWZ0SW5kZW50CE1heFdpZHRoEk93bmVyQWxs
+        b3dIdG1sVGV4dARUZXh0BAQEBAAAAAAAAR9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAwAA
+        ABNTeXN0ZW0uRHJhd2luZy5JY29uCQAAABRTeXN0ZW0uRHJhd2luZy5JbWFnZQkAAAAmRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwSW1hZ2VBbGlnbm1lbnQCAAAACAgICAECAAAAAfL////8////AgAAAAoKAfH/
+        ///0////AAAAAP////8OAAAABgAAADwBAAAABhAAAAApICAgICAgICBDaGVjayB0aGlzIHRvIEZpbHRl
+        ciB0aGUgcmVjb3Jkcy4FCwAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgkAAAAJEQAA
+        AA8RAAAAcwEAAAL/2P/gABBKRklGAAEBAQAAAAAAAP/bAEMACQYHCAcGCQgHCAoKCQsNFg8NDAwNGxQV
+        EBYgHSIiIB0fHyQoNCwkJjEnHx8tPS0xNTc6OjojKz9EPzhDNDk6N//bAEMBCgoKDQwNGg8PGjclHyU3
+        Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAAoACgMB
+        IgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAFAAf/xAAlEAABAwMACwAAAAAAAAAAAAABAAMFAgQR
+        BhYhIzE1U3OSsdH/xAAVAQEBAAAAAAAAAAAAAAAAAAAFBv/EAB0RAAEDBQEAAAAAAAAAAAAAAAIBBCEA
+        AwUREkH/2gAMAwEAAhEDEQA/ABYaJl4+fjXn4u8aLVy05vbeukACsHJyOGxbHrFedNjxP1WlHMG+yPZQ
+        6nMvl3BuFEV55iPaQaNLY29rO6//2Qs=
+</value>
+  </data>
+  <data name="chkShowFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Name" xml:space="preserve">
+    <value>chkShowFilter</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="gcStaff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 68</value>
+  </data>
+  <data name="gvStaff.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gvStaff.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colStaffId.Caption" xml:space="preserve">
+    <value>StaffId</value>
+  </data>
+  <data name="colStaffCode.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colStaffCode.Caption" xml:space="preserve">
+    <value>Staff Code</value>
+  </data>
+  <data name="colStaffCode.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colStaffCode.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colStaffCode.Width" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="colStaffName.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colStaffName.Caption" xml:space="preserve">
+    <value>Staff Name</value>
+  </data>
+  <data name="colStaffName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colStaffName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colStaffName.Width" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="colAge.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colAge.Caption" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="colAge.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colAge.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colAge.Width" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="colGender.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colGender.Caption" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="colGender.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colGender.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colGender.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="colDOB.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colDOB.Caption" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="colDOB.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colDOB.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colDOB.Width" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="colDateOfJoining.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colDateOfJoining.Caption" xml:space="preserve">
+    <value>Date of Joining</value>
+  </data>
+  <data name="colDateOfJoining.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colDateOfJoining.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colDateOfJoining.Width" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="colGroup.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colGroup.Caption" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="colGroup.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colGroup.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colGroup.Width" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="colDesignation.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colDesignation.Caption" xml:space="preserve">
+    <value>Designation</value>
+  </data>
+  <data name="colDesignation.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colDesignation.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="colDesignation.Width" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="colProjectName.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colProjectName.Caption" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="colProjectName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colProjectName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="colProjectName.Width" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="colSacleofpay.Caption" xml:space="preserve">
+    <value>Basic Pay</value>
+  </data>
+  <assembly alias="DevExpress.Data.v13.2" name="DevExpress.Data.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="colSacleofpay.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v13.2">
+    <value>Sum</value>
+  </data>
+  <data name="colSacleofpay.Summary1" xml:space="preserve">
+    <value>SCALEOFPAY</value>
+  </data>
+  <data name="colSacleofpay.Summary2" xml:space="preserve">
+    <value>{0:n}</value>
+  </data>
+  <data name="colSacleofpay.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colSacleofpay.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="colSacleofpay.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="colStatutoryCompliance.Caption" xml:space="preserve">
+    <value>Statutory Compliance</value>
+  </data>
+  <data name="colStatutoryCompliance.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colStatutoryCompliance.VisibleIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="colStatutoryCompliance.Width" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="colKnownAs.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colKnownAs.Caption" xml:space="preserve">
+    <value>Known As</value>
+  </data>
+  <data name="colBankNumber.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colBankNumber.Caption" xml:space="preserve">
+    <value>Account Number</value>
+  </data>
+  <data name="colBankNumber.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colBankNumber.VisibleIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="colBankNumber.Width" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="colRetirementDate.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colRetirementDate.Caption" xml:space="preserve">
+    <value>Retirement Date</value>
+  </data>
+  <data name="colRetirementDate.Width" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="colDepartment.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colDepartment.Caption" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="colDegree.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colDegree.Caption" xml:space="preserve">
+    <value>Degree</value>
+  </data>
+  <data name="colLeavingDate.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colLeavingDate.Caption" xml:space="preserve">
+    <value>Leaving Date</value>
+  </data>
+  <data name="colLeavingDate.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colLeavingDate.VisibleIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="colLeavingDate.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="colYOS.Caption" xml:space="preserve">
+    <value>YOS</value>
+  </data>
+  <data name="colYOS.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colYOS.VisibleIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="colYOS.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="rbiPaymonthStaffProfile.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rbiPaymonthStaffProfile.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Glyph</value>
+  </data>
+  <data name="rbiPaymonthStaffProfile.Buttons1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbiPaymonthStaffProfile.Buttons2" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="rbiPaymonthStaffProfile.Buttons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbiPaymonthStaffProfile.Buttons4" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbiPaymonthStaffProfile.Buttons5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rbiPaymonthStaffProfile.Buttons6" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v13.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="rbiPaymonthStaffProfile.Buttons7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbiPaymonthStaffProfile.Buttons8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rbiPaymonthStaffProfile.Buttons9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rbiPaymonthStaffProfile.Buttons10" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colPaymonthProfileDetails.ToolTip" xml:space="preserve">
+    <value>Paymonth Staff Profile details</value>
+  </data>
+  <data name="colPaymonthProfileDetails.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colPaymonthProfileDetails.VisibleIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="colPaymonthProfileDetails.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="gcStaff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1239, 227</value>
+  </data>
+  <data name="gcStaff.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gcStaff.Name" xml:space="preserve">
+    <value>gcStaff</value>
+  </data>
+  <data name="&gt;&gt;gcStaff.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcStaff.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gcStaff.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="layoutControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="lcDateAsOn.CustomizationFormText" xml:space="preserve">
+    <value>Date As On</value>
+  </data>
+  <data name="lcDateAsOn.Text" xml:space="preserve">
+    <value>Date As On</value>
+  </data>
+  <data name="layoutControlItem5.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </data>
+  <data name="emptySpaceItem2.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="emptySpaceItem2.Text" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="lblRowcount.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRowcount.CustomizationFormText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblRowcount.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="simpleLabelItem2.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="simpleLabelItem2.CustomizationFormText" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="simpleLabelItem2.Text" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="layoutControlItem6.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </data>
+  <data name="lcGrpPayMonthStaffProfile.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lcGrpPayMonthStaffProfile.CustomizationFormText" xml:space="preserve">
+    <value>Paymonth Staff Profile</value>
+  </data>
+  <data name="lcPaymonthStaffProfile.CustomizationFormText" xml:space="preserve">
+    <value>lcPaymonthStaffProfile</value>
+  </data>
+  <data name="lcPaymonthStaffProfile.Text" xml:space="preserve">
+    <value>lcPaymonthStaffProfile</value>
+  </data>
+  <data name="lcGrpPayMonthStaffProfile.Text" xml:space="preserve">
+    <value>Paymonth Staff Profile</value>
+  </data>
+  <data name="lblPayMonth.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblPayMonth.CustomizationFormText" xml:space="preserve">
+    <value>PayMonth</value>
+  </data>
+  <data name="lblPayMonth.Text" xml:space="preserve">
+    <value>PayMonth</value>
+  </data>
+  <data name="lcServiceMode.CustomizationFormText" xml:space="preserve">
+    <value>lcServiceMode</value>
+  </data>
+  <data name="lcServiceMode.Text" xml:space="preserve">
+    <value>lcServiceMode</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1241, 403</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="ofdImportExcel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1241, 403</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Staff View</value>
+  </data>
+  <data name="&gt;&gt;gvPaymonthStaffProfile.Name" xml:space="preserve">
+    <value>gvPaymonthStaffProfile</value>
+  </data>
+  <data name="&gt;&gt;gvPaymonthStaffProfile.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colpaymonthstaffid.Name" xml:space="preserve">
+    <value>colpaymonthstaffid</value>
+  </data>
+  <data name="&gt;&gt;colpaymonthstaffid.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;coldPayrollid.Name" xml:space="preserve">
+    <value>coldPayrollid</value>
+  </data>
+  <data name="&gt;&gt;coldPayrollid.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPRName.Name" xml:space="preserve">
+    <value>colPRName</value>
+  </data>
+  <data name="&gt;&gt;colPRName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colStaffGroupName.Name" xml:space="preserve">
+    <value>colStaffGroupName</value>
+  </data>
+  <data name="&gt;&gt;colStaffGroupName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDepartmentId.Name" xml:space="preserve">
+    <value>colDepartmentId</value>
+  </data>
+  <data name="&gt;&gt;colDepartmentId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colWorkLocation.Name" xml:space="preserve">
+    <value>colWorkLocation</value>
+  </data>
+  <data name="&gt;&gt;colWorkLocation.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colStatutoryComplaiance.Name" xml:space="preserve">
+    <value>colStatutoryComplaiance</value>
+  </data>
+  <data name="&gt;&gt;colStatutoryComplaiance.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colAccountNumber.Name" xml:space="preserve">
+    <value>colAccountNumber</value>
+  </data>
+  <data name="&gt;&gt;colAccountNumber.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colIFSCCode.Name" xml:space="preserve">
+    <value>colIFSCCode</value>
+  </data>
+  <data name="&gt;&gt;colIFSCCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBankBranch.Name" xml:space="preserve">
+    <value>colBankBranch</value>
+  </data>
+  <data name="&gt;&gt;colBankBranch.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPaymentMode.Name" xml:space="preserve">
+    <value>colPaymentMode</value>
+  </data>
+  <data name="&gt;&gt;colPaymentMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colStaffOrder.Name" xml:space="preserve">
+    <value>colStaffOrder</value>
+  </data>
+  <data name="&gt;&gt;colStaffOrder.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Name" xml:space="preserve">
+    <value>repositoryItemTextEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemButtonEdit1.Name" xml:space="preserve">
+    <value>repositoryItemButtonEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemButtonEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemButtonEdit2.Name" xml:space="preserve">
+    <value>repositoryItemButtonEdit2</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemButtonEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gvStaff.Name" xml:space="preserve">
+    <value>gvStaff</value>
+  </data>
+  <data name="&gt;&gt;gvStaff.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colStaffId.Name" xml:space="preserve">
+    <value>colStaffId</value>
+  </data>
+  <data name="&gt;&gt;colStaffId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colStaffCode.Name" xml:space="preserve">
+    <value>colStaffCode</value>
+  </data>
+  <data name="&gt;&gt;colStaffCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colStaffName.Name" xml:space="preserve">
+    <value>colStaffName</value>
+  </data>
+  <data name="&gt;&gt;colStaffName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colAge.Name" xml:space="preserve">
+    <value>colAge</value>
+  </data>
+  <data name="&gt;&gt;colAge.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colGender.Name" xml:space="preserve">
+    <value>colGender</value>
+  </data>
+  <data name="&gt;&gt;colGender.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDOB.Name" xml:space="preserve">
+    <value>colDOB</value>
+  </data>
+  <data name="&gt;&gt;colDOB.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDateOfJoining.Name" xml:space="preserve">
+    <value>colDateOfJoining</value>
+  </data>
+  <data name="&gt;&gt;colDateOfJoining.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colGroup.Name" xml:space="preserve">
+    <value>colGroup</value>
+  </data>
+  <data name="&gt;&gt;colGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDesignation.Name" xml:space="preserve">
+    <value>colDesignation</value>
+  </data>
+  <data name="&gt;&gt;colDesignation.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colProjectName.Name" xml:space="preserve">
+    <value>colProjectName</value>
+  </data>
+  <data name="&gt;&gt;colProjectName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colSacleofpay.Name" xml:space="preserve">
+    <value>colSacleofpay</value>
+  </data>
+  <data name="&gt;&gt;colSacleofpay.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colStatutoryCompliance.Name" xml:space="preserve">
+    <value>colStatutoryCompliance</value>
+  </data>
+  <data name="&gt;&gt;colStatutoryCompliance.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colKnownAs.Name" xml:space="preserve">
+    <value>colKnownAs</value>
+  </data>
+  <data name="&gt;&gt;colKnownAs.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBankNumber.Name" xml:space="preserve">
+    <value>colBankNumber</value>
+  </data>
+  <data name="&gt;&gt;colBankNumber.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colRetirementDate.Name" xml:space="preserve">
+    <value>colRetirementDate</value>
+  </data>
+  <data name="&gt;&gt;colRetirementDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDepartment.Name" xml:space="preserve">
+    <value>colDepartment</value>
+  </data>
+  <data name="&gt;&gt;colDepartment.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDegree.Name" xml:space="preserve">
+    <value>colDegree</value>
+  </data>
+  <data name="&gt;&gt;colDegree.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colLeavingDate.Name" xml:space="preserve">
+    <value>colLeavingDate</value>
+  </data>
+  <data name="&gt;&gt;colLeavingDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colYOS.Name" xml:space="preserve">
+    <value>colYOS</value>
+  </data>
+  <data name="&gt;&gt;colYOS.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colPaymonthProfileDetails.Name" xml:space="preserve">
+    <value>colPaymonthProfileDetails</value>
+  </data>
+  <data name="&gt;&gt;colPaymonthProfileDetails.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rbiPaymonthStaffProfile.Name" xml:space="preserve">
+    <value>rbiPaymonthStaffProfile</value>
+  </data>
+  <data name="&gt;&gt;rbiPaymonthStaffProfile.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcDateAsOn.Name" xml:space="preserve">
+    <value>lcDateAsOn</value>
+  </data>
+  <data name="&gt;&gt;lcDateAsOn.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Name" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblRowcount.Name" xml:space="preserve">
+    <value>lblRowcount</value>
+  </data>
+  <data name="&gt;&gt;lblRowcount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleLabelItem2.Name" xml:space="preserve">
+    <value>simpleLabelItem2</value>
+  </data>
+  <data name="&gt;&gt;simpleLabelItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem6.Name" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcGrpPayMonthStaffProfile.Name" xml:space="preserve">
+    <value>lcGrpPayMonthStaffProfile</value>
+  </data>
+  <data name="&gt;&gt;lcGrpPayMonthStaffProfile.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcPaymonthStaffProfile.Name" xml:space="preserve">
+    <value>lcPaymonthStaffProfile</value>
+  </data>
+  <data name="&gt;&gt;lcPaymonthStaffProfile.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblPayMonth.Name" xml:space="preserve">
+    <value>lblPayMonth</value>
+  </data>
+  <data name="&gt;&gt;lblPayMonth.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcServiceMode.Name" xml:space="preserve">
+    <value>lcServiceMode</value>
+  </data>
+  <data name="&gt;&gt;lcServiceMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ofdImportExcel.Name" xml:space="preserve">
+    <value>ofdImportExcel</value>
+  </data>
+  <data name="&gt;&gt;ofdImportExcel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmStaffView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>PAYROLL.frmPayrollBase, PAYROLL, Version=6.28.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

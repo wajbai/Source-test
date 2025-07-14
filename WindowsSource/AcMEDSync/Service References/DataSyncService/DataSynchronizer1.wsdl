@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DataSynchronizer" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/erp/DataSyncService/DataSynchronizer.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/erp/DataSyncService/DataSynchronizer.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/erp/DataSyncService/DataSynchronizer.svc?xsd=xsd2" />
+      <xsd:import schemaLocation="http://localhost/erp/DataSyncService/DataSynchronizer.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDataSynchronizer_GetMasters_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMasters" />
+  </wsdl:message>
+  <wsdl:message name="IDataSynchronizer_GetMasters_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMastersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataSynchronizer_WriteMastersToXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:WriteMastersToXML" />
+  </wsdl:message>
+  <wsdl:message name="IDataSynchronizer_WriteMastersToXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WriteMastersToXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataSynchronizer_GetHeadOfficeMailAddress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHeadOfficeMailAddress" />
+  </wsdl:message>
+  <wsdl:message name="IDataSynchronizer_GetHeadOfficeMailAddress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHeadOfficeMailAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataSynchronizer_GetBranchMailAddress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranchMailAddress" />
+  </wsdl:message>
+  <wsdl:message name="IDataSynchronizer_GetBranchMailAddress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBranchMailAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataSynchronizer_GetOfficeMailAddress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOfficeMailAddress" />
+  </wsdl:message>
+  <wsdl:message name="IDataSynchronizer_GetOfficeMailAddress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOfficeMailAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataSynchronizer_FetchMailContent_InputMessage">
+    <wsdl:part name="parameters" element="tns:FetchMailContent" />
+  </wsdl:message>
+  <wsdl:message name="IDataSynchronizer_FetchMailContent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FetchMailContentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDataSynchronizer">
+    <wsdl:operation name="GetMasters">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataSynchronizer/GetMasters" message="tns:IDataSynchronizer_GetMasters_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataSynchronizer/GetMastersResponse" message="tns:IDataSynchronizer_GetMasters_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteMastersToXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataSynchronizer/WriteMastersToXML" message="tns:IDataSynchronizer_WriteMastersToXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataSynchronizer/WriteMastersToXMLResponse" message="tns:IDataSynchronizer_WriteMastersToXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHeadOfficeMailAddress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataSynchronizer/GetHeadOfficeMailAddress" message="tns:IDataSynchronizer_GetHeadOfficeMailAddress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataSynchronizer/GetHeadOfficeMailAddressResponse" message="tns:IDataSynchronizer_GetHeadOfficeMailAddress_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBranchMailAddress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataSynchronizer/GetBranchMailAddress" message="tns:IDataSynchronizer_GetBranchMailAddress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataSynchronizer/GetBranchMailAddressResponse" message="tns:IDataSynchronizer_GetBranchMailAddress_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOfficeMailAddress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataSynchronizer/GetOfficeMailAddress" message="tns:IDataSynchronizer_GetOfficeMailAddress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataSynchronizer/GetOfficeMailAddressResponse" message="tns:IDataSynchronizer_GetOfficeMailAddress_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FetchMailContent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataSynchronizer/FetchMailContent" message="tns:IDataSynchronizer_FetchMailContent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataSynchronizer/FetchMailContentResponse" message="tns:IDataSynchronizer_FetchMailContent_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDataSynchronizer" type="tns:IDataSynchronizer">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMasters">
+      <soap:operation soapAction="http://tempuri.org/IDataSynchronizer/GetMasters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteMastersToXML">
+      <soap:operation soapAction="http://tempuri.org/IDataSynchronizer/WriteMastersToXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHeadOfficeMailAddress">
+      <soap:operation soapAction="http://tempuri.org/IDataSynchronizer/GetHeadOfficeMailAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBranchMailAddress">
+      <soap:operation soapAction="http://tempuri.org/IDataSynchronizer/GetBranchMailAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOfficeMailAddress">
+      <soap:operation soapAction="http://tempuri.org/IDataSynchronizer/GetOfficeMailAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FetchMailContent">
+      <soap:operation soapAction="http://tempuri.org/IDataSynchronizer/FetchMailContent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DataSynchronizer">
+    <wsdl:port name="BasicHttpBinding_IDataSynchronizer" binding="tns:BasicHttpBinding_IDataSynchronizer">
+      <soap:address location="http://localhost/erp/DataSyncService/DataSynchronizer.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

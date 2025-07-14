@@ -1,0 +1,25 @@
+ <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="BasicHttpBinding_IDataSynchronizer" closeTimeout="00:40:00"
+          openTimeout="00:40:00" receiveTimeout="00:40:00" sendTimeout="00:40:00"
+          maxReceivedMessageSize="2147483647" />
+		<binding name="SSPAcmeIntegrationSoap" closeTimeout="00:40:00"
+          openTimeout="00:40:00" receiveTimeout="00:40:00" sendTimeout="00:40:00"
+          maxReceivedMessageSize="2147483647">
+		   <security mode="Transport" />
+		</binding>
+      </basicHttpBinding>
+    </bindings>
+    <client>
+      <endpoint address="http://acmeerp.org/DataSyncService/DataSynchronizer.svc"
+        binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IDataSynchronizer"
+        contract="DataSyncService.IDataSynchronizer" name="BasicHttpBinding_IDataSynchronizer" />
+		 <endpoint address="https://sdbinmsmartschoolplus.co.in//WebService/SSPAcmeIntegration.asmx"
+          binding="basicHttpBinding" bindingConfiguration="SSPAcmeIntegrationSoap"
+          contract="SSPAcmeIntegration.SSPAcmeIntegrationSoap" name="SSPAcmeIntegrationSoap" />
+		   <endpoint address="https://test.smartschoolplus.co.in/Webservice/SSPAcmeintegration.asmx"
+          binding="basicHttpBinding" bindingConfiguration="SSPAcmeIntegrationSoap"
+          contract="SSPAcmeIntegration.SSPAcmeIntegrationSoap" name="SSPAcmeIntegrationSoap" />
+    </client>
+  </system.serviceModel>

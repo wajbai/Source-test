@@ -1,0 +1,1680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCOUNTING_PERIOD_ACTIVE" xml:space="preserve">
+    <value>Periode Transaksi Aktif. Tidak dapat dihapus.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_ADD_CAPTION" xml:space="preserve">
+    <value>Periode Transaksi (Tambah)</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_CANNOT_DELETE" xml:space="preserve">
+    <value>Tidak bisa delete.Transaction dibuat untuk periode Tahun Buku / akuntansi ini</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_CHANGE_PERIOD" xml:space="preserve">
+    <value>Apakah Anda yakin akan mengubah Periode Transaksi?</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_EDIT_CAPTION" xml:space="preserve">
+    <value>Periode Transaksi (Ubah)</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_ONE_ACTIVE" xml:space="preserve">
+    <value>Periode akuntansi Satu harus aktif.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_PRINT_CAPTION" xml:space="preserve">
+    <value>Detail Periode Transaksi</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_YEAR_EQUAL_EMPTY" xml:space="preserve">
+    <value>Transaksi Periode Tahun sampai saat ini adalah kurang dari Tahun dari tanggal.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_YEAR_FROM_EMPTY" xml:space="preserve">
+    <value>Transaksi Periode Tahun Dari tanggal kosong.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_YEAR_TO_EMPTY" xml:space="preserve">
+    <value>Transaksi Periode Tahun Sampai saat ini kosong.</value>
+  </data>
+  <data name="ADDRESS_ADD_CAPTION" xml:space="preserve">
+    <value>Alamat (Tambah)</value>
+  </data>
+  <data name="ADDRESS_COUNTRY_EMPTY" xml:space="preserve">
+    <value>Negara kosong.</value>
+  </data>
+  <data name="ADDRESS_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="ADDRESS_EDIT_CAPTION" xml:space="preserve">
+    <value>Alamat (Ubah)</value>
+  </data>
+  <data name="ADDRESS_NAME_EMPTY" xml:space="preserve">
+    <value>Nama kosong.</value>
+  </data>
+  <data name="ADDRESS_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="ALLOCATION_AMOUNT_IS_NOT_EQUAL" xml:space="preserve">
+    <value>Jumlah yang dialokasikan tidak sama dengan pusat biaya jumlah total.</value>
+  </data>
+  <data name="AUDITOR_ADD_CAPTION" xml:space="preserve">
+    <value>Auditor (Tambah)</value>
+  </data>
+  <data name="AUDITOR_BEGIN_DATE" xml:space="preserve">
+    <value>Audit Sampai saat ini tidak boleh kurang dari Audit Dari tanggal.</value>
+  </data>
+  <data name="AUDITOR_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="AUDITOR_EDIT_CAPTION" xml:space="preserve">
+    <value>Auditor (Ubah)</value>
+  </data>
+  <data name="AUDITOR_INFO_ADD" xml:space="preserve">
+    <value>Info Audit (Tambah)</value>
+  </data>
+  <data name="AUDITOR_INFO_AUDITOR_EMPTY" xml:space="preserve">
+    <value>Info Auditor kosong.</value>
+  </data>
+  <data name="AUDITOR_INFO_CLOSEDON_EMPTY" xml:space="preserve">
+    <value>Tertutup On kosong.</value>
+  </data>
+  <data name="AUDITOR_INFO_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="AUDITOR_INFO_EDIT" xml:space="preserve">
+    <value>Info Audit (Ubah)</value>
+  </data>
+  <data name="AUDITOR_INFO_PRINT_CAPTION" xml:space="preserve">
+    <value>Info Audit</value>
+  </data>
+  <data name="AUDITOR_INFO_PROJECT_EMPTY" xml:space="preserve">
+    <value>Proyek kosong.</value>
+  </data>
+  <data name="AUDITOR_INFO_STARTEDON_EMPTY" xml:space="preserve">
+    <value>Dimulai On kosong.</value>
+  </data>
+  <data name="AUDITOR_INFO_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="AUDITOR_NAME_EMPTY" xml:space="preserve">
+    <value>Auditor Nama kosong.</value>
+  </data>
+  <data name="AUDITOR_ON_FROM" xml:space="preserve">
+    <value>Diaudit Pada tanggal tidak boleh kurang dari Audit Dari tanggal.</value>
+  </data>
+  <data name="AUDITOR_ON_TO" xml:space="preserve">
+    <value>Diaudit Pada tanggal tidak boleh kurang dari Audit Sampai saat ini.</value>
+  </data>
+  <data name="AUDITOR_PRINT_CAPTION" xml:space="preserve">
+    <value>Daftar Auditor</value>
+  </data>
+  <data name="AUDITOR_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="BANK_ACCCOUNT_FAILURE" xml:space="preserve">
+    <value>Rekening Bank tidak disimpan.</value>
+  </data>
+  <data name="BANK_ACCOUNT" xml:space="preserve">
+    <value>Rekening Bank</value>
+  </data>
+  <data name="BANK_ACCOUNT_ADD" xml:space="preserve">
+    <value>Rekening Bank (Tambah)</value>
+  </data>
+  <data name="BANK_ACCOUNT_CLOSEDATE_VALIDATION" xml:space="preserve">
+    <value>Bank Tutup Tanggal tidak boleh kurang dari Bank Open Date.</value>
+  </data>
+  <data name="BANK_ACCOUNT_CODE_EMPTY" xml:space="preserve">
+    <value>Bank Kode Rekening kosong.</value>
+  </data>
+  <data name="BANK_ACCOUNT_DELETED" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="BANK_ACCOUNT_EDIT" xml:space="preserve">
+    <value>Rekening Bank (Ubah)</value>
+  </data>
+  <data name="BANK_ACCOUNT_PRINT_CAPTION" xml:space="preserve">
+    <value>Bank Account Details</value>
+  </data>
+  <data name="BANK_ACCOUNT_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="BANK_ADD_CAPTION" xml:space="preserve">
+    <value>Bank (Tambah)</value>
+  </data>
+  <data name="BANK_BRANCH_EMPTY" xml:space="preserve">
+    <value>Nama Cabang kosong.</value>
+  </data>
+  <data name="BANK_CODE_EMPTY" xml:space="preserve">
+    <value>Kode Bank kosong.</value>
+  </data>
+  <data name="BANK_DELETE" xml:space="preserve">
+    <value>Tidak ada catatan untuk menghapus.</value>
+  </data>
+  <data name="BANK_DELETE_ASSOCIATION" xml:space="preserve">
+    <value>Bank tidak dapat dihapus. Memiliki Association.</value>
+  </data>
+  <data name="BANK_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="BANK_EDIT_CAPTION" xml:space="preserve">
+    <value>Bank (Ubah)</value>
+  </data>
+  <data name="BANK_NAME_EMPTY" xml:space="preserve">
+    <value>Nama Bank kosong.</value>
+  </data>
+  <data name="BANK_OPERATING_CAPTION" xml:space="preserve">
+    <value>Bank Operasional</value>
+  </data>
+  <data name="BANK_PRINT_CAPTION" xml:space="preserve">
+    <value>Detail Bank</value>
+  </data>
+  <data name="BANK_SAVE_FAILURE" xml:space="preserve">
+    <value>Rekor tersedia.</value>
+  </data>
+  <data name="BANK_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="BOOK_BEGINNING_DATE_EMPTY" xml:space="preserve">
+    <value>Buku Mulai dari tanggal seharusnya tidak boleh kosong.</value>
+  </data>
+  <data name="BREAKUP_AMOUNT_EXCEEDS" xml:space="preserve">
+    <value>Jumlah tidak dapat lebih besar dari jumlah yang diberikan.</value>
+  </data>
+  <data name="BREAKUP_AMOUNT_GREATER_THAN" xml:space="preserve">
+    <value>Mengingat Jumlah ini lebih besar dari Jumlah yang</value>
+  </data>
+  <data name="BREAKUP_AMOUNT_LESS_THAN" xml:space="preserve">
+    <value>Mengingat Jumlah kurang dari jumlah</value>
+  </data>
+  <data name="BREAKUP_AMOUT_ZERO" xml:space="preserve">
+    <value>Jumlah harus lebih besar dari 0</value>
+  </data>
+  <data name="BREAKUP_DATE_EXCEPTION" xml:space="preserve">
+    <value>Ditentukan cor tidak valid</value>
+  </data>
+  <data name="BREAKUP_FD_NUMBER_EMPTY" xml:space="preserve">
+    <value>Nomor FD tidak boleh kosong</value>
+  </data>
+  <data name="BREAKUP_GRID_ERROR" xml:space="preserve">
+    <value>Breakup kesalahan Detail Validasi</value>
+  </data>
+  <data name="BREAKUP_INTEREST_RATE_EMPTY_ZERO" xml:space="preserve">
+    <value>Suku bunga tidak boleh kosong atau nol</value>
+  </data>
+  <data name="BREAKUP_INTEREST_RATE_NEGATIVE" xml:space="preserve">
+    <value>Suku Bunga tidak boleh negatif</value>
+  </data>
+  <data name="BREAKUP_NEGATIVE_BALANCE" xml:space="preserve">
+    <value>Nagative Balance, entri akan menghapus kecuali nilai berubah.</value>
+  </data>
+  <data name="BREAKUP_NOT_TALLIED" xml:space="preserve">
+    <value>Jumlah tidak cocok</value>
+  </data>
+  <data name="BREAKUP_PERCENTAGE_NEGATIVE" xml:space="preserve">
+    <value>Persentase tidak boleh negatif.</value>
+  </data>
+  <data name="BREAKUP_REQUIRED_FIELD" xml:space="preserve">
+    <value>Isi semua bidang.</value>
+  </data>
+  <data name="BREAKUP_SAVED_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="BREAKUP_ZERO_ENTRY" xml:space="preserve">
+    <value>Nol entri akan dihapus.</value>
+  </data>
+  <data name="BRS_MATERIALIZED_DATE" xml:space="preserve">
+    <value>Terwujud pada harus lebih besar dari tanggal Voucher.</value>
+  </data>
+  <data name="BUDGET_ADD_CAPTION" xml:space="preserve">
+    <value>Anggaran (Tambah)</value>
+  </data>
+  <data name="BUDGET_CANNOT_ACTIVE_DELETE" xml:space="preserve">
+    <value>Tidak dapat menghapus, Anggaran di Active Mode</value>
+  </data>
+  <data name="BUDGET_DATE_FROM_EMPTY" xml:space="preserve">
+    <value>Tanggal Dari tidak boleh kosong</value>
+  </data>
+  <data name="BUDGET_DATE_TO_EMPTY" xml:space="preserve">
+    <value>Tanggal Untuk tidak boleh kosong</value>
+  </data>
+  <data name="BUDGET_EDIT_CAPTION" xml:space="preserve">
+    <value>Anggaran (Ubah)</value>
+  </data>
+  <data name="BUDGET_IMPORT_NO_BUDGET_FOR_PROJECT" xml:space="preserve">
+    <value>Anggaran belum dibuat untuk proyek ini</value>
+  </data>
+  <data name="BUDGET_IMPORT_PERCENTAGE_EMPTY" xml:space="preserve">
+    <value>Persentase tidak boleh kosong</value>
+  </data>
+  <data name="BUDGET_LEDGER_NOT_MAPPED_TO_PROJECT" xml:space="preserve">
+    <value>Buku besar tidak dipetakan untuk proyek ini untuk anggaran</value>
+  </data>
+  <data name="BUDGET_NAME_EMPTY" xml:space="preserve">
+    <value>Nama Anggaran tidak boleh kosong</value>
+  </data>
+  <data name="BUDGET_PROJECT_EMPTY" xml:space="preserve">
+    <value>Proyek tidak dipilih</value>
+  </data>
+  <data name="BUDGET_TYPE_EMPTY" xml:space="preserve">
+    <value>Budget Jenis harus dipilih</value>
+  </data>
+  <data name="COMMON_BACKUP_CONFIRMATION" xml:space="preserve">
+    <value>Apakah Anda ingin backup data AcMeERP?</value>
+  </data>
+  <data name="COMMON_DELETED_CONFIRMATION" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="COMMON_DELETE_CONFIRMATION" xml:space="preserve">
+    <value>Hapus entri ini?</value>
+  </data>
+  <data name="COMMON_DELETE_FAILURE" xml:space="preserve">
+    <value>Tidak bisa Hapus</value>
+  </data>
+  <data name="COMMON_EMAIL_INVALID" xml:space="preserve">
+    <value>Alamat Email tidak valid.</value>
+  </data>
+  <data name="COMMON_GRID_EMPTY" xml:space="preserve">
+    <value>Tidak ada catatan yang tersedia dalam grid untuk mengedit / menghapus.</value>
+  </data>
+  <data name="COMMON_INVALID_EXCEPTION" xml:space="preserve">
+    <value>Informasi yang diperlukan tidak diisi.</value>
+  </data>
+  <data name="COMMON_MESSAGE_TITLE" xml:space="preserve">
+    <value>Acme ERP</value>
+  </data>
+  <data name="COMMON_NOSELECTION_FOR_DELETE" xml:space="preserve">
+    <value>Tidak ada catatan yang dipilih untuk Hapus.</value>
+  </data>
+  <data name="COMMON_NOSELECTION_FOR_EDIT" xml:space="preserve">
+    <value>Tidak ada catatan yang dipilih untuk Mengedit.</value>
+  </data>
+  <data name="COMMON_PRINT_MESSAGE" xml:space="preserve">
+    <value>Tidak ada catatan untuk mengambil printout.</value>
+  </data>
+  <data name="COMMON_PROCESS_DIALOG_CAPTION" xml:space="preserve">
+    <value>Pengolahan ...</value>
+  </data>
+  <data name="COMMON_RESTORE_CONFIRMATION" xml:space="preserve">
+    <value>Apakah Anda ingin Mengembalikan data AcMeERP?</value>
+  </data>
+  <data name="COMMON_SAVED_CONFIRMATION" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="COMMON_SAVE_FAILURE" xml:space="preserve">
+    <value>Rekor tersedia.</value>
+  </data>
+  <data name="COMMON_URL_INVALID" xml:space="preserve">
+    <value>URL tidak valid</value>
+  </data>
+  <data name="COMMON_USER_RIGHTS" xml:space="preserve">
+    <value>Anda tidak memiliki hak untuk mengedit.</value>
+  </data>
+  <data name="COMMON_WAIT_DIALOG_CAPTION" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="COMMON_WELCOME_NOTE" xml:space="preserve">
+    <value>Selamat Datang di Acme ERP</value>
+  </data>
+  <data name="CONFIRM_PRINT_VOUCHER" xml:space="preserve">
+    <value>Apakah Anda ingin untuk Cetak?</value>
+  </data>
+  <data name="COST_CENTER_ADD_CAPTION" xml:space="preserve">
+    <value>Pusat Biaya (Tambah)</value>
+  </data>
+  <data name="COST_CENTER_CODE_EMPTY" xml:space="preserve">
+    <value>Biaya Kode Centre kosong.</value>
+  </data>
+  <data name="COST_CENTER_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="COST_CENTER_EDIT_CAPTION" xml:space="preserve">
+    <value>Biaya Internet (Ubah)</value>
+  </data>
+  <data name="COST_CENTER_MAPPING_SUCESS" xml:space="preserve">
+    <value>Pusat biaya (s) telah dipetakan berhasil.</value>
+  </data>
+  <data name="COST_CENTER_NAME_EMPTY" xml:space="preserve">
+    <value>Biaya Nama Centre kosong.</value>
+  </data>
+  <data name="COST_CENTER_PRINT_CAPTION" xml:space="preserve">
+    <value>Biaya rincian Centre</value>
+  </data>
+  <data name="COST_CENTER_SAVE_FAILURE" xml:space="preserve">
+    <value>Rekor tersedia.</value>
+  </data>
+  <data name="COST_CENTER_SUCSESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="COST_CENTER_TYPE_EMPTY" xml:space="preserve">
+    <value>Pilih Jenis Biaya Pusat (Cr / Dr).</value>
+  </data>
+  <data name="COUNTRY_ADD_CAPTION" xml:space="preserve">
+    <value>Negara (Tambah)</value>
+  </data>
+  <data name="COUNTRY_CODE_EMPTY" xml:space="preserve">
+    <value>Kode Negara kosong.</value>
+  </data>
+  <data name="COUNTRY_DELETE_FAILURE" xml:space="preserve">
+    <value>Tidak dapat menghapus</value>
+  </data>
+  <data name="COUNTRY_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="COUNTRY_EDIT_CAPTION" xml:space="preserve">
+    <value>Negara (Ubah)</value>
+  </data>
+  <data name="COUNTRY_ISDCODE_EXIST" xml:space="preserve">
+    <value>ISD Kode tersedia sudah.</value>
+  </data>
+  <data name="COUNTRY_ISD_CODE_EMPTY" xml:space="preserve">
+    <value>Kode negara ISD kosong.</value>
+  </data>
+  <data name="COUNTRY_NAME_EMPTY" xml:space="preserve">
+    <value>Nama Negara kosong.</value>
+  </data>
+  <data name="COUNTRY_NAME_EXIST" xml:space="preserve">
+    <value>Nama sudah ada.</value>
+  </data>
+  <data name="COUNTRY_PRINT_CAPTION" xml:space="preserve">
+    <value>rincian Negara</value>
+  </data>
+  <data name="COUNTRY_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="CROPPING_CONFIRMATION" xml:space="preserve">
+    <value>Apakah Anda ingin memotong daerah ini?</value>
+  </data>
+  <data name="CROPPING_EXCEPTION" xml:space="preserve">
+    <value>Dari memori</value>
+  </data>
+  <data name="CROPPING_EXCEPTION_MESSAGE" xml:space="preserve">
+    <value>Seleksi garis melampaui Image, cobalah memilih gambar.</value>
+  </data>
+  <data name="CROPPING_IMAGE_RESIZE" xml:space="preserve">
+    <value>Ukuran gambar yang tidak didukung, Silahkan ubah ukuran gambar.</value>
+  </data>
+  <data name="CROPPING_TITLE" xml:space="preserve">
+    <value>cropping Gambar</value>
+  </data>
+  <data name="CURRENCY_CODE_EMPTY" xml:space="preserve">
+    <value>Kode Mata Uang kosong.</value>
+  </data>
+  <data name="DASHBOARD_ALERTS_TITLE" xml:space="preserve">
+    <value>Alerts</value>
+  </data>
+  <data name="DASHBOARD_BALANCE_TITLE" xml:space="preserve">
+    <value>Balance as on</value>
+  </data>
+  <data name="DASHBOARD_BANK_RECONCILIATION_TITLE" xml:space="preserve">
+    <value>Bank Reconciliation Statement as on</value>
+  </data>
+  <data name="DASHBOARD_BANK_TITLE" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="DASHBOARD_BRS_TITLE" xml:space="preserve">
+    <value>BRS</value>
+  </data>
+  <data name="DASHBOARD_CASH_BANK_FD_TITLE" xml:space="preserve">
+    <value>Cash_Bank_Fd</value>
+  </data>
+  <data name="DASHBOARD_CASH_TITLE" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="DASHBOARD_CHEQUE_HAS_TITLE" xml:space="preserve">
+    <value>Cheque has to be Reconciled/Cleared</value>
+  </data>
+  <data name="DASHBOARD_CHEQUE_HAVE_TITLE" xml:space="preserve">
+    <value>Cheques have to be Reconciled/Cleared</value>
+  </data>
+  <data name="DASHBOARD_FD_ACCOUNT_TITLE" xml:space="preserve">
+    <value>FD Account</value>
+  </data>
+  <data name="DASHBOARD_FD_TITLE" xml:space="preserve">
+    <value>FD</value>
+  </data>
+  <data name="DASHBOARD_FIXED_DEPOSIT_TITLE" xml:space="preserve">
+    <value>Fixed Deposit</value>
+  </data>
+  <data name="DASHBOARD_MATURES_ON_TITLE" xml:space="preserve">
+    <value>matures on</value>
+  </data>
+  <data name="DASHBOARD_NEGATIVE_BALANCE_TITLE" xml:space="preserve">
+    <value>Negative Balance</value>
+  </data>
+  <data name="DASHBOARD_PROJECT_TITLE" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="DASHBOARD_RECEIPT_PAYMENT_TITLE" xml:space="preserve">
+    <value>Receipt and Payments as on</value>
+  </data>
+  <data name="DONOR_ADD_CAPTION" xml:space="preserve">
+    <value>Donor (Tambah)</value>
+  </data>
+  <data name="DONOR_CONTRIBUTION_ACTUAL_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Kontribusi Jumlah sebenarnya kosong.</value>
+  </data>
+  <data name="DONOR_CONTRIBUTION_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Donor Kontribusi Jumlah kosong.</value>
+  </data>
+  <data name="DONOR_COUNTRY_EMPTY" xml:space="preserve">
+    <value>Negara tidak dipilih.</value>
+  </data>
+  <data name="DONOR_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="DONOR_EDIT_CAPTION" xml:space="preserve">
+    <value>Donor (Ubah)</value>
+  </data>
+  <data name="DONOR_NAME_EMPTY" xml:space="preserve">
+    <value>Donor Nama kosong.</value>
+  </data>
+  <data name="DONOR_PRINT_CAPTION" xml:space="preserve">
+    <value>Rincian Donor</value>
+  </data>
+  <data name="DONOR_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="EXECUTIVE_ADD_CAPTION" xml:space="preserve">
+    <value>Pemerintahan Anggota (Add)</value>
+  </data>
+  <data name="EXECUTIVE_COUNTRY_EMPTY" xml:space="preserve">
+    <value>Negara kosong</value>
+  </data>
+  <data name="EXECUTIVE_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="EXECUTIVE_DOB_EXIT" xml:space="preserve">
+    <value>Tanggal lahir tidak bisa kurang dari Tanggal Keluar.</value>
+  </data>
+  <data name="EXECUTIVE_EDIT_CAPTION" xml:space="preserve">
+    <value>Pemerintahan Anggota (Ubah)</value>
+  </data>
+  <data name="EXECUTIVE_EMAIL_EMPTY" xml:space="preserve">
+    <value>Email kosong</value>
+  </data>
+  <data name="EXECUTIVE_EXIT_JOIN" xml:space="preserve">
+    <value>Tanggal Keluar tidak bisa kurang dari Tanggal Bergabung.</value>
+  </data>
+  <data name="EXECUTIVE_JOIN_DOB" xml:space="preserve">
+    <value>Tanggal Bergabung tidak bisa kurang dari Tanggal Lahir.</value>
+  </data>
+  <data name="EXECUTIVE_NAME_EMPTY" xml:space="preserve">
+    <value>Nama kosong.</value>
+  </data>
+  <data name="EXECUTIVE_NATIONALITY_EMPTY" xml:space="preserve">
+    <value>Kebangsaan kosong.</value>
+  </data>
+  <data name="EXECUTIVE_PRINT_CAPTION" xml:space="preserve">
+    <value>Pemerintahan rincian Members '</value>
+  </data>
+  <data name="EXECUTIVE_SAVE_FAILURE" xml:space="preserve">
+    <value>Rekam ini Tersedia!</value>
+  </data>
+  <data name="EXECUTIVE_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="FD_ACCOUNT_ADD" xml:space="preserve">
+    <value>FD Pembukaan (Tambah)</value>
+  </data>
+  <data name="FD_ACCOUNT_EDIT" xml:space="preserve">
+    <value>FD Pembukaan (Ubah)</value>
+  </data>
+  <data name="FD_ACCOUNT_INV_PRINT_CAPTION" xml:space="preserve">
+    <value>Deposito Berjangka Rincian Investasi</value>
+  </data>
+  <data name="FD_ACCOUNT_OP_PRINT_CAPTION" xml:space="preserve">
+    <value>Setoran Tetap Membuka Balance</value>
+  </data>
+  <data name="FD_ADD" xml:space="preserve">
+    <value>Setoran Tetap (Tambah)</value>
+  </data>
+  <data name="FD_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Jumlah Deposit tetap tidak boleh kosong.</value>
+  </data>
+  <data name="FD_AMOUNT_GREATER_THAN_ZERO" xml:space="preserve">
+    <value>Jumlah harus lebih besar dari Nol</value>
+  </data>
+  <data name="FD_BANK_CASH_GOES_CREDIT" xml:space="preserve">
+    <value>Saldo Bank / Kas masuk kredit. Apakah Anda ingin melanjutkan?</value>
+  </data>
+  <data name="FD_BANK_CONFIRMATION" xml:space="preserve">
+    <value>Apakah Anda ingin melanjutkan dengan bank yang Anda pilih?</value>
+  </data>
+  <data name="FD_BANK_INTEREST_LED_EMPTY" xml:space="preserve">
+    <value>Bunga Bank Ledger kosong</value>
+  </data>
+  <data name="FD_BANK_IS_NOT_CORRECT" xml:space="preserve">
+    <value>Rekening Bank yang dipilih tidak tepat. Pilih yang sesuai Investasi Rekening Bank untuk Renew.</value>
+  </data>
+  <data name="FD_CANNOT_DELETE_ASSCOCIATE_RENEWAL" xml:space="preserve">
+    <value>Anda tidak dapat menghapus setoran tetap/berjangka ini karena memiliki hubungan dengan FD Renewal.</value>
+  </data>
+  <data name="FD_CANNOT_INVEST" xml:space="preserve">
+    <value>Setoran tetap tidak dapat diinvestasikan</value>
+  </data>
+  <data name="FD_CANNOT_POST_INTEREST" xml:space="preserve">
+    <value>Anda tidak dapat mengirim bunga untuk setoran tetap/berjangka ini</value>
+  </data>
+  <data name="FD_CANNOT_REALIZED" xml:space="preserve">
+    <value>Setoran tetap tidak dapat direalisasikan</value>
+  </data>
+  <data name="FD_CANNOT_RENEW" xml:space="preserve">
+    <value>Setoran tetap tidak dapat diperbaharui</value>
+  </data>
+  <data name="FD_CANNOT_UNMAP_MAKE_ZERO" xml:space="preserve">
+    <value>Tidak bisa unmap membuat jumlah nol dan coba lagi.</value>
+  </data>
+  <data name="FD_CASH_BANK_EMPTY" xml:space="preserve">
+    <value>Kas / Bank Ledger kosong</value>
+  </data>
+  <data name="FD_CASH_BANK_LEDGERS" xml:space="preserve">
+    <value>Rekening Bank Ledger kosong</value>
+  </data>
+  <data name="FD_CONFIRMATION_DELETE" xml:space="preserve">
+    <value>Hal ini tertutup Deposito Berjangka Voucher.Do Anda ingin melanjutkan?</value>
+  </data>
+  <data name="FD_CREATED_DATE" xml:space="preserve">
+    <value>Tanggal dibuat harus kurang dari tahun finacial untuk mengatur keseimbangan pembukaan, Apakah Anda ingin berinvestasi? Klik link Investasi untuk investasi jumlahnya.</value>
+  </data>
+  <data name="FD_CREATED_DATE_EMPTY" xml:space="preserve">
+    <value>Dibuat Tanggal tidak boleh kosong.</value>
+  </data>
+  <data name="FD_CREATED_DATE_LESS_THAN_FINANCIAL_YEAR" xml:space="preserve">
+    <value>Tanggal dibuat harus kurang dari Tahun Keuangan Tahun Dari tanggal. Untuk berinvestasi pergi ke Investasi</value>
+  </data>
+  <data name="FD_DELETED" xml:space="preserve">
+    <value>Tetap Rincian Setoran dihapus</value>
+  </data>
+  <data name="FD_DEPOSIT" xml:space="preserve">
+    <value>Tetap Rincian Setoran</value>
+  </data>
+  <data name="FD_EDIT" xml:space="preserve">
+    <value>Deposito Berjangka (Ubah)</value>
+  </data>
+  <data name="FD_INTEREST_RATE_EMPTY" xml:space="preserve">
+    <value>Suku Bunga tidak boleh kosong</value>
+  </data>
+  <data name="FD_INVESTENT_DATE_AS_ON" xml:space="preserve">
+    <value>Diinvestasikan Tanggal seperti pada</value>
+  </data>
+  <data name="FD_INVESTMENT_ADD" xml:space="preserve">
+    <value>FD Investasi (Tambah)</value>
+  </data>
+  <data name="FD_INVESTMENT_AMOUNT" xml:space="preserve">
+    <value>jumlah</value>
+  </data>
+  <data name="FD_INVESTMENT_CAPTION" xml:space="preserve">
+    <value>FD Investasi</value>
+  </data>
+  <data name="FD_INVESTMENT_EDIT" xml:space="preserve">
+    <value>FD Investasi (Ubah)</value>
+  </data>
+  <data name="FD_INVESTMENT_GROUP_CAPTION" xml:space="preserve">
+    <value>Rincian investasi</value>
+  </data>
+  <data name="FD_INVESTMENT_UNMAPPING" xml:space="preserve">
+    <value>Tidak bisa unmap, Investasi dibuat untuk buku ini.</value>
+  </data>
+  <data name="FD_LEDGER_CODE" xml:space="preserve">
+    <value>FD Ledger Kode kosong.</value>
+  </data>
+  <data name="FD_LEDGER_NAME" xml:space="preserve">
+    <value>FDLedger Nama kosong.</value>
+  </data>
+  <data name="FD_LEDGER_NOT_MAPPED_TO_PROJECT" xml:space="preserve">
+    <value>Ledger tidak dipetakan ke proyek ini</value>
+  </data>
+  <data name="FD_LEDGER_PRINT_CAPTION" xml:space="preserve">
+    <value>FD Ledger Detail</value>
+  </data>
+  <data name="FD_MATURITY_DATE" xml:space="preserve">
+    <value>TM Tanggal tidak boleh kurang kemudian Diperbaharui Tanggal.</value>
+  </data>
+  <data name="FD_MATURITY_DATE_EMPTY" xml:space="preserve">
+    <value>Tanggal Jatuh Tempo tidak boleh kosong.</value>
+  </data>
+  <data name="FD_MATURITY_DATE_FINANCIAL_YEAR" xml:space="preserve">
+    <value>Tanggal Jatuh Tempo harus lebih besar dari Tahun Tahun Keuangan Dari tanggal untuk Pembukaan Deposito Berjangka</value>
+  </data>
+  <data name="FD_MATURITY_DATE_GREATER_THAN_CREATED_DATE" xml:space="preserve">
+    <value>Tanggal Jatuh Tempo tidak dapat lebih besar dari Dibuat Tanggal</value>
+  </data>
+  <data name="FD_MATURITY_DATE_LESS_THAN_CREATED_DATE" xml:space="preserve">
+    <value>Tanggal Jatuh Tempo tidak bisa kurang dari atau sama dengan Created Date.</value>
+  </data>
+  <data name="FD_NOT_APPROPRIATE_BANK" xml:space="preserve">
+    <value>Rekening Bank yang dipilih tidak tepat.</value>
+  </data>
+  <data name="FD_NUMBER_EMPTY" xml:space="preserve">
+    <value>Jumlah Setoran tetap tidak boleh kosong.</value>
+  </data>
+  <data name="FD_OPENING_CAPTION" xml:space="preserve">
+    <value>FD Pembukaan</value>
+  </data>
+  <data name="FD_OPENING_GROUP_CAPTION" xml:space="preserve">
+    <value>pembukaan</value>
+  </data>
+  <data name="FD_OPENING_UNMAPPING" xml:space="preserve">
+    <value>Tidak bisa unmap, Saldo pembukaan ditetapkan untuk Ledger ini.</value>
+  </data>
+  <data name="FD_OP_AMOUNT" xml:space="preserve">
+    <value>jumlah</value>
+  </data>
+  <data name="FD_OP_DATE_AS_ON" xml:space="preserve">
+    <value>Membuka Saldo Tanggal seperti pada</value>
+  </data>
+  <data name="FD_PRINT_CAPTION" xml:space="preserve">
+    <value>Tetap Rincian Setoran</value>
+  </data>
+  <data name="FD_REALISED" xml:space="preserve">
+    <value>Setoran tetap direalisasikan</value>
+  </data>
+  <data name="FD_RENEWAL_CANNOT_DELETE" xml:space="preserve">
+    <value>FD Renewal tidak dapat dihapus</value>
+  </data>
+  <data name="FD_RENEWAL_CANNOT_EDIT" xml:space="preserve">
+    <value>FD Renewal tidak dapat diedit</value>
+  </data>
+  <data name="FD_RENEWAL_CAPTION" xml:space="preserve">
+    <value>Setoran Renewal Tetap</value>
+  </data>
+  <data name="FD_RENEWAL_DATE_NOT_GREATER_THAN_MATURITY_DATE" xml:space="preserve">
+    <value>Tanggal Perpanjangan harus lebih besar dari Jatuh Terakhir Tanggal</value>
+  </data>
+  <data name="FD_RENEWAL_DATE_WITHIN_TRANSACTION" xml:space="preserve">
+    <value>The Renewal tanggal harus dengan pada periode transaksi untuk memperbaharui setoran tetap/berjangka ini</value>
+  </data>
+  <data name="FD_RENEWED_DATE" xml:space="preserve">
+    <value>Diperbaharui Tanggal tidak bisa kurang dari Current TM Tanggal.</value>
+  </data>
+  <data name="FD_SET_OPENING_BALANCE_ALERT" xml:space="preserve">
+    <value>Tanggal dibuat harus kurang dari Tahun Keuangan Tahun Dari tanggal. Untuk berinvestasi pergi ke Investasi.</value>
+  </data>
+  <data name="FD_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="FD_TRANSACTION_MADE_ANOTHER_PERIOD" xml:space="preserve">
+    <value>Transaksi dilakukan dalam Periode Transaksi lain, sehingga tidak dapat menarik setoran tetap/berjangka</value>
+  </data>
+  <data name="FD_UNMAPPING" xml:space="preserve">
+    <value>Tidak bisa unmap setoran tetap/berjangka ini karena Membuka atau Investasi yang dilakukan untuk ini FD Ledger</value>
+  </data>
+  <data name="FD_WITHDRAWAL_ON_EMPTY" xml:space="preserve">
+    <value>Penarikan pada kosong</value>
+  </data>
+  <data name="FD_WITHDRAWAL_ON_GREATER_THAN_RENEWAL_DATE" xml:space="preserve">
+    <value>Penarikan On harus lebih besar dari yang terakhir Tanggal Perpanjangan</value>
+  </data>
+  <data name="FD_WITHDRAW_AMOUNT_EMPTY" xml:space="preserve">
+    <value>tunai tarik kosong</value>
+  </data>
+  <data name="FD_WITHDRAW_AMOUNT_VALIDATION" xml:space="preserve">
+    <value>tunai tarik tidak dapat lebih besar dari jumlah prinicipal</value>
+  </data>
+  <data name="FIXED_DEPOSIT_LEDGER_EMPTY" xml:space="preserve">
+    <value>Deposito Berjangka Ledger kosong</value>
+  </data>
+  <data name="FIXED_LEDGER_DELETE" xml:space="preserve">
+    <value>Tetap Ledger Tidak bisa dihapus</value>
+  </data>
+  <data name="FIXED_LEDGER_EDIT" xml:space="preserve">
+    <value>Tetap Ledger Tidak bisa Diedit</value>
+  </data>
+  <data name="GROUP_ADD_CAPTION" xml:space="preserve">
+    <value>Ledger Group (Tambah)</value>
+  </data>
+  <data name="GROUP_CAN_DELETE" xml:space="preserve">
+    <value>Grup tidak dapat dihapus. Ini memiliki asosiasi.</value>
+  </data>
+  <data name="GROUP_CAN_EDIT" xml:space="preserve">
+    <value>Grup tidak dapat diedit. Ini memiliki asosiasi.</value>
+  </data>
+  <data name="GROUP_CODE_EMPTY" xml:space="preserve">
+    <value>Kode Group adalah kosong.</value>
+  </data>
+  <data name="GROUP_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="GROUP_EDIT_CAPTION" xml:space="preserve">
+    <value>Ledger Group (Ubah)</value>
+  </data>
+  <data name="GROUP_FIXED_EDIT" xml:space="preserve">
+    <value>Tetap Alam tidak dapat diedit.</value>
+  </data>
+  <data name="GROUP_LEVEL_CHECK" xml:space="preserve">
+    <value>Tingkat Grup Berikutnya tidak dapat ditambahkan.</value>
+  </data>
+  <data name="GROUP_NAME_EMPTY" xml:space="preserve">
+    <value>Group adalah kosong.</value>
+  </data>
+  <data name="GROUP_NATURE_DELETE" xml:space="preserve">
+    <value>Tetap Alam tidak dapat dihapus.</value>
+  </data>
+  <data name="GROUP_PARENT_EMPTY" xml:space="preserve">
+    <value>Pilih Kelompok Induk.</value>
+  </data>
+  <data name="GROUP_SAVE_FAILURE" xml:space="preserve">
+    <value>Detail Group tidak tersimpan.</value>
+  </data>
+  <data name="GROUP_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="INKINDARTICLE_ABBREVATION_EMPTY" xml:space="preserve">
+    <value>Nilai inkind kosong.</value>
+  </data>
+  <data name="INKINDARTICLE_ADD_CAPTION" xml:space="preserve">
+    <value>Inkind Pasal (Tambah).</value>
+  </data>
+  <data name="INKINDARTICLE_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="INKINDARTICLE_EDIT_CAPTION" xml:space="preserve">
+    <value>Inkind Pasal (Ubah)</value>
+  </data>
+  <data name="INKINDARTICLE_NAME_EMPTY" xml:space="preserve">
+    <value>Di Kind Nama Pasal kosong.</value>
+  </data>
+  <data name="INKINDARTICLE_PRINT_CAPTION" xml:space="preserve">
+    <value>Dalam Kind Pasal</value>
+  </data>
+  <data name="INKINDARTICLE_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="INKIND_ITEM" xml:space="preserve">
+    <value>Inkind Barang kosong</value>
+  </data>
+  <data name="INKIND_LEDGER" xml:space="preserve">
+    <value>Inkind Ledger kosong</value>
+  </data>
+  <data name="INKIND_LEDGER_ITEM" xml:space="preserve">
+    <value>Inkind Ledger tidak dipetakan untuk proyek ini.</value>
+  </data>
+  <data name="INKIND_PURPOSE" xml:space="preserve">
+    <value>Tujuan inkind kosong.</value>
+  </data>
+  <data name="INKIND_VALUE" xml:space="preserve">
+    <value>Nilai inkind kosong.</value>
+  </data>
+  <data name="INSTITUTE_NAME_EMPTY" xml:space="preserve">
+    <value>Institute Nama adalah Kosong</value>
+  </data>
+  <data name="JOURNAL_ADD_CAPTION" xml:space="preserve">
+    <value>Journal (Tambah)</value>
+  </data>
+  <data name="JOURNAL_CANNOT_DELETE" xml:space="preserve">
+    <value>Tidak dapat menghapus, ini ditutup Journal Voucher Entri</value>
+  </data>
+  <data name="JOURNAL_CANNOT_EDIT" xml:space="preserve">
+    <value>Tidak dapat mengedit, ini ditutup Journal Voucher Entri</value>
+  </data>
+  <data name="JOURNAL_EDIT_CAPTION" xml:space="preserve">
+    <value>Journal (Ubah)</value>
+  </data>
+  <data name="LEDGER_ACCOUNT_DATE_EMPTY" xml:space="preserve">
+    <value>Akun Tanggal kosong.</value>
+  </data>
+  <data name="LEDGER_ACCOUNT_NUMBER_EMPTY" xml:space="preserve">
+    <value>Nomor Rekening kosong.</value>
+  </data>
+  <data name="LEDGER_ACCOUNT_TYPE_EMPTY" xml:space="preserve">
+    <value>Jenis Akun kosong.</value>
+  </data>
+  <data name="LEDGER_ADD_CAPTION" xml:space="preserve">
+    <value>Ledger (Tambah)</value>
+  </data>
+  <data name="LEDGER_BANK_EMPTY" xml:space="preserve">
+    <value>Nama Bank kosong.</value>
+  </data>
+  <data name="lEDGER_CODE_EMPTY" xml:space="preserve">
+    <value>Ledger Kode kosong.</value>
+  </data>
+  <data name="LEDGER_DATE_OPEN_EMPTY" xml:space="preserve">
+    <value>Akun Open Date kosong.</value>
+  </data>
+  <data name="LEDGER_DELETED" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="LEDGER_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="LEDGER_EDIT_CAPTION" xml:space="preserve">
+    <value>Ledger (Ubah)</value>
+  </data>
+  <data name="LEDGER_FAILURE" xml:space="preserve">
+    <value>Ledger Detail tidak disimpan.</value>
+  </data>
+  <data name="LEDGER_GROUP_EMPTY" xml:space="preserve">
+    <value>Ledger Group adalah kosong.</value>
+  </data>
+  <data name="LEDGER_MAPPED" xml:space="preserve">
+    <value>Ledger dipetakan dengan satu atau lebih proyek, buku unmap untuk menghapus.</value>
+  </data>
+  <data name="LEDGER_MAPPING_SUCCESS" xml:space="preserve">
+    <value>Ledger (s) telah dipetakan berhasil.</value>
+  </data>
+  <data name="LEDGER_NAME_EMPTY" xml:space="preserve">
+    <value>Ledger Nama kosong.</value>
+  </data>
+  <data name="LEDGER_PRINT_CAPTION" xml:space="preserve">
+    <value>Ledger Detail</value>
+  </data>
+  <data name="LEDGER_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="LEGAL_ENTITY_PRINT_CAPTION" xml:space="preserve">
+    <value>Badan Hukum</value>
+  </data>
+  <data name="LICENSE_GENERATE_CONFIRMATION" xml:space="preserve">
+    <value>License Key adalah generated.Do Anda ingin menyimpan?</value>
+  </data>
+  <data name="MAPPING_CONTRIBUTION_SUCCESS" xml:space="preserve">
+    <value>Kontribusi (s) telah dipetakan berhasil.</value>
+  </data>
+  <data name="MAPPING_DONOR_SUCCESS" xml:space="preserve">
+    <value>Donor (s) telah dipetakan berhasil.</value>
+  </data>
+  <data name="MAPPING_FD_LEDGER_RESTRICTION" xml:space="preserve">
+    <value>Deposito Berjangka Ledger tidak dapat dipetakan dengan beberapa proyek</value>
+  </data>
+  <data name="MAPPING_LEDGER_CANNOT_SET_OP_FD_LEDGER" xml:space="preserve">
+    <value>Tidak dapat menyetel membuka saldo Setoran ini buku tetap</value>
+  </data>
+  <data name="MAPPING_MAKE_AMOUNT_ZERO" xml:space="preserve">
+    <value>Coba setelah membuat jumlah 0 dan menyimpan catatan untuk unmap</value>
+  </data>
+  <data name="MAPPING_NEGATIVE_BALANCE" xml:space="preserve">
+    <value>Saldo Pembukaan tidak boleh negatif.</value>
+  </data>
+  <data name="MAPPING_TRANSACTION_MADE_ALREADY" xml:space="preserve">
+    <value>Transaksi dilakukan untuk Item ini (s), itu tidak dapat terpetakan.</value>
+  </data>
+  <data name="MASTER_VOUCHER_MAPPING" xml:space="preserve">
+    <value>Voucher ini dipetakan ke proyek ini.</value>
+  </data>
+  <data name="MERGE_LEDGER_STRONG_MESSAGE" xml:space="preserve">
+    <value>Penggabungan Buku Pembantu akan dihapus permanently.Do Anda benar-benar ingin melanjutkan?</value>
+  </data>
+  <data name="MIGRATION_ACCESS_DB_EMPTY" xml:space="preserve">
+    <value>MS Access DB diperlukan untuk bermigrasi data</value>
+  </data>
+  <data name="MIGRATION_COMPLETED_SUCCESSFULLY" xml:space="preserve">
+    <value>Migrasi selesai Berhasil</value>
+  </data>
+  <data name="MIGRATION_CONNECTION_FAILED" xml:space="preserve">
+    <value>Koneksi tidak didirikan</value>
+  </data>
+  <data name="MIGRATION_CONNECTION_SUCCEED" xml:space="preserve">
+    <value>koneksi Sukses</value>
+  </data>
+  <data name="MIGRATION_DESTINATION_DB_FAILS" xml:space="preserve">
+    <value>Tujuan DB Koneksi gagal, koneksi Sumber DB Sukses</value>
+  </data>
+  <data name="MIGRATION_ERROR_TRANSACTION_BALANCE" xml:space="preserve">
+    <value>Kesalahan dalam Saldo transaksi Refreshing</value>
+  </data>
+  <data name="MIGRATION_FILE_EMPTY" xml:space="preserve">
+    <value>Nama file kosong</value>
+  </data>
+  <data name="MIGRATION_LOG_FILE_OPEN" xml:space="preserve">
+    <value>Apakah Anda ingin membuka Log File?</value>
+  </data>
+  <data name="MIGRATION_RECORD_AVAILABLE" xml:space="preserve">
+    <value>Migrasi sudah dilakukan, migrasi tua Cleanup dan Countiue?</value>
+  </data>
+  <data name="MIGRATION_SOURCE_DB_FAILS" xml:space="preserve">
+    <value>Sumber koneksi DB gagal</value>
+  </data>
+  <data name="MIGRATION_TITLE" xml:space="preserve">
+    <value>Migrasi Data</value>
+  </data>
+  <data name="MIGRATION_VOUCHER_TRANS_FAILS" xml:space="preserve">
+    <value>VoucherTrans Updation gagal, tidak CashID set, coba lagi</value>
+  </data>
+  <data name="NAME_EMPTY" xml:space="preserve">
+    <value>Nama kosong.</value>
+  </data>
+  <data name="NO_RECORD" xml:space="preserve">
+    <value>Tidak ada catatan untuk menyimpan.</value>
+  </data>
+  <data name="NO_RIGHTS_FOR_ADDITION" xml:space="preserve">
+    <value>Anda tidak memiliki hak untuk menambahkan.</value>
+  </data>
+  <data name="NO_RIGHTS_FOR_DELETION" xml:space="preserve">
+    <value>Anda tidak memiliki hak untuk menghapus</value>
+  </data>
+  <data name="NO_RIGHTS_FOR_PRINT" xml:space="preserve">
+    <value>Anda tidak memiliki hak untuk mencetak</value>
+  </data>
+  <data name="PERCENTAGE_NEGATIVE" xml:space="preserve">
+    <value>Persentase tidak dapat di nilai negatif.</value>
+  </data>
+  <data name="PROJECT_ADD_CAPTION" xml:space="preserve">
+    <value>Proyek (Tambah)</value>
+  </data>
+  <data name="PROJECT_AVAILABLE_VOUCHERS" xml:space="preserve">
+    <value>Lebih dari satu Penerimaan / Pembayaran / Contra / Journal telah dipilih.</value>
+  </data>
+  <data name="PROJECT_CANNOT_DELETE_OPENING_BALANCE" xml:space="preserve">
+    <value>Tidak dapat menghapus, Kas Ledger telah membuka keseimbangan untuk proyek ini</value>
+  </data>
+  <data name="PROJECT_CATEGORY_ADD_CAPTION" xml:space="preserve">
+    <value>Proyek Kategori (Tambah)</value>
+  </data>
+  <data name="PROJECT_CATEGORY_EDIT_CAPTION" xml:space="preserve">
+    <value>Proyek Kategori (Ubah)</value>
+  </data>
+  <data name="PROJECT_CATEGORY_EMPTY" xml:space="preserve">
+    <value>Proyek Kategori kosong.</value>
+  </data>
+  <data name="PROJECT_CATEGORY_PRINT_CAPTION" xml:space="preserve">
+    <value>Proyek Kategori rincian</value>
+  </data>
+  <data name="PROJECT_CATOGORY_AVAILABLE" xml:space="preserve">
+    <value>Rekor tersedia.</value>
+  </data>
+  <data name="PROJECT_CATOGORY_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="PROJECT_CATOGORY_EMPTY" xml:space="preserve">
+    <value>Proyek Kategori kosong.</value>
+  </data>
+  <data name="PROJECT_CATOGORY_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="PROJECT_CODE_EMPTY" xml:space="preserve">
+    <value>Kode Proyek kosong.</value>
+  </data>
+  <data name="PROJECT_DATE_VALIDATION" xml:space="preserve">
+    <value>Ditutup Pada tidak bisa kurang dari Mulai Aktif.</value>
+  </data>
+  <data name="PROJECT_DELETE_ASSOCIATION" xml:space="preserve">
+    <value>Proyek tidak dapat dihapus. Ini memiliki asosiasi.</value>
+  </data>
+  <data name="PROJECT_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="PROJECT_EDIT_CAPTION" xml:space="preserve">
+    <value>Proyek (Ubah)</value>
+  </data>
+  <data name="PROJECT_MAPPING_SUCCESS" xml:space="preserve">
+    <value>Proyek (s) telah dipetakan berhasil.</value>
+  </data>
+  <data name="PROJECT_MAP_LEDGER" xml:space="preserve">
+    <value>Proyek ditutup. Ledger tidak dapat dipetakan.</value>
+  </data>
+  <data name="PROJECT_NAME_EMPTY" xml:space="preserve">
+    <value>Nama Proyek kosong.</value>
+  </data>
+  <data name="PROJECT_PRINT_CAPTION" xml:space="preserve">
+    <value>rincian proyek</value>
+  </data>
+  <data name="PROJECT_PROJECT_VOUCHERS" xml:space="preserve">
+    <value>Lebih dari satu Penerimaan / Pembayaran / Contra / Journal tidak dapat ditambahkan.</value>
+  </data>
+  <data name="PROJECT_START_DATE_EMPTY" xml:space="preserve">
+    <value>Tanggal mulai proyek tidak boleh kosong</value>
+  </data>
+  <data name="PROJECT_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="PROJECT_TRANSACTION_MADE" xml:space="preserve">
+    <value>Tidak dapat menghapus, Transaksi dibuat untuk proyek ini</value>
+  </data>
+  <data name="PROJECT_VOUCHER" xml:space="preserve">
+    <value>Lebih dari satu Penerimaan, Pembayaran, Contra dan Jurnal tidak dapat dipilih.</value>
+  </data>
+  <data name="PROJECT_VOUCHER_INFO" xml:space="preserve">
+    <value>Setidaknya satu Penerimaan, pembayaran dan Contra harus dipilih.</value>
+  </data>
+  <data name="PROJECT__LEDGER_MAPPED" xml:space="preserve">
+    <value>Tidak dapat menghapus, Beberapa Buku besar dipetakan untuk proyek ini</value>
+  </data>
+  <data name="PURPOSE_ADD_CAPTION" xml:space="preserve">
+    <value>Tujuan (Tambah)</value>
+  </data>
+  <data name="PURPOSE_CODE_EMPTY" xml:space="preserve">
+    <value>Tujuan Kode kosong.</value>
+  </data>
+  <data name="PURPOSE_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="PURPOSE_EDIT_CAPTION" xml:space="preserve">
+    <value>Tujuan (Ubah)</value>
+  </data>
+  <data name="PURPOSE_HEAD_EMPTY" xml:space="preserve">
+    <value>Tujuan Kepala kosong.</value>
+  </data>
+  <data name="PURPOSE_PRINT_CAPTION" xml:space="preserve">
+    <value>rincian tujuan</value>
+  </data>
+  <data name="PURPOSE_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="REGENERATION_FAILS" xml:space="preserve">
+    <value>Regenerasi gagal. aktif</value>
+  </data>
+  <data name="RENEWAL_NO_RECORD" xml:space="preserve">
+    <value>Tidak ada catatan yang dipilih untuk memodifikasi, silahkan pilih catatan</value>
+  </data>
+  <data name="RENEWAL_VIEW_NO_RECORD_TO_RENEW" xml:space="preserve">
+    <value>Tidak ada catatan yang tersedia dalam grid untuk memperbaharui</value>
+  </data>
+  <data name="REPORT_BANK_EMPTY" xml:space="preserve">
+    <value>Bank harus dipilih.</value>
+  </data>
+  <data name="REPORT_BUDGET_EMPTY" xml:space="preserve">
+    <value>Nama Anggaran harus dipilih.</value>
+  </data>
+  <data name="REPORT_COSTCENTRE_EMPTY" xml:space="preserve">
+    <value>Sebuah pusat biaya harus dipilih.</value>
+  </data>
+  <data name="REPORT_FINACIAL_RECORDS_CASH_BANK_EMPTY" xml:space="preserve">
+    <value>Pilih voucher Kas / Bank</value>
+  </data>
+  <data name="REPORT_LEDGER_EMPTY" xml:space="preserve">
+    <value>A Ledger harus dipilih.</value>
+  </data>
+  <data name="REPORT_PROJECT_EMPTY" xml:space="preserve">
+    <value>Proyek A harus dipilih.</value>
+  </data>
+  <data name="SAVED_PRINT_VOUCHER" xml:space="preserve">
+    <value>Rekam Disimpan. Apakah Anda ingin untuk Cetak?</value>
+  </data>
+  <data name="SETTING_APPLICATION_RESTART_CONFIRMATION" xml:space="preserve">
+    <value>Aplikasi ini akan restart untuk menerapkan pengaturan. Apakah Anda ingin melanjutkan?</value>
+  </data>
+  <data name="SETTING_BOOK_BEGINNING_EMPTY" xml:space="preserve">
+    <value>Buku Tanggal Mulai kosong.</value>
+  </data>
+  <data name="SETTING_CURRENCY_CODE_INVALID" xml:space="preserve">
+    <value>Kode Mata Uang valid</value>
+  </data>
+  <data name="SETTING_CURRENCY_INVALID" xml:space="preserve">
+    <value>Valid Mata Uang Simbol</value>
+  </data>
+  <data name="SETTING_CURRENCY__POSITION_INVALID" xml:space="preserve">
+    <value>Posisi mata tidak valid</value>
+  </data>
+  <data name="SETTING_DATE_FORMAT_INVALID" xml:space="preserve">
+    <value>Format Tanggal Tidak Valid</value>
+  </data>
+  <data name="SETTING_DATE_SEPARATOR_INVALID" xml:space="preserve">
+    <value>Tanggal Separator tidak valid</value>
+  </data>
+  <data name="SETTING_DECIMAL_PLACES_INVALID" xml:space="preserve">
+    <value>Desimal valid</value>
+  </data>
+  <data name="SETTING_DECIMAL_PLACES_SEPARATOR_INVALID" xml:space="preserve">
+    <value>Decimal Separator tidak valid</value>
+  </data>
+  <data name="SETTING_DEFAULT_LANGUAGE_SET" xml:space="preserve">
+    <value>Default Kembali Bahasa Inggris</value>
+  </data>
+  <data name="SETTING_DIGIT_GROUPING_INVALID" xml:space="preserve">
+    <value>Pengelompokan Digit valid</value>
+  </data>
+  <data name="SETTING_DIGIT_GROUPING_SEPARATOR_INVALID" xml:space="preserve">
+    <value>Digit valid Pengelompokan Separator</value>
+  </data>
+  <data name="SETTING_FOREIGN_BANKACCOUNT" xml:space="preserve">
+    <value>Rekening Bank yang ditunjuk asing adalah tidak valid.</value>
+  </data>
+  <data name="SETTING_LANGUAGE_INVALID" xml:space="preserve">
+    <value>Bahasa adalah tidak valid</value>
+  </data>
+  <data name="SETTING_NEGATIVE_SIGN_INVALID" xml:space="preserve">
+    <value>Masuk Negatif valid</value>
+  </data>
+  <data name="SETTING_RESTART_PREVIEW" xml:space="preserve">
+    <value>Klik OK untuk mengatur ini untuk seluruh aplikasi.</value>
+  </data>
+  <data name="SETTING_SUCCESS" xml:space="preserve">
+    <value>Pengaturan telah berhasil diterapkan.</value>
+  </data>
+  <data name="SETTING_TRANSACTION_FAILURE" xml:space="preserve">
+    <value>Periode Transaksi belum ditetapkan.</value>
+  </data>
+  <data name="SETTING__FAILURE" xml:space="preserve">
+    <value>Tidak bisa menerapkan pengaturan.</value>
+  </data>
+  <data name="SOCIETY_NAME_EMPTY" xml:space="preserve">
+    <value>Masyarakat Nama adalah Kosong</value>
+  </data>
+  <data name="TDS_DEDUCTEETYPES_ADD_CAPTION" xml:space="preserve">
+    <value>Jenis Deductee (Tambah)</value>
+  </data>
+  <data name="TDS_DEDUCTEETYPES_EDIT_CAPTION" xml:space="preserve">
+    <value>Jenis Deductee (Ubah)</value>
+  </data>
+  <data name="TDS_DEDUCTEETYPES_PRINT_CAPTION" xml:space="preserve">
+    <value>Deductee Jenis Detail</value>
+  </data>
+  <data name="TDS_DEDUCTEE_NAME_EMPTY" xml:space="preserve">
+    <value>Deductee Nama kosong.</value>
+  </data>
+  <data name="TDS_DEDUCTEE_TYPE_EMPTY" xml:space="preserve">
+    <value>Jenis Deductee tidak dipilih</value>
+  </data>
+  <data name="TDS_DUTY_TAX_ADD_CAPTION" xml:space="preserve">
+    <value>Pajak Duty (Tambah)</value>
+  </data>
+  <data name="TDS_DUTY_TAX_EDIT_CAPTION" xml:space="preserve">
+    <value>Pajak Duty (Ubah)</value>
+  </data>
+  <data name="TDS_DUTY_TAX_NAME_EMPTY" xml:space="preserve">
+    <value>Nama Pajak kosong.</value>
+  </data>
+  <data name="TDS_DUTY_TAX_PRINT_CAPTION" xml:space="preserve">
+    <value>Tugas Rincian Pajak</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_ADD_CAPTION" xml:space="preserve">
+    <value>Sifat Pembayaran (Tambah)</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_EDIT_CAPTION" xml:space="preserve">
+    <value>Sifat Pembayaran (Ubah)</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_PAYMENT_CODE_EMPTY" xml:space="preserve">
+    <value>Kode Pembayaran kosong.</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_PAYMENT_NAME_EMPTY" xml:space="preserve">
+    <value>Payment Name is empty.</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_PRINT_CAPTION" xml:space="preserve">
+    <value>Sifat Rincian Pembayaran</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_SECTION_CODE_EMPTY" xml:space="preserve">
+    <value>Bagian Kode kosong.</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_SECTION_NAME_EMPTY" xml:space="preserve">
+    <value>Bagian Nama kosong.</value>
+  </data>
+  <data name="TDS_NATURE_OF_PAYMENT_EMPTY" xml:space="preserve">
+    <value>Sifat pembayaran tidak dipilih</value>
+  </data>
+  <data name="TRANSACTION_AMOUNT_NOT_EQUAL_ACTUAL_AMOUNT" xml:space="preserve">
+    <value>Transaksi tidak dilakukan setara dengan jumlah yang sebenarnya</value>
+  </data>
+  <data name="TRANSACTION_FD" xml:space="preserve">
+    <value>OP Balance tidak dapat diatur dan tidak dapat belum dipetakan untuk Deposito Berjangka.</value>
+  </data>
+  <data name="TRANSACTION_MADE_LEDGER" xml:space="preserve">
+    <value>Transaksi ini dibuat untuk buku ini, tidak dapat dihapus.</value>
+  </data>
+  <data name="TRANSACTION_MOVE_GREATER_THAN_ONE" xml:space="preserve">
+    <value>Atleast satu proyek harus dipilih untuk memindahkan transaksi</value>
+  </data>
+  <data name="TRANSACTION_MOVE_SUCCESS" xml:space="preserve">
+    <value>Transaksi Pindah Berhasil</value>
+  </data>
+  <data name="TRANSACTION_PERIOD_SET_EMPTY" xml:space="preserve">
+    <value>Periode Transaksi belum dibuat atau tidak aktif. Apakah Anda ingin membuat Periode Transaksi sekarang atau set aktif?</value>
+  </data>
+  <data name="TRANS_DATE" xml:space="preserve">
+    <value>Tanggal Untuk tidak boleh kurang dari Tanggal Dari.</value>
+  </data>
+  <data name="UNMAP_CASH_LEDGER" xml:space="preserve">
+    <value>Kas Ledger tidak dapat terpetakan.</value>
+  </data>
+  <data name="USERROLE_CAPTION" xml:space="preserve">
+    <value>Peran pengguna</value>
+  </data>
+  <data name="USERROLE_DELETE" xml:space="preserve">
+    <value>Anda tidak memiliki izin untuk menghapus peran pengguna ini.</value>
+  </data>
+  <data name="USERROLE_EMPTY" xml:space="preserve">
+    <value>Peran Pengguna kosong.</value>
+  </data>
+  <data name="USERROLE_EXITS" xml:space="preserve">
+    <value>Peran Pengguna sudah tersedia.</value>
+  </data>
+  <data name="USERROLE_NAME" xml:space="preserve">
+    <value>administrator</value>
+  </data>
+  <data name="USER_ADD_CAPTION" xml:space="preserve">
+    <value>Pengguna (Tambah)</value>
+  </data>
+  <data name="USER_CHANGE_PASSWORD" xml:space="preserve">
+    <value>Ubah Password</value>
+  </data>
+  <data name="USER_CONFIRM_PASSWORD_EMPTY" xml:space="preserve">
+    <value>Konfirmasi Password kosong.</value>
+  </data>
+  <data name="USER_CURRENT_PASSWORD_EMPTY" xml:space="preserve">
+    <value>Sandi kini kosong.</value>
+  </data>
+  <data name="USER_CURRENT_PASSWORD_FAIL" xml:space="preserve">
+    <value>Sandi saat ini tidak benar.</value>
+  </data>
+  <data name="USER_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="USER_EDIT_CAPTION" xml:space="preserve">
+    <value>Pengguna (Ubah)</value>
+  </data>
+  <data name="USER_FIRST_NAME_EMPTY" xml:space="preserve">
+    <value>Nama pertama adalah kosong.</value>
+  </data>
+  <data name="USER_FORGOT_PASSWORD" xml:space="preserve">
+    <value>Lupa Kata Sandi</value>
+  </data>
+  <data name="USER_INVALID" xml:space="preserve">
+    <value>Nama Pengguna atau Sandi tidak valid</value>
+  </data>
+  <data name="USER_LOGIN" xml:space="preserve">
+    <value>Page Title :: Login User</value>
+  </data>
+  <data name="USER_LOGIN_SUCCESS" xml:space="preserve">
+    <value>Login Sukses</value>
+  </data>
+  <data name="USER_NAME_EMPTY" xml:space="preserve">
+    <value>Nama Pengguna kosong.</value>
+  </data>
+  <data name="USER_NEW_PASSWORD_EMPTY" xml:space="preserve">
+    <value>New password kosong.</value>
+  </data>
+  <data name="USER_NEW_PASSWORD_MISMATCH" xml:space="preserve">
+    <value>New Password dan Confirm password mismatch.</value>
+  </data>
+  <data name="USER_PASSWORD_EMPTY" xml:space="preserve">
+    <value>Sandi kosong.</value>
+  </data>
+  <data name="USER_PASSWORD_UNMATCHED" xml:space="preserve">
+    <value>Sandi salah.</value>
+  </data>
+  <data name="USER_PRINT_CAPTION" xml:space="preserve">
+    <value>Rincian Pengguna '</value>
+  </data>
+  <data name="USER_RESET_PASSWORD_SUCCESS" xml:space="preserve">
+    <value>Sandi telah Reset.</value>
+  </data>
+  <data name="USER_RIGHTS_RESTART_CONFIRM" xml:space="preserve">
+    <value>Hak pengguna ditetapkan untuk peran yang dipilih.</value>
+  </data>
+  <data name="USER_ROLE_ADD_CAPTION" xml:space="preserve">
+    <value>Peran Pengguna (Tambah)</value>
+  </data>
+  <data name="USER_ROLE_DELETE_FAILS" xml:space="preserve">
+    <value>Anda tidak dapat menghapus pengguna ini Peran</value>
+  </data>
+  <data name="USER_ROLE_DELETE_SUCCESS" xml:space="preserve">
+    <value>Rekam dihapus</value>
+  </data>
+  <data name="USER_ROLE_EDIT_CAPTION" xml:space="preserve">
+    <value>Peran Pengguna (Ubah)</value>
+  </data>
+  <data name="USER_ROLE_PRINT_CAPTION" xml:space="preserve">
+    <value>Rincian Peran Pengguna</value>
+  </data>
+  <data name="USER_ROLE_SAVE_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="USER_SAVED_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="USER_SESSIONEXPIRY_INVALID" xml:space="preserve">
+    <value>Sesi kedaluwarsa / Pengguna tidak valid</value>
+  </data>
+  <data name="USER_VIEW" xml:space="preserve">
+    <value>pengguna View</value>
+  </data>
+  <data name="VOUCHER_ADD_CAPTION" xml:space="preserve">
+    <value>Voucher (Tambah)</value>
+  </data>
+  <data name="VOUCHER_AMOUNT_LESS_THAN_ZERO" xml:space="preserve">
+    <value>Jumlah tidak bisa kurang dari nol.</value>
+  </data>
+  <data name="VOUCHER_AMOUNT_MISMATCH" xml:space="preserve">
+    <value>jumlah Mismatch</value>
+  </data>
+  <data name="VOUCHER_CANNOT_DELETE_ASSOCIATION_OCCURS" xml:space="preserve">
+    <value>Tidak bisa Hapus, memiliki hubungan dengan FD Renewal / Penarikan</value>
+  </data>
+  <data name="VOUCHER_CANNOT_DELETE_FD_RECEIPT_ENTRY" xml:space="preserve">
+    <value>Tidak bisa Hapus, ini adalah FD Penerimaan tertutup Voucher entri</value>
+  </data>
+  <data name="VOUCHER_CANNOT_EDIT_FD_CONTRA_ENTRY" xml:space="preserve">
+    <value>Tidak dapat Mengedit, ini ditutup FD Contra Voucher Masuk</value>
+  </data>
+  <data name="VOUCHER_CANNOT_EDIT_FD_RECEIPT_ENTRY" xml:space="preserve">
+    <value>Tidak dapat Mengedit, ini adalah FD Penerimaan tertutup Voucher entri</value>
+  </data>
+  <data name="VOUCHER_CASHBANK_MAPPING_TO_PROJECT" xml:space="preserve">
+    <value>Buku Pembantu Kas / Bank tidak dipetakan ke proyek ini.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_ALLOCATION_AMOUNT_GREATER" xml:space="preserve">
+    <value>Jumlah Alokasi lebih besar dari jumlah Centre Biaya.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_ALLOCATION_AMOUNT_LESS" xml:space="preserve">
+    <value>Jumlah Alokasi kurang dari Pusat Biaya jumlah total.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_AMOUNT_EMPTY" xml:space="preserve">
+    <value>Jumlah kosong.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_DELETED_SUCCESSFULLY" xml:space="preserve">
+    <value>Pusat Biaya Voucher dihapus.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_NAME_EMPTY" xml:space="preserve">
+    <value>Pusat Biaya kosong.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_NAME_EXIST" xml:space="preserve">
+    <value>Nama sudah ada.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_SAVED_SUCCESSFULLY" xml:space="preserve">
+    <value>Pusat Biaya Voucher disimpan.</value>
+  </data>
+  <data name="VOUCHER_DEFAULT_CANNOT_DELETE" xml:space="preserve">
+    <value>Standar voucher tidak dapat dihapus</value>
+  </data>
+  <data name="VOUCHER_DELETE" xml:space="preserve">
+    <value>Voucher sudah dihapus.</value>
+  </data>
+  <data name="VOUCHER_EDIT_CAPTION" xml:space="preserve">
+    <value>Voucher (Ubah)</value>
+  </data>
+  <data name="VOUCHER_FD_REALIZE_CONFIRMATION" xml:space="preserve">
+    <value>Deposito Berjangka tidak matang belum. Apakah Anda ingin mewujudkan?</value>
+  </data>
+  <data name="VOUCHER_LEDGER_MAPPING_TO_PROJECT" xml:space="preserve">
+    <value>Ledger (s) tidak dipetakan ke proyek ini.</value>
+  </data>
+  <data name="VOUCHER_METHOD_EMPTY" xml:space="preserve">
+    <value>Metode Voucher Kosong.</value>
+  </data>
+  <data name="VOUCHER_METHOD_MANUAL" xml:space="preserve">
+    <value>Metode voucher Manual untuk proyek</value>
+  </data>
+  <data name="VOUCHER_MOVE_TRANSACTION_SELECTION_EMPTY" xml:space="preserve">
+    <value>Tidak ada Transaksi Dipilih Pindah</value>
+  </data>
+  <data name="VOUCHER_MULTY_ENTRY_CHECK" xml:space="preserve">
+    <value>Apakah Anda ingin menggunakan multi Kedatangan?</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_CASH_TRANSACTION_AMOUNT" xml:space="preserve">
+    <value>Jumlah kosong.</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_CASH_TRANSACTION_LEDGER" xml:space="preserve">
+    <value>Pilih buku Cash / Bank (s)</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_TRANSACTION_AMOUNT" xml:space="preserve">
+    <value>Jumlah kosong.</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_TRANSACTION_LEDGER" xml:space="preserve">
+    <value>Pilih buku besar.</value>
+  </data>
+  <data name="VOUCHER_MULTY_PAYMENT_CONFIRM" xml:space="preserve">
+    <value>Ini adalah Ledger Penghasilan. Apakah Anda ingin menerimanya di Voucher pembayaran?</value>
+  </data>
+  <data name="VOUCHER_MULTY_RECEIPT_CONFIRM" xml:space="preserve">
+    <value>Ini adalah Beban Ledger. Apakah Anda ingin menerimanya dalam Penerimaan Voucher?</value>
+  </data>
+  <data name="VOUCHER_NAME_EMPTY" xml:space="preserve">
+    <value>Voucher Nama kosong.</value>
+  </data>
+  <data name="VOUCHER_NAME_EXISTS" xml:space="preserve">
+    <value>Voucher Nama sudah ada. Silakan coba lagi.</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_BANK" xml:space="preserve">
+    <value>Saldo negatif di Bank</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_CASH" xml:space="preserve">
+    <value>Saldo negatif dalam Kas</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_CASHBANK" xml:space="preserve">
+    <value>Saldo negatif di Kas, Bank, Setoran Tetap</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_FD" xml:space="preserve">
+    <value>Saldo negatif dalam setoran tetap/berjangka</value>
+  </data>
+  <data name="VOUCHER_NO_RECORD" xml:space="preserve">
+    <value>Tidak ada catatan untuk menyimpan</value>
+  </data>
+  <data name="VOUCHER_NUMBER_EMPTY" xml:space="preserve">
+    <value>Nomor voucher kosong.</value>
+  </data>
+  <data name="VOUCHER_PRINT_CAPTION" xml:space="preserve">
+    <value>Daftar voucher</value>
+  </data>
+  <data name="VOUCHER_REGENERATE_SELECT_PROJECT" xml:space="preserve">
+    <value>Pilih sebuah proyek untuk regenerasi voucher</value>
+  </data>
+  <data name="VOUCHER_REGENERATION_FAILS" xml:space="preserve">
+    <value>Regenerasi gagal. Metode voucher aktif Manual untuk proyek</value>
+  </data>
+  <data name="VOUCHER_REGENERATION_SUCCESS" xml:space="preserve">
+    <value>Di Regenerasi</value>
+  </data>
+  <data name="VOUCHER_SAVE" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="VOUCHER_SUCCESS" xml:space="preserve">
+    <value>disimpan</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_CHANGE_TYPE" xml:space="preserve">
+    <value>Apakah Anda yakin akan mengubah jenis transaksi?</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_CONTRA" xml:space="preserve">
+    <value>Voucher - Contra</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_CONTRA_CHANGE_TYPE" xml:space="preserve">
+    <value>Rekaman akan dihapus. Apakah Anda yakin akan mengubah jenis transaksi?</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_DATE" xml:space="preserve">
+    <value>Transaksi Tanggal kosong</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_PAYMENT" xml:space="preserve">
+    <value>Voucher - Pembayaran</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_RECEIPT" xml:space="preserve">
+    <value>Voucher - Penerimaan</value>
+  </data>
+  <data name="VOUCHER_TYPE_EMPTY" xml:space="preserve">
+    <value>Voucher Jenis kosong</value>
+  </data>
+  <data name="VOUCHER_TYPE_NO_SELECTION" xml:space="preserve">
+    <value>Voucher Jenis tidak dipilih</value>
+  </data>
+  <data name="VOUCHER_VALID_AMOUNT" xml:space="preserve">
+    <value>Jumlah lebih besar dari Jumlah Alokasi Biaya.</value>
+  </data>
+  <data name="WITHDRAW_VIEW_NO_RECORD" xml:space="preserve">
+    <value>tidak ada catatan yang tersedia untuk menarik</value>
+  </data>
+  <data name="FD_RENEWAL" xml:space="preserve">
+    <value>FD  Pembaruan</value>
+  </data>
+  <data name="FD_WITHDRAWAL" xml:space="preserve">
+    <value>FD  Penarikan</value>
+  </data>
+  <data name="LEGAL_ENTITY_ADD" xml:space="preserve">
+    <value>Badan Hukum(Adicionar)</value>
+  </data>
+  <data name="LEGAL_ENTITY_EDIT" xml:space="preserve">
+    <value>Badan Hukum(Ubah)</value>
+  </data>
+  <data name="LEDGER_TITLE" xml:space="preserve">
+    <value>Buku kas induk</value>
+  </data>
+  <data name="FD_LEDGER" xml:space="preserve">
+    <value>Buku Kas Induk FD</value>
+  </data>
+  <data name="FD_LEDGER_ADD" xml:space="preserve">
+    <value>Buku Kas Induk FD(Tambah)</value>
+  </data>
+  <data name="FD_LEDGER_EDIT" xml:space="preserve">
+    <value>Buku Kas Induk FD(Ubah)</value>
+  </data>
+  <data name="TRANSACTION_BANK_LEDGER" xml:space="preserve">
+    <value>Buku Kas induk Bank</value>
+  </data>
+  <data name="TRANSACTION_CASH_LEDGER" xml:space="preserve">
+    <value>Buku Kas induk Kas</value>
+  </data>
+  <data name="TRANSACTION_FD_LEDGER" xml:space="preserve">
+    <value>Rekening FD</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_NOT_CREATED" xml:space="preserve">
+    <value>Transaction Period is not created yet or not active. Do you want to create the Transaction Period now or set active?</value>
+  </data>
+  <data name="PGCGRANDTOTAL_CAPTION" xml:space="preserve">
+    <value>Total Keseluruhan</value>
+  </data>
+  <data name="VOUCHER_TRANS_DATETO_MISMATCH" xml:space="preserve">
+    <value>DateTo should not be less than DateFrom.Please enter the Valid Date.</value>
+  </data>
+  <data name="REGENARATION_PERIODTO_MISIMATCH" xml:space="preserve">
+    <value>PeriodTo should not be less than PeriodFrom.Please enter the Valid Date.</value>
+  </data>
+  <data name="TDS_SECTION_ADD_CAPTION" xml:space="preserve">
+    <value>TDS Section(Add)</value>
+  </data>
+  <data name="TDS_SECTION_EDIT_CAPTION" xml:space="preserve">
+    <value>TDS Section(Edit)</value>
+  </data>
+  <data name="TDS_CODE_EMPTY" xml:space="preserve">
+    <value>Code is empty</value>
+  </data>
+  <data name="TDS_NAME_EMPTY" xml:space="preserve">
+    <value>Name is empty</value>
+  </data>
+  <data name="TDS_SAVE_SUCCESS" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="TDS_NATUREOFPAYEMNTS_SECTION_EMPTY" xml:space="preserve">
+    <value>Section is Empty.Please add the section.</value>
+  </data>
+  <data name="TDS_NATUREOFPAYMENTS_SECTION_EMPTYADD" xml:space="preserve">
+    <value>Please add the TDS_SECTION first.</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_ADD_CAPTION" xml:space="preserve">
+    <value>Cost Centre Category(Add)</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_EDIT_CAPTION" xml:space="preserve">
+    <value>Cost Centre Category(Edit)</value>
+  </data>
+  <data name="COST_CENTRE_COST_CATEGORY_UNMAP" xml:space="preserve">
+    <value>Cannot Delete, It has Association.</value>
+  </data>
+  <data name="AUDITLOCKTYPEEMPTY" xml:space="preserve">
+    <value>Audit Lock Type is Empty</value>
+  </data>
+  <data name="DONOR_STATE_EMPTY" xml:space="preserve">
+    <value>State is Empty</value>
+  </data>
+</root>

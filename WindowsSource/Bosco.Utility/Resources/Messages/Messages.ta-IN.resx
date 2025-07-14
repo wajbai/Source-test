@@ -1,0 +1,3561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCOUNTING_PERIOD_ACTIVE" xml:space="preserve">
+    <value>பரிவர்த்தனை காலம் செயலில் உள்ளது. நீக்க முடியாது.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_ADD_CAPTION" xml:space="preserve">
+    <value>கணக்கீட்டு காலத்தில் (சேர்)</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_CANNOT_DELETE" xml:space="preserve">
+    <value>delete.Transaction இந்த நிதி ஆண்டின் / கணக்கிடுதல் காலத்தில் செய்யப்படுகிறது முடியாது</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_CHANGE_PERIOD" xml:space="preserve">
+    <value>நீங்கள் பரிவர்த்தனை காலம் மாற்ற விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_EDIT_CAPTION" xml:space="preserve">
+    <value>கணக்கீட்டு காலத்தில் (தொகு)</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_NOT_CREATED" xml:space="preserve">
+    <value>பரிவர்த்தனை காலம் இன்னும் அல்லது செயலில் இல்லை படைக்கப்படவில்லை. நீங்கள் இப்போது அல்லது செயலில் அமைக்க பரிவர்த்தனை காலம் உருவாக்க விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_ONE_ACTIVE" xml:space="preserve">
+    <value>ஒரு கணக்கு காலம் செயலில் இருக்க வேண்டும்.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_PRINT_CAPTION" xml:space="preserve">
+    <value>பரிவர்த்தனை காலம் விபரங்கள்</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_YEAR_EQUAL_EMPTY" xml:space="preserve">
+    <value>பரிவர்த்தனை காலம் தேதி ஆண்டு தேதியிலிருந்து ஆண்டு விட குறைவாக உள்ளது.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_YEAR_FROM_EMPTY" xml:space="preserve">
+    <value>பரிவர்த்தனை தேதி வரையிலான காலம் ஆண்டு காலியாக உள்ளது.</value>
+  </data>
+  <data name="ACCOUNTING_PERIOD_YEAR_TO_EMPTY" xml:space="preserve">
+    <value>பரிவர்த்தனை காலம் தேதி ஆண்டு காலியாக உள்ளது.</value>
+  </data>
+  <data name="ACCOUNT_NUMBER" xml:space="preserve">
+    <value>கணக்கு எண்</value>
+  </data>
+  <data name="ACCOUNT_NUMBER_AVAILABLE" xml:space="preserve">
+    <value>எஃப்டி கணக்கு எண் ஏற்கனவே உள்ளது.</value>
+  </data>
+  <data name="ACCUMULATED_INTEREST" xml:space="preserve">
+    <value>வட்டியைக்</value>
+  </data>
+  <data name="ACTIVE_BUDGET_IS_MADE" xml:space="preserve">
+    <value>திட்ட already.Budget செய்யப்படுகிறது செயலில் பட்ஜெட் செயல்படா முறை சேமிக்கப்படும்</value>
+  </data>
+  <data name="ADDRESS_ADD_CAPTION" xml:space="preserve">
+    <value>முகவரி (சேர்)</value>
+  </data>
+  <data name="ADDRESS_COUNTRY_EMPTY" xml:space="preserve">
+    <value>நாடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="ADDRESS_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="ADDRESS_EDIT_CAPTION" xml:space="preserve">
+    <value>முகவரி (தொகு)</value>
+  </data>
+  <data name="ADDRESS_NAME_EMPTY" xml:space="preserve">
+    <value>பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="ADDRESS_SAVE_SUCCESS" xml:space="preserve">
+    <value>பதிவு சேமிக்கப்பட்ட</value>
+  </data>
+  <data name="AGENT_EMPTY" xml:space="preserve">
+    <value>முகவர் காலியாக உள்ளது</value>
+  </data>
+  <data name="ALLOCATION_AMOUNT_IS_NOT_EQUAL" xml:space="preserve">
+    <value>ஒதுக்கப்பட்ட தொகை செலவு மையம் மொத்த அளவு சமமாக இல்லை.</value>
+  </data>
+  <data name="ALLOT_FUND_AND_TRY_AGAIN" xml:space="preserve">
+    <value>திட்டம் Mapp பேரேடுகளும் நிதி ஒதுக்கீடு, மீண்டும் முயற்சிக்கவும்</value>
+  </data>
+  <data name="ALREADY_MAPPPED_WITH_ANOTHER_LEGAL_ENTITY" xml:space="preserve">
+    <value>தேர்ந்தெடுக்கப்பட்ட FCRA வங்கி கணக்கு ஏற்கனவே மற்றொரு சட்ட நிறுவனம் mappped உள்ளது.</value>
+  </data>
+  <data name="AMCDATE_VALIDATION" xml:space="preserve">
+    <value>AMC இறுதி தேதி தொடக்கத் AMC விட குறைவாக உள்ளது</value>
+  </data>
+  <data name="AMCGROUP_IS_EMPTY" xml:space="preserve">
+    <value>ஏஎம்சி குழு காலியாக உள்ளது.</value>
+  </data>
+  <data name="AMCPREMIUM_AMOUNT" xml:space="preserve">
+    <value>ஏஎம்சி தொகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="AMCPROVIDER_IS_EMPYT" xml:space="preserve">
+    <value>வழங்குநர் காலியாக உள்ளது</value>
+  </data>
+  <data name="AMCVOUCHER_ADD_CAPTION" xml:space="preserve">
+    <value>சொத்து வருடாந்திர பராமரிப்பு</value>
+  </data>
+  <data name="AMCVOUCHER_AMOUNT_EMPTY" xml:space="preserve">
+    <value>தொகை காலியாக உள்ளது</value>
+  </data>
+  <data name="AMCVOUCHER_DUE_DATE_EMPTY" xml:space="preserve">
+    <value>நிலுவை தேதி காலியாக உள்ளது</value>
+  </data>
+  <data name="AMCVOUCHER_EDIT_CAPTION" xml:space="preserve">
+    <value>சொத்து வருடாந்திர பராமரிப்பு (தொகு)</value>
+  </data>
+  <data name="AMCVOUCHER_ENTRY" xml:space="preserve">
+    <value>ஏஎம்சி நுழைவு</value>
+  </data>
+  <data name="AMCVOUCHER_PRINT_CAPTION" xml:space="preserve">
+    <value> வருடாந்திர பராமரிப்பு செலவு விபரங்கள்</value>
+  </data>
+  <data name="AMCVOUCHER_START_DATE_EMPTY" xml:space="preserve">
+    <value>தேதி தொடங்கி காலியாக உள்ளது</value>
+  </data>
+  <data name="AMCVOUCHER_VIEW" xml:space="preserve">
+    <value>ஏஎம்சி காண்க</value>
+  </data>
+  <data name="AMC_EXPENSE_LEDGER_EMPTY" xml:space="preserve">
+    <value>ஏஎம்சி செலவு லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="AMC_FROM_EMPTY" xml:space="preserve">
+    <value>இருந்து ஏஎம்சி காலியாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="AMC_NO_MAPPED_ITEMS" xml:space="preserve">
+    <value>சொத்து பொருட்களை ஒப்பிடப்படுகிறது இல்லை.</value>
+  </data>
+  <data name="AMC_PRINT_CAPTION" xml:space="preserve">
+    <value>வருடாந்திர பராமரிப்பு விபரங்கள்</value>
+  </data>
+  <data name="AMC_RENEWAL_DATE_VALIDATION" xml:space="preserve">
+    <value>ஏஎம்சி / புதுப்பித்தல் தேதி தேதி இன்றுவரை ஏஎம்சி குறைவாக இருக்க கூடாது.</value>
+  </data>
+  <data name="AMC_RENEWAL_DELETE_CONFIRMATION" xml:space="preserve">
+    <value>புதுப்பித்தல் வரலாறு மற்றும் seletced குழு ஒப்பிடப்படுகிறது பொருட்களை தொடர வேண்டுமா deleted.Do இருக்கும்?</value>
+  </data>
+  <data name="AMC_TO_EMPTY" xml:space="preserve">
+    <value>ஏஎம்சி காலியாக இருக்க கூடாது.</value>
+  </data>
+  <data name="AMOUNT" xml:space="preserve">
+    <value>தொகை</value>
+  </data>
+  <data name="AMOUNT_MISMATCHED_WITH_SPLITED_AMOUNT" xml:space="preserve">
+    <value>மொத்த அளவு splited அளவு பொருந்தாத</value>
+  </data>
+  <data name="ANNUAL_BUDGET" xml:space="preserve">
+    <value>ஆண்டு வரவு செலவு</value>
+  </data>
+  <data name="APPEND_CONFORM" xml:space="preserve">
+    <value>இறக்குதல் பதிவுகள் சேர்க்கும். நீங்கள் உண்மையில் தொடர விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="ASSETBLOCK_ADD_CAPTION" xml:space="preserve">
+    <value>பிளாக் (சேர்)</value>
+  </data>
+  <data name="ASSETBLOCK_EDIT_CAPTION" xml:space="preserve">
+    <value>பிளாக் (தொகு)</value>
+  </data>
+  <data name="ASSETBLOCK_NAME_EMPTY" xml:space="preserve">
+    <value>பிளாக் காலியாக உள்ளது</value>
+  </data>
+  <data name="ASSETBLOCK_PRINT_CAPTION" xml:space="preserve">
+    <value>பிளாக் பட்டியல்</value>
+  </data>
+  <data name="ASSETCATEGORY_ADD_CAPTION" xml:space="preserve">
+    <value>பகுப்பு (சேர்)</value>
+  </data>
+  <data name="ASSETCATEGORY_EDIT_CAPTION" xml:space="preserve">
+    <value>பகுப்பு (தொகு)</value>
+  </data>
+  <data name="ASSETCATEGORY_NAME_EMPTY" xml:space="preserve">
+    <value>வகை பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETCATEGORY_PARENTGROUP_EMPTY" xml:space="preserve">
+    <value>கீழ் காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETCATEGORY_PRINT_CAPTION" xml:space="preserve">
+    <value>வகை விவரங்கள்</value>
+  </data>
+  <data name="ASSETCATEGORY_VIEW_CAPTION" xml:space="preserve">
+    <value>சொத்து வகை</value>
+  </data>
+  <data name="ASSETCLASS_ADD_CAPTION" xml:space="preserve">
+    <value>சொத்து வர்க்கம் (சேர்)</value>
+  </data>
+  <data name="ASSETCLASS_CANNOT_DELETE" xml:space="preserve">
+    <value>சொத்து வர்க்கம் நீக்க முடியாது. அது தொடர்பு உள்ளது.</value>
+  </data>
+  <data name="ASSETCLASS_DEPRECIATION_EMPTY" xml:space="preserve">
+    <value>தேய்மானம் (%) காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETCLASS_EDIT_CAPTION" xml:space="preserve">
+    <value>சொத்து வர்க்கம் (தொகு)</value>
+  </data>
+  <data name="ASSETCLASS_METHOD_EMPTY" xml:space="preserve">
+    <value>தேய்மானம் முறை காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETCLASS_NAME_EMPTY" xml:space="preserve">
+    <value>வகுப்பு பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETCLASS_PARENTCLASS_EMPTY" xml:space="preserve">
+    <value>பெற்றோர் வர்க்கம் காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETCLASS_PRINT_CAPTION" xml:space="preserve">
+    <value>சொத்து வர்க்கம் விபரங்கள்</value>
+  </data>
+  <data name="ASSETCLASS_VIEW_CAPTION" xml:space="preserve">
+    <value>சொத்து வகுப்பு</value>
+  </data>
+  <data name="ASSETCUSTODIANS_ADD_CAPTION" xml:space="preserve">
+    <value>பொறுப்பாளரான (சேர்)</value>
+  </data>
+  <data name="ASSETCUSTODIANS_EDIT_CAPTION" xml:space="preserve">
+    <value>பொறுப்பாளரான (தொகு)</value>
+  </data>
+  <data name="ASSETCUSTODIANS_ENDDATE_EMPTY" xml:space="preserve">
+    <value>முடிவு தேதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETCUSTODIANS_NAME_EMPTY" xml:space="preserve">
+    <value>பொறுப்பாளரான காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETCUSTODIANS_PRINT_CAPTION" xml:space="preserve">
+    <value>பொறுப்பாளரான விபரங்கள்</value>
+  </data>
+  <data name="ASSETCUSTODIANS_ROLE_EMPTY" xml:space="preserve">
+    <value>பங்கு காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETCUSTODIANS_STARTDATE_EMPTY" xml:space="preserve">
+    <value>தொடக்க தேதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETCUSTODIANS_TYPE_EMPTY" xml:space="preserve">
+    <value>வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETITEM_ACCOUNTLEDGER_EMPTY" xml:space="preserve">
+    <value>கணக்கு லெட்ஜர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETITEM_ADD_CAPTION" xml:space="preserve">
+    <value>சொத்து பொருள் (சேர்)</value>
+  </data>
+  <data name="ASSETITEM_ASSETCLASS_EMPTY" xml:space="preserve">
+    <value>சொத்து வர்க்கம் காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETITEM_DEPRECIATIONLEDGER_EMPTY" xml:space="preserve">
+    <value>தேய்மானம் லெட்ஜர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETITEM_DISPOSALLEDGER_EMPTY" xml:space="preserve">
+    <value>நீக்கம் லெட்ஜர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETITEM_EDIT_CAPTION" xml:space="preserve">
+    <value>சொத்து பொருள் (தொகு)</value>
+  </data>
+  <data name="ASSETITEM_METHOD_EMPTY" xml:space="preserve">
+    <value>செய்முறை காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETITEM_NAME_EMPYTY" xml:space="preserve">
+    <value>சொத்து பொருள் காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETITEM_PRINT_CAPTION" xml:space="preserve">
+    <value>சொத்து பொருள் விவரம்</value>
+  </data>
+  <data name="ASSETITEM_STARTINNO_EMPTY" xml:space="preserve">
+    <value>எண் தொடங்கி காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETITEM_UNIT_EMPTY" xml:space="preserve">
+    <value>அலகு காலியாக உள்ளது.</value>
+  </data>
+  <data name="ASSETITEM_WIDTH_EMPTY" xml:space="preserve">
+    <value>அகலம் காலியாக உள்ளது</value>
+  </data>
+  <data name="ASSET_ACCOUNT_LEDGER" xml:space="preserve">
+    <value>கணக்கு லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="ASSET_AMC_RENEWAL_ALERT" xml:space="preserve">
+    <value>ஏஎம்சி புதுப்பித்தல் காலியாக உள்ளது</value>
+  </data>
+  <data name="ASSET_AMC_RENEWAL_EMPTY" xml:space="preserve">
+    <value>ஏஎம்சி / புதுப்பித்தல் தேதி தேதி காலியாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="ASSET_DEPRECIATION_LEDGER" xml:space="preserve">
+    <value>தேய்மானம் முறை காலியாக உள்ளது</value>
+  </data>
+  <data name="ASSET_DISPOSAL_LEDGER" xml:space="preserve">
+    <value>நீக்கம் லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="ASSET_ID_EMPTY" xml:space="preserve">
+    <value>சொத்து ஐடி, காலியாக உள்ளது</value>
+  </data>
+  <data name="ASSET_INSURANCE_ALERT" xml:space="preserve">
+    <value>காப்புறுதி காலியாக உள்ளது</value>
+  </data>
+  <data name="ASSET_NAME" xml:space="preserve">
+    <value>சொத்து பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="ASSET_NO_ITEM_DETAIL" xml:space="preserve">
+    <value>தேர்ந்தெடுத்த உருப்படியை கிடைக்காது, வேறு சில உருப்படியை தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="ASSET_PREFIX_EMPTY" xml:space="preserve">
+    <value>முன்னொட்டு காலியாக உள்ளது</value>
+  </data>
+  <data name="ASSET_PRINT_CAPTION" xml:space="preserve">
+    <value>சொத்து</value>
+  </data>
+  <data name="ASSET_SUFFIX_EMPTY" xml:space="preserve">
+    <value>பின்னொட்டு காலியாக உள்ளது</value>
+  </data>
+  <data name="ASSET_UPDATE_DETAILS" xml:space="preserve">
+    <value>புதுப்பிக்கப்பட்டது சொத்து விவரங்கள் வெற்றிகரமாக</value>
+  </data>
+  <data name="ASSOCIATION_WITH_TDS" xml:space="preserve">
+    <value>நீங்கள் அதுமட்டுமல்ல முன்பதிவு இந்த entry.It உள்ளது நீக்க முடியாது.</value>
+  </data>
+  <data name="ASSOCICATION_WITH_TDS_PAYMENT" xml:space="preserve">
+    <value>இந்த voucher.It நீக்க முடியவில்லை அதுமட்டுமல்ல கொடுப்பனவு கொண்டு assocication உள்ளது</value>
+  </data>
+  <data name="AUDITLOCKTYPEEMPTY" xml:space="preserve">
+    <value>தணிக்கை பூட்டு வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="AUDITOR_ADD_CAPTION" xml:space="preserve">
+    <value>கணக்காய்வாளர் (சேர்)</value>
+  </data>
+  <data name="AUDITOR_BEGIN_DATE" xml:space="preserve">
+    <value>இன்றுவரை தணிக்கை தேதியிலிருந்து தணிக்கை குறைவாக இருக்க கூடாது.</value>
+  </data>
+  <data name="AUDITOR_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="AUDITOR_EDIT_CAPTION" xml:space="preserve">
+    <value>கணக்காய்வாளர் (தொகு)</value>
+  </data>
+  <data name="AUDITOR_INFO_ADD" xml:space="preserve">
+    <value>தணிக்கை தகவல் (சேர்)</value>
+  </data>
+  <data name="AUDITOR_INFO_AUDITOR_EMPTY" xml:space="preserve">
+    <value>ஆடிட்டர் தகவல் காலியாக உள்ளது.</value>
+  </data>
+  <data name="AUDITOR_INFO_CLOSEDON_EMPTY" xml:space="preserve">
+    <value>தணிக்கை காலியாக உள்ளது.</value>
+  </data>
+  <data name="AUDITOR_INFO_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="AUDITOR_INFO_EDIT" xml:space="preserve">
+    <value>தணிக்கை தகவல் (தொகு)</value>
+  </data>
+  <data name="AUDITOR_INFO_PRINT_CAPTION" xml:space="preserve">
+    <value>தணிக்கை தகவல் விவரங்கள்</value>
+  </data>
+  <data name="AUDITOR_INFO_PROJECT_EMPTY" xml:space="preserve">
+    <value>திட்ட காலியாக உள்ளது.</value>
+  </data>
+  <data name="AUDITOR_INFO_STARTEDON_EMPTY" xml:space="preserve">
+    <value>இருந்து தணிக்கை காலியாக உள்ளது</value>
+  </data>
+  <data name="AUDITOR_INFO_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="AUDITOR_IS_EMPTY" xml:space="preserve">
+    <value>கணக்காய்வாளர் காலியாக உள்ளது</value>
+  </data>
+  <data name="AUDITOR_NAME_EMPTY" xml:space="preserve">
+    <value>கணக்காய்வாளர் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="AUDITOR_ON_FROM" xml:space="preserve">
+    <value>தேதி தணிக்கை செய்யப்பட்ட தேதியிலிருந்து தணிக்கை குறைவாக இருக்க கூடாது.</value>
+  </data>
+  <data name="AUDITOR_ON_TO" xml:space="preserve">
+    <value>தேதி தணிக்கை செய்யப்பட்ட தேதி தணிக்கை விட குறைவாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="AUDITOR_PRINT_CAPTION" xml:space="preserve">
+    <value>தணிக்கையாளரின் 'பட்டியல்</value>
+  </data>
+  <data name="AUDITOR_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="AUDITTYPE_PRINT_CAPTION" xml:space="preserve">
+    <value>தணிக்கை வகை விவரங்கள்</value>
+  </data>
+  <data name="AUDIT_ADD_CAPTION" xml:space="preserve">
+    <value>தணிக்கை வகை (சேர்)</value>
+  </data>
+  <data name="AUDIT_DELETE" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="AUDIT_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு வெற்றிகரமாக நீக்கப்பட்டது உள்ளது</value>
+  </data>
+  <data name="AUDIT_EDIT_CAPTION" xml:space="preserve">
+    <value>தணிக்கை வகை (தொகு)</value>
+  </data>
+  <data name="AUDIT_LOCK_TYPE" xml:space="preserve">
+    <value>தணிக்கை பூட்டு வகை</value>
+  </data>
+  <data name="AUDIT_LOCK_TYPE_VIEW_CAPTION" xml:space="preserve">
+    <value>பூட்டு வகை</value>
+  </data>
+  <data name="AUDIT_NAME_EMPTY" xml:space="preserve">
+    <value>தணிக்கை பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="AUDIT_PRINT_CAPTION" xml:space="preserve">
+    <value>தணிக்கை விவரங்கள்</value>
+  </data>
+  <data name="AUDIT_SAVE_FAILURE" xml:space="preserve">
+    <value>பதிவு காப்பாற்ற முடியாது</value>
+  </data>
+  <data name="AUDIT_SAVE_SUCCESS" xml:space="preserve">
+    <value>பதிவு சேமிக்கப்பட்ட</value>
+  </data>
+  <data name="AUDIT_TYPE_IS_EMPTY" xml:space="preserve">
+    <value>தணிக்கை வகை காலியாக உள்ளது</value>
+  </data>
+  <data name="BALANCE" xml:space="preserve">
+    <value>இருப்பு</value>
+  </data>
+  <data name="BALANCE_UPDATED" xml:space="preserve">
+    <value>இருப்பு வெற்றிகரமாக புதுப்பிக்கப்பட்டது</value>
+  </data>
+  <data name="BANKACCOUNT_NOT_BELONG_TO_SAME_LEGALENTITY" xml:space="preserve">
+    <value>வங்கி கணக்கு அதே சட்ட நிறுவனத்தின் சொந்தம் இல்லை</value>
+  </data>
+  <data name="BANKACCOUNT_NOT_IN_SAME_LEGALENTITY" xml:space="preserve">
+    <value>வங்கிக் கணக்கு தேர்ந்தெடுக்கப்பட்ட திட்டம் அதே சட்ட நிறுவனத்தின் இல்லை</value>
+  </data>
+  <data name="BANK_ACCCOUNT_FAILURE" xml:space="preserve">
+    <value>வங்கி கணக்கு காப்பாற்ற முடியாது.</value>
+  </data>
+  <data name="BANK_ACCOUNT" xml:space="preserve">
+    <value>வங்கி கணக்கு</value>
+  </data>
+  <data name="BANK_ACCOUNT_ADD" xml:space="preserve">
+    <value>வங்கி கணக்கு (சேர்)</value>
+  </data>
+  <data name="BANK_ACCOUNT_CLOSEDATE_TRANSACTION" xml:space="preserve">
+    <value>பரிவர்த்தனை இந்த நிறைவடைந்த தேதி செய்யப்படுகிறது, வங்கி கணக்கு மூடப்பட்டது முடியாது.</value>
+  </data>
+  <data name="BANK_ACCOUNT_CLOSEDATE_VALIDATION" xml:space="preserve">
+    <value>வங்கி நெருங்கிய தேதி வங்கி திறந்த தேதி குறைவாக இருக்க கூடாது.</value>
+  </data>
+  <data name="BANK_ACCOUNT_CODE_EMPTY" xml:space="preserve">
+    <value>வங்கி கணக்கு குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="BANK_ACCOUNT_DELETED" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="BANK_ACCOUNT_EDIT" xml:space="preserve">
+    <value>வங்கி கணக்கு (தொகு)</value>
+  </data>
+  <data name="BANK_ACCOUNT_PRINT_CAPTION" xml:space="preserve">
+    <value>வங்கி கணக்கு விவரங்கள்</value>
+  </data>
+  <data name="BANK_ACCOUNT_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="BANK_ADD_CAPTION" xml:space="preserve">
+    <value>வங்கி (சேர்)</value>
+  </data>
+  <data name="BANK_BRANCH_EMPTY" xml:space="preserve">
+    <value>கிளை பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="BANK_CODE_EMPTY" xml:space="preserve">
+    <value>வங்கி குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="BANK_DELETE" xml:space="preserve">
+    <value>நீக்க எந்தப் பதிவும் இல்லை.</value>
+  </data>
+  <data name="BANK_DELETE_ASSOCIATION" xml:space="preserve">
+    <value>வங்கி நீக்க முடியாது. அது சங்கம் உள்ளது.</value>
+  </data>
+  <data name="BANK_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="BANK_EDIT_CAPTION" xml:space="preserve">
+    <value>வங்கி (தொகு)</value>
+  </data>
+  <data name="BANK_NAME_EMPTY" xml:space="preserve">
+    <value>வங்கியின் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="BANK_OPERATING_CAPTION" xml:space="preserve">
+    <value>ஆப்பரேட்டிங் வங்கி</value>
+  </data>
+  <data name="BANK_PRINT_CAPTION" xml:space="preserve">
+    <value>வங்கி விவரங்கள்</value>
+  </data>
+  <data name="BANK_RECONCILIATION" xml:space="preserve">
+    <value>வங்கி சமரசம்</value>
+  </data>
+  <data name="BANK_SAVE_FAILURE" xml:space="preserve">
+    <value>சாதனை கிடைக்கும்.</value>
+  </data>
+  <data name="BANK_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="BAPTISM_ADD_CAPTION" xml:space="preserve">
+    <value>ஞானஸ்நானம் பதிவேடு (சேர்)</value>
+  </data>
+  <data name="BAPTISM_COUNTRY" xml:space="preserve">
+    <value>ஞானஸ்நானம் நாடு காலியாக உள்ளது</value>
+  </data>
+  <data name="BAPTISM_EDIT_CAPTION" xml:space="preserve">
+    <value>ஞானஸ்நானம் பதிவேடு (தொகு)</value>
+  </data>
+  <data name="BAPTISM_PARISH" xml:space="preserve">
+    <value>பாரிஷ் பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="BAPTISM_PRINT_CAPTION" xml:space="preserve">
+    <value>ஞானஸ்நானம் பதிவு விவரங்கள்</value>
+  </data>
+  <data name="BAPTISM_REG_REFRENCE" xml:space="preserve">
+    <value>பதிவு குறிப்பு காலியாக உள்ளது</value>
+  </data>
+  <data name="BILL_NO_EMPTY" xml:space="preserve">
+    <value>பில் எண் காலியாக உள்ளது.</value>
+  </data>
+  <data name="BOOK_BEGINNING_DATE_EMPTY" xml:space="preserve">
+    <value>தேதி தொடங்கி புத்தக காலியாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="BRANCH_CODE_MATCH_ERROR" xml:space="preserve">
+    <value>உரிமம் கிளை குறியீடு மாஸ்டர் பிற கிளை குறியீடு பொருந்தவில்லை. நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="BRANCH_OFFICE_CODE_EMPTY" xml:space="preserve">
+    <value>கிளை அலுவலகம் குறியீடு காலியாக உள்ளது</value>
+  </data>
+  <data name="BREAKUP_AMOUNT_EXCEEDS" xml:space="preserve">
+    <value>அளவு கொடுக்கப்பட்ட தொகையை விட அதிகமாக இருக்க முடியாது.</value>
+  </data>
+  <data name="BREAKUP_AMOUNT_GREATER_THAN" xml:space="preserve">
+    <value>குறிப்பிட்ட அளவு தொகை விட அதிகமாக உள்ளது</value>
+  </data>
+  <data name="BREAKUP_AMOUNT_LESS_THAN" xml:space="preserve">
+    <value>குறிப்பிட்ட அளவு தொகையை விட குறைவாக உள்ளது</value>
+  </data>
+  <data name="BREAKUP_AMOUT_ZERO" xml:space="preserve">
+    <value>அளவு 0 விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="BREAKUP_DATE_EXCEPTION" xml:space="preserve">
+    <value>குறிப்பிட்ட நடிகர்கள் தவறானது</value>
+  </data>
+  <data name="BREAKUP_FD_NUMBER_EMPTY" xml:space="preserve">
+    <value>எஃப்டி எண் காலியாக இருக்க கூடாது</value>
+  </data>
+  <data name="BREAKUP_GRID_ERROR" xml:space="preserve">
+    <value>முறிவுக்குப் விவரங்கள் சரிபார்ப்பு பிழை</value>
+  </data>
+  <data name="BREAKUP_INTEREST_RATE_EMPTY_ZERO" xml:space="preserve">
+    <value>வட்டி விகிதம் காலியாக இருக்கும் அல்லது பூஜ்யம் முடியாது</value>
+  </data>
+  <data name="BREAKUP_INTEREST_RATE_NEGATIVE" xml:space="preserve">
+    <value>வட்டி விகிதம், எதிர்மறையாக இருக்க முடியாது</value>
+  </data>
+  <data name="BREAKUP_NEGATIVE_BALANCE" xml:space="preserve">
+    <value>Nagative இருப்பு, மதிப்பு மாற்றப்பட்டது வரை நுழைவு நீக்க வேண்டும்.</value>
+  </data>
+  <data name="BREAKUP_NOT_TALLIED" xml:space="preserve">
+    <value>தொகை எண்ணிக்கை இல்லை</value>
+  </data>
+  <data name="BREAKUP_PERCENTAGE_NEGATIVE" xml:space="preserve">
+    <value>சதவீதம் எதிர்மறை இருக்க முடியாது.</value>
+  </data>
+  <data name="BREAKUP_REQUIRED_FIELD" xml:space="preserve">
+    <value>அனைத்து துறைகள் நிரப்ப.</value>
+  </data>
+  <data name="BREAKUP_SAVED_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="BREAKUP_ZERO_ENTRY" xml:space="preserve">
+    <value>ஜீரோ நுழைவு நீக்கப்படும்.</value>
+  </data>
+  <data name="BRS_MATERIALIZED_DATE" xml:space="preserve">
+    <value>ரசீது தேதி விட அதிகமாக இருக்க வேண்டும் மீது உருவெடுத்தன.</value>
+  </data>
+  <data name="BUDGET_ADD_CAPTION" xml:space="preserve">
+    <value>பட்ஜெட் - காலம் (சேர்)</value>
+  </data>
+  <data name="BUDGET_ALREADY_MADE" xml:space="preserve">
+    <value>பட்ஜெட் ஏற்கனவே திட்ட செய்யப்படுகிறது</value>
+  </data>
+  <data name="BUDGET_ANNUAL" xml:space="preserve">
+    <value>பட்ஜெட் - வருடாந்த</value>
+  </data>
+  <data name="BUDGET_ANNUAL_ADD_CAPTION" xml:space="preserve">
+    <value>பட்ஜெட் - வருடாந்த (சேர்)</value>
+  </data>
+  <data name="BUDGET_ANNUAL_EDIT_CAPTION" xml:space="preserve">
+    <value>பட்ஜெட் - வருடாந்த (தொகு)</value>
+  </data>
+  <data name="BUDGET_CANNOT_ACTIVE_DELETE" xml:space="preserve">
+    <value>நீக்க முடியாது, பட்ஜெட் செயலில் முறை இருக்கிறது</value>
+  </data>
+  <data name="BUDGET_DATE_FROM_EMPTY" xml:space="preserve">
+    <value>முதல் நாள் காலியாக இருக்க முடியாது</value>
+  </data>
+  <data name="BUDGET_DATE_TO_EMPTY" xml:space="preserve">
+    <value>தேதி காலியாக இருக்க முடியாது</value>
+  </data>
+  <data name="BUDGET_DETAILS" xml:space="preserve">
+    <value>பட்ஜெட் விவரங்கள்</value>
+  </data>
+  <data name="BUDGET_DETAILS_ARE_SAVED" xml:space="preserve">
+    <value>பட்ஜெட் விவரங்கள் சேமிக்கப்படும்</value>
+  </data>
+  <data name="BUDGET_EDIT_CAPTION" xml:space="preserve">
+    <value>பட்ஜெட் - காலம் (தொகு)</value>
+  </data>
+  <data name="BUDGET_FOR" xml:space="preserve">
+    <value>பட்ஜெட்</value>
+  </data>
+  <data name="BUDGET_HAS_TRANSACTION" xml:space="preserve">
+    <value>பரிவர்த்தனைகள் இந்த வரவு செலவு திட்டம் உள்ளன.</value>
+  </data>
+  <data name="BUDGET_IMPORT_NO_BUDGET_FOR_PROJECT" xml:space="preserve">
+    <value>வரவு செலவுத் திட்டம் இன்னும் இந்த திட்டம் ஏற்படுத்தியுள்ளது</value>
+  </data>
+  <data name="BUDGET_IMPORT_PERCENTAGE_EMPTY" xml:space="preserve">
+    <value>சதவீதம் காலியாக இருக்க முடியாது</value>
+  </data>
+  <data name="BUDGET_LEDGER_NOT_MAPPED_TO_PROJECT" xml:space="preserve">
+    <value>பேரேடுகளும் இந்த திட்டம் வரவு செலவு திட்டம் வேண்டும் ஒப்பிடப்படுகிறது இல்லை</value>
+  </data>
+  <data name="BUDGET_MADE_ALREADY" xml:space="preserve">
+    <value>பட்ஜெட் ஏற்கனவே திட்ட செய்யப்படுகிறது</value>
+  </data>
+  <data name="BUDGET_NAME_EMPTY" xml:space="preserve">
+    <value>பட்ஜெட் பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="BUDGET_NAME_SHOULD_NOT_EMPTY" xml:space="preserve">
+    <value>பட்ஜெட் பெயர் காலியாக இருக்கக் கூடாது</value>
+  </data>
+  <data name="BUDGET_NO_PROJECTS" xml:space="preserve">
+    <value>இல்லை திட்ட உருவாக்கப்பட்ட உள்ளது. நீங்கள் ஒரு திட்ட உருவாக்க விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="BUDGET_PERCENTAGE_VALIDATION" xml:space="preserve">
+    <value>சதவீதம் சுழியை விட பெரியதாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="BUDGET_PERIOD" xml:space="preserve">
+    <value>பட்ஜெட் - காலம்</value>
+  </data>
+  <data name="BUDGET_PROJECT_EMPTY" xml:space="preserve">
+    <value>திட்ட காலியாக உள்ளது</value>
+  </data>
+  <data name="BUDGET_TYPE_EMPTY" xml:space="preserve">
+    <value>பட்ஜெட் வகை தெரிவு செய்யப்பட வேண்டும்</value>
+  </data>
+  <data name="CANNOT_CHANGE_FDLEDGE_BANKACCOUNT" xml:space="preserve">
+    <value>அது எஃப்டி புதுப்பித்தல் இணைந்து கொண்டிருப்பதால், நீங்கள் திட்ட, எஃப்டி லெட்ஜர் மற்றும் வங்கி கணக்கு மாற்ற முடியாது இந்த நிலையான வைப்புத்தொகை</value>
+  </data>
+  <data name="CANNOT_CHANGE_PROJECT_FDLEDGER" xml:space="preserve">
+    <value>அது எஃப்டி புதுப்பித்தல் இணைந்து உள்ளது, ஏனெனில் நீங்கள் இந்த வைப்பு நிதி திட்டம் மற்றும் எஃப்டி லெட்ஜர் மாற்ற முடியாது</value>
+  </data>
+  <data name="CANNOT_SELECT_ALL_LEDGER" xml:space="preserve">
+    <value>அனைத்து பேரேடு தேர்ந்தெடுக்க முடியவில்லை, அங்கு குறைந்தது ஒரு பேரேடு கொண்டு ஒப்பிடப்படுகிறது வேண்டும் வேண்டும்</value>
+  </data>
+  <data name="CANNOT_WITHDRAW" xml:space="preserve">
+    <value>இந்த நிலையான Deposit.Since பின்வாங்கும் தொகை திரும்பப்பெறு முடியாது மற்றும் வட்டி தொகை பூஜ்யம்.</value>
+  </data>
+  <data name="CASHBANK_AMOUNT_EMPTY" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், பண / வங்கி தொகை காலியாக உள்ளது</value>
+  </data>
+  <data name="CASHBANK_LEDGER_EMPTY" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், பண / வங்கி லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="CASHBANK_MUST_CREDITED" xml:space="preserve">
+    <value>ரசீது அளவு சமமாக அல்லது கட்டணத் தொகை விட அதிகமாக உள்ளது. பண / வங்கி வரவு வேண்டும்</value>
+  </data>
+  <data name="CASHBANK_MUST_DEBITED" xml:space="preserve">
+    <value>கட்டணத் தொகை சமமாக அல்லது ரசீது தொகை விட அதிகமாக உள்ளது. பண / வங்கி பற்று வேண்டும்</value>
+  </data>
+  <data name="CATEGORY_CAN_DELETE" xml:space="preserve">
+    <value>பகுப்பு நீக்க முடியாது. அது தொடர்பு உள்ளது.</value>
+  </data>
+  <data name="CHANGE_THE_PROJECT_DATE" xml:space="preserve">
+    <value>தயவுசெய்து திட்ட தொடக்க தேதி மற்றும் மூடிய தேதி மாற்றி, மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="CLOSED_ON" xml:space="preserve">
+    <value>மூடப்பட்ட வேளை</value>
+  </data>
+  <data name="COMMON_BACKUP_CONFIRMATION" xml:space="preserve">
+    <value>நீங்கள் காப்பு AcMeERP தரவு விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="COMMON_DELETED_CONFIRMATION" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="COMMON_DELETE_CONFIRMATION" xml:space="preserve">
+    <value>இந்த பதிவை நீக்கு?</value>
+  </data>
+  <data name="COMMON_DELETE_FAILURE" xml:space="preserve">
+    <value>நீக்க முடியாது</value>
+  </data>
+  <data name="COMMON_EMAIL_INVALID" xml:space="preserve">
+    <value>மின்னஞ்சல் முகவரி தவறானது.</value>
+  </data>
+  <data name="COMMON_GRID_CANCEL_EMPTY" xml:space="preserve">
+    <value>பதிவுகள் எதுவும் இல்லை கட்டம் ரத்து கிடைக்கிறது.</value>
+  </data>
+  <data name="COMMON_GRID_EMPTY" xml:space="preserve">
+    <value>பதிவுகள் எதுவும் இல்லை திருத்த கட்டம் / நீக்க கிடைக்கிறது.</value>
+  </data>
+  <data name="COMMON_IMPORT_CONFIRMATION" xml:space="preserve">
+    <value>நீங்கள் சேர்க்க வேண்டும்.</value>
+  </data>
+  <data name="COMMON_IMPORT_SUCCESS" xml:space="preserve">
+    <value>வெற்றிகரமாக இறக்குமதி</value>
+  </data>
+  <data name="COMMON_INVALID_EXCEPTION" xml:space="preserve">
+    <value>தேவையான தகவல் பூர்த்தி செய்யவில்லை.</value>
+  </data>
+  <data name="COMMON_MESSAGE_TITLE" xml:space="preserve">
+    <value>Acme.erp</value>
+  </data>
+  <data name="COMMON_NOSELECTION_FOR_DELETE" xml:space="preserve">
+    <value>இல்லை பதிவை நீக்கு தேர்ந்தெடுக்கப்படுகிறது.</value>
+  </data>
+  <data name="COMMON_NOSELECTION_FOR_EDIT" xml:space="preserve">
+    <value>பதிவுகள் எதுவும் இல்லை திருத்தவும் தேர்ந்தெடுக்கப்படுகிறது.</value>
+  </data>
+  <data name="COMMON_NO_RECORDS_TO_EXPORT" xml:space="preserve">
+    <value>ஏற்றுமதி செய்ய எதுவும் பதிவு.</value>
+  </data>
+  <data name="COMMON_NO_RECORDS_TO_SAVE" xml:space="preserve">
+    <value>பதிவுகள் எதுவும் சேமிக்க.</value>
+  </data>
+  <data name="COMMON_PRINT_MESSAGE" xml:space="preserve">
+    <value>பிரிண்ட் எடுக்க எந்தப் பதிவும் இல்லை.</value>
+  </data>
+  <data name="COMMON_PROCESS_DIALOG_CAPTION" xml:space="preserve">
+    <value>பதப்படுத்துதல் ...</value>
+  </data>
+  <data name="COMMON_RESTORE_CONFIRMATION" xml:space="preserve">
+    <value>நீங்கள் AcMeERP தரவை மீட்டமை விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="COMMON_SAVED_CONFIRMATION" xml:space="preserve">
+    <value>பதிவு சேமிக்கப்பட்ட</value>
+  </data>
+  <data name="COMMON_SAVE_FAILURE" xml:space="preserve">
+    <value>சாதனை கிடைக்கும்.</value>
+  </data>
+  <data name="COMMON_URL_INVALID" xml:space="preserve">
+    <value>தவறான வலைதள முகவரி</value>
+  </data>
+  <data name="COMMON_USER_RIGHTS" xml:space="preserve">
+    <value>நீங்கள் திருத்த உரிமைகள் இல்லை.</value>
+  </data>
+  <data name="COMMON_WAIT_DIALOG_CAPTION" xml:space="preserve">
+    <value>ஏற்றுதல்...</value>
+  </data>
+  <data name="COMMON_WELCOME_NOTE" xml:space="preserve">
+    <value>ஆக்மி ஈஆர்பி வரவேற்கிறோம்</value>
+  </data>
+  <data name="CONFIRMATION_ADD_CAPTION" xml:space="preserve">
+    <value>உறுதிப்படுத்தல் (சேர்)</value>
+  </data>
+  <data name="CONFIRMATION_EDIT_CAPTION" xml:space="preserve">
+    <value>உறுதிப்படுத்தல் (தொகு)</value>
+  </data>
+  <data name="CONFIRMATION_MESSAGE" xml:space="preserve">
+    <value>நீங்கள் மேல்எழுதுவதை அல்லது சேர்க்கவும் உறுதியாக இருக்கிறீர்களா? மேலெழுதும் என்றால் சேர் 'ஆம்' அல்லது 'இல்லை' கிளிக்</value>
+  </data>
+  <data name="CONFIRMATION_PRINT_CAPTION" xml:space="preserve">
+    <value>உறுதிப்படுத்தல் பதிவு விவரங்கள்</value>
+  </data>
+  <data name="CONFIRMATION_VIEW_CAPTION" xml:space="preserve">
+    <value>உறுதிப்படுத்தல்</value>
+  </data>
+  <data name="CONFIRM_PRINT_VOUCHER" xml:space="preserve">
+    <value>நீங்கள் அச்சிட வேண்டும் என்று விரும்புகிறீர்கள்?</value>
+  </data>
+  <data name="CONTRA" xml:space="preserve">
+    <value>நேரெதிர்</value>
+  </data>
+  <data name="CONVERSIONOF_EMPTY" xml:space="preserve">
+    <value>மாற்றம் எண்ணிக்கையில் காலியாக உள்ளது.</value>
+  </data>
+  <data name="COST_CENTER_ADD_CAPTION" xml:space="preserve">
+    <value>செலவு மையம் (சேர்)</value>
+  </data>
+  <data name="COST_CENTER_CODE_EMPTY" xml:space="preserve">
+    <value>செலவு மையம் குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="COST_CENTER_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="COST_CENTER_EDIT_CAPTION" xml:space="preserve">
+    <value>செலவு மையம் (தொகு)</value>
+  </data>
+  <data name="COST_CENTER_LEDGER_OPTION_FAILURE" xml:space="preserve">
+    <value>பேரேடுகளும் தேர்வு லெட்ஜர் விருப்பங்கள் கண்டறிவதில்.</value>
+  </data>
+  <data name="COST_CENTER_MAPPING_SUCESS" xml:space="preserve">
+    <value>செலவு மையம் (கள்) வெற்றிகரமாக ஒப்பிடப்படுகிறது வருகின்றன.</value>
+  </data>
+  <data name="COST_CENTER_NAME_EMPTY" xml:space="preserve">
+    <value>செலவு மையம் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="COST_CENTER_PRINT_CAPTION" xml:space="preserve">
+    <value>செலவு மையம் விவரங்கள்</value>
+  </data>
+  <data name="COST_CENTER_SAVE_FAILURE" xml:space="preserve">
+    <value>சாதனை கிடைக்கும்.</value>
+  </data>
+  <data name="COST_CENTER_SUCSESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="COST_CENTER_TYPE_EMPTY" xml:space="preserve">
+    <value>CostCenter வகை (CR / டாக்டர்) தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_ADD_CAPTION" xml:space="preserve">
+    <value>செலவு மையம் பகுப்பு (சேர்)</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_EDIT_CAPTION" xml:space="preserve">
+    <value>செலவு மையம் பகுப்பு (தொகு)</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_EMPTY" xml:space="preserve">
+    <value>செலவு மையம் வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_PRINT_CAPTION" xml:space="preserve">
+    <value>செலவு மையம் வகை விவரங்கள்</value>
+  </data>
+  <data name="COST_CENTRE_CATEGORY_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="COST_CENTRE_CATOGORY_AVAILABLE" xml:space="preserve">
+    <value>சாதனை கிடைக்கும்.</value>
+  </data>
+  <data name="COST_CENTRE_COST_CATEGORY_UNMAP" xml:space="preserve">
+    <value>நீக்க முடியாது, அது சங்கம் உள்ளது.</value>
+  </data>
+  <data name="COUNTRY_ADD_CAPTION" xml:space="preserve">
+    <value>நாடு (சேர்)</value>
+  </data>
+  <data name="COUNTRY_CODE_EMPTY" xml:space="preserve">
+    <value>நாடு குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="COUNTRY_DELETE_FAILURE" xml:space="preserve">
+    <value>நீக்க முடியாது</value>
+  </data>
+  <data name="COUNTRY_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="COUNTRY_EDIT_CAPTION" xml:space="preserve">
+    <value>நாடு (தொகு)</value>
+  </data>
+  <data name="COUNTRY_ISDCODE_EXIST" xml:space="preserve">
+    <value>ஐ.எஸ்.டி குறியீடு ஏற்கனவே உள்ளது.</value>
+  </data>
+  <data name="COUNTRY_ISD_CODE_EMPTY" xml:space="preserve">
+    <value>நாடு ஐ.எஸ்.டி குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="COUNTRY_NAME_EMPTY" xml:space="preserve">
+    <value>நாட்டின் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="COUNTRY_NAME_EXIST" xml:space="preserve">
+    <value>பெயர் ஏற்கனவே உள்ளது.</value>
+  </data>
+  <data name="COUNTRY_PRINT_CAPTION" xml:space="preserve">
+    <value>நாடு விவரங்கள்</value>
+  </data>
+  <data name="COUNTRY_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="CROPPING_CONFIRMATION" xml:space="preserve">
+    <value>நீங்கள் இந்த பகுதியில் நறுக்க வேண்டும் என்று விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="CROPPING_EXCEPTION" xml:space="preserve">
+    <value>நினைவகம் இல்லை</value>
+  </data>
+  <data name="CROPPING_EXCEPTION_MESSAGE" xml:space="preserve">
+    <value>தேர்வு அவுட்லைன் பட அப்பாற்பட்ட, படத்தை தேர்ந்தெடுக்க முயற்சிக்கவும்.</value>
+  </data>
+  <data name="CROPPING_IMAGE_RESIZE" xml:space="preserve">
+    <value>ஆதரிக்கப்படாத பட அளவு, பட அளவு மாற்ற கொள்ளவும்.</value>
+  </data>
+  <data name="CROPPING_TITLE" xml:space="preserve">
+    <value>பயிர் பட</value>
+  </data>
+  <data name="CURRENCY_CODE_EMPTY" xml:space="preserve">
+    <value>நாணய குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="CURRENCY_NAME_EMPTY" xml:space="preserve">
+    <value>நாணய பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="CURRENCY_SYMBOL_EMPTY" xml:space="preserve">
+    <value>நாணயச் சின்னம் காலியாக உள்ளது.</value>
+  </data>
+  <data name="CUSTODIAN_IMPORT_SUCCESSFULLY" xml:space="preserve">
+    <value>பொறுப்பாளரான இறக்குமதியானது வெற்றிகரமாக</value>
+  </data>
+  <data name="CUSTODIAN_NOT_AVAIL" xml:space="preserve">
+    <value>பொறுப்பாளரான விவரங்கள் கிடைக்கவில்லை.</value>
+  </data>
+  <data name="DASHBOARD_ALERTS_TITLE" xml:space="preserve">
+    <value>எச்சரிக்கை</value>
+  </data>
+  <data name="DASHBOARD_AMEDMENTS_TITLE" xml:space="preserve">
+    <value>திருத்தங்கள்</value>
+  </data>
+  <data name="DASHBOARD_BALANCE_TITLE" xml:space="preserve">
+    <value>என சமநிலை</value>
+  </data>
+  <data name="DASHBOARD_BANK_RECONCILIATION_TITLE" xml:space="preserve">
+    <value>என வங்கி நல்லிணக்க அறிக்கை</value>
+  </data>
+  <data name="DASHBOARD_BANK_TITLE" xml:space="preserve">
+    <value>வங்கி</value>
+  </data>
+  <data name="DASHBOARD_BRS_TITLE" xml:space="preserve">
+    <value>வங்கி சமரசம்</value>
+  </data>
+  <data name="DASHBOARD_CASH_BANK_FD_TITLE" xml:space="preserve">
+    <value>Cash_Bank_Fd</value>
+  </data>
+  <data name="DASHBOARD_CASH_TITLE" xml:space="preserve">
+    <value>பணம்</value>
+  </data>
+  <data name="DASHBOARD_CHEQUE_HAS_TITLE" xml:space="preserve">
+    <value>காசோலை / ஒப்புரவாகி அழிக்கப்பட்டது வேண்டும்</value>
+  </data>
+  <data name="DASHBOARD_CHEQUE_HAVE_TITLE" xml:space="preserve">
+    <value>காசோலைகள் ஒப்புரவாகி / வேண்டும் அழிக்கப்பட்டது</value>
+  </data>
+  <data name="DASHBOARD_FD_ACCOUNT_TITLE" xml:space="preserve">
+    <value>எஃப்டி கணக்கு</value>
+  </data>
+  <data name="DASHBOARD_FD_TITLE" xml:space="preserve">
+    <value>எஃப்டி</value>
+  </data>
+  <data name="DASHBOARD_FIXED_DEPOSIT_TITLE" xml:space="preserve">
+    <value>நிலையான வைப்பு</value>
+  </data>
+  <data name="DASHBOARD_LICENSE_TITLE" xml:space="preserve">
+    <value>போர்டல் செய்திகள்</value>
+  </data>
+  <data name="DASHBOARD_MATURES_ON_TITLE" xml:space="preserve">
+    <value>மீது முதிர்ச்சியடைந்த</value>
+  </data>
+  <data name="DASHBOARD_NEGATIVE_BALANCE_TITLE" xml:space="preserve">
+    <value>எதிர்மறை இருப்பு</value>
+  </data>
+  <data name="DASHBOARD_PORTALMESSAGE_TITLE" xml:space="preserve">
+    <value>வவுச்சர் பதிவேற்ற நிலை</value>
+  </data>
+  <data name="DASHBOARD_PROJECT_TITLE" xml:space="preserve">
+    <value>திட்டங்கள்</value>
+  </data>
+  <data name="DASHBOARD_RECEIPT_PAYMENT_TITLE" xml:space="preserve">
+    <value>ரசீது மற்றும் கொடுப்பனவு என</value>
+  </data>
+  <data name="DASHBOARD_TICKET_STATUS" xml:space="preserve">
+    <value>டிக்கெட் நிலைமை</value>
+  </data>
+  <data name="DATA_SYNCHRONISATION_SUCCESS" xml:space="preserve">
+    <value>தரவு ஒத்திசைவு .. வெற்றிகரமாக நிறைவு செய்யப்பட்டது</value>
+  </data>
+  <data name="DATA_SYNCHRONISATION_SUCCESSLOG" xml:space="preserve">
+    <value>தரவு ஒத்திசைவு .. வெற்றிகரமாக நிறைவு செய்யப்பட்டது.</value>
+  </data>
+  <data name="DATA_SYN_FILE_SELECTION" xml:space="preserve">
+    <value>இல்லை கோப்பை இறக்குமதி செய்ய தேர்ந்தெடுக்கப்பட்டது</value>
+  </data>
+  <data name="DATA_SYN_ONLINE" xml:space="preserve">
+    <value>தொடக்க தரவு Synchorzation throught ஆன்லைன்</value>
+  </data>
+  <data name="DATETOEMPTY" xml:space="preserve">
+    <value>தேதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="DATE_FROM_EMPTY" xml:space="preserve">
+    <value>முதல் நாள் காலியாக உள்ளது.</value>
+  </data>
+  <data name="DECIMAL_PLACE_EMPTY" xml:space="preserve">
+    <value>தசம இடத்தை காலியாக உள்ளது.</value>
+  </data>
+  <data name="DEDUCTEE_TYPE" xml:space="preserve">
+    <value>Deductee வகை</value>
+  </data>
+  <data name="DEDUCTEE_TYPE_IS_REQUIRED" xml:space="preserve">
+    <value>Deductee வகை அதுமட்டுமல்ல பொருத்தமாக இருந்தால், செந்தில் கடன் லெட்ஜர் தேவைப்படுகிறது.</value>
+  </data>
+  <data name="DEDUCT_TDS" xml:space="preserve">
+    <value>கழித்து அதுமட்டுமல்ல</value>
+  </data>
+  <data name="DEFERENT_LEGAL_ENTITY_RESTRICTED_WITH_BANK_ACCOUNT" xml:space="preserve">
+    <value>தேர்ந்தெடுக்கப்பட்ட திட்ட (கள்) அதே சட்ட நிறுவனம் சொந்தமானது இல்லை.</value>
+  </data>
+  <data name="DEPRECIATIONVOUCHER_PRINT_CAPTION" xml:space="preserve">
+    <value>தேய்மானம் வவுச்சர் விபரங்கள்</value>
+  </data>
+  <data name="DEPRECIATION_ADD_CAPTION" xml:space="preserve">
+    <value>தேய்மானம் (சேர்)</value>
+  </data>
+  <data name="DEPRECIATION_EDIT_CAPTION" xml:space="preserve">
+    <value>தேய்மானம் (தொகு)</value>
+  </data>
+  <data name="DEPRECIATION_EMPTY" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், தேய்மானம் காலியாக உள்ளது</value>
+  </data>
+  <data name="DEPRECIATION_ENTRY" xml:space="preserve">
+    <value>தேய்மானம் நுழைவு</value>
+  </data>
+  <data name="DEPRECIATION_GROUP_EMPTY" xml:space="preserve">
+    <value>தேய்மானம் காலியாக உள்ளது</value>
+  </data>
+  <data name="DEPRECIATION_NAME_EMPTY" xml:space="preserve">
+    <value>தேய்மானம் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="DEPRECIATION_PRINT_CAPTION" xml:space="preserve">
+    <value>தேய்மானம் விபரங்கள்</value>
+  </data>
+  <data name="DEPRECIATION_TODATE_EMPTY" xml:space="preserve">
+    <value>தேய்மானம் ToDate காலியாக உள்ளது</value>
+  </data>
+  <data name="DEPRECIATION_VIEW" xml:space="preserve">
+    <value>தேய்மானம் காண்க</value>
+  </data>
+  <data name="DEPRECIATION_VIEW_SCREEN" xml:space="preserve">
+    <value>தேய்மானம் விபரங்கள்</value>
+  </data>
+  <data name="DEPRECIATION_VOUCHER_ADD_CAPTION" xml:space="preserve">
+    <value>சொத்து தேய்மானம்</value>
+  </data>
+  <data name="DEPRECIATION_VOUCHER_EDIT_CAPTION" xml:space="preserve">
+    <value>சொத்து தேய்மானம் (தொகு)</value>
+  </data>
+  <data name="DEPRECIATION_YRS_EMPTY" xml:space="preserve">
+    <value>தேய்மானம் வயது காலியாக உள்ளது.</value>
+  </data>
+  <data name="DEPRECIATON_LOCATION_EMPTY" xml:space="preserve">
+    <value>இடம் காலியாக உள்ளது</value>
+  </data>
+  <data name="DIFFERENT_LOCKING_PERIOD" xml:space="preserve">
+    <value>இந்த வெவ்வேறு பூட்டுதல் காலம் வரையறுக்க முடியாது</value>
+  </data>
+  <data name="DISPOSAL_ADD_CAPTION" xml:space="preserve">
+    <value>வவுச்சர் - சொத்து அகற்றுவதில்</value>
+  </data>
+  <data name="DISPOSAL_CAPTION" xml:space="preserve">
+    <value>அகற்றுவதில்</value>
+  </data>
+  <data name="DISPOSAL_DETAILS" xml:space="preserve">
+    <value>நீக்கம் விவரங்கள்</value>
+  </data>
+  <data name="DISPOSAL_EDIT_CAPTION" xml:space="preserve">
+    <value>வவுச்சர் - சொத்து அகற்றுவதில் (தொகு)</value>
+  </data>
+  <data name="DISPOSAL_ENTRY" xml:space="preserve">
+    <value>நீக்கம் நுழைவு</value>
+  </data>
+  <data name="DISPOSAL_PRINT_CAPTION" xml:space="preserve">
+    <value>நீக்கம் வவுச்சர் விபரங்கள்</value>
+  </data>
+  <data name="DISPOSAL_VIEW" xml:space="preserve">
+    <value>நீக்கம் காண்க</value>
+  </data>
+  <data name="DISPOSE" xml:space="preserve">
+    <value>வசம்</value>
+  </data>
+  <data name="DOES_NOT_FALL_BETWEEN_TRANSACTION_PERIOD" xml:space="preserve">
+    <value>திட்ட தொடக்க தேதி மற்றும் மூடிய தேதி பரிவர்த்தனை காலம் இடையே வீழ்ச்சி இல்லை.</value>
+  </data>
+  <data name="DONATE" xml:space="preserve">
+    <value>நன்கொடை</value>
+  </data>
+  <data name="DONATE_ADD_CAPTION" xml:space="preserve">
+    <value>வவுச்சர் - சொத்து நன்கொடை</value>
+  </data>
+  <data name="DONATE_DETAILS" xml:space="preserve">
+    <value>நன்கொடை விவரங்கள்</value>
+  </data>
+  <data name="DONATE_EDIT_CAPTION" xml:space="preserve">
+    <value>வவுச்சர் - சொத்து தானம் (தொகு)</value>
+  </data>
+  <data name="DONORTITLE_ADD_CAPTION" xml:space="preserve">
+    <value>தானம் தலைப்பு (சேர்)</value>
+  </data>
+  <data name="DONORTITLE_EDIT_CAPTION" xml:space="preserve">
+    <value>தானம் தலைப்பு (தொகு)</value>
+  </data>
+  <data name="DONOR_ADD_CAPTION" xml:space="preserve">
+    <value>தானம் (சேர்)</value>
+  </data>
+  <data name="DONOR_CONTRIBUTION_ACTUAL_AMOUNT_EMPTY" xml:space="preserve">
+    <value>பங்களிப்பு உண்மையான அளவு காலியாக உள்ளது.</value>
+  </data>
+  <data name="DONOR_CONTRIBUTION_AMOUNT_EMPTY" xml:space="preserve">
+    <value>தானம் பங்களிப்பு தொகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="DONOR_COUNTRY_EMPTY" xml:space="preserve">
+    <value>நாடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="DONOR_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="DONOR_EDIT_CAPTION" xml:space="preserve">
+    <value>தானம் (தொகு)</value>
+  </data>
+  <data name="DONOR_IMPORT_SUCCESSFULLY" xml:space="preserve">
+    <value>தானம் வெற்றிகரமாக இறக்குமதி</value>
+  </data>
+  <data name="DONOR_NAME_EMPTY" xml:space="preserve">
+    <value>தானம் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="DONOR_PRINT_CAPTION" xml:space="preserve">
+    <value>நன்கொடையாளர்கள் விவரங்கள்</value>
+  </data>
+  <data name="DONOR_PUPOSE_EMPTY" xml:space="preserve">
+    <value>நோக்கம் காலியாக உள்ளது.</value>
+  </data>
+  <data name="DONOR_REFERRED_STAFF_DETAILS" xml:space="preserve">
+    <value>குறிப்பிடப்படுகிறது பணியாளர்கள் விவரங்கள்</value>
+  </data>
+  <data name="DONOR_REGISTRATION_TYPE_ADD_CAPTION" xml:space="preserve">
+    <value>பதிவு வகை (சேர்)</value>
+  </data>
+  <data name="DONOR_REGISTRATION_TYPE_EDIT_CAPTION" xml:space="preserve">
+    <value>பதிவு வகை (தொகு)</value>
+  </data>
+  <data name="DONOR_REGISTRATION_TYPE_EMPTY" xml:space="preserve">
+    <value>பதிவு வகை காலியாக உள்ளது</value>
+  </data>
+  <data name="DONOR_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="DONOR_STATE_EMPTY" xml:space="preserve">
+    <value>மாநில காலியாக உள்ளது</value>
+  </data>
+  <data name="DONOR_TITLENAME_EMPTY" xml:space="preserve">
+    <value>தானம் தலைப்பு காலியாக உள்ளது</value>
+  </data>
+  <data name="DSYNC_CHECK_INTERNET_CONNECTION" xml:space="preserve">
+    <value>இணைய இணைக்க முடியவில்லை. உங்கள் இணைய இணைப்பை சரிபார்க்கவும்</value>
+  </data>
+  <data name="DSYNC_CONFIRMATION_BRANCH_HEADOFFICE_VOUCHERS" xml:space="preserve">
+    <value>நீங்கள் தலைமை அலுவலகத்திற்கு கிளை அலுவலகம் உறுதி சீட்டு இறக்குமதி செய்ய உறுதியாக இருக்கிறீர்களா?</value>
+  </data>
+  <data name="DSYNC_CONFIRMATION_IMPORT_MASTERS" xml:space="preserve">
+    <value>நீங்கள் முதுநிலை இறக்குமதி செய்ய உறுதியாக இருக்கிறீர்களா?</value>
+  </data>
+  <data name="DSYNC_DATAFROM_HEADOFFICE_BRANCHOFFICE" xml:space="preserve">
+    <value>அலுவலக கிளை தலைமை அலுவலகம் இருந்து தரவு இறக்குமதி தொடங்கும்.</value>
+  </data>
+  <data name="DSYNC_EXPORT_VOUCHERS_FAILURE" xml:space="preserve">
+    <value>உறுதி சீட்டு ஏற்றுமதி இல் சிக்கல்.</value>
+  </data>
+  <data name="DSYNC_EXPORT_VOUCHERS_SUCCESS" xml:space="preserve">
+    <value>ரசீது கோப்பு போர்டல் பதிவேற்றப்படும். நிலைமை கிளை நிர்வாகம் தெரிவிக்கப்படும்.</value>
+  </data>
+  <data name="DSYNC_IMPORT_BRANCH_TO_HEADOFFICE" xml:space="preserve">
+    <value>கிளை அலுவலகம் தகவல் இறக்குமதி தலைமை அலுவலகத்தில் தரவு பிரச்சனை உள்ளது</value>
+  </data>
+  <data name="DSYNC_IMPORT_BRANCH_TO_HEADOFFICEVOUCHER" xml:space="preserve">
+    <value>அலுவலக தலைமை கிளை அலுவலகம் இருந்து தரவு இறக்குமதி தொடங்கும்.</value>
+  </data>
+  <data name="DSYNC_IMPORT_FCPURPOSE_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>தலைமை அலுவலகத்தில் இருந்து இறக்குமதி எஃப்சி நோக்கம் அலுவலக கிளை.</value>
+  </data>
+  <data name="DSYNC_IMPORT_LEDGERGROUP_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>தலைமை அலுவலகத்தில் இருந்து இறக்குமதி மாஸ்டர் லெட்ஜர் குழு அலுவலக கிளை.</value>
+  </data>
+  <data name="DSYNC_IMPORT_LEDGER_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>தலைமை அலுவலகத்தில் இருந்து இறக்குமதி லெட்ஜர் / லெட்ஜர் குழு அலுவலக கிளை.</value>
+  </data>
+  <data name="DSYNC_IMPORT_LEGALENTITY_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>தலைமை அலுவலகம் இருந்து கிளை அலுவலகத்திற்கு இறக்குமதி சட்ட நிறுவனத்தின்</value>
+  </data>
+  <data name="DSYNC_IMPORT_MASTER_PROBLEM" xml:space="preserve">
+    <value>மாஸ்டர் இறக்குமதி இல் சிக்கல்</value>
+  </data>
+  <data name="DSYNC_IMPORT_PROJECTCATOGORY_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>தலைமை அலுவலகத்தில் இருந்து இறக்குமதி திட்டம் வகை அலுவலக கிளை.</value>
+  </data>
+  <data name="DSYNC_IMPORT_PROJECT_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>தலைமை அலுவலகத்தில் இருந்து இறக்குமதி திட்ட விவரங்கள் அலுவலக கிளை.</value>
+  </data>
+  <data name="DSYNC_MAP_HEADOFFICE_lEDGERS" xml:space="preserve">
+    <value>தயவுசெய்து தலைமை அலுவலகம் பேரேடுகளும் அனைத்து பொருந்தாத கிளை பேரேடுகளும் வரைபடம் மற்றும் மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="DSYNC_MASTER_SUCCESS" xml:space="preserve">
+    <value>முதுநிலை வெற்றிகரமாக இறக்குமதி செய்யப்பட்டது.</value>
+  </data>
+  <data name="DSYNC_NO_RECORD_EXISTS" xml:space="preserve">
+    <value>பதிவுகள் எதுவும் இல்லை ஏற்றுமதி கிடைக்கும்</value>
+  </data>
+  <data name="DSYNC_PROBLEM_IMPORT_BRANCH_HEADOFFICE" xml:space="preserve">
+    <value>கிளை அலுவலகம் தகவல் இறக்குமதி தலைமை அலுவலகத்தில் தரவு பிரச்சனை உள்ளது</value>
+  </data>
+  <data name="DSYNC_PROBLEM_IMPORT_RECORDS" xml:space="preserve">
+    <value>பதிவுகள் இறக்குமதி பிரச்சனை</value>
+  </data>
+  <data name="DSYNC_SELECT_ONE_PROJECT" xml:space="preserve">
+    <value>உறுதி சீட்டு ஏற்றுமதி குறைந்தது ஒரு திட்டம் தேர்வு</value>
+  </data>
+  <data name="DSYNC_SELECT_XML_IMPORT" xml:space="preserve">
+    <value>இறக்குமதி செய்ய XML கோப்பைத் தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_BRANCH_TO_HEADOFFICE_VOUCHER" xml:space="preserve">
+    <value>கிளை அலுவலகத்தில் இருந்து வெற்றிகரமாக இறக்குமதி உறுதி சீட்டு அலுவலக தலைமை.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_DATAFROM_HEADOFFICE_BRANCHOFFICE" xml:space="preserve">
+    <value>தலைமை அலுவலகத்தில் இருந்து வெற்றிகரமாக இறக்குமதி தரவு அலுவலக கிளை.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_FCPURPOSE_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>தலைமை அலுவலகத்தில் இருந்து வெற்றிகரமாக இறக்குமதி எஃப்சி நோக்கம் அலுவலக கிளை.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_LEDGERGROUP_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>வெற்றிகரமாக அலுவலக கிளை தலைமை அலுவலகம் இருந்து இறக்குமதி மாஸ்டர் லெட்ஜர் குழு.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_LEDGER_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>வெற்றிகரமாக தலைமை அலுவலகத்தில் இருந்து இறக்குமதி லெட்ஜர் மற்றும் லெட்ஜர் Group அலுவலக கிளை.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_LEGALENTITY_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>வெற்றிகரமாக கிளை அலுவலகத்திற்கு தலைமை அலுவலகத்தில் இருந்து சட்ட நிறுவனம் இறக்குமதி</value>
+  </data>
+  <data name="DSYNC_SUCCESS_PROJECTCATOGORY_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>வெற்றிகரமாக கிளை அலுவலகத்திற்கு தலைமை அலுவலகத்தில் இருந்து, திட்டம் வகை இறக்குமதி.</value>
+  </data>
+  <data name="DSYNC_SUCCESS_PROJECT_HEADOFFICE_BRACHOFFICE" xml:space="preserve">
+    <value>தலைமை அலுவலகத்தில் இருந்து வெற்றிகரமாக இறக்குமதி திட்ட விவரங்கள் அலுவலக கிளை.</value>
+  </data>
+  <data name="DSYNC_VALIDATEPROJECT_BRANCH_TO_HEADOFFICE" xml:space="preserve">
+    <value>கிளை அலுவலகத்தில் பயன்படுத்தப்படும் திட்ட தலைமை அலுவலகத்தில் இல்லை. திட்டத்தின் பெயர் கிளை மூலம் மாற்றம் செய்யப்பட்டிருக்கலாம் அல்லது நீக்கப்பட்டது. \ N திட்ட தேவைப்படுகிறது</value>
+  </data>
+  <data name="DSYNC_VALIDATE_DATE" xml:space="preserve">
+    <value>வரம்பு தேதி தேதி விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="DSYNC_VALIDATE_OP_TRANS" xml:space="preserve">
+    <value>கே இந்த பேரேடு உள்ளன. அது நீக்க முடியாது.</value>
+  </data>
+  <data name="DSYNC_WELCOME_SYNCHRONISATION" xml:space="preserve">
+    <value>ஆக்மி ஈஆர்பி தரவு ஒத்திசைவு வரவேற்கிறோம் ...</value>
+  </data>
+  <data name="DUE_DATE_EMPTY" xml:space="preserve">
+    <value>நிலுவை தேதி காலியாக உள்ளது</value>
+  </data>
+  <data name="DUE_DATE_GREATER_THAN_START_DATE" xml:space="preserve">
+    <value>நிலுவை தேதி தொடக்க தேதி விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="EMPTY_SHEET" xml:space="preserve">
+    <value>மாஸ்டர் விவரங்கள் கிடைக்கவில்லை.</value>
+  </data>
+  <data name="ENTRIES_WILL_BE_CLEARED" xml:space="preserve">
+    <value>பதிவுகள் அழிக்கப்படும். நீங்கள் ஒற்றை நுழைவு மீது மாற விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="ERROR_MESSAGE" xml:space="preserve">
+    <value>ஆக்மி ஈஆர்பி முறைக்கு டேலி இறக்குமதி ஒரு சிக்கல் இருக்கிறது</value>
+  </data>
+  <data name="ERROR_SHOWING_TDS" xml:space="preserve">
+    <value>அதுமட்டுமல்ல கொடுப்பனவு திரை காட்டும் பிழை.</value>
+  </data>
+  <data name="EXECUTIVE_ADD_CAPTION" xml:space="preserve">
+    <value>ஆளும் உடல்கள் (சேர்)</value>
+  </data>
+  <data name="EXECUTIVE_COUNTRY_EMPTY" xml:space="preserve">
+    <value>நாடு காலியாக உள்ளது</value>
+  </data>
+  <data name="EXECUTIVE_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="EXECUTIVE_DOB_EXIT" xml:space="preserve">
+    <value>பிறந்த தேதி வெளியேறு தேதி விட குறைவாக இருக்க முடியாது.</value>
+  </data>
+  <data name="EXECUTIVE_EDIT_CAPTION" xml:space="preserve">
+    <value>ஆளும் உடல்கள் (தொகு)</value>
+  </data>
+  <data name="EXECUTIVE_EMAIL_EMPTY" xml:space="preserve">
+    <value>மின்னஞ்சல் காலியாக உள்ளது</value>
+  </data>
+  <data name="EXECUTIVE_EXIT_JOIN" xml:space="preserve">
+    <value>வெளியேறு தேதி சேர தேதி விட குறைவாக இருக்க முடியாது.</value>
+  </data>
+  <data name="EXECUTIVE_JOIN_DOB" xml:space="preserve">
+    <value>சேர தேதி பிறந்த தேதி விட குறைவாக இருக்க முடியாது.</value>
+  </data>
+  <data name="EXECUTIVE_NAME_EMPTY" xml:space="preserve">
+    <value>பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="EXECUTIVE_NATIONALITY_EMPTY" xml:space="preserve">
+    <value>தேசியம் காலியாக உள்ளது.</value>
+  </data>
+  <data name="EXECUTIVE_PRINT_CAPTION" xml:space="preserve">
+    <value>உடல் விவரங்கள் ஆளும்</value>
+  </data>
+  <data name="EXECUTIVE_SAVE_FAILURE" xml:space="preserve">
+    <value>பதிவு கிடைக்கும்!</value>
+  </data>
+  <data name="EXECUTIVE_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="EXPENSE_LEDGER_EMPTY" xml:space="preserve">
+    <value>செலவு லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="FAMILYMEMBER_ADD_CAPTION" xml:space="preserve">
+    <value>குடும்ப உறுப்பினர் (சேர்)</value>
+  </data>
+  <data name="FAMILYMEMBER_EDIT_CAPTION" xml:space="preserve">
+    <value>குடும்ப உறுப்பினர் (தொகு)</value>
+  </data>
+  <data name="FAMILYMEMBER_PRINT_CAPTION" xml:space="preserve">
+    <value>குடும்ப உறுப்பினர் விவரம்</value>
+  </data>
+  <data name="FAMILY_REGISTER_PRINT_CAPTION" xml:space="preserve">
+    <value>குடும்ப பதிவு விவரங்கள்</value>
+  </data>
+  <data name="FDPOST_INTEREST_DELETE" xml:space="preserve">
+    <value>எஃப்டி போஸ்ட் வட்டி நீக்கு</value>
+  </data>
+  <data name="FDPOST_INTEREST_MODIFY" xml:space="preserve">
+    <value>எஃப்டி போஸ்ட் வட்டி மாற்றியமை</value>
+  </data>
+  <data name="FD_ACCOUNT_ADD" xml:space="preserve">
+    <value>எஃப்டி திறப்பு (சேர்)</value>
+  </data>
+  <data name="FD_ACCOUNT_EDIT" xml:space="preserve">
+    <value>எஃப்டி திறப்பு (தொகு)</value>
+  </data>
+  <data name="FD_ACCOUNT_INV_PRINT_CAPTION" xml:space="preserve">
+    <value>நிலையான வைப்பு முதலீட்டு விவரங்கள்</value>
+  </data>
+  <data name="FD_ACCOUNT_OP_PRINT_CAPTION" xml:space="preserve">
+    <value>நிலையான வைப்பு திறப்பு இருப்பு</value>
+  </data>
+  <data name="FD_ADD" xml:space="preserve">
+    <value>நிலையான வைப்பு (சேர்)</value>
+  </data>
+  <data name="FD_AMOUNT_EMPTY" xml:space="preserve">
+    <value>நிலையான வைப்பு தொகை காலியாக இருக்க முடியாது.</value>
+  </data>
+  <data name="FD_AMOUNT_GREATER_THAN_ZERO" xml:space="preserve">
+    <value>தொகை ஜீரோ விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="FD_BANK_CASH_GOES_CREDIT" xml:space="preserve">
+    <value>வங்கி / பண இருப்பு கடன் செல்கிறது. நீங்கள் தொடர விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="FD_BANK_CONFIRMATION" xml:space="preserve">
+    <value>நீங்கள் தேர்ந்தெடுத்த வங்கி தொடர விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="FD_BANK_INTEREST_LED_EMPTY" xml:space="preserve">
+    <value>வங்கி வட்டி லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="FD_BANK_IS_NOT_CORRECT" xml:space="preserve">
+    <value>தேர்ந்தெடுக்கப்பட்ட வங்கி கணக்கு சரியானது இல்லை. புதுப்பிக்க அதற்கான முதலீடு வங்கி கணக்கு தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="FD_CANNOT_DELETE_ASSCOCIATE_RENEWAL" xml:space="preserve">
+    <value>அது எஃப்டி புதுப்பித்தல் / எஃப்டி போஸ்ட் வட்டி இணைந்து உள்ளது, ஏனெனில் நீங்கள் இந்த நிலையான வைப்புத் நீக்க முடியாது</value>
+  </data>
+  <data name="FD_CANNOT_INVEST" xml:space="preserve">
+    <value>நிலையான வைப்பு முதலீடு முடியாது</value>
+  </data>
+  <data name="FD_CANNOT_POST_INTEREST" xml:space="preserve">
+    <value>இந்த நிலையான வைப்பு வட்டி வெளியிட முடியாது</value>
+  </data>
+  <data name="FD_CANNOT_REALIZED" xml:space="preserve">
+    <value>நிலையான வைப்பு அடையப்பட முடியாது</value>
+  </data>
+  <data name="FD_CANNOT_RENEW" xml:space="preserve">
+    <value>நிலையான வைப்பு புதுப்பிக்க முடியாது</value>
+  </data>
+  <data name="FD_CANNOT_UNMAP_MAKE_ZERO" xml:space="preserve">
+    <value>unmap அளவு பூஜ்யம் மீண்டும் முயற்சி முடியாது.</value>
+  </data>
+  <data name="FD_CASH_BANK_EMPTY" xml:space="preserve">
+    <value>பண / வங்கி லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="FD_CASH_BANK_LEDGERS" xml:space="preserve">
+    <value>வங்கி கணக்கு லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="FD_CONFIRMATION_DELETE" xml:space="preserve">
+    <value>இந்த மூடிய நிலையான உள்ளது வைப்பு Voucher.Do தொடர வேண்டுமா?</value>
+  </data>
+  <data name="FD_CREATED_DATE" xml:space="preserve">
+    <value>உருவாக்கப்பட்டது தேதி, திறந்து சமநிலை அமைக்க finacial ஆண்டு விட குறைவாக இருக்க வேண்டும் நீங்கள் முதலீடு செய்ய விரும்புகிறீர்களா? முதலீட்டு இணைப்பை முதலீட்டு கிளிக் அளவு.</value>
+  </data>
+  <data name="FD_CREATED_DATE_EMPTY" xml:space="preserve">
+    <value>தேதி உருவாக்கப்பட்டது காலியாக இருக்க முடியாது.</value>
+  </data>
+  <data name="FD_CREATED_DATE_LESS_THAN_FINANCIAL_YEAR" xml:space="preserve">
+    <value>உருவாக்கப்பட்டது தேதி தேதி இருந்து நிதி ஆண்டின் ஆண்டின் விட குறைவாக இருக்க வேண்டும். முதலீட்டு பயணத்தின் முதலீடு செய்ய</value>
+  </data>
+  <data name="FD_DELETED" xml:space="preserve">
+    <value>நிலையான வைப்பு விவரங்கள் நீக்கப்பட்டது</value>
+  </data>
+  <data name="FD_DEPOSIT" xml:space="preserve">
+    <value>நிலையான வைப்பு விவரங்கள்</value>
+  </data>
+  <data name="FD_EDIT" xml:space="preserve">
+    <value>நிலையான வைப்பு (தொகு)</value>
+  </data>
+  <data name="FD_INTEREST_RATE_EMPTY" xml:space="preserve">
+    <value>வட்டி விகிதம் காலியாக இருக்க முடியாது</value>
+  </data>
+  <data name="FD_INVESTENT_DATE_AS_ON" xml:space="preserve">
+    <value>என தேதி முதலீடு</value>
+  </data>
+  <data name="FD_INVESTMENT_ADD" xml:space="preserve">
+    <value>எஃப்டி முதலீட்டு (சேர்)</value>
+  </data>
+  <data name="FD_INVESTMENT_AMOUNT" xml:space="preserve">
+    <value>தொகை</value>
+  </data>
+  <data name="FD_INVESTMENT_CAPTION" xml:space="preserve">
+    <value>எஃப்டி முதலீட்டு</value>
+  </data>
+  <data name="FD_INVESTMENT_EDIT" xml:space="preserve">
+    <value>எஃப்டி முதலீட்டு (தொகு)</value>
+  </data>
+  <data name="FD_INVESTMENT_GROUP_CAPTION" xml:space="preserve">
+    <value>முதலீட்டு விவரங்கள்</value>
+  </data>
+  <data name="FD_INVESTMENT_UNMAPPING" xml:space="preserve">
+    <value>unmap முடியாது, முதலீட்டு இந்த பேரேடு செய்யப்படுகிறது.</value>
+  </data>
+  <data name="FD_LEDGER" xml:space="preserve">
+    <value>எஃப்டி லெட்ஜர்</value>
+  </data>
+  <data name="FD_LEDGER_ADD" xml:space="preserve">
+    <value>எஃப்டி லெட்ஜர் (சேர்)</value>
+  </data>
+  <data name="FD_LEDGER_CODE" xml:space="preserve">
+    <value>எஃப்டி லெட்ஜர் குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="FD_LEDGER_EDIT" xml:space="preserve">
+    <value>எஃப்டி லெட்ஜர் (தொகு)</value>
+  </data>
+  <data name="FD_LEDGER_NAME" xml:space="preserve">
+    <value>FDLedger பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="FD_LEDGER_NOT_MAPPED_TO_PROJECT" xml:space="preserve">
+    <value>லெட்ஜர் தான் இந்த திட்டம் ஒப்பிடப்படுகிறது இல்லை</value>
+  </data>
+  <data name="FD_LEDGER_PRINT_CAPTION" xml:space="preserve">
+    <value>எஃப்டி லெட்ஜர் விபரங்கள்</value>
+  </data>
+  <data name="FD_MATURITY_DATE" xml:space="preserve">
+    <value>முதிர்ச்சி தேதி பின்னர் புதுப்பிக்கப்பட்ட தேதி குறைவாக இருக்க முடியாது.</value>
+  </data>
+  <data name="FD_MATURITY_DATE_EMPTY" xml:space="preserve">
+    <value>முதிர்வு தேதி காலியாக இருக்க முடியாது.</value>
+  </data>
+  <data name="FD_MATURITY_DATE_FINANCIAL_YEAR" xml:space="preserve">
+    <value>முதிர்வு தேதி திறந்து நிலையான வைப்புத் தேதியிலிருந்து நிதி ஆண்டின் ஆண்டின் விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="FD_MATURITY_DATE_GREATER_THAN_CREATED_DATE" xml:space="preserve">
+    <value>முதிர்வு தேதி தேதி உருவாக்கப்பட்டது விட அதிகமாக இருக்க முடியாது</value>
+  </data>
+  <data name="FD_MATURITY_DATE_LESS_THAN_CREATED_DATE" xml:space="preserve">
+    <value>முதிர்வு தேதி குறைவாக அல்லது தேதி உருவாக்கப்பட்டது சமமாக இருக்க முடியாது.</value>
+  </data>
+  <data name="FD_NOT_APPROPRIATE_BANK" xml:space="preserve">
+    <value>தேர்ந்தெடுக்கப்பட்ட வங்கி கணக்கு சரியானது இல்லை.</value>
+  </data>
+  <data name="FD_NUMBER_EMPTY" xml:space="preserve">
+    <value>நிலையான வைப்பு எண் காலியாக இருக்க முடியாது.</value>
+  </data>
+  <data name="FD_OPENING_CAPTION" xml:space="preserve">
+    <value>எஃப்டி திறப்பு</value>
+  </data>
+  <data name="FD_OPENING_GROUP_CAPTION" xml:space="preserve">
+    <value>திறப்பு</value>
+  </data>
+  <data name="FD_OPENING_UNMAPPING" xml:space="preserve">
+    <value>unmap முடியாது, திறந்து இருப்பு இந்த பேரேடு அமைக்கப்படவில்லை.</value>
+  </data>
+  <data name="FD_OP_AMOUNT" xml:space="preserve">
+    <value>தொகை</value>
+  </data>
+  <data name="FD_OP_DATE_AS_ON" xml:space="preserve">
+    <value>என சமநிலை தேதி திறந்து</value>
+  </data>
+  <data name="FD_POSTINTEREST" xml:space="preserve">
+    <value>எஃப்டி போஸ்ட் வட்டி</value>
+  </data>
+  <data name="FD_POST_INTEREST_MODIFY" xml:space="preserve">
+    <value>எஃப்டி போஸ்ட் வட்டி மாற்றியமை</value>
+  </data>
+  <data name="FD_PRINT_CAPTION" xml:space="preserve">
+    <value>நிலையான வைப்பு விவரங்கள்</value>
+  </data>
+  <data name="FD_REALISED" xml:space="preserve">
+    <value>நிலையான வைப்பு உணரப்படுகிறது</value>
+  </data>
+  <data name="FD_RENEWAL" xml:space="preserve">
+    <value>எஃப்டி புதுப்பித்தல்</value>
+  </data>
+  <data name="FD_RENEWAL_CANNOT_DELETE" xml:space="preserve">
+    <value>எஃப்டி புதுப்பித்தல் நீக்க முடியாது</value>
+  </data>
+  <data name="FD_RENEWAL_CANNOT_EDIT" xml:space="preserve">
+    <value>எஃப்டி புதுப்பித்தல் திருத்த முடியாது</value>
+  </data>
+  <data name="FD_RENEWAL_CAPTION" xml:space="preserve">
+    <value>நிலையான வைப்பு புதுப்பித்தல்</value>
+  </data>
+  <data name="FD_RENEWAL_DATE_NOT_GREATER_THAN_MATURITY_DATE" xml:space="preserve">
+    <value>புதுப்பித்தல் தேதி விட கடந்த முதிர்வு தேதி அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="FD_RENEWAL_DATE_WITHIN_TRANSACTION" xml:space="preserve">
+    <value>புதுப்பித்தல் தேதி இந்த நிலையான வைப்புத் புதுப்பிக்க பரிவர்த்தனை காலத்தில் இருக்க வேண்டும்</value>
+  </data>
+  <data name="FD_RENEWAL_DELETE" xml:space="preserve">
+    <value>எஃப்டி புதுப்பித்தல் நீக்கு</value>
+  </data>
+  <data name="FD_RENEWAL_DETAILS" xml:space="preserve">
+    <value>எஃப்டி புதுப்பித்தல் விபரங்கள்</value>
+  </data>
+  <data name="FD_RENEWAL_MODIFY" xml:space="preserve">
+    <value>எஃப்டி புதுப்பித்தல் மாற்றியமை</value>
+  </data>
+  <data name="FD_RENEWED_DATE" xml:space="preserve">
+    <value>புதுப்பிக்கப்பட்ட தேதி தற்போதைய முதிர்ச்சியடைந்த தேதி விட குறைவாக இருக்க முடியாது.</value>
+  </data>
+  <data name="FD_SET_OPENING_BALANCE_ALERT" xml:space="preserve">
+    <value>உருவாக்கப்பட்டது தேதி தேதி இருந்து நிதி ஆண்டின் ஆண்டின் விட குறைவாக இருக்க வேண்டும். முதலீட்டு பயணத்தின் முதலீடு செய்ய.</value>
+  </data>
+  <data name="FD_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="FD_TRANSACTION_MADE_ANOTHER_PERIOD" xml:space="preserve">
+    <value>பரிவர்த்தனை மற்ற பரிவர்த்தனை காலம் செய்யப்படுகிறது, அதனால் நிலையான வைப்புத் பின்வாங்கக் கூடாது</value>
+  </data>
+  <data name="FD_UNMAPPING" xml:space="preserve">
+    <value>திறப்பு அல்லது முதலீட்டு இந்த எஃப்டி லெட்ஜர் செய்யப்பட்ட ஏனெனில் இந்த நிலையான வைப்புத் unmap முடியாது</value>
+  </data>
+  <data name="FD_WITHDRAWAL" xml:space="preserve">
+    <value>எஃப்டி பின்வாங்கும்</value>
+  </data>
+  <data name="FD_WITHDRAWALAMOUNT_EXCEED" xml:space="preserve">
+    <value>பின்வாங்கும் அளவு முதலீடு செய்த தொகையை விட குறைவாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="FD_WITHDRAWAL_ON_EMPTY" xml:space="preserve">
+    <value>மீது பின்வாங்கும் காலியாக உள்ளது</value>
+  </data>
+  <data name="FD_WITHDRAWAL_ON_GREATER_THAN_RENEWAL_DATE" xml:space="preserve">
+    <value>திரும்பப் பெற கடைசி புதுப்பித்தல் தேதி / கடந்த போஸ்ட் வட்டி தேதி விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="FD_WITHDRAW_AMOUNT_EMPTY" xml:space="preserve">
+    <value>பின்வாங்கும் அளவு காலியாக உள்ளது</value>
+  </data>
+  <data name="FD_WITHDRAW_AMOUNT_VALIDATION" xml:space="preserve">
+    <value>பின்வாங்கும் அளவு prinicipal தொகையை விட அதிகமாக இருக்க முடியாது</value>
+  </data>
+  <data name="FILE_NAME_EMPTY" xml:space="preserve">
+    <value>கோப்பு காலியாக உள்ளது</value>
+  </data>
+  <data name="FILE_NOT_EXIT" xml:space="preserve">
+    <value>கோப்பு தற்போதைய இடம் வெளியேறும் அல்ல.</value>
+  </data>
+  <data name="FILE_OPEND" xml:space="preserve">
+    <value>இறக்குமதி செய்யும் போது எக்செல் கோப்பில் ஏற்கனவே திறந்து</value>
+  </data>
+  <data name="FIRSTUNIT_EMPTY" xml:space="preserve">
+    <value>முதல் யூனிட் காலியாக உள்ளது.</value>
+  </data>
+  <data name="FIRST_NAME" xml:space="preserve">
+    <value>முதல் பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="FIXED_ASSET_REGISTER_PRINT_CAPTION" xml:space="preserve">
+    <value>நிலையான சொத்து பதிவு விவரங்கள்</value>
+  </data>
+  <data name="FIXED_DEPOSIT_LEDGER_EMPTY" xml:space="preserve">
+    <value>வைப்பு லெட்ஜர் நிலையான காலியாக உள்ளது</value>
+  </data>
+  <data name="FIXED_LEDGER_DELETE" xml:space="preserve">
+    <value>ஸ்டாண்டர்ட் / இயல்புநிலை லெட்ஜர் நீக்க முடியாது</value>
+  </data>
+  <data name="FIXED_LEDGER_EDIT" xml:space="preserve">
+    <value>ஸ்டாண்டர்ட் / இயல்புநிலை லெட்ஜர் திருத்த முடியாது</value>
+  </data>
+  <data name="GOVERNING_BODIES" xml:space="preserve">
+    <value>உடல்கள் ஆளும்</value>
+  </data>
+  <data name="GRID_EMPTY" xml:space="preserve">
+    <value>கட்டம் காலியாக உள்ளது</value>
+  </data>
+  <data name="GROUP_ADD_CAPTION" xml:space="preserve">
+    <value>லெட்ஜர் குழு (சேர்)</value>
+  </data>
+  <data name="GROUP_CAN_DELETE" xml:space="preserve">
+    <value>குழு நீக்க முடியாது. அது தொடர்பு உள்ளது.</value>
+  </data>
+  <data name="GROUP_CAN_EDIT" xml:space="preserve">
+    <value>குழு திருத்த முடியாது. அது தொடர்பு உள்ளது.</value>
+  </data>
+  <data name="GROUP_CODE_EMPTY" xml:space="preserve">
+    <value>குழு குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="GROUP_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="GROUP_EDIT_CAPTION" xml:space="preserve">
+    <value>லெட்ஜர் குழு (தொகு)</value>
+  </data>
+  <data name="GROUP_FIXED_EDIT" xml:space="preserve">
+    <value>நிலையான இயற்கை திருத்த முடியாது.</value>
+  </data>
+  <data name="GROUP_IMPORT_SUCCESSFULLY" xml:space="preserve">
+    <value>குழு வெற்றிகரமாக இறக்குமதி</value>
+  </data>
+  <data name="GROUP_LEVEL_CHECK" xml:space="preserve">
+    <value>அடுத்த குழு நிலை சேர்க்க முடியாது.</value>
+  </data>
+  <data name="GROUP_NAME_EMPTY" xml:space="preserve">
+    <value>குழு காலியாக உள்ளது.</value>
+  </data>
+  <data name="GROUP_NATURE_DELETE" xml:space="preserve">
+    <value>நிலையான இயற்கை நீக்க முடியாது.</value>
+  </data>
+  <data name="GROUP_NOT_AVAIL" xml:space="preserve">
+    <value>குழுவின் விவரங்கள் கிடைக்கவில்லை.</value>
+  </data>
+  <data name="GROUP_PARENT_EMPTY" xml:space="preserve">
+    <value>முதன்மைக் குழு தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="GROUP_SAVE_FAILURE" xml:space="preserve">
+    <value>குழுவின் விவரங்கள் காப்பாற்ற முடியாது.</value>
+  </data>
+  <data name="GROUP_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="HAS_FD_ACCOUNT_NUMBER" xml:space="preserve">
+    <value>எஃப்டி கணக்கு எண் ஏற்கனவே உள்ளது</value>
+  </data>
+  <data name="HEAD_OFFICE_CODE_EMPTY" xml:space="preserve">
+    <value>தலைமை அலுவலகம் குறியீடு காலியாக உள்ளது</value>
+  </data>
+  <data name="HEAD_OFFICE_CODE_MATCH_ERROR" xml:space="preserve">
+    <value>உரிமம் Headoffice குறியீடு மாஸ்டர் பிற தலைமை அலுவலகம் குறியீடு பொருந்தவில்லை. நீங்கள் இன்னும் தொடர விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="HINT_INVALID" xml:space="preserve">
+    <value>குறிப்பு தவறானது.</value>
+  </data>
+  <data name="IMPORT_SUCCESSFULLY" xml:space="preserve">
+    <value>திட்ட வெற்றிகரமாக இறக்கப்பட்டது</value>
+  </data>
+  <data name="INCOME_LEDGER_EMPTY" xml:space="preserve">
+    <value>வருமான லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="INKIND" xml:space="preserve">
+    <value>#NAME?</value>
+  </data>
+  <data name="INKINDARTICLE_ABBREVATION_EMPTY" xml:space="preserve">
+    <value>Inkind கட்டுரை குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="INKINDARTICLE_ADD_CAPTION" xml:space="preserve">
+    <value>Inkind கட்டுரை (சேர்).</value>
+  </data>
+  <data name="INKINDARTICLE_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="INKINDARTICLE_EDIT_CAPTION" xml:space="preserve">
+    <value>Inkind கட்டுரை (தொகு)</value>
+  </data>
+  <data name="INKINDARTICLE_NAME_EMPTY" xml:space="preserve">
+    <value>வகையான கட்டுரை பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="INKINDARTICLE_PRINT_CAPTION" xml:space="preserve">
+    <value>கைண்ட் கட்டுரையில்</value>
+  </data>
+  <data name="INKINDARTICLE_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="INKIND_DETAILS" xml:space="preserve">
+    <value>#NAME?</value>
+  </data>
+  <data name="INKIND_ITEM" xml:space="preserve">
+    <value>Inkind பொருள் காலியாக உள்ளது</value>
+  </data>
+  <data name="INKIND_LEDGER" xml:space="preserve">
+    <value>Inkind லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="INKIND_LEDGER_ITEM" xml:space="preserve">
+    <value>Inkind லெட்ஜர் இந்த திட்டம் வரைபடத்தில் இருக்காது.</value>
+  </data>
+  <data name="INKIND_PURPOSE" xml:space="preserve">
+    <value>Inkind நோக்கம் காலியாக உள்ளது.</value>
+  </data>
+  <data name="INKIND_VALUE" xml:space="preserve">
+    <value>Inkind மதிப்பு காலியாக உள்ளது.</value>
+  </data>
+  <data name="INSTITUTE_NAME_EMPTY" xml:space="preserve">
+    <value>நிறுவனம் பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="INSTITUTIONAL_TYPE_ADD" xml:space="preserve">
+    <value>நிறுவன வகை (சேர்)</value>
+  </data>
+  <data name="INSTITUTIONAL_TYPE_EDIT" xml:space="preserve">
+    <value>நிறுவன வகை (தொகு)</value>
+  </data>
+  <data name="INSTITUTIONAL_TYPE_EMPTY" xml:space="preserve">
+    <value>நிறுவன வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="INSURABLE_VALUE_EMPTY" xml:space="preserve">
+    <value>காப்பீட்டு மதிப்பு காலியாக உள்ளது.</value>
+  </data>
+  <data name="INSURANCE_ADD_CAPTION" xml:space="preserve">
+    <value>காப்பீட்டு திட்டம் (சேர்)</value>
+  </data>
+  <data name="INSURANCE_COMPANY_NAME_EMPTY" xml:space="preserve">
+    <value>நிறுவனத்தின் காலியாக உள்ளது</value>
+  </data>
+  <data name="INSURANCE_CREATE_RENEW_CONFIRMATION" xml:space="preserve">
+    <value>பதிவுகள் எதுவும் காப்புறுதி உருவாக்க கிடைக்கும்</value>
+  </data>
+  <data name="INSURANCE_EDIT_CAPTION" xml:space="preserve">
+    <value>காப்பீட்டு திட்டம் (தொகு)</value>
+  </data>
+  <data name="INSURANCE_ENTRY" xml:space="preserve">
+    <value>நுழைவு</value>
+  </data>
+  <data name="INSURANCE_NAME_EMPTY" xml:space="preserve">
+    <value>கொள்கை காலியாக உள்ளது.</value>
+  </data>
+  <data name="INSURANCE_PERIOD_FROM_AND_TO_VALIDATION" xml:space="preserve">
+    <value>இருந்து இன்றுவரை தேதி விட அதிகமாக இருக்க கூடாது</value>
+  </data>
+  <data name="INSURANCE_PERION_FROM_EMPTY" xml:space="preserve">
+    <value>இருந்து காப்பீட்டுக் காலம் காலியாக உள்ளது</value>
+  </data>
+  <data name="INSURANCE_PERION_TO_EMPTY" xml:space="preserve">
+    <value>காப்புறுதி காலப்பகுதியுடன் காலியாக உள்ளது</value>
+  </data>
+  <data name="INSURANCE_PLAN_EMPTY" xml:space="preserve">
+    <value>காப்பீட்டு திட்டம் காலியாக உள்ளது</value>
+  </data>
+  <data name="INSURANCE_POLICY_EMPTY" xml:space="preserve">
+    <value>இன்சூரன்ஸ் பாலிசி காலியாக உள்ளது</value>
+  </data>
+  <data name="INSURANCE_PRIMIUM_AMOUNT_EMPTY" xml:space="preserve">
+    <value>காப்பீட்டு ப்ரீமியம் தொகை காலியாக உள்ளது</value>
+  </data>
+  <data name="INSURANCE_PRINT_CAPTION" xml:space="preserve">
+    <value>காப்பீட்டு திட்டம் விபரங்கள்</value>
+  </data>
+  <data name="INSURANCE_PRODUCT_NAME_EMPTY" xml:space="preserve">
+    <value>தயாரிப்பு காலியாக உள்ளது</value>
+  </data>
+  <data name="INSURANCE_RENEWALADD_CAPTION" xml:space="preserve">
+    <value>புதுப்பித்தல் நுழைவு</value>
+  </data>
+  <data name="INSURANCE_RENEWALEDIT_CAPTION" xml:space="preserve">
+    <value>புதுப்பித்தல் நுழைவு (தொகு)</value>
+  </data>
+  <data name="INSURANCE_RENEW_PRINT_CAPTION" xml:space="preserve">
+    <value>காப்புறுதி விவரங்கள் புதுப்பிக்க</value>
+  </data>
+  <data name="INSURANCE_SUM_INSURCED_EMPTY" xml:space="preserve">
+    <value>காப்புறுதி தொகை காப்பீடு காலியாக உள்ளது</value>
+  </data>
+  <data name="INSURANCE_TYPE_EMPTY" xml:space="preserve">
+    <value>காப்புறுதி வகை காலியாக உள்ளது</value>
+  </data>
+  <data name="INSURANCE_VIEW" xml:space="preserve">
+    <value>காண்க</value>
+  </data>
+  <data name="INTEREST_DATE_EMPTY" xml:space="preserve">
+    <value>போஸ்ட் வட்டி தேதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="INTEREST_DATE_IS_GREATER_THAN" xml:space="preserve">
+    <value>போஸ்ட் வட்டி தேதி கடைசி முதிர்வுத் தேதியில் அதிகமாக அல்லது சமமாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="INTEREST_DATE_IS_LESS_THAN" xml:space="preserve">
+    <value>போஸ்ட் வட்டி தேதி குறைவாக அல்லது படைப்பு / கடந்த புதுப்பித்தல் / பிந்தைய வட்டி தேதி சமமாக இருக்க வேண்டும்.</value>
+  </data>
+  <data name="INVALID_EXCEL_FORMAT" xml:space="preserve">
+    <value>தவறான எக்செல் மேற்குறிப்பு வடிவமைப்பு</value>
+  </data>
+  <data name="INVALID_SHEET" xml:space="preserve">
+    <value>தவறான தரவு.</value>
+  </data>
+  <data name="INVALID_TRANSACTION" xml:space="preserve">
+    <value>தவறான பதிவும் இல்லை என்பதால் பரிவர்த்தனைகள், ஒழுங்காக இறக்குமதி செய்ய முடியாது</value>
+  </data>
+  <data name="INWARD_BILL_NO_EMPTY" xml:space="preserve">
+    <value>பில் எந்த காலியாக உள்ளது</value>
+  </data>
+  <data name="ITEM__NOT_AVAIL" xml:space="preserve">
+    <value>பொருள் விவரங்கள் கிடைக்கவில்லை.</value>
+  </data>
+  <data name="JOURNAL_ADD_CAPTION" xml:space="preserve">
+    <value>ஜர்னல் (சேர்)</value>
+  </data>
+  <data name="JOURNAL_CANNOT_DELETE" xml:space="preserve">
+    <value>நீக்க முடியாது, இந்த இதழ் ரசீது நுழைவு மூடப்பட்டுள்ளது</value>
+  </data>
+  <data name="JOURNAL_CANNOT_EDIT" xml:space="preserve">
+    <value>திருத்த முடியாது, இந்த இதழ் ரசீது நுழைவு மூடப்பட்டுள்ளது</value>
+  </data>
+  <data name="JOURNAL_EDIT_CAPTION" xml:space="preserve">
+    <value>ஜர்னல் (தொகு)</value>
+  </data>
+  <data name="LAST_POST_ON" xml:space="preserve">
+    <value>மீது கடந்த போஸ்ட்</value>
+  </data>
+  <data name="LEDGERS_TOBE_MERGED" xml:space="preserve">
+    <value>கிடைக்கும் பேரேடுகளும்</value>
+  </data>
+  <data name="LEDGER_ACCOUNT_DATE_EMPTY" xml:space="preserve">
+    <value>கணக்கு தேதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="LEDGER_ACCOUNT_NUMBER_EMPTY" xml:space="preserve">
+    <value>கணக்கு எண் காலியாக உள்ளது.</value>
+  </data>
+  <data name="LEDGER_ACCOUNT_TYPE_EMPTY" xml:space="preserve">
+    <value>கணக்கு வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="LEDGER_ADD_CAPTION" xml:space="preserve">
+    <value>லெட்ஜர் (சேர்)</value>
+  </data>
+  <data name="LEDGER_BANK_EMPTY" xml:space="preserve">
+    <value>வங்கியின் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="lEDGER_CODE_EMPTY" xml:space="preserve">
+    <value>லெட்ஜர் குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="LEDGER_DATE_OPEN_EMPTY" xml:space="preserve">
+    <value>கணக்கு திறக்க தேதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="LEDGER_DELETED" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="LEDGER_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="LEDGER_EDIT_CAPTION" xml:space="preserve">
+    <value>லெட்ஜர் (தொகு)</value>
+  </data>
+  <data name="LEDGER_FAILURE" xml:space="preserve">
+    <value>லெட்ஜர் விவரங்கள் சேமிக்க முடியாது.</value>
+  </data>
+  <data name="LEDGER_GROUP_EMPTY" xml:space="preserve">
+    <value>லெட்ஜர் குழு காலியாக உள்ளது.</value>
+  </data>
+  <data name="LEDGER_MAPPED" xml:space="preserve">
+    <value>லெட்ஜர் ஒன்று அல்லது அதற்கு மேற்பட்ட திட்டம், நீக்க Unmap பேரேடு ஒப்பிடப்படுகிறது.</value>
+  </data>
+  <data name="LEDGER_MAPPING_SUCCESS" xml:space="preserve">
+    <value>லெட்ஜர் (கள்) வெற்றிகரமாக ஒப்பிடப்படுகிறது வருகின்றன.</value>
+  </data>
+  <data name="LEDGER_MERGED" xml:space="preserve">
+    <value>லெட்ஜர் தேர்ந்தெடுக்கவும் இணைக்கப்பட்டது</value>
+  </data>
+  <data name="LEDGER_MERGED_WITH" xml:space="preserve">
+    <value>லெட்ஜர் தேர்வு இணைக்கப்பட்டது</value>
+  </data>
+  <data name="LEDGER_NAME" xml:space="preserve">
+    <value>லெட்ஜர் பெயர்</value>
+  </data>
+  <data name="LEDGER_NAME_EMPTY" xml:space="preserve">
+    <value>லெட்ஜர் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="LEDGER_PRINT_CAPTION" xml:space="preserve">
+    <value>லெட்ஜர் விபரங்கள்</value>
+  </data>
+  <data name="LEDGER_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="LEDGER_TITLE" xml:space="preserve">
+    <value>பேரேடு</value>
+  </data>
+  <data name="LEDGER_TRANSACTION_MADE" xml:space="preserve">
+    <value>பரிவர்த்தனை unmap முடியாது, இந்த லெட்ஜர் செய்யப்படுகிறது.</value>
+  </data>
+  <data name="LEDGER_TYPE_EMPTY" xml:space="preserve">
+    <value>லெட்ஜர் வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="LEGAL_ENTITY_ADD" xml:space="preserve">
+    <value>சட்ட நிறுவனம் (சேர்)</value>
+  </data>
+  <data name="LEGAL_ENTITY_EDIT" xml:space="preserve">
+    <value>சட்ட நிறுவனம் (தொகு)</value>
+  </data>
+  <data name="LEGAL_ENTITY_PRINT_CAPTION" xml:space="preserve">
+    <value>சட்ட நிறுவனம்</value>
+  </data>
+  <data name="LEGAL_ENTITY_REGNO_EMPTY" xml:space="preserve">
+    <value>சமூகம் / ரெக் இல்லை காலியாக உள்ளது</value>
+  </data>
+  <data name="LEGAL_ENTITY_UNMAP" xml:space="preserve">
+    <value>நீக்க முடியாது, அது சங்கம் உள்ளது.</value>
+  </data>
+  <data name="LICENSE_ASSOCIATION_NATURE_EMPTY" xml:space="preserve">
+    <value>சங்கத்தின் இயற்கை காலியாக உள்ளது</value>
+  </data>
+  <data name="LICENSE_DENOMIATION_EMPTY" xml:space="preserve">
+    <value>நாணயத் காலியாக உள்ளது.</value>
+  </data>
+  <data name="LICENSE_GENERATE_CONFIRMATION" xml:space="preserve">
+    <value>உரிமம் முக்கிய நீங்கள் காப்பாற்ற வேண்டும் generated.Do இருக்கிறது?</value>
+  </data>
+  <data name="LICENSE_MULTIPLE_ASSOCIATION_NATURE_EMPTY" xml:space="preserve">
+    <value>சங்கத்தின் குறைந்தது ஒரு இயற்கை தேர்வு</value>
+  </data>
+  <data name="LOADING_VOUCHERS" xml:space="preserve">
+    <value>உறுதி சீட்டு ஏற்றுகிறது ..</value>
+  </data>
+  <data name="LOCAL_PROJECT_RESTRICTED_WITH_BANK_ACCOUNT" xml:space="preserve">
+    <value>வெளிநாட்டு திட்ட (கள்) FCRA வங்கி கணக்குகள் மூலம் மட்டுமே ஒப்பிடப்படுகிறது</value>
+  </data>
+  <data name="LOCATION_ADD_CAPTION" xml:space="preserve">
+    <value>இடம் (சேர்)</value>
+  </data>
+  <data name="LOCATION_AVAILABLE" xml:space="preserve">
+    <value>ஏற்கனவே இடம் தேர்வு பிளாக் கிடைக்கிறது.</value>
+  </data>
+  <data name="LOCATION_EDIT_CAPTION" xml:space="preserve">
+    <value>இடம் (தொகு)</value>
+  </data>
+  <data name="LOCATION_NAME_EMPTY" xml:space="preserve">
+    <value>இடம் காலியாக உள்ளது.</value>
+  </data>
+  <data name="LOCATION_NOT_AVAIL" xml:space="preserve">
+    <value>இடம் விவரங்கள் கிடைக்கவில்லை.</value>
+  </data>
+  <data name="LOCATION_PRINT_CAPTION" xml:space="preserve">
+    <value>இடம் விபரங்கள்</value>
+  </data>
+  <data name="LOCATION_TYPE_EMPTY" xml:space="preserve">
+    <value>வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="LOCATION_VIEW_CAPTION" xml:space="preserve">
+    <value>இடம்</value>
+  </data>
+  <data name="LOCK_MASTERS_MESSAGE" xml:space="preserve">
+    <value>சேர் / திருத்து விருப்பத்தை மூலம் தலைமை அலுவலக மேற்பார்வையாளர் பூட்டப்பட்டுள்ளது. மேலும் உதவி தலைமை அலுவலக மேற்பார்வையாளர் தொடர்பு கொள்ளவும்.</value>
+  </data>
+  <data name="LOCK_TRANS_TYPE" xml:space="preserve">
+    <value>ரசீது பூட்டு விபரங்கள்</value>
+  </data>
+  <data name="LOCK_TYPE_ADD_CAPTION" xml:space="preserve">
+    <value>பூட்டு வகை (சேர்)</value>
+  </data>
+  <data name="LOCK_TYPE_EDIT_CAPTION" xml:space="preserve">
+    <value>பூட்டு வகை (தொகு)</value>
+  </data>
+  <data name="LOCK_VOUCHER_ADD_CAPTION" xml:space="preserve">
+    <value>வவுச்சர் பூட்டு (சேர்)</value>
+  </data>
+  <data name="LOCK_VOUCHER_EDIT_CAPTION" xml:space="preserve">
+    <value>பூட்டு வவுச்சர் (தொகு)</value>
+  </data>
+  <data name="MANUFACTURE_ADD_CAPTION" xml:space="preserve">
+    <value>உற்பத்தியாளர் (சேர்)</value>
+  </data>
+  <data name="MANUFACTURE_EDIT_CAPTION" xml:space="preserve">
+    <value>உற்பத்தியாளர் (தொகு)</value>
+  </data>
+  <data name="MANUFACTURE_VIEW_CAPTION" xml:space="preserve">
+    <value>உற்பத்தியாளர்</value>
+  </data>
+  <data name="MAPPED_LEDGERS_TO_PROJECT_TO_ALLOTFUND" xml:space="preserve">
+    <value>திட்ட ஒப்பிடப்படுகிறது பேரேடுகளும் நிதி ஒதுக்கினார்.</value>
+  </data>
+  <data name="MAPPED_SUCESSFULLY" xml:space="preserve">
+    <value>பங்கு பேரேடுகளும் வெற்றிகரமாக ஒப்பிடப்படுகிறது வருகின்றன.</value>
+  </data>
+  <data name="MAPPING_BUDGET_MADE" xml:space="preserve">
+    <value>பட்ஜெட் பேரேடு unmap முடியாது செய்யப்படுகிறது.</value>
+  </data>
+  <data name="MAPPING_CONTRIBUTION_SUCCESS" xml:space="preserve">
+    <value>பங்களிப்பு (கள்) வெற்றிகரமாக ஒப்பிடப்படுகிறது வருகின்றன.</value>
+  </data>
+  <data name="MAPPING_COST_CATEGORY_SUCCESS" xml:space="preserve">
+    <value>Costcentre (கள்) வெற்றிகரமாக ஒப்பிடப்படுகிறது வருகின்றன.</value>
+  </data>
+  <data name="MAPPING_DONOR_SUCCESS" xml:space="preserve">
+    <value>தானம் (கள்) வெற்றிகரமாக ஒப்பிடப்படுகிறது வருகின்றன.</value>
+  </data>
+  <data name="MAPPING_FD_LEDGER_RESTRICTION" xml:space="preserve">
+    <value>நிலையான வைப்பு லெட்ஜர் பல திட்டங்கள் கொண்டு வரைபடமாக்கப்படாது</value>
+  </data>
+  <data name="MAPPING_LEDGER_CANNOT_SET_OP_FD_LEDGER" xml:space="preserve">
+    <value>இந்த நிலையான வைப்புத் பேரேடு சமநிலை திறந்து அமைக்க முடியவில்லை</value>
+  </data>
+  <data name="MAPPING_MAKE_AMOUNT_ZERO" xml:space="preserve">
+    <value>அளவு 0 செய்யும் மற்றும் unmap பதிவு சேமிப்பு பின்னர் முயற்சி</value>
+  </data>
+  <data name="MAPPING_NEGATIVE_BALANCE" xml:space="preserve">
+    <value>திறப்பு இருப்பு எதிர்மறையாக இருக்க முடியாது.</value>
+  </data>
+  <data name="MAPPING_TRANSACTION_MADE_ALREADY" xml:space="preserve">
+    <value>பரிவர்த்தனை இந்த பொருள் (கள்) செய்யப்படுகிறது, அது unmapped இருக்க முடியாது.</value>
+  </data>
+  <data name="MAP_LEDGERS_TO_PROJECT" xml:space="preserve">
+    <value>பேரேடுகளும் இருத்தல் வரவு செலவு திட்டம், மீண்டும் முயற்சி செய்ய திட்டம்</value>
+  </data>
+  <data name="MASTER_EMPTY" xml:space="preserve">
+    <value>இறக்குமதி செய்ய மாஸ்டர் விவரங்கள் எந்த தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="MASTER_VOUCHER_MAPPING" xml:space="preserve">
+    <value>ரசீது இந்த திட்டம் வரைபடமாக்கப்படும்.</value>
+  </data>
+  <data name="MERGED_SUCCESSFULLY" xml:space="preserve">
+    <value>பேரேடுகளும் வெற்றிகரமாக இணைக்கப்பட்டது</value>
+  </data>
+  <data name="MERGE_LEDGER_STRONG_MESSAGE" xml:space="preserve">
+    <value>இணைத்தல் பேரேடுகளும் நீக்கப்படும் நீங்கள் உண்மையில் தொடர வேண்டும் permanently.Do?</value>
+  </data>
+  <data name="MIGRATION_ACCESS_DB_EMPTY" xml:space="preserve">
+    <value>எம் அணுகல் டி.பி. தேவை.</value>
+  </data>
+  <data name="MIGRATION_COMPLETED_SUCCESSFULLY" xml:space="preserve">
+    <value>இடம்பெயர்தல் வெற்றிகரமாக நிறைவடைந்தது.</value>
+  </data>
+  <data name="MIGRATION_CONFIRMATION" xml:space="preserve">
+    <value>நீங்கள் உண்மையில் இடம்பெயர்தல் தொடர விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="MIGRATION_CONNECTION_FAILED" xml:space="preserve">
+    <value>இணைப்பு நிறுவப்பட்டது.</value>
+  </data>
+  <data name="MIGRATION_CONNECTION_SUCCEED" xml:space="preserve">
+    <value>இணைப்பு வெற்றி.</value>
+  </data>
+  <data name="MIGRATION_DESTINATION_DB_FAILS" xml:space="preserve">
+    <value>இலக்கு டி.பி. இணைப்பு தோல்வியுற்றது, மூல டி.பி. இணைப்பு வெற்றி.</value>
+  </data>
+  <data name="MIGRATION_ERROR_TRANSACTION_BALANCE" xml:space="preserve">
+    <value>புத்துணர்ச்சி பரிவர்த்தனை இருப்பு பிழை.</value>
+  </data>
+  <data name="MIGRATION_FILE_EMPTY" xml:space="preserve">
+    <value>கோப்பு பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="MIGRATION_LOG_FILE_OPEN" xml:space="preserve">
+    <value>நீங்கள் பதிவு கோப்பைத் திறக்க விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="MIGRATION_RECORD_AVAILABLE" xml:space="preserve">
+    <value>பதிவு கிடைக்கிறது, நீங்கள் இடம்பெயர்வு பதிவுகளை நீக்க மற்றும் தொடர விரும்புகிறீர்களா? + Environment.NewLine ஆமாம்:? நீக்கு மற்றும் தொடர்ந்து + Environment.NewLine + எந்த: பழைய பதிவுகளை நகர்த்தவும் + Environment.NewLine + ரத்து: நிறுத்து இடம்பெயர்தல்.</value>
+  </data>
+  <data name="MIGRATION_SOURCE_DB_FAILS" xml:space="preserve">
+    <value>மூல டி.பி. இணைப்பு தோல்வியுற்றது</value>
+  </data>
+  <data name="MIGRATION_TITLE" xml:space="preserve">
+    <value>தரவு இடமாற்றம்</value>
+  </data>
+  <data name="MIGRATION_VOUCHER_TRANS_FAILS" xml:space="preserve">
+    <value>VoucherTrans புதுப்பித்தல், தோல்வி அமைக்க முடியாது CashID, மீண்டும் முயற்சிக்கவும்</value>
+  </data>
+  <data name="NAME_EMPTY" xml:space="preserve">
+    <value>பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="NATURE_OF_PAYMENT" xml:space="preserve">
+    <value>கொடுப்பனவு இயற்கை</value>
+  </data>
+  <data name="NATURE_OF_PAYMENT_EMPTY" xml:space="preserve">
+    <value>கொடுப்பு இயற்கை காலியாக உள்ளது.</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_PASSKEY_EMPTY" xml:space="preserve">
+    <value>பாஸ் முக்கிய காலியாக உள்ளது</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_PASSWORD_EMPTY" xml:space="preserve">
+    <value>கடவுச்சொல் இல்லை</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_PORT_EMPTY" xml:space="preserve">
+    <value>போர்ட் காலியாக உள்ளது</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_SENDERID_EMPTY" xml:space="preserve">
+    <value>அனுப்புனர் ஐடி காலியாக உள்ளது</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_SERVER_EMPTY" xml:space="preserve">
+    <value>சர்வர் பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="NETWORKING_SETTINGS_USERNAME_EMPTY" xml:space="preserve">
+    <value>பயனர்பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="NETWORK_INS_TYPE_CAPTION" xml:space="preserve">
+    <value>நிறுவன வகை</value>
+  </data>
+  <data name="NO_ASSET_SELECTED" xml:space="preserve">
+    <value>சொத்து எதுவும் தேர்ந்தெடுக்கப்படவில்லை.</value>
+  </data>
+  <data name="NO_DIFFERENCE" xml:space="preserve">
+    <value>ஒரு வித்தியாசமும் இல்லை</value>
+  </data>
+  <data name="NO_OF_POSTS" xml:space="preserve">
+    <value>இடுகைகள் இல்லை</value>
+  </data>
+  <data name="NO_RECORD" xml:space="preserve">
+    <value>பதிவுகள் எதுவும் காப்பாற்ற.</value>
+  </data>
+  <data name="NO_RECORDS_TO_SAVE" xml:space="preserve">
+    <value>பதிவுகள் எதுவும் காப்பாற்ற.</value>
+  </data>
+  <data name="NO_RECORD_IS_AVAILABLE" xml:space="preserve">
+    <value>எந்த பதிவும் கிடைக்கும்</value>
+  </data>
+  <data name="NO_RIGHTS_FOR_ADDITION" xml:space="preserve">
+    <value>உங்களுக்கு உரிமை இல்லை சேர்க்க வேண்டும்.</value>
+  </data>
+  <data name="NO_RIGHTS_FOR_DELETION" xml:space="preserve">
+    <value>நீங்கள் நீக்க எந்த உரிமையும் இல்லை</value>
+  </data>
+  <data name="NO_RIGHTS_FOR_PRINT" xml:space="preserve">
+    <value>நீங்கள் அச்சு எந்த உரிமையும் இல்லை</value>
+  </data>
+  <data name="NO_RIGHTS_TO_DELETE_CONTRA" xml:space="preserve">
+    <value>இல்லை உரிமைகளை இந்த எதிர் உறுதி சீட்டு நீக்க</value>
+  </data>
+  <data name="NO_RIGHTS_TO_DELETE_PAYMENT" xml:space="preserve">
+    <value>இல்லை உரிமைகளை இந்த கொடுப்பனவு உறுதி சீட்டு நீக்க</value>
+  </data>
+  <data name="NO_RIGHTS_TO_DELETE_RECEIPT" xml:space="preserve">
+    <value>இல்லை உரிமைகளை இந்த ரசீது உறுதி சீட்டு நீக்க</value>
+  </data>
+  <data name="NO_RIGHTS_TO_EDIT_CONTRA" xml:space="preserve">
+    <value>இல்லை உரிமைகளை இந்த கான்ட்ரா உறுதி சீட்டு எடிட் செய்ய.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_EDIT_PAYMENT" xml:space="preserve">
+    <value>இல்லை உரிமைகளை இந்த கட்டணம் உறுதி சீட்டு எடிட் செய்ய.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_EDIT_RECEIPT" xml:space="preserve">
+    <value>இல்லை உரிமைகளை இந்த ரசீது உறுதி சீட்டு எடிட் செய்ய.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_MOVE_CONTRA_VOUCHER" xml:space="preserve">
+    <value>இல்லை உரிமைகளை இந்த கான்ட்ரா ரசீது நகர்த்த.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_MOVE_PAYMENT_VOUCHER" xml:space="preserve">
+    <value>இல்லை உரிமைகளை இந்த கட்டணம் ரசீது நகர்த்த.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_MOVE_RECEIPT_VOUCHER" xml:space="preserve">
+    <value>இல்லை உரிமைகளை இந்த ரசீது ரசீது நகர்த்த.</value>
+  </data>
+  <data name="NO_RIGHTS_TO_TAKE_PRINTOUT" xml:space="preserve">
+    <value>இல்லை உரிமைகளை இந்த ரசீது ரசீது வெளியே அச்சு எடுக்க</value>
+  </data>
+  <data name="NO_RIGHTS_TO_TAKE_PRINTOUT_PAYMENT" xml:space="preserve">
+    <value>இல்லை உரிமைகளை இந்த கட்டணம் ரசீது வெளியே அச்சு எடுக்க</value>
+  </data>
+  <data name="NO_SPLIT_AMOUNT" xml:space="preserve">
+    <value>பட்ஜெட் அளவு splited இல்லை, பிரித்து பிரித்து பொத்தானை கிளிக் செய்யவும்.</value>
+  </data>
+  <data name="OFFERING_TYPE _EMPTY" xml:space="preserve">
+    <value>விடுப்புகள் வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="OFFERING_TYPE_ADD_CAPTION" xml:space="preserve">
+    <value>விடுப்புகள் வகை (சேர்)</value>
+  </data>
+  <data name="OFFERING_TYPE_EDIT_CAPTION" xml:space="preserve">
+    <value>விடுப்புகள் வகை (தொகு)</value>
+  </data>
+  <data name="OFFERING_TYPE_VIEW" xml:space="preserve">
+    <value>விடுப்புகள் வகை</value>
+  </data>
+  <data name="OPEN_FILE" xml:space="preserve">
+    <value>நீங்கள் கோப்பை திறக்க விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="OPEN_THE_FILE" xml:space="preserve">
+    <value>நீங்கள் கோப்பை திறக்க விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="OP_BALANCE" xml:space="preserve">
+    <value>ஓ / பி இருப்பு</value>
+  </data>
+  <data name="OVERWRITE_CONFORM" xml:space="preserve">
+    <value>Overwritting அனைத்து முந்தைய records.Do நீக்க நீங்கள் நிஜமாக மேல் வேண்டும்?</value>
+  </data>
+  <data name="PARTY_LEDGER_EMPTY" xml:space="preserve">
+    <value>கட்சி லெட்ஜர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="PARTY_PAYMENTS" xml:space="preserve">
+    <value>கட்சி கொடுப்பனவு</value>
+  </data>
+  <data name="PASSWORDEMPTY" xml:space="preserve">
+    <value>கடவுச்சொல் காலியாக உள்ளது.</value>
+  </data>
+  <data name="PASSWORD_HINT_EMPTY" xml:space="preserve">
+    <value>குறிப்பு காலியாக உள்ளது.</value>
+  </data>
+  <data name="PASSWORD_INVALID" xml:space="preserve">
+    <value>கடவுச்சொல் தவறானது.</value>
+  </data>
+  <data name="PASSWORD_RESET" xml:space="preserve">
+    <value>கடவுச்சொல் வெற்றிகரமாக மீட்டெடுக்கப்பட்டன.</value>
+  </data>
+  <data name="PAYMENT" xml:space="preserve">
+    <value>கட்டணம்</value>
+  </data>
+  <data name="PERCENTAGE_NEGATIVE" xml:space="preserve">
+    <value>சதவீதம் எதிர்மறை மதிப்பு இருக்க முடியாது.</value>
+  </data>
+  <data name="PERIODL_BUDGET" xml:space="preserve">
+    <value>காலம் பட்ஜெட்</value>
+  </data>
+  <data name="PGCGRANDTOTAL_CAPTION" xml:space="preserve">
+    <value>கிராண்ட் மொத்த</value>
+  </data>
+  <data name="POLICY_EMPTY" xml:space="preserve">
+    <value>கொள்கை காலியாக உள்ளது</value>
+  </data>
+  <data name="POLICY_NO_EMPTY" xml:space="preserve">
+    <value>கொள்கை எண் காலியாக உள்ளது</value>
+  </data>
+  <data name="PORTAL_DATASYN_MESSAGE_SAVED" xml:space="preserve">
+    <value>போர்டல் செய்திகள் வெற்றிகரமாக சேமிக்கப்பட்டது</value>
+  </data>
+  <data name="PORTAL_NO_RECORD" xml:space="preserve">
+    <value>போர்டல் சேமிக்கப்பட்ட செய்திகள் இல்லை</value>
+  </data>
+  <data name="PORTAL_SERVICE_NOT_AVIALABLE" xml:space="preserve">
+    <value>இணைய இணைப்பு இல்லை.</value>
+  </data>
+  <data name="PREMIUM_AMOUNT_EMPTY" xml:space="preserve">
+    <value>பிரீமியம் தொகை காலியாக உள்ளது</value>
+  </data>
+  <data name="PRESS" xml:space="preserve">
+    <value>பிரஸ்</value>
+  </data>
+  <data name="PRINCIPAL_AMOUNT" xml:space="preserve">
+    <value>அசல் தொகை</value>
+  </data>
+  <data name="PRINT_CAPTION" xml:space="preserve">
+    <value>பங்கு கொள்முதல் விவரங்கள்.</value>
+  </data>
+  <data name="PROBLEM_IN_SAVING" xml:space="preserve">
+    <value>சேமிப்பு சட்ட நிறுவனத்தின் விவரம் பிரச்சனை.</value>
+  </data>
+  <data name="PROJECT" xml:space="preserve">
+    <value>திட்டம்</value>
+  </data>
+  <data name="PROJECT_ADD_CAPTION" xml:space="preserve">
+    <value>திட்ட (சேர்)</value>
+  </data>
+  <data name="PROJECT_AVAILABLE_VOUCHERS" xml:space="preserve">
+    <value>ஒன்றுக்கு மேற்பட்ட ரசீதுகள் / கொடுப்பனவு / எதிர் / ஜர்னல் தேர்வு செய்யப்பட்டுள்ளது.</value>
+  </data>
+  <data name="PROJECT_CANNOT_DELETE_OPENING_BALANCE" xml:space="preserve">
+    <value>நீக்க முடியாது, பண லெட்ஜர் இந்த திட்டம் சமநிலை திறப்பு</value>
+  </data>
+  <data name="PROJECT_CATEGORY_ADD_CAPTION" xml:space="preserve">
+    <value>திட்ட வகை (சேர்)</value>
+  </data>
+  <data name="PROJECT_CATEGORY_EDIT_CAPTION" xml:space="preserve">
+    <value>திட்ட வகை (தொகு)</value>
+  </data>
+  <data name="PROJECT_CATEGORY_EMPTY" xml:space="preserve">
+    <value>திட்ட வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="PROJECT_CATEGORY_PRINT_CAPTION" xml:space="preserve">
+    <value>திட்ட வகை விவரங்கள்</value>
+  </data>
+  <data name="PROJECT_CATOGORY_AVAILABLE" xml:space="preserve">
+    <value>சாதனை கிடைக்கும்.</value>
+  </data>
+  <data name="PROJECT_CATOGORY_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="PROJECT_CATOGORY_EMPTY" xml:space="preserve">
+    <value>திட்ட வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="PROJECT_CATOGORY_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="PROJECT_CODE_EMPTY" xml:space="preserve">
+    <value>திட்ட குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="PROJECT_DATE_VALIDATION" xml:space="preserve">
+    <value>மூடப்பட்ட வேளை அன்று தொடங்கியது விட குறைவாக இருக்க முடியாது.</value>
+  </data>
+  <data name="PROJECT_DELETE_ASSOCIATION" xml:space="preserve">
+    <value>திட்ட நீக்க முடியாது. அது தொடர்பு உள்ளது.</value>
+  </data>
+  <data name="PROJECT_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="PROJECT_EDIT_CAPTION" xml:space="preserve">
+    <value>திட்ட (தொகு)</value>
+  </data>
+  <data name="PROJECT_EXISTS" xml:space="preserve">
+    <value>திட்ட குறியீடு / திட்டத்தின் பெயர் ஏற்கனவே உள்ளன உள்ளது.</value>
+  </data>
+  <data name="PROJECT_IS_NOT_CREATED" xml:space="preserve">
+    <value>திட்ட இன்னும் படைக்கப்படவில்லை. நீங்கள் திட்ட உருவாக்க விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="PROJECT_IS_NOT_CREATED_FOR_MAKING_BUDGET" xml:space="preserve">
+    <value>திட்ட வரவு செலவு திட்டம் செய்வதற்கு படைக்கப்படவில்லை</value>
+  </data>
+  <data name="PROJECT_MAPPING_SUCCESS" xml:space="preserve">
+    <value>திட்ட (கள்) வெற்றிகரமாக ஒப்பிடப்படுகிறது வருகின்றன.</value>
+  </data>
+  <data name="PROJECT_MAP_LEDGER" xml:space="preserve">
+    <value>திட்ட மூடப்பட்டுள்ளது. லெட்ஜர் வரைபடமாக்கப்படாது.</value>
+  </data>
+  <data name="PROJECT_NAME_EMPTY" xml:space="preserve">
+    <value>திட்டத்தின் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="PROJECT_PRINT_CAPTION" xml:space="preserve">
+    <value>திட்ட விவரங்கள்</value>
+  </data>
+  <data name="PROJECT_PROJECT_VOUCHERS" xml:space="preserve">
+    <value>ஒன்றுக்கு மேற்பட்ட ரசீதுகள் / கொடுப்பனவு / எதிர் / ஜர்னல் சேர்க்க முடியாது.</value>
+  </data>
+  <data name="PROJECT_PURPOSE_EMPTY" xml:space="preserve">
+    <value>நோக்கம் காலியாக உள்ளது</value>
+  </data>
+  <data name="PROJECT_PURPOSE_TRANSACTION_MADE" xml:space="preserve">
+    <value>பரிவர்த்தனை இந்த நோக்கத்திற்காக செய்யப்படுகிறது</value>
+  </data>
+  <data name="PROJECT_START_DATE_EMPTY" xml:space="preserve">
+    <value>ஆரம்பத்தேதி அன்று காலியாக உள்ளது</value>
+  </data>
+  <data name="PROJECT_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="PROJECT_TRANSACTION_MADE" xml:space="preserve">
+    <value>நீக்க முடியாது, பரிவர்த்தனை இந்த திட்டம் செய்யப்பட்ட</value>
+  </data>
+  <data name="PROJECT_VOUCHER" xml:space="preserve">
+    <value>ஒன்றுக்கு மேற்பட்ட ரசீதுகள், பணம், கான்ட்ரா மற்றும் ஜர்னல் தேர்வு செய்ய முடியாது.</value>
+  </data>
+  <data name="PROJECT_VOUCHER_INFO" xml:space="preserve">
+    <value>குறைந்தது ஒரு சீட்டு, கொடுப்பனவு மற்றும் எதிர் தேர்வு செய்ய வேண்டும்.</value>
+  </data>
+  <data name="PROJECT__LEDGER_MAPPED" xml:space="preserve">
+    <value>நீக்க முடியாது, பல பேரேடுகளும் இந்த திட்டம் வரைபடமாக்கப்படும்</value>
+  </data>
+  <data name="PROSPECT_ADDRESS_EMPTY" xml:space="preserve">
+    <value>முகவரி காலியாக உள்ளது</value>
+  </data>
+  <data name="PROSPECT_ADD_CAPTION" xml:space="preserve">
+    <value>பிராஸ்பெக்ட் (சேர்)</value>
+  </data>
+  <data name="PROSPECT_CITY_EMPTY" xml:space="preserve">
+    <value>நகரம் / டவுன் காலியாக உள்ளது</value>
+  </data>
+  <data name="PROSPECT_EDIT_CAPTION" xml:space="preserve">
+    <value>பிராஸ்பெக்ட் (தொகு)</value>
+  </data>
+  <data name="PROVIDER_EMPTY" xml:space="preserve">
+    <value>வழங்குநர் காலியாக உள்ளது</value>
+  </data>
+  <data name="PURCHASE" xml:space="preserve">
+    <value>கொள்முதல்</value>
+  </data>
+  <data name="PURCHASE_ADD_CAPTION" xml:space="preserve">
+    <value>வவுச்சர் - சொத்து வாங்கும்</value>
+  </data>
+  <data name="PURCHASE_ASSETLOCATION_VALIDATION" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், இருப்பிடம் காலியாக உள்ளது</value>
+  </data>
+  <data name="PURCHASE_ASSET_CASH_BANK_LEDGER_EMPTY" xml:space="preserve">
+    <value>பண / வங்கி லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="PURCHASE_CAPTION" xml:space="preserve">
+    <value>கொள்முதல் (சேர்)</value>
+  </data>
+  <data name="PURCHASE_DATE_EMPTY" xml:space="preserve">
+    <value>தேதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="PURCHASE_DATE_EMTPTY" xml:space="preserve">
+    <value>கொள்முதல் தேதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="PURCHASE_DETAILS" xml:space="preserve">
+    <value>கொள்முதல் விவரங்கள்</value>
+  </data>
+  <data name="PURCHASE_DISCOUNT_VALIDATION" xml:space="preserve">
+    <value>அளவு தள்ளுபடி குறைவாக அல்லது சமமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="PURCHASE_EDIT" xml:space="preserve">
+    <value>கொள்முதல் (தொகு)</value>
+  </data>
+  <data name="PURCHASE_EDIT_CAPTION" xml:space="preserve">
+    <value>வவுச்சர் - சொத்து வாங்கும் (தொகு)</value>
+  </data>
+  <data name="PURCHASE_ENTRY" xml:space="preserve">
+    <value>கொள்முதல் நுழைவு</value>
+  </data>
+  <data name="PURCHASE_LEDGER_EMPTY" xml:space="preserve">
+    <value>வாட் லெட்ஜர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="PURCHASE_NETAMOUNT_EMPTY" xml:space="preserve">
+    <value>நிகர விலை காலியாக உள்ளது.</value>
+  </data>
+  <data name="PURCHASE_PRINT_CAPTION" xml:space="preserve">
+    <value>ரசீது கொள்முதல் விவரங்கள்</value>
+  </data>
+  <data name="PURCHASE_VENDOR_EMPTY" xml:space="preserve">
+    <value>விற்பனையாளர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="PURCHASE_VIEW" xml:space="preserve">
+    <value>கொள்முதல்</value>
+  </data>
+  <data name="PURPOSE" xml:space="preserve">
+    <value>நோக்கம்</value>
+  </data>
+  <data name="PURPOSE_ADD_CAPTION" xml:space="preserve">
+    <value>பர்பஸ் (சேர்)</value>
+  </data>
+  <data name="PURPOSE_CODE_EMPTY" xml:space="preserve">
+    <value>நோக்கம் குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="PURPOSE_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="PURPOSE_EDIT_CAPTION" xml:space="preserve">
+    <value>பர்பஸ் (தொகு)</value>
+  </data>
+  <data name="PURPOSE_HEAD_EMPTY" xml:space="preserve">
+    <value>நோக்கம் தலைமை காலியாக உள்ளது.</value>
+  </data>
+  <data name="PURPOSE_MAPPED" xml:space="preserve">
+    <value>நோக்கம் (s) வெற்றிகரமாக குறிக்கப்பட்டபின்</value>
+  </data>
+  <data name="PURPOSE_PRINT_CAPTION" xml:space="preserve">
+    <value>நோக்கம் விவரங்கள்</value>
+  </data>
+  <data name="PURPOSE_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="RECEIPT" xml:space="preserve">
+    <value>பற்றுச்சீட்டு</value>
+  </data>
+  <data name="RECEIVER_MANUFACTURE_EMPTY" xml:space="preserve">
+    <value>பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="RECEIVES_ADD_CAPTION" xml:space="preserve">
+    <value>பெறுக (சேர்)</value>
+  </data>
+  <data name="RECEIVES_EDIT_CAPTION" xml:space="preserve">
+    <value>பெறுக (தொகு)</value>
+  </data>
+  <data name="RECEIVE_ADD_CAPTION" xml:space="preserve">
+    <value>வவுச்சர் - பெறவும்-வகையான (சேர்)</value>
+  </data>
+  <data name="RECEIVE_ASSETLOCATION_VALIDATION" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், இருப்பிடம் காலியாக உள்ளது</value>
+  </data>
+  <data name="RECEIVE_CAPTION" xml:space="preserve">
+    <value>பெறுக</value>
+  </data>
+  <data name="RECEIVE_DATE_EMPTY" xml:space="preserve">
+    <value>தேதி காலியாக உள்ளது பெறும்.</value>
+  </data>
+  <data name="RECEIVE_EDIT_CAPTION" xml:space="preserve">
+    <value>வவுச்சர் - பெறவும்-வகையான (தொகு)</value>
+  </data>
+  <data name="RECEIVE_ENTRY" xml:space="preserve">
+    <value>Inkind பெற்றார் நுழைவு</value>
+  </data>
+  <data name="RECEIVE_GRID_EMPTY" xml:space="preserve">
+    <value>தேவையான அனைத்து துறைகள் நிரப்ப.</value>
+  </data>
+  <data name="RECEIVE_MANUFACTURE_EMPTY" xml:space="preserve">
+    <value>உற்பத்தியாளர் பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="RECEIVE_NETAMOUNT_EMPTY" xml:space="preserve">
+    <value>நிகர விலை காலியாக உள்ளது.</value>
+  </data>
+  <data name="RECEIVE_PRINT_CAPTION" xml:space="preserve">
+    <value>Inkind பெற்றார் விபரங்கள்</value>
+  </data>
+  <data name="RECEIVE_VIEW" xml:space="preserve">
+    <value>#NAME?</value>
+  </data>
+  <data name="RECIPIENT_NAME_EMPTY" xml:space="preserve">
+    <value>பெறுநரின் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="RECORD_HAS_BEEN_DELETED" xml:space="preserve">
+    <value>பதிவு மூலம் ஏற்கனவே நீக்கப்பட்டது</value>
+  </data>
+  <data name="REFERRED_STAFF_ADD_CAPTION" xml:space="preserve">
+    <value>குறிப்பிடப்படுகிறது பணியாளர்கள் (சேர்)</value>
+  </data>
+  <data name="REFERRED_STAFF_EDIT_CAPTION" xml:space="preserve">
+    <value>குறிப்பிடப்படுகிறது பணியாளர்கள் (தொகு)</value>
+  </data>
+  <data name="REFRENCE_NUMBER_EMPTY" xml:space="preserve">
+    <value>Refrence எண் காலியாக உள்ளது.</value>
+  </data>
+  <data name="REGENARATION_PERIODTO_MISIMATCH" xml:space="preserve">
+    <value>PeriodFrom.Please உள்ளிடுக விட PeriodTo குறைவாக இருக்க கூடாது.</value>
+  </data>
+  <data name="REGENERATE_VOUCHERS" xml:space="preserve">
+    <value>செயலில் ரசீது எண் வடிவில் வித்தியாசமாக இருக்கிறது. செயலில் வடிவம் சீட்டுக்களை மறுஉற்பத்தி மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="REGENERATING_VOUCHER_NUMBER" xml:space="preserve">
+    <value>வவுச்சர் எண் மறுஉருவாக்கம் ...</value>
+  </data>
+  <data name="REGENERATION_FAILS" xml:space="preserve">
+    <value>மீளுருவாக்கம் தோல்வி. செயலில்</value>
+  </data>
+  <data name="RENEWAL_AMOUNT_EMPTY" xml:space="preserve">
+    <value>புதுப்பித்தல் தொகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="RENEWAL_DATE_EMPTY" xml:space="preserve">
+    <value>புதுப்பித்தல் தேதி காலியாக இருக்கக் கூடாது.</value>
+  </data>
+  <data name="RENEWAL_MADE_ALREADY" xml:space="preserve">
+    <value>எஃப்டி புதுப்பித்தல் இந்த தேதியில் இந்த Fd கணக்கு செய்யப்பட்டது</value>
+  </data>
+  <data name="RENEWAL_NO_RECORD" xml:space="preserve">
+    <value>பதிவுகள் எதுவும் இல்லை மாற்ற, தயவு செய்து ஒரு சாதனை தேர்வு தேர்ந்தெடுக்கப்படுகிறது</value>
+  </data>
+  <data name="RENEWAL_ON" xml:space="preserve">
+    <value>புதுப்பித்தல்</value>
+  </data>
+  <data name="RENEWAL_VIEW_NO_RECORD_TO_RENEW" xml:space="preserve">
+    <value>புதுப்பிக்க கட்டம் பதிவுகள் எதுவும் இல்லை கிடைக்கும்</value>
+  </data>
+  <data name="RENEW_ADD_CAPTION" xml:space="preserve">
+    <value>காப்புறுதி புதுப்பிக்க (சேர்)</value>
+  </data>
+  <data name="RENEW_EDIT_CAPTION" xml:space="preserve">
+    <value>காப்புறுதி (திருத்த) புதுப்பிக்க</value>
+  </data>
+  <data name="REPORT_BANK_EMPTY" xml:space="preserve">
+    <value>ஒரு வங்கி தெரிவு செய்யப்பட வேண்டும்.</value>
+  </data>
+  <data name="REPORT_BUDGET_EMPTY" xml:space="preserve">
+    <value>பட்ஜெட் பெயர் தெரிவு செய்யப்பட வேண்டும்.</value>
+  </data>
+  <data name="REPORT_COSTCENTRE_EMPTY" xml:space="preserve">
+    <value>ஒரு செலவு மையம் தெரிவு செய்யப்பட வேண்டும்.</value>
+  </data>
+  <data name="REPORT_FINACIAL_RECORDS_CASH_BANK_EMPTY" xml:space="preserve">
+    <value>பண / வங்கி ரசீது தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="REPORT_LEDGER_EMPTY" xml:space="preserve">
+    <value>ஒரு பேரேட்டில் தெரிவு செய்யப்பட வேண்டும்.</value>
+  </data>
+  <data name="REPORT_PROJECT_EMPTY" xml:space="preserve">
+    <value>ஒரு திட்ட தெரிவு செய்யப்பட வேண்டும்.</value>
+  </data>
+  <data name="REQUIRED_INFORMATION_AMOUNT_EMPTY" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், தொகை காலியாக உள்ளது</value>
+  </data>
+  <data name="REQUIRED_INFORMATION_LEDGER_EMPTY" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், லெட்ஜர் காலியாக உள்ளது</value>
+  </data>
+  <data name="REQUIRED_INFORMATION_NOT_FILLED" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், பரிவர்த்தனை முழுமையாக பூர்த்தி செய்யவில்லை</value>
+  </data>
+  <data name="REQUIRED_INFORMATION_TRANSMODE_EMPTY" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், டிரான்ஸ் முறை காலியாக உள்ளது</value>
+  </data>
+  <data name="RESET_PASSWORD" xml:space="preserve">
+    <value>கடவுச்சொல்லை மீட்டமைக்க</value>
+  </data>
+  <data name="RETENTION_YRS_EMPTY" xml:space="preserve">
+    <value>Rentention வயது காலியாக உள்ளது.</value>
+  </data>
+  <data name="SALAVAGE_VALUE_EMPTY" xml:space="preserve">
+    <value>காப்பு மதிப்பு காலியாக உள்ளது.</value>
+  </data>
+  <data name="SALES" xml:space="preserve">
+    <value>விற்பனை</value>
+  </data>
+  <data name="SALES_ADD_CAPTION" xml:space="preserve">
+    <value>வவுச்சர் - சொத்து விற்பனை</value>
+  </data>
+  <data name="SALES_ASSET_ID_EMPTY" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், சொத்து ஐடி காலியாக உள்ளது</value>
+  </data>
+  <data name="SALES_ASSET_NAME_EMPTY" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், சொத்து பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="SALES_CAPTION" xml:space="preserve">
+    <value>விற்பனை</value>
+  </data>
+  <data name="SALES_DETAILS" xml:space="preserve">
+    <value>விற்பனை விபரங்கள்</value>
+  </data>
+  <data name="SALES_EDIT_CAPTION" xml:space="preserve">
+    <value>வவுச்சர் - சொத்து விற்பனை (தொகு)</value>
+  </data>
+  <data name="SALES_ENTRY" xml:space="preserve">
+    <value>விற்பனை நுழைவு</value>
+  </data>
+  <data name="SALES_GRID_EMPTY" xml:space="preserve">
+    <value>காப்பாற்ற எந்தப் பதிவும் இல்லை.</value>
+  </data>
+  <data name="SALES_PRINT_CAPTION" xml:space="preserve">
+    <value>விற்பனை ரசீது விபரங்கள்</value>
+  </data>
+  <data name="SALES_QUANTITY_EMPTY" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், அளவு காலியாக உள்ளது</value>
+  </data>
+  <data name="SALES_RATE_EMPTY" xml:space="preserve">
+    <value>பூர்த்தி செய்யவில்லை தேவையான தகவல், மதிப்பீடு காலியாக உள்ளது</value>
+  </data>
+  <data name="SALES_VIEW" xml:space="preserve">
+    <value>விற்பனை காண்க</value>
+  </data>
+  <data name="SAME_UNIT_ERROR" xml:space="preserve">
+    <value>முதல் அலகு மற்றும் இரண்டாவது அலகு அதே தேர்ந்தெடுக்க முடியவில்லை. ஒழுங்காக, இரண்டாவது அலகு தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="SAVED_PRINT_VOUCHER" xml:space="preserve">
+    <value>பதிவு பாதுகாக்கப்பட்டது. நீங்கள் அச்சிட வேண்டும் என்று விரும்புகிறீர்கள்?</value>
+  </data>
+  <data name="SAVE_WITHOUT_DONOR" xml:space="preserve">
+    <value>நீங்கள் ஏனெனில் கொடை தகவல் FCRA மற்றும் வருமான வரி வழக்குகளிலும் தேவை கொடை தகவல் இல்லாமல் காப்பாற்ற வேண்டும் உறுதியாக உள்ளீர்களா?</value>
+  </data>
+  <data name="SECONDUNIT_EMPTY" xml:space="preserve">
+    <value>இரண்டாவது அலகு காலியாக உள்ளது.</value>
+  </data>
+  <data name="SELECT_ALL" xml:space="preserve">
+    <value>அனைத்தையும் தெரிவுசெய்</value>
+  </data>
+  <data name="SELECT_ANYTDS_LEDGER" xml:space="preserve">
+    <value>அதுமட்டுமல்ல லெட்ஜர் எந்த ஒரு தேர்வு</value>
+  </data>
+  <data name="SELECT_THE_PURPOSE_TYPE" xml:space="preserve">
+    <value>நோக்கம் வகை (CR / டாக்டர்) தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="SELECT_VALID_FILE" xml:space="preserve">
+    <value>சரியான கோப்பு ஒன்றைத் தேர்ந்தெடுங்கள்</value>
+  </data>
+  <data name="SERVICE_ADD_CAPTION" xml:space="preserve">
+    <value>பராமரிப்பு / சேவை (சேர்)</value>
+  </data>
+  <data name="SERVICE_EDIT_CAPTION" xml:space="preserve">
+    <value>பராமரிப்பு / சேவை (தொகு)</value>
+  </data>
+  <data name="SERVICE_NAME_EMPTY" xml:space="preserve">
+    <value>சேவை பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="SERVICE_PRINT_CAPTION" xml:space="preserve">
+    <value>சேவை விவரங்கள்</value>
+  </data>
+  <data name="SETTING_APPLICATION_RESTART_CONFIRMATION" xml:space="preserve">
+    <value>பயன்பாட்டு அமைப்புகள் பயன்படுத்த, ஐ மறுதொடக்கம் செய்யப்படும். நீங்கள் தொடர விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="SETTING_BOOK_BEGINNING_EMPTY" xml:space="preserve">
+    <value>புத்தக தொடங்கி தேதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="SETTING_CURRENCY_CODE_INVALID" xml:space="preserve">
+    <value>தவறான நாணய குறியீடு</value>
+  </data>
+  <data name="SETTING_CURRENCY_INVALID" xml:space="preserve">
+    <value>தவறான நாணயச் சின்னம்</value>
+  </data>
+  <data name="SETTING_CURRENCY__POSITION_INVALID" xml:space="preserve">
+    <value>தவறான நாணய நிலையை</value>
+  </data>
+  <data name="SETTING_DATE_FORMAT_INVALID" xml:space="preserve">
+    <value>செல்லாத தேதி வடிவமைப்பு</value>
+  </data>
+  <data name="SETTING_DATE_SEPARATOR_INVALID" xml:space="preserve">
+    <value>செல்லாத தேதி பிரிப்பான்</value>
+  </data>
+  <data name="SETTING_DECIMAL_PLACES_INVALID" xml:space="preserve">
+    <value>தவறான தசாம்சமிடங்கள்</value>
+  </data>
+  <data name="SETTING_DECIMAL_PLACES_SEPARATOR_INVALID" xml:space="preserve">
+    <value>தவறான தசாம்சப்பிரிப்பான்</value>
+  </data>
+  <data name="SETTING_DEFAULT_LANGUAGE_SET" xml:space="preserve">
+    <value>முன்னிருப்பு மொழியை ஆங்கிலம்</value>
+  </data>
+  <data name="SETTING_DIGIT_GROUPING_INVALID" xml:space="preserve">
+    <value>தவறான இலக்கம் தொகுத்தல்</value>
+  </data>
+  <data name="SETTING_DIGIT_GROUPING_SEPARATOR_INVALID" xml:space="preserve">
+    <value>தவறான இலக்கம் தொகுத்தல் பிரிப்பான்</value>
+  </data>
+  <data name="SETTING_FOREIGN_BANKACCOUNT" xml:space="preserve">
+    <value>வெளிநாட்டு வங்கி கணக்கு தவறு.</value>
+  </data>
+  <data name="SETTING_LANGUAGE_INVALID" xml:space="preserve">
+    <value>மொழி தவறானது</value>
+  </data>
+  <data name="SETTING_NEGATIVE_SIGN_INVALID" xml:space="preserve">
+    <value>தவறான எதிர்மறை அடையாளம்</value>
+  </data>
+  <data name="SETTING_RESTART_PREVIEW" xml:space="preserve">
+    <value>முழு பயன்பாடு இந்த அமைக்க சரி என்பதைக் கிளிக் செய்யவும்.</value>
+  </data>
+  <data name="SETTING_SUCCESS" xml:space="preserve">
+    <value>அமைப்பை வெற்றிகரமாக பயன்படுத்தப்பட்டது.</value>
+  </data>
+  <data name="SETTING_TRANSACTION_FAILURE" xml:space="preserve">
+    <value>பரிவர்த்தனை காலம் அமைக்க செய்யப்படவில்லை.</value>
+  </data>
+  <data name="SETTING__FAILURE" xml:space="preserve">
+    <value>அமைப்புகளை பயன்படுத்த முடியவில்லை.</value>
+  </data>
+  <data name="SOCIETY_NAME_EMPTY" xml:space="preserve">
+    <value>சமூகம் பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="SOCIETY_REG_NO" xml:space="preserve">
+    <value>சமூகம் Reg.No காலியாக உள்ளது</value>
+  </data>
+  <data name="SOLD_TO_EMPTY" xml:space="preserve">
+    <value>விற்று காலியாக உள்ளது</value>
+  </data>
+  <data name="STARTDATE_LESSTHAN_INVESTMENTDATE" xml:space="preserve">
+    <value>திட்ட தொடக்க தேதி முதலீட்டு தேதி விட குறைவாக இருக்க முடியாது.</value>
+  </data>
+  <data name="START_DATE_AND_CLOSED_DATE_DOES_NOT_FALL" xml:space="preserve">
+    <value>திட்ட தொடக்க தேதி மற்றும் மூடிய தேதி கணக்கு காலம் இடையே வீழ்ச்சி இல்லை</value>
+  </data>
+  <data name="START_DATE_EMPTY" xml:space="preserve">
+    <value>தொடக்க தேதி காலியாக உள்ளது</value>
+  </data>
+  <data name="STATE_ADD_CAPTION" xml:space="preserve">
+    <value>மாநில (சேர்)</value>
+  </data>
+  <data name="STATE_COUNTRY_NAME_EMPTY" xml:space="preserve">
+    <value>நாட்டின் பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="STATE_DELETE" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="STATE_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது வெற்றிகரமாக</value>
+  </data>
+  <data name="STATE_EDIT_CAPTION" xml:space="preserve">
+    <value>மாநில (தொகு)</value>
+  </data>
+  <data name="STATE_NAME_EMPTY" xml:space="preserve">
+    <value>மாநில காலியாக உள்ளது</value>
+  </data>
+  <data name="STATE_PRINT_CAPTION" xml:space="preserve">
+    <value>மாநில விபரங்கள்</value>
+  </data>
+  <data name="STATE_SAVE_FAILURE" xml:space="preserve">
+    <value>பதிவு காப்பாற்ற முடியாது</value>
+  </data>
+  <data name="STATE_SAVE_SUCCESS" xml:space="preserve">
+    <value>பதிவு சேமிக்கப்பட்ட வெற்றிகரமாக</value>
+  </data>
+  <data name="STOCKCATEGORY_VIEW_CAPTION" xml:space="preserve">
+    <value>பங்கு பகுப்பு</value>
+  </data>
+  <data name="STOCKGROUP_VIEW_CAPTION" xml:space="preserve">
+    <value>பங்கு குழு</value>
+  </data>
+  <data name="STOCK_ADD_CAPTION" xml:space="preserve">
+    <value>பங்கு (சேர்)</value>
+  </data>
+  <data name="STOCK_AMOUNT_EMPTY" xml:space="preserve">
+    <value>தேவையான தகவல் பூர்த்தி செய்யப்பட்ட இல்லை மொத்த அளவு காலியாக உள்ளது</value>
+  </data>
+  <data name="STOCK_CATEGORY_EMPTY" xml:space="preserve">
+    <value>பகுப்பு காலியாக உள்ளது</value>
+  </data>
+  <data name="STOCK_EDIT_CAPTION" xml:space="preserve">
+    <value>பங்கு (தொகு)</value>
+  </data>
+  <data name="STOCK_GROUP_EMPTY" xml:space="preserve">
+    <value>குழு காலியாக உள்ளது</value>
+  </data>
+  <data name="STOCK_INVALID_GRID_ENTRY" xml:space="preserve">
+    <value>அனைத்து துறைகள் நிரப்ப.</value>
+  </data>
+  <data name="STOCK_ITEM_EMPTY" xml:space="preserve">
+    <value>தேவையான தகவல் பூர்த்தி செய்யப்பட்ட இல்லை பொருள் பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="STOCK_LEDGER_EMPTY" xml:space="preserve">
+    <value>தேவையான தகவல் பூர்த்தி, பண / வங்கி காலியாக உள்ளது</value>
+  </data>
+  <data name="STOCK_LOCATION_EMPTY" xml:space="preserve">
+    <value>தேவையான தகவல் பூர்த்தி, இடம் காலியாக உள்ளது</value>
+  </data>
+  <data name="STOCK_NAME_EMPTY" xml:space="preserve">
+    <value>பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="STOCK_NO_ITEM_ROWS" xml:space="preserve">
+    <value>நிரூபிக்க அவசியமான தகவல் நிறைந்த இல்லை</value>
+  </data>
+  <data name="STOCK_PRINT_CAPTION" xml:space="preserve">
+    <value>பங்கு விபரங்கள்</value>
+  </data>
+  <data name="STOCK_PURCHASE_QUANTITY_ZERO" xml:space="preserve">
+    <value>அளவு குறைவாக பூஜ்ஜியமாக இருக்க கூடாது</value>
+  </data>
+  <data name="STOCK_PURCHASE_RETURN_ADD" xml:space="preserve">
+    <value>வாங்கும் திரும்ப (சேர்)</value>
+  </data>
+  <data name="STOCK_PURCHASE_RETURN_EDIT" xml:space="preserve">
+    <value>வாங்கும் திரும்ப (தொகு)</value>
+  </data>
+  <data name="STOCK_QUANTITY_EMPTY" xml:space="preserve">
+    <value>பங்கு அளவு காலியாக உள்ளது.</value>
+  </data>
+  <data name="STOCK_QUANTITY_EXCEEDS" xml:space="preserve">
+    <value>அளவு தேவைப்படும் அளவில் அதிகமாக</value>
+  </data>
+  <data name="STOCK_RATE_PER_ITEM" xml:space="preserve">
+    <value>உருப்படி ஒன்றுக்கு பங்கு காலியாக உள்ளது.</value>
+  </data>
+  <data name="STOCK_REGISTER" xml:space="preserve">
+    <value>பங்கு பதிவு</value>
+  </data>
+  <data name="STOCK_RETURN_PRINT_CAPTION" xml:space="preserve">
+    <value>வாங்கும் திரும்ப விபரங்கள்</value>
+  </data>
+  <data name="STOCK_RETURN_TYPE_EMPTY" xml:space="preserve">
+    <value>தேவையான தகவல் பூர்த்தி செய்யப்பட்ட இல்லை வகை திரும்ப காலியாக உள்ளது</value>
+  </data>
+  <data name="STOCK_TOTAL_AMOUTN_EMPTY" xml:space="preserve">
+    <value>தேவையான தகவல் பூர்த்தி செய்யப்பட்ட இல்லை வகை திரும்ப காலியாக உள்ளது</value>
+  </data>
+  <data name="STOCK_TRANSFER_ADD_CAPTION" xml:space="preserve">
+    <value>Trasnsfer (சேர்)</value>
+  </data>
+  <data name="STOCK_TRANSFER_DATE_EMPTY" xml:space="preserve">
+    <value>மாற்றம் தேதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="STOCK_TRANSFER_EDIT_CAPTION" xml:space="preserve">
+    <value>மாற்றம் (தொகு)</value>
+  </data>
+  <data name="STOCK_TRANSFER_FROM_TO_LOCATION_SAME" xml:space="preserve">
+    <value>இருப்பிடம் மற்றும் ToLocation இருந்து அதே இருக்க முடியாது</value>
+  </data>
+  <data name="STOCK_TRANSFER_QTY_ZERO" xml:space="preserve">
+    <value>மாற்றம் அளவு பூஜ்ஜியமாக இருக்க முடியாது.</value>
+  </data>
+  <data name="STOCK_UNIT_EMPTY" xml:space="preserve">
+    <value>அலகு காலியாக உள்ளது</value>
+  </data>
+  <data name="STOCK_UNIT_PRICE_EMPTY" xml:space="preserve">
+    <value>தேவையான தகவல் பூர்த்தி செய்யப்பட்ட இல்லை யூனிட் விலை காலியாக உள்ளது</value>
+  </data>
+  <data name="STOCK_VENDOR_EMPTY" xml:space="preserve">
+    <value>தேவையான தகவல் பூர்த்தி செய்யப்பட்ட இல்லை விற்பனையாளர் பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SUCCESS_MESSAGE" xml:space="preserve">
+    <value>ஆக்மி ஈஆர்பி முறைக்கு எண்ணிக்கை வெற்றிகரமாக இறக்குமதி</value>
+  </data>
+  <data name="SYMBOL_EMPTY" xml:space="preserve">
+    <value>UoM காலியாக உள்ளது.</value>
+  </data>
+  <data name="TAX_AMOUNT_EMPTY" xml:space="preserve">
+    <value>வரி அளவு காலியாக உள்ளது.</value>
+  </data>
+  <data name="TAX_AMOUNT_EXCEEDS" xml:space="preserve">
+    <value>தள்ளுபடி அளவு வாங்க அளவு அதிகமாக</value>
+  </data>
+  <data name="TDSPAYMENTS" xml:space="preserve">
+    <value>அதுமட்டுமல்ல கொடுப்பனவு</value>
+  </data>
+  <data name="TDS_ADD" xml:space="preserve">
+    <value>அதுமட்டுமல்ல லெட்ஜர் (சேர்)</value>
+  </data>
+  <data name="TDS_AMOUNT" xml:space="preserve">
+    <value>அதுமட்டுமல்ல செலவு லெட்ஜர் தொகை காலியாக உள்ளது</value>
+  </data>
+  <data name="TDS_AMOUNT_LESS_VALIDATION" xml:space="preserve">
+    <value>கட்சி லெட்ஜர் தொகை பின்னர் செலவு லெட்ஜர் தொகை குறைவாக இருக்க முடியாது</value>
+  </data>
+  <data name="TDS_AMOUNT_VALIDATION" xml:space="preserve">
+    <value>தொகை மதிப்பிடுவது செலவு லெட்ஜர் தொகை விட அதிகமாக இருக்க முடியாது</value>
+  </data>
+  <data name="TDS_AMOUNT_VERIFICATION" xml:space="preserve">
+    <value>நீங்கள் சரியான மதிப்பிற்கு விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="TDS_APPLICABLE_FROM_EMPTY" xml:space="preserve">
+    <value>காலியாக இருக்கக் கூடாது பொருந்தும் இருந்து</value>
+  </data>
+  <data name="TDS_BALANCE" xml:space="preserve">
+    <value>அதுமட்டுமல்ல இருப்பு</value>
+  </data>
+  <data name="TDS_BOOKING_DATE" xml:space="preserve">
+    <value>அதுமட்டுமல்ல புக்கிங் தேதி காலியாக உள்ளது</value>
+  </data>
+  <data name="TDS_CODE_EMPTY" xml:space="preserve">
+    <value>குறியீடு காலியாக உள்ளது</value>
+  </data>
+  <data name="TDS_CONFIRM_DELETE_POLICY_DEFINED" xml:space="preserve">
+    <value>நீங்கள் மதிப்புகள் அழிக்க விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="TDS_DATE_DUPLICATE" xml:space="preserve">
+    <value>நுழைவு ஏற்கனவே கொடுப்பனவு இயற்கை கொடுக்கப்பட்ட தேதி கிடைக்கும்</value>
+  </data>
+  <data name="TDS_DEDUCTEETYPES_ADD_CAPTION" xml:space="preserve">
+    <value>Deductee வகைகள் (சேர்)</value>
+  </data>
+  <data name="TDS_DEDUCTEETYPES_EDIT_CAPTION" xml:space="preserve">
+    <value>Deductee வகைகள் (தொகு)</value>
+  </data>
+  <data name="TDS_DEDUCTEETYPES_PRINT_CAPTION" xml:space="preserve">
+    <value>Deductee வகை விவரங்கள்</value>
+  </data>
+  <data name="TDS_DEDUCTEE_NAME_EMPTY" xml:space="preserve">
+    <value>Deductee பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="TDS_DEDUCTEE_TYPE_EMPTY" xml:space="preserve">
+    <value>Deductee வகை தேர்வு</value>
+  </data>
+  <data name="TDS_DEDUCT_TYPE" xml:space="preserve">
+    <value>கழித்து வகை காலியாக உள்ளது</value>
+  </data>
+  <data name="TDS_DUTY_TAX_ADD_CAPTION" xml:space="preserve">
+    <value>கடமை வரி (சேர்)</value>
+  </data>
+  <data name="TDS_DUTY_TAX_EDIT_CAPTION" xml:space="preserve">
+    <value>கடமை வரி (தொகு)</value>
+  </data>
+  <data name="TDS_DUTY_TAX_NAME_EMPTY" xml:space="preserve">
+    <value>வரி பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="TDS_DUTY_TAX_PRINT_CAPTION" xml:space="preserve">
+    <value>கடமை வரி விவரங்கள்</value>
+  </data>
+  <data name="TDS_EDIT" xml:space="preserve">
+    <value>அதுமட்டுமல்ல லெட்ஜர் (தொகு)</value>
+  </data>
+  <data name="TDS_EXPENSE_LEDGER_EMPTY" xml:space="preserve">
+    <value>அதுமட்டுமல்ல செலவு லெட்ஜர் Emtpy ஆகும்</value>
+  </data>
+  <data name="TDS_GRID_EMPTY" xml:space="preserve">
+    <value>தேர்ந்தெடுக்கப்பட்ட செலவு லெட்ஜர் கட்சி லெட்ஜரிடம் க்கான அதுமட்டுமல்ல முன்பதிவு விபரம் செய்ய</value>
+  </data>
+  <data name="TDS_LEDGER_ADD_CAPTION" xml:space="preserve">
+    <value>அதுமட்டுமல்ல லெட்ஜர் (சேர்)</value>
+  </data>
+  <data name="TDS_LEDGER_EDIT_CAPTION" xml:space="preserve">
+    <value>அதுமட்டுமல்ல லெட்ஜர் (தொகு)</value>
+  </data>
+  <data name="TDS_NAME_EMPTY" xml:space="preserve">
+    <value>பெயர் காலியாக உள்ளது</value>
+  </data>
+  <data name="TDS_NATUREOFPAYEMNTS_SECTION_EMPTY" xml:space="preserve">
+    <value>பிரிவு Empty.Please பிரிவில் சேர்க்க உள்ளது.</value>
+  </data>
+  <data name="TDS_NATUREOFPAYMENTS_SECTION_EMPTYADD" xml:space="preserve">
+    <value>முதல் TDS_SECTION சேர்க்க தயவு செய்து.</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_ADD_CAPTION" xml:space="preserve">
+    <value>கொடுப்பனவு இயற்கை (சேர்)</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_EDIT_CAPTION" xml:space="preserve">
+    <value>கொடுப்பனவு இயற்கை (தொகு)</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_PAYMENT_CODE_EMPTY" xml:space="preserve">
+    <value>கொடுப்பனவு குறியீடு காலியாக உள்ளது.</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_PAYMENT_NAME_EMPTY" xml:space="preserve">
+    <value>கொடுப்பனவு பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_PRINT_CAPTION" xml:space="preserve">
+    <value>கட்டண விவரங்களை இயற்கை</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_SECTION_CODE_EMPTY" xml:space="preserve">
+    <value>பகுதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="TDS_NATUREPAYMENT_SECTION_NAME_EMPTY" xml:space="preserve">
+    <value>பிரிவின் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="TDS_NATURE_OF_PAYMENT_EMPTY" xml:space="preserve">
+    <value>பணம் செலுத்தும் இயற்கை தேர்வு இல்லை</value>
+  </data>
+  <data name="TDS_PARTY_LEDGER_EMPTY" xml:space="preserve">
+    <value>அதுமட்டுமல்ல கட்சி லெட்ஜர் emtpy ஆகும்</value>
+  </data>
+  <data name="TDS_PARTY_PAYMENT_CAPTION" xml:space="preserve">
+    <value>அதுமட்டுமல்ல கட்சி கொடுப்பனவு</value>
+  </data>
+  <data name="TDS_PAYMENT_AMOUNT_VALIDATION" xml:space="preserve">
+    <value>அதுமட்டுமல்ல கட்டணத் தொகை உண்மையான அளவு அதிகமாக</value>
+  </data>
+  <data name="TDS_PAYMENT_CAPTION" xml:space="preserve">
+    <value>அதுமட்டுமல்ல கொடுப்பனவு</value>
+  </data>
+  <data name="TDS_PAYMENT_PRINT" xml:space="preserve">
+    <value>அதுமட்டுமல்ல கொடுப்பனவு விபரங்கள்</value>
+  </data>
+  <data name="TDS_PENDING_TRANS_CONFIRMATION" xml:space="preserve">
+    <value>பதிவு கிடைக்கவில்லை</value>
+  </data>
+  <data name="TDS_POLICY_NATURE_OF_PAYMENT_EMPTY" xml:space="preserve">
+    <value>கொடுப்பனவு இயற்கை தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="TDS_PRINT_CAPTION" xml:space="preserve">
+    <value>அதுமட்டுமல்ல முன்பதிவு</value>
+  </data>
+  <data name="TDS_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="TDS_SECTION_ADD_CAPTION" xml:space="preserve">
+    <value>அதுமட்டுமல்ல பிரிவு (சேர்)</value>
+  </data>
+  <data name="TDS_SECTION_EDIT_CAPTION" xml:space="preserve">
+    <value>அதுமட்டுமல்ல பிரிவு (தொகு)</value>
+  </data>
+  <data name="TDS_SELECT_EMPTY" xml:space="preserve">
+    <value>சாதனை தேர்வு</value>
+  </data>
+  <data name="TDS_TAX_TYPE_NOT_EXISTS" xml:space="preserve">
+    <value>வரி வகை இல்லை உள்ளது இல்லை</value>
+  </data>
+  <data name="TDS_TRASN_DEDUCTEE_TYPE_EMPTY" xml:space="preserve">
+    <value>Deductee வகை காலியாக இருக்க முடியாது</value>
+  </data>
+  <data name="TDS_VOUCHER_NUMBER_EMPTY" xml:space="preserve">
+    <value>அதுமட்டுமல்ல வவுச்சர் எண் காலியாக உள்ளது</value>
+  </data>
+  <data name="TO_DOUBLE_ENTRY" xml:space="preserve">
+    <value> பல பதி செய்ய</value>
+  </data>
+  <data name="TO_SINGLE_ENTRY" xml:space="preserve">
+    <value> ஒற்றை நுழைவு செய்ய</value>
+  </data>
+  <data name="TRANSACTION_AMOUNT_EXCEEDS" xml:space="preserve">
+    <value>பரிவர்த்தனை தொகை திட்டமிடப்பட்ட தொகை அதிகமாக</value>
+  </data>
+  <data name="TRANSACTION_AMOUNT_NOT_EQUAL_ACTUAL_AMOUNT" xml:space="preserve">
+    <value>பரிவர்த்தனை உண்மையான சமமானது செய்யவில்லை</value>
+  </data>
+  <data name="TRANSACTION_BANK_LEDGER" xml:space="preserve">
+    <value>வங்கி லெட்ஜர்</value>
+  </data>
+  <data name="TRANSACTION_CASH_LEDGER" xml:space="preserve">
+    <value>பண லெட்ஜர்</value>
+  </data>
+  <data name="TRANSACTION_EXISTS" xml:space="preserve">
+    <value>பரிவர்த்தனை வங்கி கணக்கு உள்ளது, ஏனெனில் வங்கி கணக்கு மாற்ற முடியாது.</value>
+  </data>
+  <data name="TRANSACTION_FD" xml:space="preserve">
+    <value>ஓபி இருப்பு அமைக்க முடியாது மற்றும் நிலையான வைப்புத் க்கான unmapped இருக்க முடியாது.</value>
+  </data>
+  <data name="TRANSACTION_FD_LEDGER" xml:space="preserve">
+    <value>எஃப்டி கணக்கு</value>
+  </data>
+  <data name="TRANSACTION_MADE_CANT_UNMAP" xml:space="preserve">
+    <value>பரிவர்த்தனை unmap முடியாது, இந்த லெட்ஜர் செய்யப்படுகிறது.</value>
+  </data>
+  <data name="TRANSACTION_MADE_LEDGER" xml:space="preserve">
+    <value>பரிவர்த்தனை இந்த பேரேடு செய்யப்படுகிறது, நீக்க முடியாது.</value>
+  </data>
+  <data name="TRANSACTION_MADE_SOME_LEDGER_CANT_UNMAP" xml:space="preserve">
+    <value>பரிவர்த்தனை சில லெட்ஜர் (கள்) செய்யப்படுகிறது, unmap முடியாது.</value>
+  </data>
+  <data name="TRANSACTION_MOVE_GREATER_THAN_ONE" xml:space="preserve">
+    <value>குறைந்தது ஒரு திட்டம் பரிவர்த்தனை நகர்த்த தெரிவு செய்யப்பட வேண்டும்</value>
+  </data>
+  <data name="TRANSACTION_MOVE_SUCCESS" xml:space="preserve">
+    <value>பரிவர்த்தனை வெற்றிகரமாக நகர்த்தப்பட்டது</value>
+  </data>
+  <data name="TRANSACTION_PERIOD_SET_EMPTY" xml:space="preserve">
+    <value>பரிவர்த்தனை காலம் இன்னும் உருவாக்கப்பட்ட அல்லது செயலில் இல்லை இல்லை. நீங்கள் இப்போது அல்லது செயலில் அமைக்க பரிவர்த்தனை காலம் உருவாக்க விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="TRANSFER_ADD_CAPTION" xml:space="preserve">
+    <value>சொத்து மாற்றம்</value>
+  </data>
+  <data name="TRANSFER_AMOUNT_EMPTY" xml:space="preserve">
+    <value>தொகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="TRANSFER_ASSETITEM_EMPTY" xml:space="preserve">
+    <value>சொத்து பொருள் காலியாக உள்ளது.</value>
+  </data>
+  <data name="TRANSFER_DATE_EMPTY" xml:space="preserve">
+    <value>தேதி காலியாக உள்ளது.</value>
+  </data>
+  <data name="TRANSFER_DATE_FUTURE" xml:space="preserve">
+    <value>மாற்றம் தேதி, எதிர்காலத்தில் இருக்க முடியாது.</value>
+  </data>
+  <data name="TRANSFER_EDIT_CAPTION" xml:space="preserve">
+    <value>சொத்து மாற்றம் (தொகு)</value>
+  </data>
+  <data name="TRANSFER_FROMLOCATION_EMPTY" xml:space="preserve">
+    <value>இடம் இருந்து காலியாக உள்ளது.</value>
+  </data>
+  <data name="TRANSFER_FROMLOCATION_GRID_EMPTY" xml:space="preserve">
+    <value>இருப்பிடம் கட்டம் காலியாக உள்ளது.</value>
+  </data>
+  <data name="TRANSFER_FROM_TO_SAME" xml:space="preserve">
+    <value>திட்டம் மற்றும் இடம் இருந்து திட்டம் மற்றும் இடம் ஒன்றுதான்</value>
+  </data>
+  <data name="TRANSFER_PRINT_CAPTION" xml:space="preserve">
+    <value>பரிமாற்ற விவரங்கள்</value>
+  </data>
+  <data name="TRANSFER_REFRENCENO_EMPTY" xml:space="preserve">
+    <value>Refrence இல்லை காலியாக உள்ளது.</value>
+  </data>
+  <data name="TRANSFER_TOLOCATION_EMPTY" xml:space="preserve">
+    <value>இருப்பிடம் காலியாக உள்ளது.</value>
+  </data>
+  <data name="TRANSFER_TOLOCATION_GRID_EMPTY" xml:space="preserve">
+    <value>இருப்பிடம் இருந்து கட்டம் காலியாக உள்ளது.</value>
+  </data>
+  <data name="TRANS_DATE" xml:space="preserve">
+    <value>தேதி முதல் நாள் குறைவாக இருக்க முடியாது.</value>
+  </data>
+  <data name="TYPE" xml:space="preserve">
+    <value>வகை</value>
+  </data>
+  <data name="TYPE_EMPTY" xml:space="preserve">
+    <value>வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="UNITOFMEASSURE_PRINT_CAPTION" xml:space="preserve">
+    <value>UoM விபரங்கள்</value>
+  </data>
+  <data name="UNITOFMEASSURE_TYPE_EMPTY" xml:space="preserve">
+    <value>வகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="UNIT_OF_MEASURE_ADD" xml:space="preserve">
+    <value>UoM (சேர்)</value>
+  </data>
+  <data name="UNIT_OF_MEASURE_EDIT" xml:space="preserve">
+    <value>UoM (தொகு)</value>
+  </data>
+  <data name="UNMAP_CASH_LEDGER" xml:space="preserve">
+    <value>லெட்ஜர் unmapped இருக்க முடியாது.</value>
+  </data>
+  <data name="UNSELECT_ALL" xml:space="preserve">
+    <value>தேர்வுசெய்ய வேண்டாம்</value>
+  </data>
+  <data name="UPDATING_BALANCE" xml:space="preserve">
+    <value>இருப்பு புதுப்பிக்கிறது ......</value>
+  </data>
+  <data name="USERROLE_CAPTION" xml:space="preserve">
+    <value>பயனர் பாத்திரம்</value>
+  </data>
+  <data name="USERROLE_DELETE" xml:space="preserve">
+    <value>நீங்கள் இந்த பயனர் பங்கு நீக்க அனுமதி இல்லை.</value>
+  </data>
+  <data name="USERROLE_EMPTY" xml:space="preserve">
+    <value>பயனர் பங்கு காலியாக உள்ளது.</value>
+  </data>
+  <data name="USERROLE_EXITS" xml:space="preserve">
+    <value>பயனர் பாத்திரம் ஏற்கனவே உள்ளது.</value>
+  </data>
+  <data name="USERROLE_NAME" xml:space="preserve">
+    <value>நிர்வாகி</value>
+  </data>
+  <data name="USER_ADD_CAPTION" xml:space="preserve">
+    <value>பயனர் (சேர்)</value>
+  </data>
+  <data name="USER_CHANGE_PASSWORD" xml:space="preserve">
+    <value>கடவுச்சொல்லை மாற்று</value>
+  </data>
+  <data name="USER_CONFIRM_PASSWORD_EMPTY" xml:space="preserve">
+    <value>கடவுச்சொல் இல்லை உறுதிப்படுத்தவும்.</value>
+  </data>
+  <data name="USER_CURRENT_PASSWORD_EMPTY" xml:space="preserve">
+    <value>தற்போதைய கடவுச்சொல் இல்லை.</value>
+  </data>
+  <data name="USER_CURRENT_PASSWORD_FAIL" xml:space="preserve">
+    <value>தற்போதைய கடவுச்சொல் சரியானது அல்ல.</value>
+  </data>
+  <data name="USER_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="USER_EDIT_CAPTION" xml:space="preserve">
+    <value>பயனர் (தொகு)</value>
+  </data>
+  <data name="USER_FIRST_NAME_EMPTY" xml:space="preserve">
+    <value>முதல் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="USER_FORGOT_PASSWORD" xml:space="preserve">
+    <value>கடவுச்சொல் மறந்து விட்டீர்களா</value>
+  </data>
+  <data name="USER_INVALID" xml:space="preserve">
+    <value>பயனாளர் பெயர் அல்லது கடவுச்சொல்லை தவறானது</value>
+  </data>
+  <data name="USER_LOGIN" xml:space="preserve">
+    <value>பக்கம் தலைப்பு :: பயனர் தேதி</value>
+  </data>
+  <data name="USER_LOGIN_SUCCESS" xml:space="preserve">
+    <value>தேதி வெற்றி</value>
+  </data>
+  <data name="USER_NAME_EMPTY" xml:space="preserve">
+    <value>பயனர் பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="USER_NEW_PASSWORD_EMPTY" xml:space="preserve">
+    <value>புதிய கடவுச்சொல் காலியாக உள்ளது.</value>
+  </data>
+  <data name="USER_NEW_PASSWORD_MISMATCH" xml:space="preserve">
+    <value>புதிய கடவுச்சொல் மற்றும் கடவுச்சொல்லை உறுதிப்படுத்துக பொருத்தமில்லாமல் உள்ளன.</value>
+  </data>
+  <data name="USER_PASSWORD_EMPTY" xml:space="preserve">
+    <value>கடவுச்சொல் இல்லை.</value>
+  </data>
+  <data name="USER_PASSWORD_UNMATCHED" xml:space="preserve">
+    <value>தவறான கடவுச்சொல்.</value>
+  </data>
+  <data name="USER_PRINT_CAPTION" xml:space="preserve">
+    <value>பயனர்கள் 'விவரங்கள்</value>
+  </data>
+  <data name="USER_RESET_PASSWORD_SUCCESS" xml:space="preserve">
+    <value>கடவுச்சொல் மீட்டமை வருகிறது.</value>
+  </data>
+  <data name="USER_RIGHTS_RESTART_CONFIRM" xml:space="preserve">
+    <value>பயனர் உரிமைகள் தெரிவு பங்கு வைக்கப்பட்டிருக்கிறார்கள்.</value>
+  </data>
+  <data name="USER_ROLE_ADD_CAPTION" xml:space="preserve">
+    <value>பயனர் பங்கு (சேர்)</value>
+  </data>
+  <data name="USER_ROLE_DELETE_FAILS" xml:space="preserve">
+    <value>நீங்கள் இந்த பயனர் பங்கு நீக்க முடியாது</value>
+  </data>
+  <data name="USER_ROLE_DELETE_SUCCESS" xml:space="preserve">
+    <value>பதிவு நீக்கப்பட்டது</value>
+  </data>
+  <data name="USER_ROLE_EDIT_CAPTION" xml:space="preserve">
+    <value>பயனர் பங்கு (தொகு)</value>
+  </data>
+  <data name="USER_ROLE_PRINT_CAPTION" xml:space="preserve">
+    <value>பயனர் பங்கு விவரங்கள்</value>
+  </data>
+  <data name="USER_ROLE_SAVE_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="USER_SAVED_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="USER_SESSIONEXPIRY_INVALID" xml:space="preserve">
+    <value>அமர்வு காலாவதியானது / செல்லாத பயனர்</value>
+  </data>
+  <data name="USER_VIEW" xml:space="preserve">
+    <value>பயனர் காண்க</value>
+  </data>
+  <data name="UTILIZE_CAPTION" xml:space="preserve">
+    <value>பயன்படுத்த</value>
+  </data>
+  <data name="VALIDATE_ACCOUNTING_YEAR" xml:space="preserve">
+    <value>திட்ட தொடக்க தேதி மற்றும் மூடிய தேதி பரிவர்த்தனை காலம் இடையே வீழ்ச்சி இல்லை.தயவுசெய்து திட்ட தொடக்க தேதி மற்றும் மூடிய தேதி மாற்றி, மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VALIDATE_DUE_DATE" xml:space="preserve">
+    <value>பதிவு இந்த தேதி கிடைக்கும்</value>
+  </data>
+  <data name="VENDOR_ADD_CAPTION" xml:space="preserve">
+    <value>விற்பனையாளர் (சேர்)</value>
+  </data>
+  <data name="VENDOR_EDIT_CAPTION" xml:space="preserve">
+    <value>விற்பனையாளர் (தொகு)</value>
+  </data>
+  <data name="VENDOR_NAME_EMPTY" xml:space="preserve">
+    <value>பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="VENDOR_NOT_AVAIL" xml:space="preserve">
+    <value>விற்பனையாளர் விவரங்கள் கிடைக்கவில்லை.</value>
+  </data>
+  <data name="VENDOR_VIEW_CAPTION" xml:space="preserve">
+    <value>விற்பனையாளர்</value>
+  </data>
+  <data name="VOUCHER" xml:space="preserve">
+    <value>ரசீது</value>
+  </data>
+  <data name="VOUCHER_ADD_CAPTION" xml:space="preserve">
+    <value>ரசீது (சேர்)</value>
+  </data>
+  <data name="VOUCHER_AMOUNT_LESS_THAN_ZERO" xml:space="preserve">
+    <value>தொகை பூஜ்ஜியம் குறைவாக இருக்க முடியாது.</value>
+  </data>
+  <data name="VOUCHER_AMOUNT_MISMATCH" xml:space="preserve">
+    <value>தொகை மிஸ்மேட்ச்</value>
+  </data>
+  <data name="VOUCHER_CANNOT_DELETE_ASSOCIATION_OCCURS" xml:space="preserve">
+    <value>நீக்க முடியாது, அது எஃப்டி புதுப்பித்தல் / விலக்குதல் இணைந்து உள்ளது</value>
+  </data>
+  <data name="VOUCHER_CANNOT_DELETE_FD_RECEIPT_ENTRY" xml:space="preserve">
+    <value>நீக்க முடியாது, இந்த மூடிய எஃப்டி ரசீது வவுச்சர் உள்ளீடு</value>
+  </data>
+  <data name="VOUCHER_CANNOT_EDIT_FD_CONTRA_ENTRY" xml:space="preserve">
+    <value>திருத்த முடியாது, இந்த எஃப்டி கான்ட்ரா ரசீது நுழைவு மூடப்பட்டுள்ளது</value>
+  </data>
+  <data name="VOUCHER_CANNOT_EDIT_FD_RECEIPT_ENTRY" xml:space="preserve">
+    <value>திருத்த முடியாது, இந்த மூடிய எஃப்டி ரசீது வவுச்சர் உள்ளீடு</value>
+  </data>
+  <data name="VOUCHER_CASHBANK_MAPPING_TO_PROJECT" xml:space="preserve">
+    <value>பண / வங்கி பேரேடுகளும் இந்த திட்டம் ஒப்பிடப்படுகிறது இல்லை.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_ALLOCATION_AMOUNT_GREATER" xml:space="preserve">
+    <value>ஒதுக்கீடு அளவு செலவு மையம் தொகையை விட அதிகமாக உள்ளது.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_ALLOCATION_AMOUNT_LESS" xml:space="preserve">
+    <value>ஒதுக்கீடு அளவு செலவு மையம் மொத்த அளவு குறைவாக உள்ளது.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_AMOUNT_EMPTY" xml:space="preserve">
+    <value>தொகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_DELETED_SUCCESSFULLY" xml:space="preserve">
+    <value>ரசீது செலவு மையம் நீக்கப்படும்.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_NAME_EMPTY" xml:space="preserve">
+    <value>செலவு மையம் காலியாக உள்ளது.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_NAME_EXIST" xml:space="preserve">
+    <value>பெயர் ஏற்கனவே இருக்கின்றன.</value>
+  </data>
+  <data name="VOUCHER_COST_CENTRE_SAVED_SUCCESSFULLY" xml:space="preserve">
+    <value>ரசீது செலவு மையம் சேமிக்கப்படும்.</value>
+  </data>
+  <data name="VOUCHER_DATE_LICENSE_PERIOD_VALIDATION" xml:space="preserve">
+    <value>நீங்கள் காலாவதியான / எதிர்கால உரிமம் காலம் ஒரு நுழைவு செய்ய அனுமதி இல்லை</value>
+  </data>
+  <data name="VOUCHER_DEFAULT_CANNOT_DELETE" xml:space="preserve">
+    <value>இயல்புநிலை ரசீது தான் நீக்க முடியாது</value>
+  </data>
+  <data name="VOUCHER_DELETE" xml:space="preserve">
+    <value>ரசீது நீக்கப்படும்.</value>
+  </data>
+  <data name="VOUCHER_EDIT_CAPTION" xml:space="preserve">
+    <value>ரசீது (தொகு)</value>
+  </data>
+  <data name="VOUCHER_ENTRY" xml:space="preserve">
+    <value>நுழைவு</value>
+  </data>
+  <data name="VOUCHER_FD_REALIZE_CONFIRMATION" xml:space="preserve">
+    <value>நிலையான வைப்பு இன்னும் முதிர்ச்சி பெறவில்லை உள்ளது. நீங்கள் உணர வேண்டும் என்று விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="VOUCHER_IS_LOCKED" xml:space="preserve">
+    <value>ரசீது locked.Cannot திட்டம் ரசீது செய்ய</value>
+  </data>
+  <data name="VOUCHER_IS_LOCKED_CANNOT_DELETE" xml:space="preserve">
+    <value>ரசீது locked.Cannot திட்டம் ரசீது நீக்க ஆகிறது</value>
+  </data>
+  <data name="VOUCHER_IS_LOCKED_CANNOT_EDIT" xml:space="preserve">
+    <value>வவுச்சர் திட்டம் தொகு ரசீது locked.Cannot உள்ளது</value>
+  </data>
+  <data name="VOUCHER_IS_LOCKED_CANNOT_MOVE" xml:space="preserve">
+    <value>வவுச்சர் திட்டம் நடவடிக்கை ரசீது locked.Cannot உள்ளது</value>
+  </data>
+  <data name="VOUCHER_IS_LOCKED_CANNOT_PRINT" xml:space="preserve">
+    <value>வவுச்சர் திட்டம் locked.Cannot அச்சு ரசீது உள்ளது</value>
+  </data>
+  <data name="VOUCHER_LEDGER_MAPPING_TO_PROJECT" xml:space="preserve">
+    <value>லெட்ஜர் (கள்) இந்த திட்டம் ஒப்பிடப்படுகிறது இல்லை.</value>
+  </data>
+  <data name="VOUCHER_METHOD_EMPTY" xml:space="preserve">
+    <value>ரசீது முறை காலியாக உள்ளது.</value>
+  </data>
+  <data name="VOUCHER_METHOD_MANUAL" xml:space="preserve">
+    <value>ரசீது முறை திட்டம் கையேடு</value>
+  </data>
+  <data name="VOUCHER_MOVE_TRANSACTION_SELECTION_EMPTY" xml:space="preserve">
+    <value>இல்லை பரிவர்த்தனை நகர்த்து தேர்வு செய்யப்படும்</value>
+  </data>
+  <data name="VOUCHER_MULTY_ENTRY_CHECK" xml:space="preserve">
+    <value>நீங்கள் பல நுழைவு பயன்படுத்த விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_CASH_TRANSACTION_AMOUNT" xml:space="preserve">
+    <value>தொகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_CASH_TRANSACTION_LEDGER" xml:space="preserve">
+    <value>பண / வங்கி பேரேடு (கள்) தேர்ந்தெடுக்கவும்</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_TRANSACTION_AMOUNT" xml:space="preserve">
+    <value>தொகை காலியாக உள்ளது.</value>
+  </data>
+  <data name="VOUCHER_MULTY_INVALID_TRANSACTION_LEDGER" xml:space="preserve">
+    <value>பேரேடு தேர்ந்தெடுக்கவும்.</value>
+  </data>
+  <data name="VOUCHER_MULTY_PAYMENT_CONFIRM" xml:space="preserve">
+    <value>அது ஒரு வருமான லெட்ஜர் தான். நீங்கள் பணம் செலுத்தும் ரசீது அதை ஏற்க வேண்டும் என்று விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="VOUCHER_MULTY_RECEIPT_CONFIRM" xml:space="preserve">
+    <value>அது ஒரு இழப்பில் லெட்ஜர் தான். நீங்கள் ரசீது வவுச்சர் ஏற்றுக்கொள்ள விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="VOUCHER_NAME_EMPTY" xml:space="preserve">
+    <value>ரசீது பெயர் காலியாக உள்ளது.</value>
+  </data>
+  <data name="VOUCHER_NAME_EXISTS" xml:space="preserve">
+    <value>ரசீது பெயர் ஏற்கனவே உள்ளது. தயவு செய்து மீண்டும் முயற்சிக்கவும்.</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_BANK" xml:space="preserve">
+    <value>வங்கி எதிர்மறை இருப்பு</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_CASH" xml:space="preserve">
+    <value>பண எதிர்மறையான இருப்பு</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_CASHBANK" xml:space="preserve">
+    <value>பண, வங்கி எதிர்மறை இருப்பு, நிலையான வைப்பு</value>
+  </data>
+  <data name="VOUCHER_NEGATIVE_BALANCE_FD" xml:space="preserve">
+    <value>நிலையான வைப்பு எதிர்மறை இருப்பு</value>
+  </data>
+  <data name="VOUCHER_NO_RECORD" xml:space="preserve">
+    <value>பதிவுகள் எதுவும் காப்பாற்ற</value>
+  </data>
+  <data name="VOUCHER_NUMBER_EMPTY" xml:space="preserve">
+    <value>வவுச்சர் எண் காலியாக உள்ளது.</value>
+  </data>
+  <data name="VOUCHER_NUMBER_FORMAT_IS_MANUAL" xml:space="preserve">
+    <value>செயலில் ரசீது எண் வடிவம் கையேடு</value>
+  </data>
+  <data name="VOUCHER_PRINT_CAPTION" xml:space="preserve">
+    <value>ரசீது பட்டியல்</value>
+  </data>
+  <data name="VOUCHER_REGENERATE_SELECT_PROJECT" xml:space="preserve">
+    <value>ரசீது மீண்டும் உருவாக்க ஒரு திட்டம் தேர்வு</value>
+  </data>
+  <data name="VOUCHER_REGENERATION_FAILS" xml:space="preserve">
+    <value> மீளுருவாக்கம் தோல்வி. செயலில் ரசீது முறை திட்டம் கையேடு</value>
+  </data>
+  <data name="VOUCHER_REGENERATION_SUCCESS" xml:space="preserve">
+    <value>மறு உருவாக்கம்</value>
+  </data>
+  <data name="VOUCHER_SAVE" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="VOUCHER_SUCCESS" xml:space="preserve">
+    <value>சேமித்த</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_CHANGE_TYPE" xml:space="preserve">
+    <value>நீங்கள் பரிவர்த்தனை வகை மாற்ற உறுதியாக இருக்கிறீர்களா?</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_CONTRA" xml:space="preserve">
+    <value>வவுச்சர் - கான்ட்ரா</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_CONTRA_CHANGE_TYPE" xml:space="preserve">
+    <value>ரெக்கார்ட்ஸ் அழிக்கப்படும். நீங்கள் பரிவர்த்தனை வகை மாற்ற உறுதியாக இருக்கிறீர்களா?</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_DATE" xml:space="preserve">
+    <value>பரிவர்த்தனை தேதி காலியாக உள்ளது</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_PAYMENT" xml:space="preserve">
+    <value>வவுச்சர் - கொடுப்பனவு</value>
+  </data>
+  <data name="VOUCHER_TRANSACTION_RECEIPT" xml:space="preserve">
+    <value>வவுச்சர் - ரசீது</value>
+  </data>
+  <data name="VOUCHER_TRANS_DATETO_MISMATCH" xml:space="preserve">
+    <value>DateFrom.Please உள்ளிடுக விட DateTo குறைவாக இருக்க கூடாது.</value>
+  </data>
+  <data name="VOUCHER_TYPE_EMPTY" xml:space="preserve">
+    <value>ரசீது வகை காலியாக உள்ளது</value>
+  </data>
+  <data name="VOUCHER_TYPE_NO_SELECTION" xml:space="preserve">
+    <value>ரசீது வகை தேர்வு</value>
+  </data>
+  <data name="VOUCHER_VALID_AMOUNT" xml:space="preserve">
+    <value>தொகை செலவு ஒதுக்கீடு தொகை விட அதிகமாக உள்ளது.</value>
+  </data>
+  <data name="VOUCHER_VIEW" xml:space="preserve">
+    <value>காண்க</value>
+  </data>
+  <data name="WANT_TO_PROCEED" xml:space="preserve">
+    <value>நீங்கள் தொடர விரும்புகிறீர்களா?</value>
+  </data>
+  <data name="WITHDRAW" xml:space="preserve">
+    <value>திரும்பப்பெறு</value>
+  </data>
+  <data name="WITHDRAWAL" xml:space="preserve">
+    <value>பின்வாங்கும்</value>
+  </data>
+  <data name="WITHDRAW_AMOUNT" xml:space="preserve">
+    <value>தொகை திரும்பப்பெறு</value>
+  </data>
+  <data name="WITHDRAW_DATE_GREATER_THAN_CREATED_DATE" xml:space="preserve">
+    <value>தேதி திரும்பப்பெறு கடந்த புதுப்பித்தல் தேதி / கடந்த உருவாக்கப்பட்ட தேதி விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="WITHDRAW_DATE_GREATER_THAN_RENEWAL_DATE" xml:space="preserve">
+    <value>தேதி திரும்பப்பெறு கடந்த புதுப்பித்தல் தேதி விட அதிகமாக இருக்க வேண்டும்</value>
+  </data>
+  <data name="WITHDRAW_VIEW_NO_RECORD" xml:space="preserve">
+    <value>பதிவுகள் எதுவும் இல்லை வாபஸ் கிடைக்கும்</value>
+  </data>
+  <data name="WITHOUT_TRANS" xml:space="preserve">
+    <value>எந்த இறக்குமதி செய்ய விரும்பும் import.Do கிடைக்கும் பரிவர்த்தனை உள்ளது?</value>
+  </data>
+  <data name="YES_KEYDOWN" xml:space="preserve">
+    <value>ஆமாம் keydown</value>
+  </data>
+</root>

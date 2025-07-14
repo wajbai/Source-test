@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="xrAssocationDetails.Text" xml:space="preserve">
+    <value>1. Les associations de détails:</value>
+  </data>
+  <data name="xrBuddhist.Text" xml:space="preserve">
+    <value>bouddhiste</value>
+  </data>
+  <data name="xrCapation.Text" xml:space="preserve">
+    <value>Objet: Compte de contributions étrangères pour l'année se terminant le</value>
+  </data>
+  <data name="xrchkOthers.Text" xml:space="preserve">
+    <value>Autres</value>
+  </data>
+  <data name="xrChristian.Text" xml:space="preserve">
+    <value>Christian</value>
+  </data>
+  <data name="xrCultural.Text" xml:space="preserve">
+    <value>Culturel</value>
+  </data>
+  <data name="xrDonor.Text" xml:space="preserve">
+    <value>4. donateurs sages recettes de contribution foregin :</value>
+  </data>
+  <data name="xrEconomic.Text" xml:space="preserve">
+    <value>Économique</value>
+  </data>
+  <data name="xrEducational.Text" xml:space="preserve">
+    <value>Éducatif</value>
+  </data>
+  <data name="xrFormFC6.Text" xml:space="preserve">
+    <value>FORMULAIRE FC- 6</value>
+  </data>
+  <data name="xrHindu.Text" xml:space="preserve">
+    <value>hindou</value>
+  </data>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>[Se reporter la règle 17(1)]</value>
+  </data>
+  <data name="xrLabel10.Text" xml:space="preserve">
+    <value>Certificat donné par Chartered Accountant</value>
+  </data>
+  <data name="xrLabel7.Text" xml:space="preserve">
+    <value>S'IL VOUS PLAÎT REPORTER AU Annexure JOINT</value>
+  </data>
+  <data name="xrLabel8.Text" xml:space="preserve">
+    <value>Déclaration</value>
+  </data>
+  <data name="xrMuslim.Text" xml:space="preserve">
+    <value>musulman</value>
+  </data>
+  <data name="xrOthers.Text" xml:space="preserve">
+    <value> Autres</value>
+  </data>
+  <data name="xrPermissionNoDate.Text" xml:space="preserve">
+    <value>N'EST PAS APPLICABLE</value>
+  </data>
+  <data name="xrReligious.Text" xml:space="preserve">
+    <value>Religieux</value>
+  </data>
+  <data name="xrSikh.Text" xml:space="preserve">
+    <value>Sikh</value>
+  </data>
+  <data name="xrSocial.Text" xml:space="preserve">
+    <value>Social</value>
+  </data>
+  <data name="xrStaticAddress.Text" xml:space="preserve">
+    <value>Le Secrétaire du Gouvernement de l'Inde ,
+Ministère de l'Intérieur,
+FCRA Wing / Division des étrangers ,
+" NDCC - II du bâtiment " ,
+Jai Singh Road, OFF Parliament Street ,
+New Delhi - 110001. </value>
+  </data>
+  <data name="xrTableCell1.Text" xml:space="preserve">
+    <value>FILE No.</value>
+  </data>
+  <data name="xrTableCell10.Text" xml:space="preserve">
+    <value>(Ii) Les intérêts gagnés sur la contribution étrangère
+     au cours de l' exercice
+(A) Dans le compte bancaire désigné </value>
+  </data>
+  <data name="xrTableCell11.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell111.Text" xml:space="preserve">
+    <value>3. Nom et adresse de la Direction générale désignée du numéro Banque et compte (tel que spécifié dans la demande d'enregistrement / autorisation préalable ou autorisée par le gouvernement central</value>
+  </data>
+  <data name="xrTableCell113.Text" xml:space="preserve">
+    <value>SI. Non</value>
+  </data>
+  <data name="xrTableCell115.Text" xml:space="preserve">
+    <value> Attention : Soumission de fausses informations ou la dissimulation de faits matériels doit attirer l' pertinente
+dispositions de contributions étrangères (règlement ) de la Loi 2010 ( 42 de 2010) , ce qui justifie les mesures appropriées .</value>
+  </data>
+  <data name="xrTableCell116.Text" xml:space="preserve">
+    <value>Institution / individuels / autres donateurs</value>
+  </data>
+  <data name="xrTableCell117.Text" xml:space="preserve">
+    <value>Nom (s ) et adresse (s )</value>
+  </data>
+  <data name="xrTableCell118.Text" xml:space="preserve">
+    <value>But (s )</value>
+  </data>
+  <data name="xrTableCell119.Text" xml:space="preserve">
+    <value> Date et mois
+de réception</value>
+  </data>
+  <data name="xrTableCell120.Text" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="xrTableCell121.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xrTableCell123.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xrTableCell124.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="xrTableCell125.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="xrTableCell126.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="xrTableCell127.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="xrTableCell128.Text" xml:space="preserve">
+    <value>Les donateurs institutionnels</value>
+  </data>
+  <data name="xrTableCell129.Text" xml:space="preserve">
+    <value>Totale [(i)+(ii)+(iii)]</value>
+  </data>
+  <data name="xrTableCell13.Text" xml:space="preserve">
+    <value> (I) le montant total de la contribution étrangère reçu
+      pendant l'année</value>
+  </data>
+  <data name="xrTableCell130.Text" xml:space="preserve">
+    <value>je)</value>
+  </data>
+  <data name="xrTableCell131.Text" xml:space="preserve">
+    <value>ii)</value>
+  </data>
+  <data name="xrTableCell132.Text" xml:space="preserve">
+    <value>Les donateurs individuels au-dessus rupess un lakh</value>
+  </data>
+  <data name="xrTableCell133.Text" xml:space="preserve">
+    <value>Endroit:</value>
+  </data>
+  <data name="xrTableCell134.Text" xml:space="preserve">
+    <value>iii)</value>
+  </data>
+  <data name="xrTableCell135.Text" xml:space="preserve">
+    <value>Les donateurs individuels ci-dessous un lakh Roupies .</value>
+  </data>
+  <data name="xrTableCell137.Text" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="xrTableCell138.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell139.Text" xml:space="preserve">
+    <value>Signature du fonctionnaire en chef</value>
+  </data>
+  <data name="xrTableCell14.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell140.Text" xml:space="preserve">
+    <value>(Sceau de l'association)</value>
+  </data>
+  <data name="xrTableCell141.Text" xml:space="preserve">
+    <value>(Nom du fonctionnaire en chef en lettres moulées)</value>
+  </data>
+  <data name="xrTableCell142.Text" xml:space="preserve">
+    <value>je.</value>
+  </data>
+  <data name="xrTableCell146.Text" xml:space="preserve">
+    <value>ii .</value>
+  </data>
+  <data name="xrTableCell15.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xrTableCell153.Text" xml:space="preserve">
+    <value>iii .</value>
+  </data>
+  <data name="xrTableCell154.Text" xml:space="preserve">
+    <value>Banque</value>
+  </data>
+  <data name="xrTableCell16.Text" xml:space="preserve">
+    <value>3.Objet(s) pour laquelle la contribution étrangère a été reçu et utilisé :</value>
+  </data>
+  <data name="xrTableCell161.Text" xml:space="preserve">
+    <value>iv .</value>
+  </data>
+  <data name="xrTableCell165.Text" xml:space="preserve">
+    <value>Certifié que l'association a maintenu les comptes de contribution étrangère et les registres y de la manière indiquée à l'article 19 de la contribution étrangère (réglementation ) , 2010 ( 42 de 2010) lire à l'article 16 de la contribution étrangère (règlement ) Règles relatives , 2011 .</value>
+  </data>
+  <data name="xrTableCell17.Text" xml:space="preserve">
+    <value>Lieu de</value>
+  </data>
+  <data name="xrTableCell170.Text" xml:space="preserve">
+    <value>v .</value>
+  </data>
+  <data name="xrTableCell171.Text" xml:space="preserve">
+    <value>Les renseignements fournis dans ce certificat et dans le bilan et l'état de réception et de paiement ci-joint est correct comme vérifié par moi / nous .</value>
+  </data>
+  <data name="xrTableCell19.Text" xml:space="preserve">
+    <value>( V) Dénomination en cas de religieux
+      Association</value>
+  </data>
+  <data name="xrTableCell2.Text" xml:space="preserve">
+    <value>F- 602</value>
+  </data>
+  <data name="xrTableCell22.Text" xml:space="preserve">
+    <value>(Iv) Nature de l'Association</value>
+  </data>
+  <data name="xrTableCell25.Text" xml:space="preserve">
+    <value>(iii)  Prior Permission Number and Date 
+       if (ii) above is not applicable</value>
+  </data>
+  <data name="xrTableCell26.Text" xml:space="preserve">
+    <value>Une succursale</value>
+  </data>
+  <data name="xrTableCell28.Text" xml:space="preserve">
+    <value>(B) Sur les investissements effectués (fixe Dépôt
+      Accusé de réception , etc.) au cours de l'année ou dans les années précédentes.</value>
+  </data>
+  <data name="xrTableCell29.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell30.Text" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="xrTableCell31.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xrTableCell32.Text" xml:space="preserve">
+    <value>En liquide</value>
+  </data>
+  <data name="xrTableCell33.Text" xml:space="preserve">
+    <value>Objectif</value>
+  </data>
+  <data name="xrTableCell34.Text" xml:space="preserve">
+    <value>ANNX Ref .</value>
+  </data>
+  <data name="xrTableCell36.Text" xml:space="preserve">
+    <value>Solde précédent</value>
+  </data>
+  <data name="xrTableCell38.Text" xml:space="preserve">
+    <value>Reçus pendant l'année</value>
+  </data>
+  <data name="xrTableCell39.Text" xml:space="preserve">
+    <value>Spécifique
+activites</value>
+  </data>
+  <data name="xrTableCell4.Text" xml:space="preserve">
+    <value>(I) Nom et adresse (en lettres majuscules)</value>
+  </data>
+  <data name="xrTableCell40.Text" xml:space="preserve">
+    <value>En liquide</value>
+  </data>
+  <data name="xrTableCell41.Text" xml:space="preserve">
+    <value> In Kind
+ (Valeur)</value>
+  </data>
+  <data name="xrTableCell42.Text" xml:space="preserve">
+    <value>In Kind Reçu</value>
+  </data>
+  <data name="xrTableCell43.Text" xml:space="preserve">
+    <value>UTILISE</value>
+  </data>
+  <data name="xrTableCell45.Text" xml:space="preserve">
+    <value>En liquide</value>
+  </data>
+  <data name="xrTableCell46.Text" xml:space="preserve">
+    <value>In Kind
+(Valeur)</value>
+  </data>
+  <data name="xrTableCell47.Text" xml:space="preserve">
+    <value>In Kind
+(Valeur)</value>
+  </data>
+  <data name="xrTableCell48.Text" xml:space="preserve">
+    <value>In Kind (Value)</value>
+  </data>
+  <data name="xrTableCell49.Text" xml:space="preserve">
+    <value>Équilibre</value>
+  </data>
+  <data name="xrTableCell5.Text" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="xrTableCell51.Text" xml:space="preserve">
+    <value>Au premier récipiendaire</value>
+  </data>
+  <data name="xrTableCell52.Text" xml:space="preserve">
+    <value>Comme 2e / Après Rect .</value>
+  </data>
+  <data name="xrTableCell53.Text" xml:space="preserve">
+    <value>avec Adresse</value>
+  </data>
+  <data name="xrTableCell54.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xrTableCell55.Text" xml:space="preserve">
+    <value>avec</value>
+  </data>
+  <data name="xrTableCell56.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="xrTableCell57.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="xrTableCell59.Text" xml:space="preserve">
+    <value>(5+7)</value>
+  </data>
+  <data name="xrTableCell60.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="xrTableCell62.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="xrTableCell63.Text" xml:space="preserve">
+    <value>En liquide</value>
+  </data>
+  <data name="xrTableCell65.Text" xml:space="preserve">
+    <value>In Kind
+(Valeur)</value>
+  </data>
+  <data name="xrTableCell66.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="xrTableCell67.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="xrTableCell68.Text" xml:space="preserve">
+    <value>En liquide</value>
+  </data>
+  <data name="xrTableCell69.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="xrTableCell7.Text" xml:space="preserve">
+    <value>( Ii ) le numéro d'enregistrement et la date
+      [Contribution en vertu des Affaires étrangères (règlement)
+      Loi de 2010 (42 2010)]</value>
+  </data>
+  <data name="xrTableCell70.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="xrTableCell71.Text" xml:space="preserve">
+    <value>dix</value>
+  </data>
+  <data name="xrTableCell72.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="xrTableCell73.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="xrTableCell74.Text" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="xrTableCell8.Text" xml:space="preserve">
+    <value> A/C Non</value>
+  </data>
+  <data name="xrTotal.Text" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+</root>

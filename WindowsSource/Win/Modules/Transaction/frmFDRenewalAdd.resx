@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="artShowMsg.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 169</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 169</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 24</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtInterestAmount.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtInterestAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 121</value>
+  </data>
+  <data name="txtInterestAmount.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v12.2" name="DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="txtInterestAmount.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v12.2">
+    <value>Numeric</value>
+  </data>
+  <data name="txtInterestAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="txtInterestAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtInterestAmount.Name" xml:space="preserve">
+    <value>txtInterestAmount</value>
+  </data>
+  <data name="&gt;&gt;txtInterestAmount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtInterestAmount.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;txtInterestAmount.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtInterestRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 121</value>
+  </data>
+  <data name="txtInterestRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="txtInterestRate.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtInterestRate.Name" xml:space="preserve">
+    <value>txtInterestRate</value>
+  </data>
+  <data name="&gt;&gt;txtInterestRate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtInterestRate.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;txtInterestRate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtFDAmount.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtFDAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 98</value>
+  </data>
+  <data name="txtFDAmount.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="txtFDAmount.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v12.2">
+    <value>Numeric</value>
+  </data>
+  <data name="txtFDAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="txtFDAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtFDAmount.Name" xml:space="preserve">
+    <value>txtFDAmount</value>
+  </data>
+  <data name="&gt;&gt;txtFDAmount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtFDAmount.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;txtFDAmount.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 98</value>
+  </data>
+  <data name="txtAmount.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="txtAmount.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v12.2">
+    <value>Numeric</value>
+  </data>
+  <data name="txtAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="txtAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtAmount.Name" xml:space="preserve">
+    <value>txtAmount</value>
+  </data>
+  <data name="&gt;&gt;txtAmount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtAmount.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;txtAmount.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtFdNumber.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtFdNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 75</value>
+  </data>
+  <data name="txtFdNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="txtFdNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtFdNumber.Name" xml:space="preserve">
+    <value>txtFdNumber</value>
+  </data>
+  <data name="&gt;&gt;txtFdNumber.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtFdNumber.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;txtFdNumber.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtFDNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 75</value>
+  </data>
+  <data name="txtFDNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="txtFDNo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtFDNo.Name" xml:space="preserve">
+    <value>txtFDNo</value>
+  </data>
+  <data name="&gt;&gt;txtFDNo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtFDNo.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;txtFDNo.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FDMaturedDate.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="FDMaturedDate.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FDMaturedDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 52</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v12.2" name="DevExpress.Utils.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="FDMaturedDate.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.2">
+    <value>Combo</value>
+  </data>
+  <data name="FDMaturedDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="FDMaturedDate.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;FDMaturedDate.Name" xml:space="preserve">
+    <value>FDMaturedDate</value>
+  </data>
+  <data name="&gt;&gt;FDMaturedDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FDMaturedDate.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;FDMaturedDate.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="MaturedDate.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="MaturedDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 52</value>
+  </data>
+  <data name="MaturedDate.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.2">
+    <value>Combo</value>
+  </data>
+  <data name="MaturedDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="MaturedDate.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;MaturedDate.Name" xml:space="preserve">
+    <value>MaturedDate</value>
+  </data>
+  <data name="&gt;&gt;MaturedDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MaturedDate.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;MaturedDate.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="FDRenewedDate.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="FDRenewedDate.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FDRenewedDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 29</value>
+  </data>
+  <data name="FDRenewedDate.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.2">
+    <value>Combo</value>
+  </data>
+  <data name="FDRenewedDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="FDRenewedDate.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;FDRenewedDate.Name" xml:space="preserve">
+    <value>FDRenewedDate</value>
+  </data>
+  <data name="&gt;&gt;FDRenewedDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FDRenewedDate.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;FDRenewedDate.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="RenewedDate.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RenewedDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 29</value>
+  </data>
+  <data name="RenewedDate.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v12.2">
+    <value>Combo</value>
+  </data>
+  <data name="RenewedDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="RenewedDate.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;RenewedDate.Name" xml:space="preserve">
+    <value>RenewedDate</value>
+  </data>
+  <data name="&gt;&gt;RenewedDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RenewedDate.Parent" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;RenewedDate.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lcFDRenewal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lcFDRenewal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 5</value>
+  </data>
+  <data name="lcgFDRenewal.CustomizationFormText" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="lcgRenewalGroup.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lcgRenewalGroup.CustomizationFormText" xml:space="preserve">
+    <value>FD Renewal </value>
+  </data>
+  <data name="lblRenewedDate.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblRenewedDate.CustomizationFormText" xml:space="preserve">
+    <value>Renewed Date</value>
+  </data>
+  <data name="lblRenewedDate.Text" xml:space="preserve">
+    <value>Renewed Date</value>
+  </data>
+  <data name="lblFDRenewdDate.CustomizationFormText" xml:space="preserve">
+    <value>Renewed Date</value>
+  </data>
+  <data name="lblFDRenewdDate.Text" xml:space="preserve">
+    <value>Renewed Date</value>
+  </data>
+  <data name="lblMaturedDate.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblMaturedDate.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="lblMaturedDate.Text" xml:space="preserve">
+    <value>Matured Date</value>
+  </data>
+  <data name="lblFDMaturedDate.CustomizationFormText" xml:space="preserve">
+    <value>Matured Date</value>
+  </data>
+  <data name="lblFDMaturedDate.Text" xml:space="preserve">
+    <value>Matured Date</value>
+  </data>
+  <data name="lblFDNo.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblFDNo.CustomizationFormText" xml:space="preserve">
+    <value>FD No</value>
+  </data>
+  <data name="lblFDNo.Text" xml:space="preserve">
+    <value>FD No &lt;color="red"&gt; *</value>
+  </data>
+  <data name="lblFDNumber.CustomizationFormText" xml:space="preserve">
+    <value>FD No</value>
+  </data>
+  <data name="lblFDNumber.Text" xml:space="preserve">
+    <value>FD No</value>
+  </data>
+  <data name="lblAmount.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblAmount.CustomizationFormText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="lblAmount.Text" xml:space="preserve">
+    <value>Amount &lt;color="red"&gt; *</value>
+  </data>
+  <data name="lblFDAmount.CustomizationFormText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="lblFDAmount.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="lblInterestRate.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblInterestRate.CustomizationFormText" xml:space="preserve">
+    <value>Interest Rate</value>
+  </data>
+  <data name="lblInterestRate.Text" xml:space="preserve">
+    <value>Interest Rate &lt;color="red"&gt; *</value>
+  </data>
+  <data name="lblInterestAmount.CustomizationFormText" xml:space="preserve">
+    <value>Interest Amount</value>
+  </data>
+  <data name="lblInterestAmount.Text" xml:space="preserve">
+    <value>Interest Amount</value>
+  </data>
+  <data name="emptySpaceItem2.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="emptySpaceItem2.Text" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="emptySpaceItem3.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="emptySpaceItem3.Text" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="emptySpaceItem4.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem4</value>
+  </data>
+  <data name="emptySpaceItem4.Text" xml:space="preserve">
+    <value>emptySpaceItem4</value>
+  </data>
+  <data name="emptySpaceItem5.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem5</value>
+  </data>
+  <data name="emptySpaceItem5.Text" xml:space="preserve">
+    <value>emptySpaceItem5</value>
+  </data>
+  <data name="emptySpaceItem6.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem6</value>
+  </data>
+  <data name="emptySpaceItem6.Text" xml:space="preserve">
+    <value>emptySpaceItem6</value>
+  </data>
+  <data name="lblInterestAmt.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblInterestAmt.CustomizationFormText" xml:space="preserve">
+    <value>Interest Amount</value>
+  </data>
+  <data name="lblInterestAmt.Text" xml:space="preserve">
+    <value>Interest Amount</value>
+  </data>
+  <data name="emptySpaceItem7.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem7</value>
+  </data>
+  <data name="emptySpaceItem7.Text" xml:space="preserve">
+    <value>emptySpaceItem7</value>
+  </data>
+  <data name="lblInterestTotalAmt.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblInterestTotalAmt.CustomizationFormText" xml:space="preserve">
+    <value>LabellblInterestAmut</value>
+  </data>
+  <data name="lblInterestTotalAmt.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lcgRenewalGroup.Text" xml:space="preserve">
+    <value>FD Renewal </value>
+  </data>
+  <data name="emptySpaceItem8.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem8</value>
+  </data>
+  <data name="emptySpaceItem8.Text" xml:space="preserve">
+    <value>emptySpaceItem8</value>
+  </data>
+  <data name="lblCancel.CustomizationFormText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblSave.CustomizationFormText" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="lblSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="lcgFDRenewal.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="lcFDRenewal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 199</value>
+  </data>
+  <data name="lcFDRenewal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lcFDRenewal.Name" xml:space="preserve">
+    <value>lcFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;lcFDRenewal.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcFDRenewal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lcFDRenewal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="frmFDRenewalAdd.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>415, 209</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FD Renewal list on </value>
+  </data>
+  <data name="&gt;&gt;artShowMsg.Name" xml:space="preserve">
+    <value>artShowMsg</value>
+  </data>
+  <data name="&gt;&gt;artShowMsg.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Alerter.AlertControl, DevExpress.XtraBars.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcgFDRenewal.Name" xml:space="preserve">
+    <value>lcgFDRenewal</value>
+  </data>
+  <data name="&gt;&gt;lcgFDRenewal.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcgRenewalGroup.Name" xml:space="preserve">
+    <value>lcgRenewalGroup</value>
+  </data>
+  <data name="&gt;&gt;lcgRenewalGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblRenewedDate.Name" xml:space="preserve">
+    <value>lblRenewedDate</value>
+  </data>
+  <data name="&gt;&gt;lblRenewedDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblFDRenewdDate.Name" xml:space="preserve">
+    <value>lblFDRenewdDate</value>
+  </data>
+  <data name="&gt;&gt;lblFDRenewdDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblMaturedDate.Name" xml:space="preserve">
+    <value>lblMaturedDate</value>
+  </data>
+  <data name="&gt;&gt;lblMaturedDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblFDMaturedDate.Name" xml:space="preserve">
+    <value>lblFDMaturedDate</value>
+  </data>
+  <data name="&gt;&gt;lblFDMaturedDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblFDNo.Name" xml:space="preserve">
+    <value>lblFDNo</value>
+  </data>
+  <data name="&gt;&gt;lblFDNo.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblFDNumber.Name" xml:space="preserve">
+    <value>lblFDNumber</value>
+  </data>
+  <data name="&gt;&gt;lblFDNumber.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblAmount.Name" xml:space="preserve">
+    <value>lblAmount</value>
+  </data>
+  <data name="&gt;&gt;lblAmount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblFDAmount.Name" xml:space="preserve">
+    <value>lblFDAmount</value>
+  </data>
+  <data name="&gt;&gt;lblFDAmount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblInterestRate.Name" xml:space="preserve">
+    <value>lblInterestRate</value>
+  </data>
+  <data name="&gt;&gt;lblInterestRate.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblInterestAmount.Name" xml:space="preserve">
+    <value>lblInterestAmount</value>
+  </data>
+  <data name="&gt;&gt;lblInterestAmount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Name" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Name" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem4.Name" xml:space="preserve">
+    <value>emptySpaceItem4</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem5.Name" xml:space="preserve">
+    <value>emptySpaceItem5</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem6.Name" xml:space="preserve">
+    <value>emptySpaceItem6</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblInterestAmt.Name" xml:space="preserve">
+    <value>lblInterestAmt</value>
+  </data>
+  <data name="&gt;&gt;lblInterestAmt.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem7.Name" xml:space="preserve">
+    <value>emptySpaceItem7</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblInterestTotalAmt.Name" xml:space="preserve">
+    <value>lblInterestTotalAmt</value>
+  </data>
+  <data name="&gt;&gt;lblInterestTotalAmt.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem8.Name" xml:space="preserve">
+    <value>emptySpaceItem8</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblCancel.Name" xml:space="preserve">
+    <value>lblCancel</value>
+  </data>
+  <data name="&gt;&gt;lblCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblSave.Name" xml:space="preserve">
+    <value>lblSave</value>
+  </data>
+  <data name="&gt;&gt;lblSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmFDRenewalAdd</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ACPP.Modules.frmBaseAdd, ACPP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gcLocationView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 30</value>
+  </data>
+  <data name="gvLocationView.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gvLocationView.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colId.Caption" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="colLocationName.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colLocationName.Caption" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colLocationName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colLocationName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colLocationName.Width" type="System.Int32, mscorlib">
+    <value>264</value>
+  </data>
+  <data name="colCustodians.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colCustodians.Caption" xml:space="preserve">
+    <value>Custodian</value>
+  </data>
+  <data name="colCustodians.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colCustodians.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colCustodians.Width" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="colBlock.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colBlock.Caption" xml:space="preserve">
+    <value>Block</value>
+  </data>
+  <data name="colBlock.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colBlock.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colBlock.Width" type="System.Int32, mscorlib">
+    <value>254</value>
+  </data>
+  <data name="gridColumn1.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gccolProject.Caption" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="gccolProject.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gccolProject.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colResponsibleFrom.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colResponsibleFrom.Caption" xml:space="preserve">
+    <value>Responsible From</value>
+  </data>
+  <data name="colResponsibleFrom.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colResponsibleFrom.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colResponsibleFrom.Width" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="colLocationType.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colLocationType.Caption" xml:space="preserve">
+    <value>Location Type</value>
+  </data>
+  <data name="colLocationType.Width" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="colProjectID.Caption" xml:space="preserve">
+    <value>Project ID</value>
+  </data>
+  <data name="gcLocationView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>912, 356</value>
+  </data>
+  <data name="gcLocationView.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gcLocationView.Name" xml:space="preserve">
+    <value>gcLocationView</value>
+  </data>
+  <data name="&gt;&gt;gcLocationView.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcLocationView.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gcLocationView.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkShowFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 390</value>
+  </data>
+  <data name="chkShowFilter.Properties.Caption" xml:space="preserve">
+    <value>Show &lt;u&gt;&lt;b&gt;F&lt;/b&gt;&lt;/u&gt;ilter</value>
+  </data>
+  <data name="chkShowFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="chkShowFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Name" xml:space="preserve">
+    <value>chkShowFilter</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkShowFilter.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="toolTipTitleItem1.Text" xml:space="preserve">
+    <value>Move Transaction (Alt + T)</value>
+  </data>
+  <data name="toolTipItem1.Text" xml:space="preserve">
+    <value>         Click on this to Move Transaction  Record.</value>
+  </data>
+  <data name="uctbLocationView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uctbLocationView.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 0</value>
+  </data>
+  <data name="uctbLocationView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>916, 28</value>
+  </data>
+  <data name="uctbLocationView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uctbLocationView.Name" xml:space="preserve">
+    <value>uctbLocationView</value>
+  </data>
+  <data name="&gt;&gt;uctbLocationView.Type" xml:space="preserve">
+    <value>Bosco.Utility.Controls.ucToolBar, Bosco.Utility, Version=6.35.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;uctbLocationView.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;uctbLocationView.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="emptySpaceItem2.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="emptySpaceItem2.Text" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="chkShoeFilter.CustomizationFormText" xml:space="preserve">
+    <value>chkShoeFilter</value>
+  </data>
+  <data name="chkShoeFilter.Text" xml:space="preserve">
+    <value>chkShoeFilter</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="lblCountSymbol.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblCountSymbol.CustomizationFormText" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="lblCountSymbol.Text" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="lblCount.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblCount.CustomizationFormText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCount.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>916, 411</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="imageSmall.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="DevExpress.Utils.v13.2" name="DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="imageSmall.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v13.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxMy4yLCBWZXJzaW9uPTEzLjIu
+        Ny4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFFT
+        eXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRv
+        a2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAChEZXZFeHByZXNzLlV0aWxzLkltYWdlQ29sbGVjdGlvblN0
+        cmVhbWVyAgAAAAlJbWFnZVNpemUERGF0YQQHE1N5c3RlbS5EcmF3aW5nLlNpemUDAAAAAgIAAAAF/P//
+        /xNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAwAAABAAAAAQAAAACQUAAAAP
+        BQAAAAkJAAACZgMAAIlQTkcNChoKAAAADUlIRFIAAAAQAAAAEAgGAAAAH/P/YQAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAvFJREFUOE+lkmlI
+        VFEUx29JY+MsvpESJMW0UEy/ZH3QkiJCCIKIgsAUW0Sk1PBDaYGVKGpUmqmoKZpLKJnmmpqm4jguuaE4
+        uaY2mvs6M80445uZf9dRyqBP9eH37rnv3fO7nPMOAfBfkGlJQMnIOxf2S7YFBguOsLIGv5LuNBHpSBGR
+        tkSGNCcwpCnOnDQ8NSe1seakKkpIKiKEvwUjhS7shvIbDDo1q1UMoy/PiSWE7N6ByV/YfL8lkGZZAIZ1
+        GDRdgCobmtlHaHnJQBzPoOGZOepihaiOFqIyUoiyxwJURVuyzamHyjclRkFvBhXoV4Ef6YAiGobVcOgX
+        gqGbC4ZeUQHdUg7YmThsTIRBM+SHlZZzyL/Lp5mEYxR0p4oAdgr6xTDoZm+DlflAO3oR2gFPaHpPQN3p
+        ClWrM5RiByjq7SH/aIvcEKOAaxS0JzEwqHtp0hWsS8/jTYgd0nw5FNMd6zbXttnev7puCiJ5wUC3XANV
+        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
+</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>44</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>916, 411</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Location </value>
+  </data>
+  <data name="&gt;&gt;gvLocationView.Name" xml:space="preserve">
+    <value>gvLocationView</value>
+  </data>
+  <data name="&gt;&gt;gvLocationView.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colId.Name" xml:space="preserve">
+    <value>colId</value>
+  </data>
+  <data name="&gt;&gt;colId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colLocationName.Name" xml:space="preserve">
+    <value>colLocationName</value>
+  </data>
+  <data name="&gt;&gt;colLocationName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colCustodians.Name" xml:space="preserve">
+    <value>colCustodians</value>
+  </data>
+  <data name="&gt;&gt;colCustodians.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colBlock.Name" xml:space="preserve">
+    <value>colBlock</value>
+  </data>
+  <data name="&gt;&gt;colBlock.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colResponsibleFrom.Name" xml:space="preserve">
+    <value>colResponsibleFrom</value>
+  </data>
+  <data name="&gt;&gt;colResponsibleFrom.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colLocationType.Name" xml:space="preserve">
+    <value>colLocationType</value>
+  </data>
+  <data name="&gt;&gt;colLocationType.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colProjectID.Name" xml:space="preserve">
+    <value>colProjectID</value>
+  </data>
+  <data name="&gt;&gt;colProjectID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Name" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkShoeFilter.Name" xml:space="preserve">
+    <value>chkShoeFilter</value>
+  </data>
+  <data name="&gt;&gt;chkShoeFilter.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblCountSymbol.Name" xml:space="preserve">
+    <value>lblCountSymbol</value>
+  </data>
+  <data name="&gt;&gt;lblCountSymbol.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblCount.Name" xml:space="preserve">
+    <value>lblCount</value>
+  </data>
+  <data name="&gt;&gt;lblCount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;imageSmall.Name" xml:space="preserve">
+    <value>imageSmall</value>
+  </data>
+  <data name="&gt;&gt;imageSmall.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gccolProject.Name" xml:space="preserve">
+    <value>gccolProject</value>
+  </data>
+  <data name="&gt;&gt;gccolProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmLocationsView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ACPP.frmFinanceBase, ACPP, Version=6.35.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

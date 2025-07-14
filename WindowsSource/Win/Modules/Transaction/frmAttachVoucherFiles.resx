@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelControl1.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>64, 64, 0</value>
+  </data>
+  <data name="lblImageFileNotAvailable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 54</value>
+  </data>
+  <data name="lblImageFileNotAvailable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblImageFileNotAvailable.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblImageFileNotAvailable.Text" xml:space="preserve">
+    <value>* Voucher Image is not available</value>
+  </data>
+  <data name="&gt;&gt;lblImageFileNotAvailable.Name" xml:space="preserve">
+    <value>lblImageFileNotAvailable</value>
+  </data>
+  <data name="&gt;&gt;lblImageFileNotAvailable.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblImageFileNotAvailable.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblImageFileNotAvailable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PicBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="PicBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="PicBack.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="PicBack.ToolTip" xml:space="preserve">
+    <value>Click to go back to Voucher Image</value>
+  </data>
+  <data name="&gt;&gt;PicBack.Name" xml:space="preserve">
+    <value>PicBack</value>
+  </data>
+  <data name="&gt;&gt;PicBack.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PicBack.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;PicBack.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pdfViewer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 459</value>
+  </data>
+  <data name="pdfViewer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 21</value>
+  </data>
+  <data name="pdfViewer.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pdfViewer.Name" xml:space="preserve">
+    <value>pdfViewer</value>
+  </data>
+  <data name="&gt;&gt;pdfViewer.Type" xml:space="preserve">
+    <value>DevExpress.XtraPdfViewer.PdfViewer, DevExpress.XtraPdfViewer.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pdfViewer.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;pdfViewer.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gcPdfVouchers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 484</value>
+  </data>
+  <data name="gvPdfVouchers.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gvPdfVouchers.Appearance.FooterPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gvPdfVouchers.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gvPdfVouchers.AppearancePrint.FooterPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="colVoucherID.Caption" xml:space="preserve">
+    <value>Voucher Id</value>
+  </data>
+  <data name="colVoucherID.Width" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="colFileName.Caption" xml:space="preserve">
+    <value>FileName</value>
+  </data>
+  <data name="colRefPath.Caption" xml:space="preserve">
+    <value>Ref.Path</value>
+  </data>
+  <data name="colActualFileName.Caption" xml:space="preserve">
+    <value>Voucher Pdf</value>
+  </data>
+  <data name="colActualFileName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colActualFileName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colActualFileName.Width" type="System.Int32, mscorlib">
+    <value>541</value>
+  </data>
+  <data name="colDeleteVoucherPdf.Caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="rbtnDeletePdfVoucher.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v13.2" name="DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="rbtnDeletePdfVoucher.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Glyph</value>
+  </data>
+  <data name="rbtnDeletePdfVoucher.Buttons1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnDeletePdfVoucher.Buttons2" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="rbtnDeletePdfVoucher.Buttons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnDeletePdfVoucher.Buttons4" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnDeletePdfVoucher.Buttons5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v13.2" name="DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="rbtnDeletePdfVoucher.Buttons6" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v13.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="rbtnDeletePdfVoucher.Buttons7" xml:space="preserve">
+    <value>Click to Remove Current Voucher Pdf</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rbtnDeletePdfVoucher.Buttons8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rbtnDeletePdfVoucher.Buttons9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rbtnDeletePdfVoucher.Buttons10" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colDeleteVoucherPdf.ToolTip" xml:space="preserve">
+    <value>Click to Remove Current Voucher Pdf</value>
+  </data>
+  <data name="colDeleteVoucherPdf.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colDeleteVoucherPdf.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colDeleteVoucherPdf.Width" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="colViewVoucherPdf.Caption" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="rbtnPdfVoucherView.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rbtnPdfVoucherView.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Glyph</value>
+  </data>
+  <data name="rbtnPdfVoucherView.Buttons1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnPdfVoucherView.Buttons2" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="rbtnPdfVoucherView.Buttons3" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnPdfVoucherView.Buttons4" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnPdfVoucherView.Buttons5" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="rbtnPdfVoucherView.Buttons6" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v13.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="rbtnPdfVoucherView.Buttons7" xml:space="preserve">
+    <value>Click to View Current Voucher Pdf</value>
+  </data>
+  <data name="rbtnPdfVoucherView.Buttons8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rbtnPdfVoucherView.Buttons9" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rbtnPdfVoucherView.Buttons10" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colViewVoucherPdf.ToolTip" xml:space="preserve">
+    <value>Click to View Current Voucher Pdf</value>
+  </data>
+  <data name="colViewVoucherPdf.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colViewVoucherPdf.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colViewVoucherPdf.Width" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="gcPdfVouchers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 3</value>
+  </data>
+  <data name="gcPdfVouchers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 50</value>
+  </data>
+  <data name="gcPdfVouchers.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;gcPdfVouchers.Name" xml:space="preserve">
+    <value>gcPdfVouchers</value>
+  </data>
+  <data name="&gt;&gt;gcPdfVouchers.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcPdfVouchers.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gcPdfVouchers.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="picRemoveCurrentImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 51</value>
+  </data>
+  <data name="picRemoveCurrentImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="picRemoveCurrentImage.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="picRemoveCurrentImage.ToolTip" xml:space="preserve">
+    <value>Click to Remove Current Voucher Image</value>
+  </data>
+  <data name="&gt;&gt;picRemoveCurrentImage.Name" xml:space="preserve">
+    <value>picRemoveCurrentImage</value>
+  </data>
+  <data name="&gt;&gt;picRemoveCurrentImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;picRemoveCurrentImage.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;picRemoveCurrentImage.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblImageActualFileName.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblImageActualFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 54</value>
+  </data>
+  <data name="lblImageActualFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 14</value>
+  </data>
+  <data name="lblImageActualFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblImageActualFileName.Text" xml:space="preserve">
+    <value>Image File Name</value>
+  </data>
+  <data name="&gt;&gt;lblImageActualFileName.Name" xml:space="preserve">
+    <value>lblImageActualFileName</value>
+  </data>
+  <data name="&gt;&gt;lblImageActualFileName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblImageActualFileName.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblImageActualFileName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblNoPdfFiles.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblNoPdfFiles.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Navy</value>
+  </data>
+  <data name="lblNoPdfFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 542</value>
+  </data>
+  <data name="lblNoPdfFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="lblNoPdfFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblNoPdfFiles.Text" xml:space="preserve">
+    <value>0 Pdf(s)</value>
+  </data>
+  <data name="&gt;&gt;lblNoPdfFiles.Name" xml:space="preserve">
+    <value>lblNoPdfFiles</value>
+  </data>
+  <data name="&gt;&gt;lblNoPdfFiles.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblNoPdfFiles.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblNoPdfFiles.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblNoImageFiles.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblNoImageFiles.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Navy</value>
+  </data>
+  <data name="lblNoImageFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 542</value>
+  </data>
+  <data name="lblNoImageFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="lblNoImageFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblNoImageFiles.Text" xml:space="preserve">
+    <value>0 Image(s)</value>
+  </data>
+  <data name="&gt;&gt;lblNoImageFiles.Name" xml:space="preserve">
+    <value>lblNoImageFiles</value>
+  </data>
+  <data name="&gt;&gt;lblNoImageFiles.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblNoImageFiles.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblNoImageFiles.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="picAddImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>637, 4</value>
+  </data>
+  <data name="picAddImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="picAddImage.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="picAddImage.ToolTip" xml:space="preserve">
+    <value>Click to Attach Voucher Image/Pdf</value>
+  </data>
+  <data name="&gt;&gt;picAddImage.Name" xml:space="preserve">
+    <value>picAddImage</value>
+  </data>
+  <data name="&gt;&gt;picAddImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;picAddImage.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;picAddImage.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblBrowseFiles.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblBrowseFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 4</value>
+  </data>
+  <data name="lblBrowseFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>471, 20</value>
+  </data>
+  <data name="lblBrowseFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblBrowseFiles.Text" xml:space="preserve">
+    <value>Click to Attach Voucher Evidence Images/Pdf (Receipts, Vouchers, Bills, Pdf and etc)</value>
+  </data>
+  <data name="&gt;&gt;lblBrowseFiles.Name" xml:space="preserve">
+    <value>lblBrowseFiles</value>
+  </data>
+  <data name="&gt;&gt;lblBrowseFiles.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblBrowseFiles.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblBrowseFiles.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnReloadImages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 542</value>
+  </data>
+  <data name="btnReloadImages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="btnReloadImages.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnReloadImages.Text" xml:space="preserve">
+    <value>Reload Files</value>
+  </data>
+  <data name="&gt;&gt;btnReloadImages.Name" xml:space="preserve">
+    <value>btnReloadImages</value>
+  </data>
+  <data name="&gt;&gt;btnReloadImages.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnReloadImages.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnReloadImages.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 542</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 22</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 542</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 22</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>&amp;Ok</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="imgsliderVoucherImageSlider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 75</value>
+  </data>
+  <data name="imgsliderVoucherImageSlider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 353</value>
+  </data>
+  <data name="imgsliderVoucherImageSlider.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="imgsliderVoucherImageSlider.Text" xml:space="preserve">
+    <value>imageSlider1</value>
+  </data>
+  <data name="&gt;&gt;imgsliderVoucherImageSlider.Name" xml:space="preserve">
+    <value>imgsliderVoucherImageSlider</value>
+  </data>
+  <data name="&gt;&gt;imgsliderVoucherImageSlider.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Controls.ImageSlider, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;imgsliderVoucherImageSlider.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;imgsliderVoucherImageSlider.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="lcTitle.CustomizationFormText" xml:space="preserve">
+    <value>Click to Attach Voucher Evidence Images (Receitps, Vouchers, Bills, Pdf and etc)</value>
+  </data>
+  <data name="lcTitle.Text" xml:space="preserve">
+    <value>Click to Attach Voucher Evidence Images (Receitps, Vouchers, Bills, Pdf and etc)</value>
+  </data>
+  <data name="lcAddImage.CustomizationFormText" xml:space="preserve">
+    <value>lcAddImage</value>
+  </data>
+  <data name="lcAddImage.Text" xml:space="preserve">
+    <value>lcAddImage</value>
+  </data>
+  <data name="lcgIamgeView.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lcgIamgeView.CustomizationFormText" xml:space="preserve">
+    <value>Voucher Image View</value>
+  </data>
+  <data name="lcImageSlider.CustomizationFormText" xml:space="preserve">
+    <value>lcImageSlider</value>
+  </data>
+  <data name="lcImageSlider.Text" xml:space="preserve">
+    <value>lcImageSlider</value>
+  </data>
+  <data name="lcImageActualFileName.CustomizationFormText" xml:space="preserve">
+    <value>Image File Name</value>
+  </data>
+  <data name="lcImageActualFileName.Text" xml:space="preserve">
+    <value>Image File Name</value>
+  </data>
+  <data name="lcRemoveCurrentImage.CustomizationFormText" xml:space="preserve">
+    <value>lcRemoveCurrentImage</value>
+  </data>
+  <data name="lcRemoveCurrentImage.Text" xml:space="preserve">
+    <value>lcRemoveCurrentImage</value>
+  </data>
+  <data name="emptySpaceItem3.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="emptySpaceItem3.Text" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="lcImageFileNotAvailable.CustomizationFormText" xml:space="preserve">
+    <value>lcImageFileNotAvailable</value>
+  </data>
+  <data name="lcImageFileNotAvailable.Text" xml:space="preserve">
+    <value>lcImageFileNotAvailable</value>
+  </data>
+  <data name="lcgIamgeView.Text" xml:space="preserve">
+    <value>Voucher Image View</value>
+  </data>
+  <data name="lcTitleSpace.CustomizationFormText" xml:space="preserve">
+    <value>lcTitleSpace</value>
+  </data>
+  <data name="lcTitleSpace.Text" xml:space="preserve">
+    <value>lcTitleSpace</value>
+  </data>
+  <data name="lcNoOfImages.CustomizationFormText" xml:space="preserve">
+    <value>No.Of Images</value>
+  </data>
+  <data name="lcNoOfImages.Text" xml:space="preserve">
+    <value>No. of Images</value>
+  </data>
+  <data name="lcNoOfPdf.CustomizationFormText" xml:space="preserve">
+    <value>No.Of Pdfs</value>
+  </data>
+  <data name="lcNoOfPdf.Text" xml:space="preserve">
+    <value>No. of Pdfs</value>
+  </data>
+  <data name="lcOk.CustomizationFormText" xml:space="preserve">
+    <value>lcOk</value>
+  </data>
+  <data name="lcOk.Text" xml:space="preserve">
+    <value>lcOk</value>
+  </data>
+  <data name="lcCancel.CustomizationFormText" xml:space="preserve">
+    <value>lcCancel</value>
+  </data>
+  <data name="lcCancel.Text" xml:space="preserve">
+    <value>lcCancel</value>
+  </data>
+  <data name="emptySpaceItem1.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="emptySpaceItem1.Text" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="lcReloadFiles.CustomizationFormText" xml:space="preserve">
+    <value>lcReloadFiles</value>
+  </data>
+  <data name="lcReloadFiles.Text" xml:space="preserve">
+    <value>lcReloadFiles</value>
+  </data>
+  <data name="lcVoucherPdfFiles.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lcVoucherPdfFiles.CustomizationFormText" xml:space="preserve">
+    <value>List of Voucher Pdf File(s)</value>
+  </data>
+  <data name="lstPdfVouchers.CustomizationFormText" xml:space="preserve">
+    <value>lstPdfVouchers</value>
+  </data>
+  <data name="lstPdfVouchers.Text" xml:space="preserve">
+    <value>lstPdfVouchers</value>
+  </data>
+  <data name="lcPdfViewer.CustomizationFormText" xml:space="preserve">
+    <value>lcPdfViewer</value>
+  </data>
+  <data name="lcPdfViewer.Text" xml:space="preserve">
+    <value>lcPdfViewer</value>
+  </data>
+  <data name="lcVoucherPdfFiles.Text" xml:space="preserve">
+    <value>List of Voucher Pdf File(s)</value>
+  </data>
+  <data name="lcBack.CustomizationFormText" xml:space="preserve">
+    <value>lcBack</value>
+  </data>
+  <data name="lcBack.Text" xml:space="preserve">
+    <value>lcBack</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 568</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>665, 572</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Attach Voucher Files</value>
+  </data>
+  <data name="&gt;&gt;gvPdfVouchers.Name" xml:space="preserve">
+    <value>gvPdfVouchers</value>
+  </data>
+  <data name="&gt;&gt;gvPdfVouchers.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colVoucherID.Name" xml:space="preserve">
+    <value>colVoucherID</value>
+  </data>
+  <data name="&gt;&gt;colVoucherID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colFileName.Name" xml:space="preserve">
+    <value>colFileName</value>
+  </data>
+  <data name="&gt;&gt;colFileName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colRefPath.Name" xml:space="preserve">
+    <value>colRefPath</value>
+  </data>
+  <data name="&gt;&gt;colRefPath.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colActualFileName.Name" xml:space="preserve">
+    <value>colActualFileName</value>
+  </data>
+  <data name="&gt;&gt;colActualFileName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colDeleteVoucherPdf.Name" xml:space="preserve">
+    <value>colDeleteVoucherPdf</value>
+  </data>
+  <data name="&gt;&gt;colDeleteVoucherPdf.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rbtnDeletePdfVoucher.Name" xml:space="preserve">
+    <value>rbtnDeletePdfVoucher</value>
+  </data>
+  <data name="&gt;&gt;rbtnDeletePdfVoucher.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colViewVoucherPdf.Name" xml:space="preserve">
+    <value>colViewVoucherPdf</value>
+  </data>
+  <data name="&gt;&gt;colViewVoucherPdf.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rbtnPdfVoucherView.Name" xml:space="preserve">
+    <value>rbtnPdfVoucherView</value>
+  </data>
+  <data name="&gt;&gt;rbtnPdfVoucherView.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcTitle.Name" xml:space="preserve">
+    <value>lcTitle</value>
+  </data>
+  <data name="&gt;&gt;lcTitle.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcAddImage.Name" xml:space="preserve">
+    <value>lcAddImage</value>
+  </data>
+  <data name="&gt;&gt;lcAddImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcgIamgeView.Name" xml:space="preserve">
+    <value>lcgIamgeView</value>
+  </data>
+  <data name="&gt;&gt;lcgIamgeView.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcImageSlider.Name" xml:space="preserve">
+    <value>lcImageSlider</value>
+  </data>
+  <data name="&gt;&gt;lcImageSlider.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcImageActualFileName.Name" xml:space="preserve">
+    <value>lcImageActualFileName</value>
+  </data>
+  <data name="&gt;&gt;lcImageActualFileName.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcRemoveCurrentImage.Name" xml:space="preserve">
+    <value>lcRemoveCurrentImage</value>
+  </data>
+  <data name="&gt;&gt;lcRemoveCurrentImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Name" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcTitleSpace.Name" xml:space="preserve">
+    <value>lcTitleSpace</value>
+  </data>
+  <data name="&gt;&gt;lcTitleSpace.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcNoOfImages.Name" xml:space="preserve">
+    <value>lcNoOfImages</value>
+  </data>
+  <data name="&gt;&gt;lcNoOfImages.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcNoOfPdf.Name" xml:space="preserve">
+    <value>lcNoOfPdf</value>
+  </data>
+  <data name="&gt;&gt;lcNoOfPdf.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcOk.Name" xml:space="preserve">
+    <value>lcOk</value>
+  </data>
+  <data name="&gt;&gt;lcOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcCancel.Name" xml:space="preserve">
+    <value>lcCancel</value>
+  </data>
+  <data name="&gt;&gt;lcCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcReloadFiles.Name" xml:space="preserve">
+    <value>lcReloadFiles</value>
+  </data>
+  <data name="&gt;&gt;lcReloadFiles.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcVoucherPdfFiles.Name" xml:space="preserve">
+    <value>lcVoucherPdfFiles</value>
+  </data>
+  <data name="&gt;&gt;lcVoucherPdfFiles.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lstPdfVouchers.Name" xml:space="preserve">
+    <value>lstPdfVouchers</value>
+  </data>
+  <data name="&gt;&gt;lstPdfVouchers.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcPdfViewer.Name" xml:space="preserve">
+    <value>lcPdfViewer</value>
+  </data>
+  <data name="&gt;&gt;lcPdfViewer.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcBack.Name" xml:space="preserve">
+    <value>lcBack</value>
+  </data>
+  <data name="&gt;&gt;lcBack.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcImageFileNotAvailable.Name" xml:space="preserve">
+    <value>lcImageFileNotAvailable</value>
+  </data>
+  <data name="&gt;&gt;lcImageFileNotAvailable.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmAttachVoucherFiles</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ACPP.frmFinanceBaseAdd, ACPP, Version=6.28.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

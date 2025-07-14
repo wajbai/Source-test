@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AUDITOR_ADD_CAPTION" xml:space="preserve">
+    <value>Auditor (Add)</value>
+  </data>
+  <data name="AUDITOR_DELETE_SUCCESS" xml:space="preserve">
+    <value>Auditor is deleted successfully</value>
+  </data>
+  <data name="AUDITOR_EDIT_CAPTION" xml:space="preserve">
+    <value>Auditor (Edit)</value>
+  </data>
+  <data name="AUDITOR_NAME_EMPTY" xml:space="preserve">
+    <value>Auditor Name is Empty!</value>
+  </data>
+  <data name="AUDITOR_PRINT_CAPTION" xml:space="preserve">
+    <value>Auditor's List</value>
+  </data>
+  <data name="AUDITOR_SAVE_SUCCESS" xml:space="preserve">
+    <value>Auditor details saved!</value>
+  </data>
+  <data name="BANK_ACCOUNT" xml:space="preserve">
+    <value>Bank Account</value>
+  </data>
+  <data name="BANK_ADD_CAPTION" xml:space="preserve">
+    <value>Bank (Add) </value>
+  </data>
+  <data name="BANK_BRANCH_EMPTY" xml:space="preserve">
+    <value>Branch Name is empty!</value>
+  </data>
+  <data name="BANK_CODE_EMPTY" xml:space="preserve">
+    <value>Bank Code is empty!</value>
+  </data>
+  <data name="BANK_DELETE" xml:space="preserve">
+    <value>There is no record to delete!</value>
+  </data>
+  <data name="BANK_DELETE_ASSOCIATION" xml:space="preserve">
+    <value>Bank can not be Deleted. It has Association !</value>
+  </data>
+  <data name="BANK_DELETE_SUCCESS" xml:space="preserve">
+    <value>Bank has been deleted successfully.</value>
+  </data>
+  <data name="BANK_EDIT_CAPTION" xml:space="preserve">
+    <value>Bank (Edit) </value>
+  </data>
+  <data name="BANK_NAME_EMPTY" xml:space="preserve">
+    <value>Bank Name is empty!</value>
+  </data>
+  <data name="BANK_OPERATING_CAPTION" xml:space="preserve">
+    <value>Operating Bank</value>
+  </data>
+  <data name="BANK_SAVE_FAILURE" xml:space="preserve">
+    <value>The record is available!</value>
+  </data>
+  <data name="BANK_SAVE_SUCCESS" xml:space="preserve">
+    <value>Bank details saved!</value>
+  </data>
+  <data name="COMMON_DELETE_CONFIRMATION" xml:space="preserve">
+    <value>Are you sure to delete this record?</value>
+  </data>
+  <data name="COMMON_EMAIL_INVALID" xml:space="preserve">
+    <value>Email Address is Invalid!</value>
+  </data>
+  <data name="COMMON_GRID_EMPTY" xml:space="preserve">
+    <value>No reocord is available in the grid to edit/delete.</value>
+  </data>
+  <data name="COMMON_MESSAGE_TITLE" xml:space="preserve">
+    <value>ACME++</value>
+  </data>
+  <data name="COMMON_PROCESS_DIALOG_CAPTION" xml:space="preserve">
+    <value>Processing...</value>
+  </data>
+  <data name="COMMON_SAVE_FAILURE" xml:space="preserve">
+    <value>the record is available!</value>
+  </data>
+  <data name="COMMON_WAIT_DIALOG_CAPTION" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="COMMON_WELCOME_NOTE" xml:space="preserve">
+    <value>Welcome to ACME++ application !</value>
+  </data>
+  <data name="COST_CENTER_ADD_CAPTION" xml:space="preserve">
+    <value>Cost Centre (Add)</value>
+  </data>
+  <data name="COST_CENTER_CODE_EMPTY" xml:space="preserve">
+    <value>Cost Centre Code is Empty!</value>
+  </data>
+  <data name="COST_CENTER_DELETE_SUCCESS" xml:space="preserve">
+    <value>Cost Centre has been deleted successfully!</value>
+  </data>
+  <data name="COST_CENTER_EDIT_CAPTION" xml:space="preserve">
+    <value>Cost Centre (Edit)</value>
+  </data>
+  <data name="COST_CENTER_NAME_EMPTY" xml:space="preserve">
+    <value>Cost Centre Name is Empty!</value>
+  </data>
+  <data name="COST_CENTER_PRINT_CAPTION" xml:space="preserve">
+    <value>Cost Centre</value>
+  </data>
+  <data name="COST_CENTER_SAVE_FAILURE" xml:space="preserve">
+    <value>The record is available!</value>
+  </data>
+  <data name="COST_CENTER_SUCSESS" xml:space="preserve">
+    <value>Cost Centre details saved!</value>
+  </data>
+  <data name="COUNTRY_ADD_CAPTION" xml:space="preserve">
+    <value>Country (Add)</value>
+  </data>
+  <data name="COUNTRY_ASSOCIATION" xml:space="preserve">
+    <value>Country cannot be deleted.It has association!</value>
+  </data>
+  <data name="COUNTRY_CODE_EMPTY" xml:space="preserve">
+    <value>Country Code is Empty!</value>
+  </data>
+  <data name="COUNTRY_DELETE_FAILURE" xml:space="preserve">
+    <value>Could not delete the record</value>
+  </data>
+  <data name="COUNTRY_DELETE_SUCCESS" xml:space="preserve">
+    <value>Country details has been deleted</value>
+  </data>
+  <data name="COUNTRY_EDIT_CAPTION" xml:space="preserve">
+    <value>Country (Edit)</value>
+  </data>
+  <data name="COUNTRY_ISDCODE_EXIST" xml:space="preserve">
+    <value>ISD Code is available already</value>
+  </data>
+  <data name="COUNTRY_ISD_CODE_EMPTY" xml:space="preserve">
+    <value>Country ISD code is Empty!</value>
+  </data>
+  <data name="COUNTRY_NAME_EMPTY" xml:space="preserve">
+    <value>Country Name is Empty!</value>
+  </data>
+  <data name="COUNTRY_NAME_EXIST" xml:space="preserve">
+    <value>Name is already Exist</value>
+  </data>
+  <data name="COUNTRY_PRINT_CAPTION" xml:space="preserve">
+    <value>Country </value>
+  </data>
+  <data name="COUNTRY_SAVE_SUCCESS" xml:space="preserve">
+    <value>Country details Saved!</value>
+  </data>
+  <data name="CURRENCY_CODE_EMPTY" xml:space="preserve">
+    <value>Currency Code is Empty!</value>
+  </data>
+  <data name="DONOR_ADD_CAPTION" xml:space="preserve">
+    <value>Donor (Add)</value>
+  </data>
+  <data name="DONOR_COUNTRY_EMPTY" xml:space="preserve">
+    <value>Country is not selected!</value>
+  </data>
+  <data name="DONOR_DELETE_SUCCESS" xml:space="preserve">
+    <value>Donor is deleted successfully.</value>
+  </data>
+  <data name="DONOR_EDIT_CAPTION" xml:space="preserve">
+    <value>Donor (Edit)</value>
+  </data>
+  <data name="DONOR_NAME_EMPTY" xml:space="preserve">
+    <value>Donor Name is Empty!</value>
+  </data>
+  <data name="DONOR_PRINT_CAPTION" xml:space="preserve">
+    <value>Donor's List</value>
+  </data>
+  <data name="DONOR_SAVE_SUCCESS" xml:space="preserve">
+    <value>Donor details saved!</value>
+  </data>
+  <data name="EXECUTIVE_ADD_CAPTION" xml:space="preserve">
+    <value>Executive Member (Add)</value>
+  </data>
+  <data name="EXECUTIVE_COUNTRY_EMPTY" xml:space="preserve">
+    <value>Country is Empty, Create the Country!</value>
+  </data>
+  <data name="EXECUTIVE_DELETE_SUCCESS" xml:space="preserve">
+    <value>Executive Member has been deleted Successfully</value>
+  </data>
+  <data name="EXECUTIVE_EDIT_CAPTION" xml:space="preserve">
+    <value>Executive Member (Edit)</value>
+  </data>
+  <data name="EXECUTIVE_EMAIL_EMPTY" xml:space="preserve">
+    <value>Email is Empty</value>
+  </data>
+  <data name="EXECUTIVE_NAME_EMPTY" xml:space="preserve">
+    <value> Name is Empty!</value>
+  </data>
+  <data name="EXECUTIVE_NATIONALITY_EMPTY" xml:space="preserve">
+    <value>Nationality is Empty!</value>
+  </data>
+  <data name="EXECUTIVE_PRINT_CAPTION" xml:space="preserve">
+    <value>Print Executive Member</value>
+  </data>
+  <data name="EXECUTIVE_SAVE_FAILURE" xml:space="preserve">
+    <value>The Record is Available!</value>
+  </data>
+  <data name="EXECUTIVE_SAVE_SUCCESS" xml:space="preserve">
+    <value>Executive Member is Saved!</value>
+  </data>
+  <data name="GROUP_ADD_CAPTION" xml:space="preserve">
+    <value>Ledger Group (Add)</value>
+  </data>
+  <data name="GROUP_CAN_DELETE" xml:space="preserve">
+    <value>Group can not be Deleted. It has Association !</value>
+  </data>
+  <data name="GROUP_CAN_EDIT" xml:space="preserve">
+    <value>Group can not be Edited. It has Association !</value>
+  </data>
+  <data name="GROUP_CODE_EMPTY" xml:space="preserve">
+    <value>Group Code is Empty</value>
+  </data>
+  <data name="GROUP_DELETE_SUCCESS" xml:space="preserve">
+    <value>Group Details Deleted</value>
+  </data>
+  <data name="GROUP_EDIT_CAPTION" xml:space="preserve">
+    <value>Ledger Group (Edit)</value>
+  </data>
+  <data name="GROUP_FIXED_EDIT" xml:space="preserve">
+    <value>Fixed Nature can not be Edited !</value>
+  </data>
+  <data name="GROUP_LEVEL_CHECK" xml:space="preserve">
+    <value>Next Group  level can't be added !</value>
+  </data>
+  <data name="GROUP_NAME_EMPTY" xml:space="preserve">
+    <value>Group is Empty</value>
+  </data>
+  <data name="GROUP_NATURE_DELETE" xml:space="preserve">
+    <value>Fixed Nature can not be Deleted !</value>
+  </data>
+  <data name="GROUP_PARENT_EMPTY" xml:space="preserve">
+    <value>Select Parent Group!</value>
+  </data>
+  <data name="GROUP_SAVE_FAILURE" xml:space="preserve">
+    <value>Group Details not Saved</value>
+  </data>
+  <data name="GROUP_SAVE_SUCCESS" xml:space="preserve">
+    <value>Group Details Saved successfully.!</value>
+  </data>
+  <data name="INKINDARTICLE_ABBREVATION_EMPTY" xml:space="preserve">
+    <value>In Kind Articel code is empty!</value>
+  </data>
+  <data name="INKINDARTICLE_ADD_CAPTION" xml:space="preserve">
+    <value>In Kind Article (Add)</value>
+  </data>
+  <data name="INKINDARTICLE_DELETE_SUCCESS" xml:space="preserve">
+    <value>In Kind Article has beed deleted successfully!</value>
+  </data>
+  <data name="INKINDARTICLE_EDIT_CAPTION" xml:space="preserve">
+    <value>In Kind Article (Edit)</value>
+  </data>
+  <data name="INKINDARTICLE_NAME_EMPTY" xml:space="preserve">
+    <value>In Kind Articel name is empty!</value>
+  </data>
+  <data name="INKINDARTICLE_PRINT_CAPTION" xml:space="preserve">
+    <value>In Kind Article </value>
+  </data>
+  <data name="INKINDARTICLE_SAVE_SUCCESS" xml:space="preserve">
+    <value>In Kind Article details Saved!</value>
+  </data>
+  <data name="LEDGER_ADD_CAPTION" xml:space="preserve">
+    <value>Ledger (Add)</value>
+  </data>
+  <data name="lEDGER_CODE_EMPTY" xml:space="preserve">
+    <value>Ledger Code is Empty !</value>
+  </data>
+  <data name="LEDGER_DELETE_SUCCESS" xml:space="preserve">
+    <value>Ledger Details Deleted successfully..</value>
+  </data>
+  <data name="LEDGER_EDIT_CAPTION" xml:space="preserve">
+    <value>Ledger (Edit)</value>
+  </data>
+  <data name="LEDGER_FAILURE" xml:space="preserve">
+    <value>Ledger Details not Saved !</value>
+  </data>
+  <data name="LEDGER_GROUP_EMPTY" xml:space="preserve">
+    <value>Ledger Group is Empty !</value>
+  </data>
+  <data name="LEDGER_NAME_EMPTY" xml:space="preserve">
+    <value>Ledger Name is Empty !</value>
+  </data>
+  <data name="LEDGER_PRINT_CAPTION" xml:space="preserve">
+    <value>Ledger Details</value>
+  </data>
+  <data name="LEDGER_SUCCESS" xml:space="preserve">
+    <value>Ledger Details Saved successfully..</value>
+  </data>
+  <data name="PROJECT_ADD_CAPTION" xml:space="preserve">
+    <value>Project (Add)</value>
+  </data>
+  <data name="PROJECT_AVAILABLE_VOUCHERS" xml:space="preserve">
+    <value>More than one Receipts/Payements/Contra/Journal has been selected!</value>
+  </data>
+  <data name="PROJECT_CODE_EMPTY" xml:space="preserve">
+    <value>Project Code is Empty!</value>
+  </data>
+  <data name="PROJECT_DELETE_ASSOCIATION" xml:space="preserve">
+    <value>Project can not be Deleted. It has Association !</value>
+  </data>
+  <data name="PROJECT_DELETE_SUCCESS" xml:space="preserve">
+    <value>Project Details Deleted!</value>
+  </data>
+  <data name="PROJECT_EDIT_CAPTION" xml:space="preserve">
+    <value>Project (Edit)</value>
+  </data>
+  <data name="PROJECT_NAME_EMPTY" xml:space="preserve">
+    <value>Project Name is Empty!</value>
+  </data>
+  <data name="PROJECT_PRINT_CAPTION" xml:space="preserve">
+    <value>Project Information</value>
+  </data>
+  <data name="PROJECT_PROJECT_VOUCHERS" xml:space="preserve">
+    <value>More than one Receipts/Payements/Contra/Journal can not be added!</value>
+  </data>
+  <data name="PROJECT_SUCCESS" xml:space="preserve">
+    <value>Project Details Saved!</value>
+  </data>
+  <data name="PURPOSE_ADD_CAPTION" xml:space="preserve">
+    <value>Purposes (Add)</value>
+  </data>
+  <data name="PURPOSE_CODE_EMPTY" xml:space="preserve">
+    <value>Purpose Code is Empty</value>
+  </data>
+  <data name="PURPOSE_DELETE_FAILURE" xml:space="preserve">
+    <value>Purposes can not be Deleted. It has Association !</value>
+  </data>
+  <data name="PURPOSE_DELETE_SUCCESS" xml:space="preserve">
+    <value>Purposes is deleted Successfully</value>
+  </data>
+  <data name="PURPOSE_EDIT_CAPTION" xml:space="preserve">
+    <value>Purposes (Edit)</value>
+  </data>
+  <data name="PURPOSE_HEAD_EMPTY" xml:space="preserve">
+    <value>Purpose Head is Empty</value>
+  </data>
+  <data name="PURPOSE_PRINT_CAPTION" xml:space="preserve">
+    <value>Purpose's List</value>
+  </data>
+  <data name="PURPOSE_SAVE_SUCCESS" xml:space="preserve">
+    <value>Purposes Details saved successfully</value>
+  </data>
+  <data name="SETTING_CURRENCY_CODE_INVALID" xml:space="preserve">
+    <value>Invalid Currency Code !</value>
+  </data>
+  <data name="SETTING_CURRENCY_INVALID" xml:space="preserve">
+    <value>Invalid Currency Symbol !</value>
+  </data>
+  <data name="SETTING_CURRENCY__POSITION_INVALID" xml:space="preserve">
+    <value>Invalid Currency Position !</value>
+  </data>
+  <data name="SETTING_DATE_FORMAT_INVALID" xml:space="preserve">
+    <value>Invalid Date format !</value>
+  </data>
+  <data name="SETTING_DATE_SEPARATOR_INVALID" xml:space="preserve">
+    <value>Invalid Date Separator !</value>
+  </data>
+  <data name="SETTING_DECIMAL_PLACES_INVALID" xml:space="preserve">
+    <value>Invalid Decimal places !</value>
+  </data>
+  <data name="SETTING_DECIMAL_PLACES_SEPARATOR_INVALID" xml:space="preserve">
+    <value>Invalid Decimal Separator !</value>
+  </data>
+  <data name="SETTING_DEFAULT_LANGUAGE_SET" xml:space="preserve">
+    <value>Default Language English is set.</value>
+  </data>
+  <data name="SETTING_DIGIT_GROUPING_INVALID" xml:space="preserve">
+    <value>Invalid Digit Grouping !</value>
+  </data>
+  <data name="SETTING_DIGIT_GROUPING_SEPARATOR_INVALID" xml:space="preserve">
+    <value>Invalid Digit Grouping Separator !</value>
+  </data>
+  <data name="SETTING_LANGUAGE_INVALID" xml:space="preserve">
+    <value>Language is Invalid !</value>
+  </data>
+  <data name="SETTING_NEGATIVE_SIGN_INVALID" xml:space="preserve">
+    <value>Invalid Negative Sign !</value>
+  </data>
+  <data name="SETTING_SUCCESS" xml:space="preserve">
+    <value>Setting has been applied successfully.</value>
+  </data>
+  <data name="SETTING__FAILURE" xml:space="preserve">
+    <value>Could not apply setting</value>
+  </data>
+  <data name="USER_ADD_CAPTION" xml:space="preserve">
+    <value>User (Add)</value>
+  </data>
+  <data name="USER_CHANGE_PASSWORD" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="USER_EDIT_CAPTION" xml:space="preserve">
+    <value>User (Edit)</value>
+  </data>
+  <data name="USER_FORGOT_PASSWORD" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="USER_INVALID" xml:space="preserve">
+    <value>Invalid Username or Password</value>
+  </data>
+  <data name="USER_LOGIN" xml:space="preserve">
+    <value>Page Title :: User Login</value>
+  </data>
+  <data name="USER_LOGIN_SUCCESS" xml:space="preserve">
+    <value>Login Success</value>
+  </data>
+  <data name="USER_SESSIONEXPIRY_INVALID" xml:space="preserve">
+    <value>Session expired / Invalid User</value>
+  </data>
+  <data name="USER_VIEW" xml:space="preserve">
+    <value>User View</value>
+  </data>
+  <data name="VOUCHER_ADD_CAPTION" xml:space="preserve">
+    <value>Voucher (Add)</value>
+  </data>
+  <data name="VOUCHER_DELETE" xml:space="preserve">
+    <value>Voucher is deleted successfully</value>
+  </data>
+  <data name="VOUCHER_EDIT_CAPTION" xml:space="preserve">
+    <value>Voucher (Edit)</value>
+  </data>
+  <data name="VOUCHER_METHOD_EMPTY" xml:space="preserve">
+    <value>Voucher Method is Empty</value>
+  </data>
+  <data name="VOUCHER_NAME_EMPTY" xml:space="preserve">
+    <value>Voucher Name is Empty</value>
+  </data>
+  <data name="VOUCHER_NAME_EXISTS" xml:space="preserve">
+    <value>Voucher Name already exists! , Please try again</value>
+  </data>
+  <data name="VOUCHER_PRINT_CAPTION" xml:space="preserve">
+    <value>Voucher List</value>
+  </data>
+  <data name="VOUCHER_SUCCESS" xml:space="preserve">
+    <value>Voucher Details saved successfully</value>
+  </data>
+  <data name="VOUCHER_TYPE_EMPTY" xml:space="preserve">
+    <value>Voucher Type is Empty</value>
+  </data>
+  <data name="COST_CENTRE_COST_CATEGORY_UNMAP" xml:space="preserve">
+    <value>Cannot Delete, It has Association.</value>
+  </data>
+</root>

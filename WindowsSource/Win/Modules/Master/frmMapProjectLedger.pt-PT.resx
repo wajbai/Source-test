@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>mapeamento de contas</value>
+  </data>
+  <data name="btnClose.SuperTip" xml:space="preserve">
+    <value>Close (Ctrl+C)/        Click on this to close the Form.</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="btnCloseProject.SuperTip" xml:space="preserve">
+    <value>Close (Ctrl+C)/         Click on this to close the Form.</value>
+  </data>
+  <data name="btnCloseProject.Text" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="btnCostCenterClose.SuperTip" xml:space="preserve">
+    <value>Close (Ctrl+C)/         Click on this to close the Form.</value>
+  </data>
+  <data name="btnCostCenterClose.Text" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="btnCostCenterMoveIn.SuperTip" xml:space="preserve">
+    <value>Move In/          Move the record(s) to be mapped.</value>
+  </data>
+  <data name="btnCostCenterMoveOut.SuperTip" xml:space="preserve">
+    <value>Move Out/          Move the record(s) to be unmapped.</value>
+  </data>
+  <data name="btnCostCenterSave.SuperTip" xml:space="preserve">
+    <value>Save (Ctrl+S)/         Click on this to Map Project.</value>
+  </data>
+  <data name="btnCostCenterSave.Text" xml:space="preserve">
+    <value>&amp;Salva</value>
+  </data>
+  <data name="btnDonorClose.SuperTip" xml:space="preserve">
+    <value>Close (Ctrl+C)/         Click on this to close the Form.</value>
+  </data>
+  <data name="btnDonorClose.Text" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="btnDonorMoveIn.SuperTip" xml:space="preserve">
+    <value>Move In/          Move the record(s) to be mapped.</value>
+  </data>
+  <data name="btnDonorMoveOut.SuperTip" xml:space="preserve">
+    <value>Move Out/          Move the record(s) to be unmapped.</value>
+  </data>
+  <data name="btnDonorSave.SuperTip" xml:space="preserve">
+    <value>Save (Ctrl+S)/         Click on this to Map Project.</value>
+  </data>
+  <data name="btnDonorSave.Text" xml:space="preserve">
+    <value>&amp;Salva</value>
+  </data>
+  <data name="btnMapProjectMoveIn.SuperTip" xml:space="preserve">
+    <value>Move In/          Move the record(s) to be mapped.</value>
+  </data>
+  <data name="btnMapProjectMoveOut.SuperTip" xml:space="preserve">
+    <value>Move Out/          Move the record(s) to be unmapped.</value>
+  </data>
+  <data name="btnMoveIn.SuperTip" xml:space="preserve">
+    <value>Move In/          Move the record(s) to be mapped.</value>
+  </data>
+  <data name="btnMoveOut.SuperTip" xml:space="preserve">
+    <value>Move Out/          Move the record(s) to be unmapped.</value>
+  </data>
+  <data name="btnSave.SuperTip" xml:space="preserve">
+    <value>Save (Ctrl+S)/         Click on this to Map Project.</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;Salva</value>
+  </data>
+  <data name="btnSaveProject.SuperTip" xml:space="preserve">
+    <value>Save (Ctrl+S)/         Click on this to Map Project.</value>
+  </data>
+  <data name="btnSaveProject.Text" xml:space="preserve">
+    <value>&amp;Salva</value>
+  </data>
+  <data name="btnVoucherclose.Text" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="btnVoucherMoveIn.SuperTip" xml:space="preserve">
+    <value>Move In/          Move the record(s) to be mapped.</value>
+  </data>
+  <data name="btnVoucherMoveOut.SuperTip" xml:space="preserve">
+    <value>Move Out/          Move the record(s) to be unmapped.</value>
+  </data>
+  <data name="btnVoucherSave.Text" xml:space="preserve">
+    <value>&amp;Salva</value>
+  </data>
+  <data name="cboVoucherType.SuperTip" xml:space="preserve">
+    <value>Vouche Type/Filter voucher(s)</value>
+  </data>
+  <data name="chkAvailableFilter.Properties.Caption" xml:space="preserve">
+    <value>M&lt;b&gt;o&lt;/b&gt;strar o filtro</value>
+  </data>
+  <data name="chkCostCentreFilter.Properties.Caption" xml:space="preserve">
+    <value>Mostrar o &lt;b&gt;f&lt;/b&gt;iltro</value>
+  </data>
+  <data name="chkDonorCheck.Caption" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="chkLedgerSelect.Caption" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="chkSelect.Caption" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="chkShowFilter.Properties.Caption" xml:space="preserve">
+    <value>Mostrar o &lt;b&gt;f&lt;/b&gt;iltro</value>
+  </data>
+  <data name="chkShowFilterDonor.Properties.Caption" xml:space="preserve">
+    <value>Mostrar o &lt;b&gt;f&lt;/b&gt;iltro</value>
+  </data>
+  <data name="chkShowFilterLedger.Properties.Caption" xml:space="preserve">
+    <value>Mostrar o &lt;b&gt;f&lt;/b&gt;iltro</value>
+  </data>
+  <data name="colCostCentreName.Caption" xml:space="preserve">
+    <value>centro de custo</value>
+  </data>
+  <data name="colCostCentreOpBalance.Caption" xml:space="preserve">
+    <value>Saldo de O/P</value>
+  </data>
+  <data name="colCostCentreSelect.Caption" xml:space="preserve">
+    <value>Seleccionar </value>
+  </data>
+  <data name="colGroup.Caption" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="colLedger.Caption" xml:space="preserve">
+    <value>Livro de razao</value>
+  </data>
+  <data name="colLedgerName.Caption" xml:space="preserve">
+    <value>Nome de livro de razao</value>
+  </data>
+  <data name="colOPBal.Caption" xml:space="preserve">
+    <value>Saldo de O/P</value>
+  </data>
+  <data name="colOPBalance.Caption" xml:space="preserve">
+    <value>Saldo de O/P</value>
+  </data>
+  <data name="colOPLedgerBal.Caption" xml:space="preserve">
+    <value>Saldo de O/P</value>
+  </data>
+  <data name="colProjectName.Caption" xml:space="preserve">
+    <value>Projeto</value>
+  </data>
+  <data name="colSelect.Caption" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="coluProject.Caption" xml:space="preserve">
+    <value>Nome de projeto</value>
+  </data>
+  <data name="colVoucherProjectName.Caption" xml:space="preserve">
+    <value>Nome de projeto</value>
+  </data>
+  <data name="colVoucherTrandMode.Caption" xml:space="preserve">
+    <value>Modo de Trans</value>
+  </data>
+  <data name="grdChkCol.Caption" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="gvColCostCenterType.Caption" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="gvColDonorCountry.Caption" xml:space="preserve">
+    <value>Pais</value>
+  </data>
+  <data name="gvColDonorName.Caption" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="gvColDonorSelect.Caption" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="gvColDonorType.Caption" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="gvColFlag.Caption" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="gvColGroup.Caption" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="gvColLedgerCode.Caption" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="gvColLedgerName.Caption" xml:space="preserve">
+    <value>Livro de razao</value>
+  </data>
+  <data name="gvColLedgerType.Caption" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="gvColProjectName.Caption" xml:space="preserve">
+    <value>Nome de projeto</value>
+  </data>
+  <data name="gvColProjectType.Caption" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="gvColSelectedLedgerCode.Caption" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="gvColType.Caption" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="gvLedgerDetail.GroupSummary1" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="gvLedgerDetail.GroupSummary3" xml:space="preserve">
+    <value> (Contar
+{Contar :{0})</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>Credito</value>
+  </data>
+  <data name="labelControl3.Text" xml:space="preserve">
+    <value>Debito</value>
+  </data>
+  <data name="labelControl5.Text" xml:space="preserve">
+    <value>Diferenca</value>
+  </data>
+  <data name="layoutControlGroup12.Text" xml:space="preserve">
+    <value>Doadores Seleccionados</value>
+  </data>
+  <data name="layoutControlGroup13.Text" xml:space="preserve">
+    <value>Doador disponível</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>Livro de razao seleccionado</value>
+  </data>
+  <data name="layoutControlGroup4.Text" xml:space="preserve">
+    <value>Livro de razao disponivel</value>
+  </data>
+  <data name="layoutControlGroup5.Text" xml:space="preserve">
+    <value>Projeto disponivel</value>
+  </data>
+  <data name="layoutControlGroup6.Text" xml:space="preserve">
+    <value>projeto seleccionado</value>
+  </data>
+  <data name="layoutControlGroup7.Text" xml:space="preserve">
+    <value>centro de custo disponivel</value>
+  </data>
+  <data name="layoutControlGroup8.Text" xml:space="preserve">
+    <value>Centro de custo seleccionado</value>
+  </data>
+  <data name="layoutControlGroup9.Text" xml:space="preserve">
+    <value>Total de Saldo O/P</value>
+  </data>
+  <data name="layoutControlItem29.Text" xml:space="preserve">
+    <value>Projecto</value>
+  </data>
+  <data name="layoutControlItem42.Text" xml:space="preserve">
+    <value>Tipo de Compravante</value>
+  </data>
+  <data name="lblCostCentre.Text" xml:space="preserve">
+    <value>Centro de Custo de Ibl</value>
+  </data>
+  <data name="lblDifferenceFlag.Text" xml:space="preserve">
+    <value>Credito</value>
+  </data>
+  <data name="lblNote.Text" xml:space="preserve">
+    <value>(Apenas para Livro de razao jeral)</value>
+  </data>
+  <data name="lblOpeningBalanceCaption.Text" xml:space="preserve">
+    <value>Saldo inicial ( como em ) :</value>
+  </data>
+  <data name="lblOpeningBalanceLedger.Text" xml:space="preserve">
+    <value>Saldo de O/P</value>
+  </data>
+  <data name="lblProject.CustomizationFormText" xml:space="preserve">
+    <value>Projecto</value>
+  </data>
+  <data name="lblProject.Text" xml:space="preserve">
+    <value>Projecto</value>
+  </data>
+  <data name="lblProjects.CustomizationFormText" xml:space="preserve">
+    <value>Nome de projeto</value>
+  </data>
+  <data name="lblProjects.Text" xml:space="preserve">
+    <value>Projecto</value>
+  </data>
+  <data name="lblSelectedVouchers.CustomizationFormText" xml:space="preserve">
+    <value>Compravante seleccionado para o projecto</value>
+  </data>
+  <data name="lblSelectedVouchers.Text" xml:space="preserve">
+    <value>Compravante disponivel</value>
+  </data>
+  <data name="lcgVoucherGroup.CustomizationFormText" xml:space="preserve">
+    <value>Compravante</value>
+  </data>
+  <data name="lcgVoucherGroup.Text" xml:space="preserve">
+    <value>Compravante</value>
+  </data>
+  <data name="lclProject.Text" xml:space="preserve">
+    <value>Projecto</value>
+  </data>
+  <data name="lcMapProject.CustomizationFormText" xml:space="preserve">
+    <value>Nome de Livro de razao</value>
+  </data>
+  <data name="lcMapProject.Text" xml:space="preserve">
+    <value>Livro de razao</value>
+  </data>
+  <data name="rcboCostCentreType.Items" xml:space="preserve">
+    <value>Debito</value>
+  </data>
+  <data name="rcboCostCentreType.Items1" xml:space="preserve">
+    <value>Credito</value>
+  </data>
+  <data name="rcboledFlag.Items" xml:space="preserve">
+    <value>Debito</value>
+  </data>
+  <data name="rcboledFlag.Items1" xml:space="preserve">
+    <value>Credito</value>
+  </data>
+  <data name="rchkCostCentreSelect.Caption" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="rchkSelect.Caption" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="simpleLabelItem1.CustomizationFormText" xml:space="preserve">
+    <value>Compravante disponivel</value>
+  </data>
+  <data name="simpleLabelItem1.Text" xml:space="preserve">
+    <value>Compravante seleccionado para o projecto</value>
+  </data>
+  <data name="xtpCostCentre.Text" xml:space="preserve">
+    <value>Centro de c&amp;usto de mapa</value>
+  </data>
+  <data name="xtpDonor.Text" xml:space="preserve">
+    <value>&amp;Doador de mapa</value>
+  </data>
+  <data name="xtpMapLedger.Text" xml:space="preserve">
+    <value>&amp;Livro de razao de mapa</value>
+  </data>
+  <data name="xtpMapvoucher.Text" xml:space="preserve">
+    <value>&amp;Compravante de mapa</value>
+  </data>
+  <data name="xtpProject.Text" xml:space="preserve">
+    <value>&amp;Projecto de mapa</value>
+  </data>
+  <data name="btnCCClose.Text" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="btnCCSave.Text" xml:space="preserve">
+    <value>&amp;Salva</value>
+  </data>
+  <data name="btnPurposeClose.Text" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="btnPurposeSave.Text" xml:space="preserve">
+    <value>&amp;Salva</value>
+  </data>
+  <data name="chkCCShowFilter.Text" xml:space="preserve">
+    <value>M&lt;b&gt;o&lt;/b&gt;strar o filtro</value>
+  </data>
+  <data name="chkCostCategorySelectAll.Text" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="chkShowFilterPurpose.Text" xml:space="preserve">
+    <value>Mostrar o filtro</value>
+  </data>
+  <data name="colPurpose.Caption" xml:space="preserve">
+    <value>Objectivo</value>
+  </data>
+  <data name="colPurposeOpeningBalance.Caption" xml:space="preserve">
+    <value>O/P Balance</value>
+  </data>
+  <data name="gcolCCCostCentreName.Caption" xml:space="preserve">
+    <value>centro de custo</value>
+  </data>
+  <data name="layoutControlGroup14.Text" xml:space="preserve">
+    <value>centro de custo disponivel</value>
+  </data>
+  <data name="layoutControlGroup15.Text" xml:space="preserve">
+    <value>Centro de custo seleccionado</value>
+  </data>
+  <data name="layoutControlGroup18.Text" xml:space="preserve">
+    <value>Selected Purpose(s)</value>
+  </data>
+  <data name="layoutControlGroup19.Text" xml:space="preserve">
+    <value>Available Purpose(s)</value>
+  </data>
+  <data name="layoutControlItem50.Text" xml:space="preserve">
+    <value>Cost Category</value>
+  </data>
+  <data name="lblPurposeProject.Text" xml:space="preserve">
+    <value>Projeto</value>
+  </data>
+  <data name="xtpCostCategory.Text" xml:space="preserve">
+    <value>Map Cost Category</value>
+  </data>
+  <data name="xtpPurpose.Text" xml:space="preserve">
+    <value>Map Purpose</value>
+  </data>
+</root>

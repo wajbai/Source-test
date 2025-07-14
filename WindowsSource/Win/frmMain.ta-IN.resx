@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AcME ERP</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiClose.Name" xml:space="preserve">
+    <value>bbiClose</value>
+  </data>
+  <data name="&gt;&gt;bbiClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiDashBoard.Name" xml:space="preserve">
+    <value>bbiDashBoard</value>
+  </data>
+  <data name="&gt;&gt;bbiDashBoard.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiHome.Name" xml:space="preserve">
+    <value>bbiHome</value>
+  </data>
+  <data name="&gt;&gt;bbiHome.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiMaster.Name" xml:space="preserve">
+    <value>bbiMaster</value>
+  </data>
+  <data name="&gt;&gt;bbiMaster.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiReports.Name" xml:space="preserve">
+    <value>bbiReports</value>
+  </data>
+  <data name="&gt;&gt;bbiReports.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSetting.Name" xml:space="preserve">
+    <value>bbiSetting</value>
+  </data>
+  <data name="&gt;&gt;bbiSetting.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiTransaction.Name" xml:space="preserve">
+    <value>bbiTransaction</value>
+  </data>
+  <data name="&gt;&gt;bbiTransaction.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bliFooter.Name" xml:space="preserve">
+    <value>bliFooter</value>
+  </data>
+  <data name="&gt;&gt;bliFooter.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarListItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;defaultLookAndFeelApp.Name" xml:space="preserve">
+    <value>defaultLookAndFeelApp</value>
+  </data>
+  <data name="&gt;&gt;defaultLookAndFeelApp.Type" xml:space="preserve">
+    <value>DevExpress.LookAndFeel.DefaultLookAndFeel, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;imageLarge.Name" xml:space="preserve">
+    <value>imageLarge</value>
+  </data>
+  <data name="&gt;&gt;imageLarge.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;imageSmall.Name" xml:space="preserve">
+    <value>imageSmall</value>
+  </data>
+  <data name="&gt;&gt;imageSmall.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;leftMenuBar.Name" xml:space="preserve">
+    <value>leftMenuBar</value>
+  </data>
+  <data name="&gt;&gt;leftMenuBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;leftMenuBar.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarControl, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;leftMenuBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;nbgMaster.Name" xml:space="preserve">
+    <value>nbgMaster</value>
+  </data>
+  <data name="&gt;&gt;nbgMaster.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbgReports.Name" xml:space="preserve">
+    <value>nbgReports</value>
+  </data>
+  <data name="&gt;&gt;nbgReports.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbgSetting.Name" xml:space="preserve">
+    <value>nbgSetting</value>
+  </data>
+  <data name="&gt;&gt;nbgSetting.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbgTransaction.Name" xml:space="preserve">
+    <value>nbgTransaction</value>
+  </data>
+  <data name="&gt;&gt;nbgTransaction.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarGroup, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiAbout.Name" xml:space="preserve">
+    <value>nbiAbout</value>
+  </data>
+  <data name="&gt;&gt;nbiAbout.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiAuditor.Name" xml:space="preserve">
+    <value>nbiAuditor</value>
+  </data>
+  <data name="&gt;&gt;nbiAuditor.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiBank.Name" xml:space="preserve">
+    <value>nbiBank</value>
+  </data>
+  <data name="&gt;&gt;nbiBank.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiClose.Name" xml:space="preserve">
+    <value>nbiClose</value>
+  </data>
+  <data name="&gt;&gt;nbiClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiContra.Name" xml:space="preserve">
+    <value>nbiContra</value>
+  </data>
+  <data name="&gt;&gt;nbiContra.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiCostCentre.Name" xml:space="preserve">
+    <value>nbiCostCentre</value>
+  </data>
+  <data name="&gt;&gt;nbiCostCentre.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiCountry.Name" xml:space="preserve">
+    <value>nbiCountry</value>
+  </data>
+  <data name="&gt;&gt;nbiCountry.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiDashboard.Name" xml:space="preserve">
+    <value>nbiDashboard</value>
+  </data>
+  <data name="&gt;&gt;nbiDashboard.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiDonor.Name" xml:space="preserve">
+    <value>nbiDonor</value>
+  </data>
+  <data name="&gt;&gt;nbiDonor.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiExecutiveMember.Name" xml:space="preserve">
+    <value>nbiExecutiveMember</value>
+  </data>
+  <data name="&gt;&gt;nbiExecutiveMember.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiInKind.Name" xml:space="preserve">
+    <value>nbiInKind</value>
+  </data>
+  <data name="&gt;&gt;nbiInKind.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiInKindArticle.Name" xml:space="preserve">
+    <value>nbiInKindArticle</value>
+  </data>
+  <data name="&gt;&gt;nbiInKindArticle.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiJournal.Name" xml:space="preserve">
+    <value>nbiJournal</value>
+  </data>
+  <data name="&gt;&gt;nbiJournal.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiLedger.Name" xml:space="preserve">
+    <value>nbiLedger</value>
+  </data>
+  <data name="&gt;&gt;nbiLedger.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiLedgerGroup.Name" xml:space="preserve">
+    <value>nbiLedgerGroup</value>
+  </data>
+  <data name="&gt;&gt;nbiLedgerGroup.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiLedgerReport.Name" xml:space="preserve">
+    <value>nbiLedgerReport</value>
+  </data>
+  <data name="&gt;&gt;nbiLedgerReport.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiLocalization.Name" xml:space="preserve">
+    <value>nbiLocalization</value>
+  </data>
+  <data name="&gt;&gt;nbiLocalization.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiPayment.Name" xml:space="preserve">
+    <value>nbiPayment</value>
+  </data>
+  <data name="&gt;&gt;nbiPayment.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiProject.Name" xml:space="preserve">
+    <value>nbiProject</value>
+  </data>
+  <data name="&gt;&gt;nbiProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiPurpose.Name" xml:space="preserve">
+    <value>nbiPurpose</value>
+  </data>
+  <data name="&gt;&gt;nbiPurpose.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiReceipt.Name" xml:space="preserve">
+    <value>nbiReceipt</value>
+  </data>
+  <data name="&gt;&gt;nbiReceipt.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;nbiVoucher.Name" xml:space="preserve">
+    <value>nbiVoucher</value>
+  </data>
+  <data name="&gt;&gt;nbiVoucher.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarItem, DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pmAppMain.Name" xml:space="preserve">
+    <value>pmAppMain</value>
+  </data>
+  <data name="&gt;&gt;pmAppMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.ApplicationMenu, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pnlTitle.Name" xml:space="preserve">
+    <value>pnlTitle</value>
+  </data>
+  <data name="&gt;&gt;pnlTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlTitle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pnlTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rgbiSkin.Name" xml:space="preserve">
+    <value>rgbiSkin</value>
+  </data>
+  <data name="&gt;&gt;rgbiSkin.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.RibbonGalleryBarItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonMain.Name" xml:space="preserve">
+    <value>ribbonMain</value>
+  </data>
+  <data name="&gt;&gt;ribbonMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonMain.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup1.Name" xml:space="preserve">
+    <value>ribbonPageGroup1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup2.Name" xml:space="preserve">
+    <value>ribbonPageGroup2</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup5.Name" xml:space="preserve">
+    <value>ribbonPageGroup5</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup5.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.Name" xml:space="preserve">
+    <value>ribbonStatusBar</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonStatusBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rpgHome.Name" xml:space="preserve">
+    <value>rpgHome</value>
+  </data>
+  <data name="&gt;&gt;rpgHome.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rpgMaster.Name" xml:space="preserve">
+    <value>rpgMaster</value>
+  </data>
+  <data name="&gt;&gt;rpgMaster.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rpgReports.Name" xml:space="preserve">
+    <value>rpgReports</value>
+  </data>
+  <data name="&gt;&gt;rpgReports.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rpgSetting.Name" xml:space="preserve">
+    <value>rpgSetting</value>
+  </data>
+  <data name="&gt;&gt;rpgSetting.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rpgSkinGallery.Name" xml:space="preserve">
+    <value>rpgSkinGallery</value>
+  </data>
+  <data name="&gt;&gt;rpgSkinGallery.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rpgTransaction.Name" xml:space="preserve">
+    <value>rpgTransaction</value>
+  </data>
+  <data name="&gt;&gt;rpgTransaction.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rpHome.Name" xml:space="preserve">
+    <value>rpHome</value>
+  </data>
+  <data name="&gt;&gt;rpHome.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtMdiManager.Name" xml:space="preserve">
+    <value>xtMdiManager</value>
+  </data>
+  <data name="&gt;&gt;xtMdiManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraTabbedMdi.XtraTabbedMdiManager, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>ோே்கக</value>
+  </data>
+  <data name="bbiClose.Caption" xml:space="preserve">
+    <value>மக்ககாூ</value>
+  </data>
+  <data name="bbiDashBoard.Caption" xml:space="preserve">
+    <value>&amp;வோே்ாக</value>
+  </data>
+  <data name="bbiHome.Caption" xml:space="preserve">
+    <value>&amp;ாறபற்ஹ</value>
+  </data>
+  <data name="bbiMaster.Caption" xml:space="preserve">
+    <value>ஷே்க்கரக்</value>
+  </data>
+  <data name="bbiReports.Caption" xml:space="preserve">
+    <value>ங்கரமஹாக</value>
+  </data>
+  <data name="bbiSetting.Caption" xml:space="preserve">
+    <value>ங்ரர்கோ</value>
+  </data>
+  <data name="bbiTransaction.Caption" xml:space="preserve">
+    <value>ககூ்கரோத</value>
+  </data>
+  <data name="bliFooter.Caption" xml:space="preserve">
+    <value>© 2013 Bosco Soft Technologies Pvt. Ltd. - Chennai</value>
+  </data>
+  <data name="nbgMaster.Caption" xml:space="preserve">
+    <value>க்ககரோ்ஹ</value>
+  </data>
+  <data name="nbgReports.Caption" xml:space="preserve">
+    <value>கோ்ிகஹகர</value>
+  </data>
+  <data name="nbgSetting.Caption" xml:space="preserve">
+    <value>ோே்ீப</value>
+  </data>
+  <data name="nbgTransaction.Caption" xml:space="preserve">
+    <value>கறககீ</value>
+  </data>
+  <data name="nbiAbout.Caption" xml:space="preserve">
+    <value>ககறஏகக</value>
+  </data>
+  <data name="nbiAuditor.Caption" xml:space="preserve">
+    <value>கஅகராக்</value>
+  </data>
+  <data name="nbiBank.Caption" xml:space="preserve">
+    <value>ோஙஙஅஏ</value>
+  </data>
+  <data name="nbiClose.Caption" xml:space="preserve">
+    <value>ககஅஇா</value>
+  </data>
+  <data name="nbiContra.Caption" xml:space="preserve">
+    <value>கறஅக</value>
+  </data>
+  <data name="nbiCostCentre.Caption" xml:space="preserve">
+    <value>சதஐஆச</value>
+  </data>
+  <data name="nbiCountry.Caption" xml:space="preserve">
+    <value>கஏகஆகஐஏ</value>
+  </data>
+  <data name="nbiDashboard.Caption" xml:space="preserve">
+    <value>கஇளகஐள</value>
+  </data>
+  <data name="nbiDonor.Caption" xml:space="preserve">
+    <value>ங்ேகராக</value>
+  </data>
+  <data name="nbiExecutiveMember.Caption" xml:space="preserve">
+    <value>ஙஙஆப ஙஅஇங</value>
+  </data>
+  <data name="nbiInKind.Caption" xml:space="preserve">
+    <value>கஅஇளக</value>
+  </data>
+  <data name="nbiInKindArticle.Caption" xml:space="preserve">
+    <value>ஐககளக</value>
+  </data>
+  <data name="nbiJournal.Caption" xml:space="preserve">
+    <value>கதகஆஊள</value>
+  </data>
+  <data name="nbiLedger.Caption" xml:space="preserve">
+    <value>ஙளஙஇஹ</value>
+  </data>
+  <data name="nbiLedgerGroup.Caption" xml:space="preserve">
+    <value>ோீாூ</value>
+  </data>
+  <data name="nbiLedgerReport.Caption" xml:space="preserve">
+    <value>ததஷஅக</value>
+  </data>
+  <data name="nbiLocalization.Caption" xml:space="preserve">
+    <value>Localization</value>
+  </data>
+  <data name="nbiPayment.Caption" xml:space="preserve">
+    <value>ோ்ிகக</value>
+  </data>
+  <data name="nbiProject.Caption" xml:space="preserve">
+    <value>ோபோே்</value>
+  </data>
+  <data name="nbiPurpose.Caption" xml:space="preserve">
+    <value>ோ்ீப</value>
+  </data>
+  <data name="nbiReceipt.Caption" xml:space="preserve">
+    <value>ுபுாீூ</value>
+  </data>
+  <data name="nbiVoucher.Caption" xml:space="preserve">
+    <value>ககளகஅளக</value>
+  </data>
+  <data name="rgbiSkin.Caption" xml:space="preserve">
+    <value>களகஅகக</value>
+  </data>
+  <data name="ribbonMain.ApplicationCaption" xml:space="preserve">
+    <value>AcME++</value>
+  </data>
+  <data name="ribbonPageGroup1.Text" xml:space="preserve">
+    <value>கறழகஅஏறள</value>
+  </data>
+  <data name="ribbonPageGroup2.Text" xml:space="preserve">
+    <value>களகஅகா</value>
+  </data>
+  <data name="ribbonPageGroup5.Text" xml:space="preserve">
+    <value>கஅததளதஏ</value>
+  </data>
+  <data name="rpgHome.Text" xml:space="preserve">
+    <value>கதகளஇக</value>
+  </data>
+  <data name="rpgSkinGallery.Text" xml:space="preserve">
+    <value>ஙகறஅஇளஙஆ</value>
+  </data>
+  <data name="rpHome.Text" xml:space="preserve">
+    <value>றஅஇஙககஆஈ</value>
+  </data>
+</root>

@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblShowMapping.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="lblShowMapping.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 146</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblShowMapping.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 3, 3</value>
+  </data>
+  <data name="lblShowMapping.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblShowMapping.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblShowMapping.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;lblShowMapping.Name" xml:space="preserve">
+    <value>lblShowMapping</value>
+  </data>
+  <data name="&gt;&gt;lblShowMapping.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblShowMapping.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblShowMapping.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkIncludeBudget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 97</value>
+  </data>
+  <data name="chkIncludeBudget.Properties.Caption" xml:space="preserve">
+    <value>Include Budget</value>
+  </data>
+  <data name="chkIncludeBudget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 19</value>
+  </data>
+  <data name="chkIncludeBudget.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeBudget.Name" xml:space="preserve">
+    <value>chkIncludeBudget</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeBudget.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeBudget.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeBudget.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblFDVoucherExisting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 183</value>
+  </data>
+  <data name="lblFDVoucherExisting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="lblFDVoucherExisting.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblFDVoucherExisting.Text" xml:space="preserve">
+    <value>FD Vouchers</value>
+  </data>
+  <data name="&gt;&gt;lblFDVoucherExisting.Name" xml:space="preserve">
+    <value>lblFDVoucherExisting</value>
+  </data>
+  <data name="&gt;&gt;lblFDVoucherExisting.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblFDVoucherExisting.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblFDVoucherExisting.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkIncludeOPBalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 76</value>
+  </data>
+  <data name="chkIncludeOPBalance.Properties.Caption" xml:space="preserve">
+    <value>Include Opening Balance (Assets &amp;&amp; Liabilities Ledgers)</value>
+  </data>
+  <data name="chkIncludeOPBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 19</value>
+  </data>
+  <data name="chkIncludeOPBalance.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeOPBalance.Name" xml:space="preserve">
+    <value>chkIncludeOPBalance</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeOPBalance.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeOPBalance.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeOPBalance.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkWithFDVouchers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 57</value>
+  </data>
+  <data name="chkWithFDVouchers.Properties.Caption" xml:space="preserve">
+    <value>With Fixed Deposit Vouchers (It will be overwritten always from Books Begin)</value>
+  </data>
+  <data name="chkWithFDVouchers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 19</value>
+  </data>
+  <data name="chkWithFDVouchers.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chkWithFDVouchers.Name" xml:space="preserve">
+    <value>chkWithFDVouchers</value>
+  </data>
+  <data name="&gt;&gt;chkWithFDVouchers.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkWithFDVouchers.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkWithFDVouchers.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblSplitFYOption.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="lblSplitFYOption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 146</value>
+  </data>
+  <data name="lblSplitFYOption.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 3, 3, 3</value>
+  </data>
+  <data name="lblSplitFYOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="lblSplitFYOption.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblSplitFYOption.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;lblSplitFYOption.Name" xml:space="preserve">
+    <value>lblSplitFYOption</value>
+  </data>
+  <data name="&gt;&gt;lblSplitFYOption.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblSplitFYOption.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblSplitFYOption.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 120</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 120</value>
+  </data>
+  <data name="btnImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="btnImport.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnImport.Text" xml:space="preserve">
+    <value>&amp;Import</value>
+  </data>
+  <data name="&gt;&gt;btnImport.Name" xml:space="preserve">
+    <value>btnImport</value>
+  </data>
+  <data name="&gt;&gt;btnImport.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnImport.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnImport.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblProjectName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 166</value>
+  </data>
+  <data name="lblProjectName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 13</value>
+  </data>
+  <data name="lblProjectName.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblProjectName.Text" xml:space="preserve">
+    <value>project name</value>
+  </data>
+  <data name="&gt;&gt;lblProjectName.Name" xml:space="preserve">
+    <value>lblProjectName</value>
+  </data>
+  <data name="&gt;&gt;lblProjectName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblProjectName.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblProjectName.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblDateRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 183</value>
+  </data>
+  <data name="lblDateRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 14</value>
+  </data>
+  <data name="lblDateRange.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblDateRange.Text" xml:space="preserve">
+    <value>Date Range : Date From   and   Date To.  Date</value>
+  </data>
+  <data name="&gt;&gt;lblDateRange.Name" xml:space="preserve">
+    <value>lblDateRange</value>
+  </data>
+  <data name="&gt;&gt;lblDateRange.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblDateRange.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblDateRange.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="chkCanOverride.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 33</value>
+  </data>
+  <data name="chkCanOverride.Properties.Caption" xml:space="preserve">
+    <value>Overwrite</value>
+  </data>
+  <data name="chkCanOverride.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 19</value>
+  </data>
+  <data name="chkCanOverride.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;chkCanOverride.Name" xml:space="preserve">
+    <value>chkCanOverride</value>
+  </data>
+  <data name="&gt;&gt;chkCanOverride.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkCanOverride.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;chkCanOverride.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="glkpMergeProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 33</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v13.2" name="DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="glkpMergeProject.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v13.2">
+    <value>Combo</value>
+  </data>
+  <data name="glkpMergeProject.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colProjectId.Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="colProjectName.Caption" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="colProjectName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colProjectName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="glkpMergeProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 20</value>
+  </data>
+  <data name="glkpMergeProject.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;glkpMergeProject.Name" xml:space="preserve">
+    <value>glkpMergeProject</value>
+  </data>
+  <data name="&gt;&gt;glkpMergeProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;glkpMergeProject.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;glkpMergeProject.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblBOCode.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="lblBOCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 146</value>
+  </data>
+  <data name="lblBOCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 16</value>
+  </data>
+  <data name="lblBOCode.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblBOCode.Text" xml:space="preserve">
+    <value>BOC</value>
+  </data>
+  <data name="&gt;&gt;lblBOCode.Name" xml:space="preserve">
+    <value>lblBOCode</value>
+  </data>
+  <data name="&gt;&gt;lblBOCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblBOCode.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblBOCode.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="labelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 148</value>
+  </data>
+  <data name="labelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 14</value>
+  </data>
+  <data name="labelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelControl3.Text" xml:space="preserve">
+    <value>BO :</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Name" xml:space="preserve">
+    <value>labelControl3</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblHOCode.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="lblHOCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 146</value>
+  </data>
+  <data name="lblHOCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 16</value>
+  </data>
+  <data name="lblHOCode.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblHOCode.Text" xml:space="preserve">
+    <value>HOC</value>
+  </data>
+  <data name="&gt;&gt;lblHOCode.Name" xml:space="preserve">
+    <value>lblHOCode</value>
+  </data>
+  <data name="&gt;&gt;lblHOCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblHOCode.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;lblHOCode.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 148</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 14</value>
+  </data>
+  <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>HO :</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnLoadXMLFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 7</value>
+  </data>
+  <data name="btnLoadXMLFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 22</value>
+  </data>
+  <data name="btnLoadXMLFile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnLoadXMLFile.Text" xml:space="preserve">
+    <value>&amp;Browse</value>
+  </data>
+  <data name="&gt;&gt;btnLoadXMLFile.Name" xml:space="preserve">
+    <value>btnLoadXMLFile</value>
+  </data>
+  <data name="&gt;&gt;btnLoadXMLFile.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnLoadXMLFile.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnLoadXMLFile.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="txtPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 7</value>
+  </data>
+  <data name="txtPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 20</value>
+  </data>
+  <data name="txtPath.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtPath.Name" xml:space="preserve">
+    <value>txtPath</value>
+  </data>
+  <data name="&gt;&gt;txtPath.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtPath.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;txtPath.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>Path&lt;color="red"&gt; *</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>Path&lt;color="red"&gt; *</value>
+  </data>
+  <data name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="emptySpaceItem2.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="emptySpaceItem2.Text" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="lcCapHO.CustomizationFormText" xml:space="preserve">
+    <value>lcCapHO</value>
+  </data>
+  <data name="lcCapHO.Text" xml:space="preserve">
+    <value>lcCapHO</value>
+  </data>
+  <data name="lcHO.CustomizationFormText" xml:space="preserve">
+    <value>lcHO</value>
+  </data>
+  <data name="lcHO.Text" xml:space="preserve">
+    <value>lcHO</value>
+  </data>
+  <data name="lcCapBO.CustomizationFormText" xml:space="preserve">
+    <value>lcCapBO</value>
+  </data>
+  <data name="lcCapBO.Text" xml:space="preserve">
+    <value>lcCapBO</value>
+  </data>
+  <data name="emptySpaceItem3.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="emptySpaceItem3.Text" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="lcBO.CustomizationFormText" xml:space="preserve">
+    <value>lcBO</value>
+  </data>
+  <data name="lcBO.Text" xml:space="preserve">
+    <value>lcBO</value>
+  </data>
+  <data name="lcMergeProject.CustomizationFormText" xml:space="preserve">
+    <value>Merge Project</value>
+  </data>
+  <data name="lcMergeProject.Text" xml:space="preserve">
+    <value>Merge Project</value>
+  </data>
+  <data name="lcOverwrite.CustomizationFormText" xml:space="preserve">
+    <value>lcOverwrite</value>
+  </data>
+  <data name="lcOverwrite.Text" xml:space="preserve">
+    <value>lcOverwrite</value>
+  </data>
+  <data name="lcDateRange.CustomizationFormText" xml:space="preserve">
+    <value>Date Ragne : Date From </value>
+  </data>
+  <data name="lcDateRange.Text" xml:space="preserve">
+    <value>Date range</value>
+  </data>
+  <data name="lcProjectName.CustomizationFormText" xml:space="preserve">
+    <value>lcProjectName</value>
+  </data>
+  <data name="lcProjectName.Text" xml:space="preserve">
+    <value>lcProjectName</value>
+  </data>
+  <data name="lcSave.CustomizationFormText" xml:space="preserve">
+    <value>lcSave</value>
+  </data>
+  <data name="lcSave.Text" xml:space="preserve">
+    <value>lcSave</value>
+  </data>
+  <data name="lcClose.CustomizationFormText" xml:space="preserve">
+    <value>lcClose</value>
+  </data>
+  <data name="lcClose.Text" xml:space="preserve">
+    <value>lcClose</value>
+  </data>
+  <data name="emptySpaceItem1.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="emptySpaceItem1.Text" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="lcCapSplitFY.CustomizationFormText" xml:space="preserve">
+    <value>Split Finance Year : </value>
+  </data>
+  <data name="lcCapSplitFY.Text" xml:space="preserve">
+    <value>Split Finance Year : </value>
+  </data>
+  <data name="lcSplitFY.CustomizationFormText" xml:space="preserve">
+    <value>lcSplitFY</value>
+  </data>
+  <data name="lcSplitFY.Text" xml:space="preserve">
+    <value>lcSplitFY</value>
+  </data>
+  <data name="lcWithFDVouchers.CustomizationFormText" xml:space="preserve">
+    <value>lcWithFDVouchers</value>
+  </data>
+  <data name="lcWithFDVouchers.Text" xml:space="preserve">
+    <value>lcWithFDVouchers</value>
+  </data>
+  <data name="lcIncludeOPBalance.CustomizationFormText" xml:space="preserve">
+    <value>lcIncludeOPBalance</value>
+  </data>
+  <data name="lcIncludeOPBalance.Text" xml:space="preserve">
+    <value>lcIncludeOPBalance</value>
+  </data>
+  <data name="lcFDexisting.CustomizationFormText" xml:space="preserve">
+    <value>lcFDexisting</value>
+  </data>
+  <data name="lcFDexisting.Text" xml:space="preserve">
+    <value>lcFDexisting</value>
+  </data>
+  <data name="lcIncludeBudgetModule.CustomizationFormText" xml:space="preserve">
+    <value>lcIncludeBudgetModule</value>
+  </data>
+  <data name="lcIncludeBudgetModule.Text" xml:space="preserve">
+    <value>lcIncludeBudgetModule</value>
+  </data>
+  <data name="lcCapShowMappingLedger.CustomizationFormText" xml:space="preserve">
+    <value>Show Mapp Ledger :</value>
+  </data>
+  <data name="lcCapShowMappingLedger.Text" xml:space="preserve">
+    <value>Show Map Ledger :</value>
+  </data>
+  <data name="lcShowMappingLedger.CustomizationFormText" xml:space="preserve">
+    <value>lcShowMappingLedger</value>
+  </data>
+  <data name="lcShowMappingLedger.Text" xml:space="preserve">
+    <value>lcShowMappingLedger</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 204</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>530, 214</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>WindowsDefaultLocation</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Import Data</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEdit1View.Name" xml:space="preserve">
+    <value>gridLookUpEdit1View</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEdit1View.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colProjectId.Name" xml:space="preserve">
+    <value>colProjectId</value>
+  </data>
+  <data name="&gt;&gt;colProjectId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colProjectName.Name" xml:space="preserve">
+    <value>colProjectName</value>
+  </data>
+  <data name="&gt;&gt;colProjectName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Name" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcCapHO.Name" xml:space="preserve">
+    <value>lcCapHO</value>
+  </data>
+  <data name="&gt;&gt;lcCapHO.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcHO.Name" xml:space="preserve">
+    <value>lcHO</value>
+  </data>
+  <data name="&gt;&gt;lcHO.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcCapBO.Name" xml:space="preserve">
+    <value>lcCapBO</value>
+  </data>
+  <data name="&gt;&gt;lcCapBO.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Name" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcBO.Name" xml:space="preserve">
+    <value>lcBO</value>
+  </data>
+  <data name="&gt;&gt;lcBO.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcMergeProject.Name" xml:space="preserve">
+    <value>lcMergeProject</value>
+  </data>
+  <data name="&gt;&gt;lcMergeProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcOverwrite.Name" xml:space="preserve">
+    <value>lcOverwrite</value>
+  </data>
+  <data name="&gt;&gt;lcOverwrite.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcDateRange.Name" xml:space="preserve">
+    <value>lcDateRange</value>
+  </data>
+  <data name="&gt;&gt;lcDateRange.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcProjectName.Name" xml:space="preserve">
+    <value>lcProjectName</value>
+  </data>
+  <data name="&gt;&gt;lcProjectName.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcSave.Name" xml:space="preserve">
+    <value>lcSave</value>
+  </data>
+  <data name="&gt;&gt;lcSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcClose.Name" xml:space="preserve">
+    <value>lcClose</value>
+  </data>
+  <data name="&gt;&gt;lcClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcCapSplitFY.Name" xml:space="preserve">
+    <value>lcCapSplitFY</value>
+  </data>
+  <data name="&gt;&gt;lcCapSplitFY.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcSplitFY.Name" xml:space="preserve">
+    <value>lcSplitFY</value>
+  </data>
+  <data name="&gt;&gt;lcSplitFY.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcWithFDVouchers.Name" xml:space="preserve">
+    <value>lcWithFDVouchers</value>
+  </data>
+  <data name="&gt;&gt;lcWithFDVouchers.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcIncludeOPBalance.Name" xml:space="preserve">
+    <value>lcIncludeOPBalance</value>
+  </data>
+  <data name="&gt;&gt;lcIncludeOPBalance.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcFDexisting.Name" xml:space="preserve">
+    <value>lcFDexisting</value>
+  </data>
+  <data name="&gt;&gt;lcFDexisting.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcIncludeBudgetModule.Name" xml:space="preserve">
+    <value>lcIncludeBudgetModule</value>
+  </data>
+  <data name="&gt;&gt;lcIncludeBudgetModule.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcCapShowMappingLedger.Name" xml:space="preserve">
+    <value>lcCapShowMappingLedger</value>
+  </data>
+  <data name="&gt;&gt;lcCapShowMappingLedger.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lcShowMappingLedger.Name" xml:space="preserve">
+    <value>lcShowMappingLedger</value>
+  </data>
+  <data name="&gt;&gt;lcShowMappingLedger.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmImportSplitedProject</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ACPP.frmFinanceBaseAdd, ACPP, Version=6.11.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

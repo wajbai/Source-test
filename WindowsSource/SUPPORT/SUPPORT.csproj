@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C52C3C1-62BC-410B-8B03-21705284C37B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SUPPORT</RootNamespace>
+    <AssemblyName>SUPPORT</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Build\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v13.2" />
+    <Reference Include="DevExpress.Data.v13.2" />
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v13.2" />
+    <Reference Include="DevExpress.Sparkline.v13.2.Core" />
+    <Reference Include="DevExpress.XtraEditors.v13.2" />
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCallPortalDataSync.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCallPortalDataSync.Designer.cs">
+      <DependentUpon>frmCallPortalDataSync.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImportSplitedProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportSplitedProject.designer.cs">
+      <DependentUpon>frmImportSplitedProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplitProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplitProject.designer.cs">
+      <DependentUpon>frmSplitProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCallPortalDataSync.resx">
+      <DependentUpon>frmCallPortalDataSync.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportSplitedProject.en-US.resx">
+      <DependentUpon>frmImportSplitedProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportSplitedProject.fr-FR.resx">
+      <DependentUpon>frmImportSplitedProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.en-US.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.fr-FR.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportSplitedProject.resx">
+      <DependentUpon>frmImportSplitedProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplitProject.en-US.resx">
+      <DependentUpon>frmSplitProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplitProject.fr-FR.resx">
+      <DependentUpon>frmSplitProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplitProject.resx">
+      <DependentUpon>frmSplitProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AcMEDSync\AcMEDSync.csproj">
+      <Project>{246D4396-6B15-410B-821A-FFFC735A69EB}</Project>
+      <Name>AcMEDSync</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bosco.DAO.Schema\Bosco.DAO.Schema.csproj">
+      <Project>{259CF580-C69A-4146-A20F-04F138D94874}</Project>
+      <Name>Bosco.DAO.Schema</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bosco.Model\Bosco.Model.csproj">
+      <Project>{19174D3E-0259-4212-9BD8-479D08665238}</Project>
+      <Name>Bosco.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bosco.Utility\Bosco.Utility.csproj">
+      <Project>{4E519AC2-6104-4A87-AFAE-B4DC586201EB}</Project>
+      <Name>Bosco.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

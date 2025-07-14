@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4E519AC2-6104-4A87-AFAE-B4DC586201EB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bosco.Utility</RootNamespace>
+    <AssemblyName>Bosco.Utility</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/Bosco.Utility.Base/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Build\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Win\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Win.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.SpellChecker.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Interop.ADODB, Version=2.1.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Build\Interop.ADODB.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel">
+      <HintPath>..\..\..\Users\bits-\Desktop\New folder (2)\Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Core">
+      <HintPath>..\..\..\Users\bits-\Desktop\New folder (2)\Interop.Microsoft.Office.Core.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.VBIDE">
+      <HintPath>..\..\..\Users\bits-\Desktop\New folder (2)\Interop.VBIDE.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.Word">
+      <HintPath>..\..\..\Users\bits-\Desktop\New folder (2)\Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Users\bits-\Desktop\DLL\New folder\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>C:\Users\Bosco\Desktop\Payroll Missing Dll\Microsoft.Vbe.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Build\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleEncrypt">
+      <HintPath>..\Win\Resources\AcMeDll\SimpleEncrypt.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AcmeerpAssemblyInfo.cs">
+      <Link>Properties\AcmeerpAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="AcMEERPFTP.cs" />
+    <Compile Include="AcMELog.cs" />
+    <Compile Include="ArgumentCollection.cs" />
+    <Compile Include="Base\frmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmFilter.Designer.cs">
+      <DependentUpon>frmFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmSuccessWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmSuccessWait.designer.cs">
+      <DependentUpon>frmSuccessWait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\frmWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\frmWait.designer.cs">
+      <DependentUpon>frmWait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\clsCustomDataSet.cs" />
+    <Compile Include="Common\clsGeneral.cs" />
+    <Compile Include="Common\clsPayrollConstants.cs" />
+    <Compile Include="Common\clsPayrollSlipPrinting.cs" />
+    <Compile Include="Common\clsPrinterSettings.cs" />
+    <Compile Include="Common\DocumentPrinting.cs" />
+    <Compile Include="Common\PrintTemplate.cs" />
+    <Compile Include="ConfigSetting\TransProperty.cs" />
+    <Compile Include="ConfigSetting\UISettingProperty.cs" />
+    <Compile Include="ConfigSetting\SettingProperty.cs" />
+    <Compile Include="Controls\FilterControl\CustomClauseNode.cs" />
+    <Compile Include="Controls\FilterControl\CustomFilterControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FilterControl\CustomWinFilterTreeNodeModel.cs" />
+    <Compile Include="Controls\FilterControl\GetDefaultOperationEventArgs.cs" />
+    <Compile Include="Controls\MyToggleSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UcCaptionPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcCaptionPanel.designer.cs">
+      <DependentUpon>UcCaptionPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucDatePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucDatePicker.designer.cs">
+      <DependentUpon>ucDatePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucToolBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucToolBar.designer.cs">
+      <DependentUpon>ucToolBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucXtraGridMultiExtended.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ucXtraGridMultiExtended.designer.cs">
+      <DependentUpon>ucXtraGridMultiExtended.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConvertRuppessInWord.cs" />
+    <Compile Include="DirtyControls.cs" />
+    <Compile Include="CommonMember.cs" />
+    <Compile Include="CommonMemberData.cs" />
+    <Compile Include="CommonMemberSet\ArraySetMember.cs" />
+    <Compile Include="CommonMemberSet\ComboSetMember.cs" />
+    <Compile Include="CommonMemberSet\FileSetMember.cs" />
+    <Compile Include="CommonMemberSet\GridSetMember.cs" />
+    <Compile Include="CommonMemberSet\ListSetMember.cs" />
+    <Compile Include="CommonMemberSet\StringSetMember.cs" />
+    <Compile Include="CommonMemberSet\DateSetMember.cs" />
+    <Compile Include="CommonMemberSet\NumberSetMember.cs" />
+    <Compile Include="CommonMethod.cs" />
+    <Compile Include="ConfigSetting\UserProperty.cs" />
+    <Compile Include="EmbeddedAssembly.cs" />
+    <Compile Include="EnumCommand.cs" />
+    <Compile Include="CommonMemberSet\EnumSetMember.cs" />
+    <Compile Include="CommonMemberSet\EnumTypeSchema.Designer.cs">
+      <DependentUpon>EnumTypeSchema.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ExceptionHandler.cs" />
+    <Compile Include="ExceptionLogger.cs" />
+    <Compile Include="GeneralLogger.cs" />
+    <Compile Include="GridCheckMarksSelection.cs" />
+    <Compile Include="ImageProcessing.cs" />
+    <Compile Include="ISettingManager.cs" />
+    <Compile Include="MessageCatalog.cs" />
+    <Compile Include="MessageRender.cs" />
+    <Compile Include="ModuleSetting.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Messages\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResultArgs.cs" />
+    <Compile Include="TreelistIterator.cs" />
+    <Compile Include="Validations\clsValidation.cs" />
+    <Compile Include="XMLConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="CommonMemberSet\EnumTypeSchema.xsc">
+      <DependentUpon>EnumTypeSchema.xsd</DependentUpon>
+    </None>
+    <None Include="CommonMemberSet\EnumTypeSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EnumTypeSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CommonMemberSet\EnumTypeSchema.xss">
+      <DependentUpon>EnumTypeSchema.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Base\frmBase.resx">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmFilter.resx">
+      <DependentUpon>frmFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmSuccessWait.resx">
+      <DependentUpon>frmSuccessWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\frmWait.resx">
+      <DependentUpon>frmWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcCaptionPanel.resx">
+      <DependentUpon>UcCaptionPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucDatePicker.resx">
+      <DependentUpon>ucDatePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucToolBar.en-US.resx">
+      <DependentUpon>ucToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucToolBar.fr-FR.resx">
+      <DependentUpon>ucToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucToolBar.id-ID.resx">
+      <DependentUpon>ucToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucToolBar.pt-PT.resx">
+      <DependentUpon>ucToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucToolBar.resx">
+      <DependentUpon>ucToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucXtraGridMultiExtended.resx">
+      <DependentUpon>ucXtraGridMultiExtended.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages\Reports.fr-FR.resx" />
+    <EmbeddedResource Include="Resources\Messages\Messages.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages\Messages.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages\Messages.id-ID.resx" />
+    <EmbeddedResource Include="Resources\Messages\Messages.kn-IN.resx" />
+    <EmbeddedResource Include="Resources\Messages\Messages.pt-PT.resx" />
+    <EmbeddedResource Include="Resources\Messages\Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages\Messages.ta-IN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages\Messages.te-IN.resx" />
+    <EmbeddedResource Include="Resources\SimpleEncrypt.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sync_reload_refresh_arrow-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insertvoucher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rounded_shift_right-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Import NOP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1410000099_check_mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy-pro.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Payslip.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customization.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

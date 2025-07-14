@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Inward Asset</value>
+  </data>
+  <data name="bbiAssetGenerationList.Caption" xml:space="preserve">
+    <value>&lt;B&gt;&lt;color=blue&gt;Ctrl+L&lt;/color&gt; Liste génération d'actifs&lt;/b&gt;</value>
+  </data>
+  <data name="bbiClose.Caption" xml:space="preserve">
+    <value>&lt;B&gt;&lt;color=blue&gt;Alt+C&lt;/color&gt; Fermer&lt;/b&gt;</value>
+  </data>
+  <data name="bbiDelete.Caption" xml:space="preserve">
+    <value>&lt;B&gt;&lt;color=blue&gt;Alt+D&lt;/color&gt; Supprimer la ligne&lt;/b&gt;</value>
+  </data>
+  <data name="bbiDeleteCashBankRow.Caption" xml:space="preserve">
+    <value>&lt;B&gt;&lt;color=blue&gt;Alt+D&lt;/color&gt; Supprimer Trésorerie/Banque&lt;/b&gt;</value>
+  </data>
+  <data name="bbiDeletePurchase.Caption" xml:space="preserve">
+    <value>&lt;B&gt;&lt;color=blue&gt;Ctrl+D&lt;/color&gt; Supprimer l'élément&lt;/b&gt;</value>
+  </data>
+  <data name="bbiMovetoAsset.Caption" xml:space="preserve">
+    <value>&lt;B&gt;&lt;color=blue&gt;Ctrl+I&lt;/color&gt; Déplacer vers Asset&lt;/B&gt;</value>
+  </data>
+  <data name="bbiMoveToCashBank.Caption" xml:space="preserve">
+    <value>&lt;B&gt;&lt;color=blue&gt;Alt+I&lt;/color&gt; Move To Trésorerie/Banque&lt;/b&gt;</value>
+  </data>
+  <data name="bbiNew.Caption" xml:space="preserve">
+    <value>&lt;B&gt;&lt;color=blue&gt;Alt+N&lt;/color&gt; Nouveau&lt;/b&gt;</value>
+  </data>
+  <data name="bbiSave.Caption" xml:space="preserve">
+    <value>&lt;B&gt;&lt;color=blue&gt;Alt+S&lt;/color&gt; Enregistrer&lt;/b&gt;</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>&amp;Fermer</value>
+  </data>
+  <data name="btnNew.Text" xml:space="preserve">
+    <value>&amp;Nouveau</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;Sauvegarder</value>
+  </data>
+  <data name="colAmount.Caption" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="colAmount.Summary1" xml:space="preserve">
+    <value>MONTANT</value>
+  </data>
+  <data name="colAssetName.Caption" xml:space="preserve">
+    <value>Atout</value>
+  </data>
+  <data name="colAssItemID.Caption" xml:space="preserve">
+    <value>AssItemId</value>
+  </data>
+  <data name="colAssName.Caption" xml:space="preserve">
+    <value>AssName</value>
+  </data>
+  <data name="colAvailableQty.Caption" xml:space="preserve">
+    <value>Avail.Qty</value>
+  </data>
+  <data name="colcostcnetre.Caption" xml:space="preserve">
+    <value>Centre de coûts</value>
+  </data>
+  <data name="colDeleteAssetItem.Caption" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="colDonorName.Caption" xml:space="preserve">
+    <value>prénom</value>
+  </data>
+  <data name="colName.Caption" xml:space="preserve">
+    <value>Vendeur</value>
+  </data>
+  <data name="colQuantity.Caption" xml:space="preserve">
+    <value>Quantité</value>
+  </data>
+  <data name="colSalvagevalue.Caption" xml:space="preserve">
+    <value>Valeur de récupération</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>Autres charges</value>
+  </data>
+  <data name="layoutControlItem14.Text" xml:space="preserve">
+    <value>Autres charges</value>
+  </data>
+  <data name="lblBillno.Text" xml:space="preserve">
+    <value>Bill/Facture n °&lt;color=red&gt; *</value>
+  </data>
+  <data name="lblDate.Text" xml:space="preserve">
+    <value>Date&lt;color=red&gt; *</value>
+  </data>
+  <data name="lblDonor.Text" xml:space="preserve">
+    <value>Donneur</value>
+  </data>
+  <data name="lblNarration.Text" xml:space="preserve">
+    <value>Narration</value>
+  </data>
+  <data name="lblPurpose.Text" xml:space="preserve">
+    <value>Objectif</value>
+  </data>
+  <data name="lblTransactionType.Text" xml:space="preserve">
+    <value>Bon type</value>
+  </data>
+  <data name="lblVendor.Text" xml:space="preserve">
+    <value>Vendor&lt;color=red&gt; *</value>
+  </data>
+  <data name="lblVoucherNo.Text" xml:space="preserve">
+    <value>Bon #&lt;color=red&gt; *</value>
+  </data>
+  <data name="lblVoucherType.Text" xml:space="preserve">
+    <value>ACHAT</value>
+  </data>
+  <data name="lctgPurchase.Text" xml:space="preserve">
+    <value>Bon</value>
+  </data>
+  <data name="rgVoucherType.Properties.Items1" xml:space="preserve">
+    <value>Achat</value>
+  </data>
+  <data name="rgVoucherType.Properties.Items3" xml:space="preserve">
+    <value>En nature</value>
+  </data>
+  <data name="btnClose.SuperTip" xml:space="preserve">
+    <value>Fermer / Cliquez ici pour fermer .</value>
+  </data>
+  <data name="btnNew.SuperTip" xml:space="preserve">
+    <value>New / Cliquez ici pour effacer .</value>
+  </data>
+  <data name="btnSave.SuperTip" xml:space="preserve">
+    <value>Enregistrer / Cliquez ici pour enregistrer.</value>
+  </data>
+</root>

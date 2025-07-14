@@ -1,0 +1,1437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{88CF08BE-FE89-443C-A0E0-D2C79220B5BE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PAYROLL</RootNamespace>
+    <AssemblyName>PAYROLL</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ManifestCertificateThumbprint>A5CF3E846DD522E5974E264A747E92924F4B7E4D</ManifestCertificateThumbprint>
+    <ManifestKeyFile>PAYROLL_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ApplicationIcon>Resources\Money.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>\\localhost\BTT\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://localhost/Payroll/</InstallUrl>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Build\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.BonusSkins.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.Designer.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Charts.Designer.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Charts.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.CodeConverter.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.CodeConverter.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.CodeParser.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Dashboard.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v13.2.Web, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Dashboard.v13.2.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v13.2.Win, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Dashboard.v13.2.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Data.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.DataAccess.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v13.2.UI, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.DataAccess.v13.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DemoData.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.DemoData.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Design.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Design.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Images.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.ExpressApp.Images.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.ExpressApp.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Win.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.ExpressApp.Win.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Xpo.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.ExpressApp.Xpo.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Images.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Map.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Map.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Office.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Persistent.Base.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.PivotGrid.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Printing.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.RichEdit.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Snap.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Snap.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v13.2.Extensions, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Snap.v13.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Sparkline.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Spreadsheet.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Spreadsheet.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Utils.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2.UI, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Utils.v13.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Web.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Charts.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.Charts.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.Core.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v13.2.Design, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.Core.v13.2.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v13.2.Design.Wizards, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.Core.v13.2.Design.Wizards.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.Docking.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.Grid.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.Grid.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.Layout.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Mvvm.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.Mvvm.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.Printing.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.PropertyGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.PropertyGrid.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpf.Ribbon.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.Xpo.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraBars.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraCharts.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2.Extensions, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraCharts.v13.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2.UI, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraCharts.v13.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2.Wizard, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraCharts.v13.2.Wizard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraEditors.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraGauges.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v13.2.Presets, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraGauges.v13.2.Presets.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v13.2.Win, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraGauges.v13.2.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraGrid.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraLayout.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraMap.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraMap.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraNavBar.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraPivotGrid.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraPrinting.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraReports.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2.Extensions, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraReports.v13.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraRichEdit.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v13.2.Extensions, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraRichEdit.v13.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraScheduler.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.Core, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraScheduler.v13.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.Reporting, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraScheduler.v13.2.Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.Reporting.Extensions, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraScheduler.v13.2.Reporting.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.VCalendarExchange, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraScheduler.v13.2.VCalendarExchange.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraTreeList.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraVerticalGrid.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\BoscoSoft\AcMEERP\DevExpress.XtraWizard.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ADODB, Version=2.1.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Users\bits-\Desktop\DLL\New folder\Interop.ADODB.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.4.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Users\bits-\Desktop\DLL\New folder\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Core, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Users\bits-\Desktop\DLL\New folder\Interop.Microsoft.Office.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.VBIDE, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Users\bits-\Desktop\DLL\New folder\Interop.VBIDE.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Word, Version=8.2.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Users\bits-\Desktop\DLL\New folder\Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>C:\Users\Carmelraj\Desktop\DLL\New folder (2)\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Users\Carmelraj\Desktop\DLL\New folder (2)\Microsoft.Vbe.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\office.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AcmeerpAssemblyInfo.cs">
+      <Link>Properties\AcmeerpAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayrollBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayrollBase.Designer.cs">
+      <DependentUpon>frmPayrollBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPayWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayWait.Designer.cs">
+      <DependentUpon>frmPayWait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\clsPayrollBase.cs" />
+    <Compile Include="Modules\Payroll-app\frmBuildIfFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmBuildIfFormula.Designer.cs">
+      <DependentUpon>frmBuildIfFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmBulkUpdation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmBulkUpdation.Designer.cs">
+      <DependentUpon>frmBulkUpdation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponentAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponentAdd.designer.cs">
+      <DependentUpon>frmComponentAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponenttoGroupWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponenttoGroupWise.Designer.cs">
+      <DependentUpon>frmComponenttoGroupWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponentView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponentView.Designer.cs">
+      <DependentUpon>frmComponentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponentWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponentWise.Designer.cs">
+      <DependentUpon>frmComponentWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmAddLoanManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmAddLoanManagement.Designer.cs">
+      <DependentUpon>frmAddLoanManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponentAllocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponentAllocation.Designer.cs">
+      <DependentUpon>frmComponentAllocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmComponents.Designer.cs">
+      <DependentUpon>frmComponents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmConstructRangeFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmConstructRangeFormula.Designer.cs">
+      <DependentUpon>frmConstructRangeFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmCostructFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmCostructFormula.Designer.cs">
+      <DependentUpon>frmCostructFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmCreatePayroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmCreatePayroll.Designer.cs">
+      <DependentUpon>frmCreatePayroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmFormulaGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmFormulaGroup.Designer.cs">
+      <DependentUpon>frmFormulaGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmGetTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmGetTemplate.Designer.cs">
+      <DependentUpon>frmGetTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmGroupAllocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmGroupAllocation.Designer.cs">
+      <DependentUpon>frmGroupAllocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmLoanAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmLoanAdd.Designer.cs">
+      <DependentUpon>frmLoanAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmLoanManagementView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmLoanManagementView.Designer.cs">
+      <DependentUpon>frmLoanManagementView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmLoanView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmLoanView.Designer.cs">
+      <DependentUpon>frmLoanView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmLockPayroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmLockPayroll.designer.cs">
+      <DependentUpon>frmLockPayroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmMapComponenttoGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmMapComponenttoGroups.designer.cs">
+      <DependentUpon>frmMapComponenttoGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmMapProcessLedgers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmMapProcessLedgers.Designer.cs">
+      <DependentUpon>frmMapProcessLedgers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmMapProjectPayroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmMapProjectPayroll.Designer.cs">
+      <DependentUpon>frmMapProjectPayroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmMapProjectStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmMapProjectStaff.Designer.cs">
+      <DependentUpon>frmMapProjectStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmOpenPayroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmOpenPayroll.designer.cs">
+      <DependentUpon>frmOpenPayroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmOrderComponents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmOrderComponents.Designer.cs">
+      <DependentUpon>frmOrderComponents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPaymonthStaffProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPaymonthStaffProfile.designer.cs">
+      <DependentUpon>frmPaymonthStaffProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollBrowseView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollBrowseView.Designer.cs">
+      <DependentUpon>frmPayrollBrowseView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmpayrollconstructformula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmpayrollconstructformula.designer.cs">
+      <DependentUpon>frmpayrollconstructformula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollDepartment.designer.cs">
+      <DependentUpon>frmPayrollDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollDepartmentView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollDepartmentView.designer.cs">
+      <DependentUpon>frmPayrollDepartmentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollGroup.designer.cs">
+      <DependentUpon>frmPayrollGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollGroupView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollGroupView.designer.cs">
+      <DependentUpon>frmPayrollGroupView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollLoanView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollLoanView.Designer.cs">
+      <DependentUpon>frmPayrollLoanView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollReprocess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollReprocess.Designer.cs">
+      <DependentUpon>frmPayrollReprocess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollSetting.designer.cs">
+      <DependentUpon>frmPayrollSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollview.Designer.cs">
+      <DependentUpon>frmPayrollview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollWorkLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollWorkLocation.designer.cs">
+      <DependentUpon>frmPayrollWorkLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollWorkLocationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPayrollWorkLocationView.designer.cs">
+      <DependentUpon>frmPayrollWorkLocationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPaySlipViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPaySlipViewer.Designer.cs">
+      <DependentUpon>frmPaySlipViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPostPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPostPayment.Designer.cs">
+      <DependentUpon>frmPostPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPostPaymentVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPostPaymentVoucher.designer.cs">
+      <DependentUpon>frmPostPaymentVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPostVoucherview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmPostVoucherview.Designer.cs">
+      <DependentUpon>frmPostVoucherview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmProcessPayroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmProcessPayroll.Designer.cs">
+      <DependentUpon>frmProcessPayroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmReprocess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmReprocess.Designer.cs">
+      <DependentUpon>frmReprocess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmSelectGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmSelectGroup.Designer.cs">
+      <DependentUpon>frmSelectGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmStaffDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmStaffDetails.Designer.cs">
+      <DependentUpon>frmStaffDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmStaffNameTitle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmStaffNameTitle.designer.cs">
+      <DependentUpon>frmStaffNameTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmStaffNameTitleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmStaffNameTitleView.designer.cs">
+      <DependentUpon>frmStaffNameTitleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmStaffOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmStaffOrder.designer.cs">
+      <DependentUpon>frmStaffOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmStaffView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\frmStaffView.Designer.cs">
+      <DependentUpon>frmStaffView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\ucComponentAllocation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Payroll-app\ucComponentAllocation.Designer.cs">
+      <DependentUpon>ucComponentAllocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControl\UcCaptionPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UcCaptionPanel.designer.cs">
+      <DependentUpon>UcCaptionPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UcToolBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UcToolBar.Designer.cs">
+      <DependentUpon>UcToolBar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayWait.resx">
+      <DependentUpon>frmPayWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmAddLoanManagement.en-US.resx">
+      <DependentUpon>frmAddLoanManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmAddLoanManagement.fr-FR.resx">
+      <DependentUpon>frmAddLoanManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmBuildIfFormula.en-US.resx">
+      <DependentUpon>frmBuildIfFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmBuildIfFormula.fr-FR.resx">
+      <DependentUpon>frmBuildIfFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmBuildIfFormula.resx">
+      <DependentUpon>frmBuildIfFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmBulkUpdation.resx">
+      <DependentUpon>frmBulkUpdation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmComponentAdd.en-US.resx">
+      <DependentUpon>frmComponentAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmComponentAdd.fr-FR.resx">
+      <DependentUpon>frmComponentAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmComponentAdd.resx">
+      <DependentUpon>frmComponentAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmComponenttoGroupWise.resx">
+      <DependentUpon>frmComponenttoGroupWise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmComponentView.en-US.resx">
+      <DependentUpon>frmComponentView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmComponentView.fr-FR.resx">
+      <DependentUpon>frmComponentView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmComponentView.resx">
+      <DependentUpon>frmComponentView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmComponentWise.resx">
+      <DependentUpon>frmComponentWise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmAddLoanManagement.resx">
+      <DependentUpon>frmAddLoanManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmComponentAllocation.resx">
+      <DependentUpon>frmComponentAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmComponents.resx">
+      <DependentUpon>frmComponents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmConstructRangeFormula.en-US.resx">
+      <DependentUpon>frmConstructRangeFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmConstructRangeFormula.fr-FR.resx">
+      <DependentUpon>frmConstructRangeFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmConstructRangeFormula.resx">
+      <DependentUpon>frmConstructRangeFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmCostructFormula.en-US.resx">
+      <DependentUpon>frmCostructFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmCostructFormula.fr-FR.resx">
+      <DependentUpon>frmCostructFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmCostructFormula.resx">
+      <DependentUpon>frmCostructFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmCreatePayroll.en-US.resx">
+      <DependentUpon>frmCreatePayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmCreatePayroll.fr-FR.resx">
+      <DependentUpon>frmCreatePayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmCreatePayroll.resx">
+      <DependentUpon>frmCreatePayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmFormulaGroup.resx">
+      <DependentUpon>frmFormulaGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmGetTemplate.en-US.resx">
+      <DependentUpon>frmGetTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmGetTemplate.fr-FR.resx">
+      <DependentUpon>frmGetTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmGetTemplate.resx">
+      <DependentUpon>frmGetTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmGroupAllocation.en-US.resx">
+      <DependentUpon>frmGroupAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmGroupAllocation.fr-FR.resx">
+      <DependentUpon>frmGroupAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmGroupAllocation.resx">
+      <DependentUpon>frmGroupAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLoanAdd.en-US.resx">
+      <DependentUpon>frmLoanAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLoanAdd.fr-FR.resx">
+      <DependentUpon>frmLoanAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLoanAdd.resx">
+      <DependentUpon>frmLoanAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLoanManagementView.en-US.resx">
+      <DependentUpon>frmLoanManagementView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLoanManagementView.fr-FR.resx">
+      <DependentUpon>frmLoanManagementView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLoanManagementView.resx">
+      <DependentUpon>frmLoanManagementView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLoanView.en-US.resx">
+      <DependentUpon>frmLoanView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLoanView.fr-FR.resx">
+      <DependentUpon>frmLoanView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLoanView.resx">
+      <DependentUpon>frmLoanView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLockPayroll.en-US.resx">
+      <DependentUpon>frmLockPayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLockPayroll.fr-FR.resx">
+      <DependentUpon>frmLockPayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmLockPayroll.resx">
+      <DependentUpon>frmLockPayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapComponenttoGroups.en-US.resx">
+      <DependentUpon>frmMapComponenttoGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapComponenttoGroups.fr-FR.resx">
+      <DependentUpon>frmMapComponenttoGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapComponenttoGroups.resx">
+      <DependentUpon>frmMapComponenttoGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapProcessLedgers.en-US.resx">
+      <DependentUpon>frmMapProcessLedgers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapProcessLedgers.fr-FR.resx">
+      <DependentUpon>frmMapProcessLedgers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapProcessLedgers.resx">
+      <DependentUpon>frmMapProcessLedgers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapProjectPayroll.en-US.resx">
+      <DependentUpon>frmMapProjectPayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapProjectPayroll.fr-FR.resx">
+      <DependentUpon>frmMapProjectPayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapProjectPayroll.resx">
+      <DependentUpon>frmMapProjectPayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapProjectStaff.en-US.resx">
+      <DependentUpon>frmMapProjectStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapProjectStaff.fr-FR.resx">
+      <DependentUpon>frmMapProjectStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmMapProjectStaff.resx">
+      <DependentUpon>frmMapProjectStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmOpenPayroll.en-US.resx">
+      <DependentUpon>frmOpenPayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmOpenPayroll.fr-FR.resx">
+      <DependentUpon>frmOpenPayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmOpenPayroll.resx">
+      <DependentUpon>frmOpenPayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmOrderComponents.en-US.resx">
+      <DependentUpon>frmOrderComponents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmOrderComponents.fr-FR.resx">
+      <DependentUpon>frmOrderComponents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmOrderComponents.resx">
+      <DependentUpon>frmOrderComponents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPaymonthStaffProfile.resx">
+      <DependentUpon>frmPaymonthStaffProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollBrowseView.en-US.resx">
+      <DependentUpon>frmPayrollBrowseView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollBrowseView.fr-FR.resx">
+      <DependentUpon>frmPayrollBrowseView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollBrowseView.resx">
+      <DependentUpon>frmPayrollBrowseView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmpayrollconstructformula.resx">
+      <DependentUpon>frmpayrollconstructformula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollDepartment.resx">
+      <DependentUpon>frmPayrollDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollDepartmentView.resx">
+      <DependentUpon>frmPayrollDepartmentView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollGroup.en-US.resx">
+      <DependentUpon>frmPayrollGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollGroup.fr-FR.resx">
+      <DependentUpon>frmPayrollGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollGroup.resx">
+      <DependentUpon>frmPayrollGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollGroupView.en-US.resx">
+      <DependentUpon>frmPayrollGroupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollGroupView.fr-FR.resx">
+      <DependentUpon>frmPayrollGroupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollGroupView.resx">
+      <DependentUpon>frmPayrollGroupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollLoanView.en-US.resx">
+      <DependentUpon>frmPayrollLoanView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollLoanView.fr-FR.resx">
+      <DependentUpon>frmPayrollLoanView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollLoanView.resx">
+      <DependentUpon>frmPayrollLoanView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollReprocess.resx">
+      <DependentUpon>frmPayrollReprocess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollSetting.fr-FR.resx">
+      <DependentUpon>frmPayrollSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollSetting.resx">
+      <DependentUpon>frmPayrollSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollview.en-US.resx">
+      <DependentUpon>frmPayrollview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollview.fr-FR.resx">
+      <DependentUpon>frmPayrollview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollview.resx">
+      <DependentUpon>frmPayrollview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollWorkLocation.resx">
+      <DependentUpon>frmPayrollWorkLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPayrollWorkLocationView.resx">
+      <DependentUpon>frmPayrollWorkLocationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPaySlipViewer.en-US.resx">
+      <DependentUpon>frmPaySlipViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPaySlipViewer.fr-FR.resx">
+      <DependentUpon>frmPaySlipViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPaySlipViewer.resx">
+      <DependentUpon>frmPaySlipViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPostPayment.en-US.resx">
+      <DependentUpon>frmPostPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPostPayment.fr-FR.resx">
+      <DependentUpon>frmPostPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPostPayment.resx">
+      <DependentUpon>frmPostPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPostPaymentVoucher.en-US.resx">
+      <DependentUpon>frmPostPaymentVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPostPaymentVoucher.resx">
+      <DependentUpon>frmPostPaymentVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPostVoucherview.en-US.resx">
+      <DependentUpon>frmPostVoucherview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPostVoucherview.fr-FR.resx">
+      <DependentUpon>frmPostVoucherview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmPostVoucherview.resx">
+      <DependentUpon>frmPostVoucherview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmProcessPayroll.resx">
+      <DependentUpon>frmProcessPayroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmReprocess.resx">
+      <DependentUpon>frmReprocess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmSelectGroup.en-US.resx">
+      <DependentUpon>frmSelectGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmSelectGroup.fr-FR.resx">
+      <DependentUpon>frmSelectGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmSelectGroup.resx">
+      <DependentUpon>frmSelectGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmStaffDetails.en-US.resx">
+      <DependentUpon>frmStaffDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmStaffDetails.fr-FR.resx">
+      <DependentUpon>frmStaffDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmStaffDetails.resx">
+      <DependentUpon>frmStaffDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmStaffNameTitle.resx">
+      <DependentUpon>frmStaffNameTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmStaffNameTitleView.resx">
+      <DependentUpon>frmStaffNameTitleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmStaffOrder.resx">
+      <DependentUpon>frmStaffOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmStaffView.en-US.resx">
+      <DependentUpon>frmStaffView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmStaffView.fr-FR.resx">
+      <DependentUpon>frmStaffView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\frmStaffView.resx">
+      <DependentUpon>frmStaffView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\ucComponentAllocation.en-US.resx">
+      <DependentUpon>ucComponentAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\ucComponentAllocation.fr-FR.resx">
+      <DependentUpon>ucComponentAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Payroll-app\ucComponentAllocation.resx">
+      <DependentUpon>ucComponentAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\clsGrid.resx">
+      <DependentUpon>clsGrid.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\clsGridEntry.resx">
+      <DependentUpon>clsGridEntry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\clsWorkSheet.resx">
+      <DependentUpon>clsWorkSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\frmCalendar.resx">
+      <DependentUpon>frmCalendar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\frmHMSTemplate.resx">
+      <DependentUpon>frmHMSTemplate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\TextboxControl.resx">
+      <DependentUpon>TextboxControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UcCaptionPanel.resx">
+      <DependentUpon>UcCaptionPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ucDatePicker.resx">
+      <DependentUpon>ucDatePicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ucGrid.resx">
+      <DependentUpon>ucGrid.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ucReport.resx">
+      <DependentUpon>ucReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControl\UcToolBar.en-US.resx">
+      <DependentUpon>UcToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UcToolBar.fr-FR.resx">
+      <DependentUpon>UcToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UcToolBar.resx">
+      <DependentUpon>UcToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UserControl\clsGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\clsGridEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\clsWorkSheet.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\frmHMSTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\MJMCustomPrintForm.cs" />
+    <Compile Include="UserControl\TextboxControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\ucDatePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ucGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ucReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\banner2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_bg.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\02.png" />
+    <Content Include="Resources\1400752691_127956.ico" />
+    <Content Include="Resources\1410000099_check_mark.png" />
+    <Content Include="Resources\abpayroll.png" />
+    <Content Include="Resources\Acc.png" />
+    <Content Include="Resources\account-contact.png" />
+    <Content Include="Resources\Accounting-Ledger.png" />
+    <Content Include="Resources\ACME.jpg" />
+    <Content Include="Resources\acme.png" />
+    <Content Include="Resources\AcMEplus.ico" />
+    <Content Include="Resources\Addres.png" />
+    <Content Include="Resources\Address-book.png" />
+    <Content Include="Resources\AddressBook.png" />
+    <Content Include="Resources\admin_content_header.jpg" />
+    <Content Include="Resources\Aiga_bus-32.png" />
+    <Content Include="Resources\aiga_currency_exchange-32.png" />
+    <Content Include="Resources\annualrept.png" />
+    <Content Include="Resources\article.png" />
+    <Content Include="Resources\Article1.png" />
+    <Content Include="Resources\articles-o.png" />
+    <Content Include="Resources\Articles.png" />
+    <Content Include="Resources\bank.png" />
+    <Content Include="Resources\bullet.jpg" />
+    <None Include="Resources\bullet1.jpg" />
+    <Content Include="Resources\calendar2.png" />
+    <Content Include="Resources\Calender.png" />
+    <Content Include="Resources\cancel.png" />
+    <Content Include="Resources\Cancel1.png" />
+    <Content Include="Resources\Cash.png" />
+    <Content Include="Resources\CheckBox.jpg" />
+    <Content Include="Resources\CheckBoxChecked.jpg" />
+    <Content Include="Resources\Close.png" />
+    <Content Include="Resources\Config 16.16.png" />
+    <Content Include="Resources\Config 32.32.png" />
+    <Content Include="Resources\Config.png" />
+    <Content Include="Resources\configuration 1.png" />
+    <Content Include="Resources\Configuration.png" />
+    <Content Include="Resources\configurationEdit.png" />
+    <Content Include="Resources\configure.png" />
+    <Content Include="Resources\Contacts.png" />
+    <Content Include="Resources\copy1.bmp" />
+    <None Include="Resources\copy11.bmp" />
+    <Content Include="Resources\cost.png" />
+    <Content Include="Resources\cost1.png" />
+    <Content Include="Resources\cost2.png" />
+    <Content Include="Resources\Currency.png" />
+    <Content Include="Resources\currency5.png" />
+    <Content Include="Resources\Custom Reports.png" />
+    <Content Include="Resources\customization.bmp" />
+    <None Include="Resources\customization1.bmp" />
+    <Content Include="Resources\customize.png" />
+    <Content Include="Resources\daily.png" />
+    <Content Include="Resources\DataMigration.png" />
+    <Content Include="Resources\DeducteeType.png" />
+    <Content Include="Resources\delete icon.png" />
+    <None Include="Resources\delete icon1.png" />
+    <Content Include="Resources\Delete.png" />
+    <Content Include="Resources\Delete_Mob.png" />
+    <Content Include="Resources\delivery.png" />
+    <Content Include="Resources\Donor.jpg" />
+    <Content Include="Resources\emprpt.png" />
+    <Content Include="Resources\Executive Members.jpg" />
+    <Content Include="Resources\fileclose.png" />
+    <Content Include="Resources\flash ur acc.png" />
+    <Content Include="Resources\Graph.png" />
+    <Content Include="Resources\Green_Tick %282%29.png" />
+    <Content Include="Resources\grey_new_seo-44-32.png" />
+    <Content Include="Resources\group_half-16.png" />
+    <Content Include="Resources\group_half_add-16.png" />
+    <Content Include="Resources\home.png" />
+    <Content Include="Resources\info.png" />
+    <Content Include="Resources\Inventory.png" />
+    <Content Include="Resources\list1.png" />
+    <Content Include="Resources\loanledger.png" />
+    <Content Include="Resources\Lock %282%29.png" />
+    <Content Include="Resources\lock.png" />
+    <Content Include="Resources\Login.jpg" />
+    <Content Include="Resources\login_screen.jpg" />
+    <Content Include="Resources\Logo.jpg" />
+    <Content Include="Resources\Master.png" />
+    <Content Include="Resources\monthly.png" />
+    <Content Include="Resources\my-account.png" />
+    <Content Include="Resources\NatureOfPayment.png" />
+    <Content Include="Resources\paycomponent.png" />
+    <Content Include="Resources\payroll.png" />
+    <Content Include="Resources\payroll1.png" />
+    <Content Include="Resources\Payslip.bmp" />
+    <Content Include="Resources\payslip.png" />
+    <None Include="Resources\Payslip1.bmp" />
+    <Content Include="Resources\pay_register %282%29.png" />
+    <Content Include="Resources\pay_register.png" />
+    <Content Include="Resources\Plus1.png" />
+    <Content Include="Resources\Plus2.png" />
+    <Content Include="Resources\Plus3.png" />
+    <Content Include="Resources\print.png" />
+    <Content Include="Resources\print1.png" />
+    <Content Include="Resources\printer.png" />
+    <Content Include="Resources\printer2.png" />
+    <Content Include="Resources\Processing.gif" />
+    <Content Include="Resources\project.png" />
+    <Content Include="Resources\Registration.png" />
+    <Content Include="Resources\Rep.png" />
+    <Content Include="Resources\Report.png" />
+    <Content Include="Resources\Report2.png" />
+    <Content Include="Resources\Report5.png" />
+    <Content Include="Resources\Reports.png" />
+    <Content Include="Resources\save.bmp" />
+    <Content Include="Resources\Save.png" />
+    <None Include="Resources\save1.bmp" />
+    <Content Include="Resources\Save1.png" />
+    <Content Include="Resources\Save2.png" />
+    <Content Include="Resources\Saved.png" />
+    <Content Include="Resources\Session Manager.png" />
+    <Content Include="Resources\Sett.png" />
+    <Content Include="Resources\settings.png" />
+    <Content Include="Resources\Settings1.png" />
+    <Content Include="Resources\TaxPolicy.png" />
+    <Content Include="Resources\TDS.png" />
+    <Content Include="Resources\tick454.png" />
+    <Content Include="Resources\TickMark.png" />
+    <Content Include="Resources\TickMark1.png" />
+    <Content Include="Resources\TickMark2.png" />
+    <Content Include="Resources\Used_Codes.png" />
+    <Content Include="Resources\User Management.png" />
+    <Content Include="Resources\User.png" />
+    <Content Include="Resources\View_CostCentre.png" />
+    <Content Include="Resources\wages.png" />
+    <None Include="PAYROLL_TemporaryKey.pfx" />
+    <None Include="Resources\admin_content_header1.jpg" />
+    <Content Include="Resources\admin_menuhover.jpg" />
+    <None Include="Resources\admin_menuhover1.jpg" />
+    <None Include="Resources\backgroundbutton.gif" />
+    <Content Include="Resources\Aha-Soft-Universal-Shop-Cash-register.ico" />
+    <None Include="Resources\arrow__down.png" />
+    <None Include="Resources\arrow_up.png" />
+    <None Include="Resources\arrow__down1.png" />
+    <None Include="Resources\arrow_up1.png" />
+    <Content Include="Resources\Designcontest-Ecommerce-Business-Atm-money.ico" />
+    <Content Include="Resources\menubg.jpg" />
+    <Content Include="Resources\Money.ico" />
+    <Content Include="Resources\Payroll_Icon.ico" />
+    <None Include="Resources\Payroll_Icon1.ico" />
+    <None Include="Resources\STAFF_DETAILS_TEMPLATE.xlsx" />
+    <None Include="Resources\Wizard_4615A142 copy2.png" />
+    <None Include="Resources\Wizard_4615A142 copy3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dll\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AcMEDSync\AcMEDSync.csproj">
+      <Project>{246D4396-6B15-410B-821A-FFFC735A69EB}</Project>
+      <Name>AcMEDSync</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bosco.DAO.Schema\Bosco.DAO.Schema.csproj">
+      <Project>{259CF580-C69A-4146-A20F-04F138D94874}</Project>
+      <Name>Bosco.DAO.Schema</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bosco.DAO\Bosco.DAO.csproj">
+      <Project>{74C2B1A6-AFC1-46E0-B164-E89836C8027E}</Project>
+      <Name>Bosco.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bosco.Model\Bosco.Model.csproj">
+      <Project>{19174D3E-0259-4212-9BD8-479D08665238}</Project>
+      <Name>Bosco.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bosco.Utility\Bosco.Utility.csproj">
+      <Project>{4E519AC2-6104-4A87-AFAE-B4DC586201EB}</Project>
+      <Name>Bosco.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Payroll.DAO.Schema\Payroll.DAO.Schema.csproj">
+      <Project>{4DD9FBBC-6B4D-4D4B-AEB2-C09C9C6DE027}</Project>
+      <Name>Payroll.DAO.Schema</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Payroll.Model\Payroll.Model.csproj">
+      <Project>{0C3EC300-CB45-434A-B834-727A580A080F}</Project>
+      <Name>Payroll.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

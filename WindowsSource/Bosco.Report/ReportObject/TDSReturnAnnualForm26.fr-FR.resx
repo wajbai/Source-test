@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="xrAnnualReturnDesc.Text" xml:space="preserve">
+    <value>Déclaration annuelle de la déduction de l'article 206 de la taxe de i.t. Loi de 1991 à l'égard de tous les paiements autres que «salaires» pour l'année se terminant le 31 Mars 15</value>
+  </data>
+  <data name="xrAnnualReturnDesc.Text1" xml:space="preserve">
+    <value>Déclaration annuelle de la déduction de l'article 206 de la taxe de i.t. Loi de 1991 à l'égard de tous les paiements autres que «salaires» pour l'année se terminant le 31 Mars 15</value>
+  </data>
+  <data name="xrCaption.Text" xml:space="preserve">
+    <value>Formulaire No.26</value>
+  </data>
+  <data name="xrCaption.Text1" xml:space="preserve">
+    <value>Formulaire No.26</value>
+  </data>
+  <data name="xrDefaultSection.Text" xml:space="preserve">
+    <value>(Voir les articles 193, 194, 194A, 194B, 194BB, 194C, 194D, 194EE, 194F, 194G, 194H, 194I, 194J, 194LA et article 37)</value>
+  </data>
+  <data name="xrDefaultSection.Text1" xml:space="preserve">
+    <value>(Voir les articles 193, 194, 194A, 194B, 194BB, 194C, 194D, 194EE, 194F, 194G, 194H, 194I, 194J, 194LA et article 37)</value>
+  </data>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>193</value>
+  </data>
+  <data name="xrLabel1.Text1" xml:space="preserve">
+    <value>193</value>
+  </data>
+  <data name="xrLabel10.Text" xml:space="preserve">
+    <value>194G</value>
+  </data>
+  <data name="xrLabel10.Text1" xml:space="preserve">
+    <value>194G</value>
+  </data>
+  <data name="xrLabel11.Text" xml:space="preserve">
+    <value>194H</value>
+  </data>
+  <data name="xrLabel11.Text1" xml:space="preserve">
+    <value>194H</value>
+  </data>
+  <data name="xrLabel12.Text" xml:space="preserve">
+    <value>194I</value>
+  </data>
+  <data name="xrLabel12.Text1" xml:space="preserve">
+    <value>194I</value>
+  </data>
+  <data name="xrLabel13.Text" xml:space="preserve">
+    <value>194J</value>
+  </data>
+  <data name="xrLabel13.Text1" xml:space="preserve">
+    <value>194J</value>
+  </data>
+  <data name="xrLabel14.Text" xml:space="preserve">
+    <value>194LA</value>
+  </data>
+  <data name="xrLabel14.Text1" xml:space="preserve">
+    <value>194LA</value>
+  </data>
+  <data name="xrLabel15.Text" xml:space="preserve">
+    <value>VÉRIFICATION</value>
+  </data>
+  <data name="xrLabel15.Text1" xml:space="preserve">
+    <value>VÉRIFICATION</value>
+  </data>
+  <data name="xrLabel16.Text" xml:space="preserve">
+    <value>JE,</value>
+  </data>
+  <data name="xrLabel16.Text1" xml:space="preserve">
+    <value>JE,</value>
+  </data>
+  <data name="xrLabel17.Text" xml:space="preserve">
+    <value> Certifie par la présente que tous les renseignements fournis ci-dessus sont exacts et complets.</value>
+  </data>
+  <data name="xrLabel17.Text1" xml:space="preserve">
+    <value> Certifie par la présente que tous les renseignements fournis ci-dessus sont exacts et complets.</value>
+  </data>
+  <data name="xrLabel18.Text" xml:space="preserve">
+    <value>Signature de la personne responsable de la déduction de l'impôt à la source</value>
+  </data>
+  <data name="xrLabel18.Text1" xml:space="preserve">
+    <value>Signature de la personne responsable de la déduction de l'impôt à la source</value>
+  </data>
+  <data name="xrLabel19.Text" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="xrLabel19.Text1" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="xrLabel2.Text" xml:space="preserve">
+    <value>194</value>
+  </data>
+  <data name="xrLabel2.Text1" xml:space="preserve">
+    <value>194</value>
+  </data>
+  <data name="xrLabel20.Text" xml:space="preserve">
+    <value>Nom et désignation de la personne responsable de la déduction de l'impôt à la source</value>
+  </data>
+  <data name="xrLabel20.Text1" xml:space="preserve">
+    <value>Nom et désignation de la personne responsable de la déduction de l'impôt à la source</value>
+  </data>
+  <data name="xrLabel3.Text" xml:space="preserve">
+    <value>194A</value>
+  </data>
+  <data name="xrLabel3.Text1" xml:space="preserve">
+    <value>194A</value>
+  </data>
+  <data name="xrLabel4.Text" xml:space="preserve">
+    <value>194B</value>
+  </data>
+  <data name="xrLabel4.Text1" xml:space="preserve">
+    <value>194B</value>
+  </data>
+  <data name="xrLabel5.Text" xml:space="preserve">
+    <value>194BB</value>
+  </data>
+  <data name="xrLabel5.Text1" xml:space="preserve">
+    <value>194BB</value>
+  </data>
+  <data name="xrLabel6.Text" xml:space="preserve">
+    <value>194C</value>
+  </data>
+  <data name="xrLabel6.Text1" xml:space="preserve">
+    <value>194C</value>
+  </data>
+  <data name="xrLabel7.Text" xml:space="preserve">
+    <value>194D</value>
+  </data>
+  <data name="xrLabel7.Text1" xml:space="preserve">
+    <value>194D</value>
+  </data>
+  <data name="xrLabel8.Text" xml:space="preserve">
+    <value>194EE</value>
+  </data>
+  <data name="xrLabel8.Text1" xml:space="preserve">
+    <value>194EE</value>
+  </data>
+  <data name="xrLabel9.Text" xml:space="preserve">
+    <value>194F</value>
+  </data>
+  <data name="xrLabel9.Text1" xml:space="preserve">
+    <value>194F</value>
+  </data>
+  <data name="xrlblEducationCap.Text" xml:space="preserve">
+    <value>Éducation
+    cess
+       Rs. </value>
+  </data>
+  <data name="xrlblEducationCap.Text1" xml:space="preserve">
+    <value>Éducation
+    cess
+       Rs. </value>
+  </data>
+  <data name="xrlblInterestCap.Text" xml:space="preserve">
+    <value>Intérêt
+  Rs. </value>
+  </data>
+  <data name="xrlblInterestCap.Text1" xml:space="preserve">
+    <value>Intérêt
+  Rs. </value>
+  </data>
+  <data name="xrlblOthersCap.Text" xml:space="preserve">
+    <value>Autres
+     Rs. </value>
+  </data>
+  <data name="xrlblOthersCap.Text1" xml:space="preserve">
+    <value>Autres
+     Rs. </value>
+  </data>
+  <data name="xrlblSurchargeCap.Text" xml:space="preserve">
+    <value>Surtaxe
+      Rs. </value>
+  </data>
+  <data name="xrlblSurchargeCap.Text1" xml:space="preserve">
+    <value>Surtaxe
+      Rs. </value>
+  </data>
+  <data name="xrlblTDSCap.Text" xml:space="preserve">
+    <value>TDS
+ Rs. </value>
+  </data>
+  <data name="xrlblTDSCap.Text1" xml:space="preserve">
+    <value>TDS
+ Rs. </value>
+  </data>
+  <data name="xrNo.Text" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="xrNo.Text1" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="xrOthers.Text" xml:space="preserve">
+    <value>Autres</value>
+  </data>
+  <data name="xrOthers.Text1" xml:space="preserve">
+    <value>Autres</value>
+  </data>
+  <data name="xrParticulars.Text" xml:space="preserve">
+    <value>1.Particulars de la personne qui fait la déduction de l'impôt</value>
+  </data>
+  <data name="xrParticulars.Text1" xml:space="preserve">
+    <value>1.Particulars de la personne qui fait la déduction de l'impôt</value>
+  </data>
+  <data name="xrPlace.Text" xml:space="preserve">
+    <value>Endroit:</value>
+  </data>
+  <data name="xrPlace.Text1" xml:space="preserve">
+    <value>Endroit:</value>
+  </data>
+  <data name="xrTableCell1.Text" xml:space="preserve">
+    <value>(une)</value>
+  </data>
+  <data name="xrTableCell1.Text1" xml:space="preserve">
+    <value>(une)</value>
+  </data>
+  <data name="xrTableCell10.Text" xml:space="preserve">
+    <value>ÉPINGLE</value>
+  </data>
+  <data name="xrTableCell10.Text1" xml:space="preserve">
+    <value>ÉPINGLE</value>
+  </data>
+  <data name="xrTableCell103.Text" xml:space="preserve">
+    <value>Notes-:</value>
+  </data>
+  <data name="xrTableCell103.Text1" xml:space="preserve">
+    <value>Notes-:</value>
+  </data>
+  <data name="xrTableCell104.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xrTableCell104.Text1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xrTableCell105.Text" xml:space="preserve">
+    <value>Si l'adresse a changé donner changé d'adresse dans la colonne 1 (b).</value>
+  </data>
+  <data name="xrTableCell105.Text1" xml:space="preserve">
+    <value>Si l'adresse a changé donner changé d'adresse dans la colonne 1 (b).</value>
+  </data>
+  <data name="xrTableCell107.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="xrTableCell107.Text1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="xrTableCell108.Text" xml:space="preserve">
+    <value>Colonne est pertinente uniquement pour deductors Goverment.</value>
+  </data>
+  <data name="xrTableCell108.Text1" xml:space="preserve">
+    <value>Colonne est pertinente uniquement pour deductors Goverment.</value>
+  </data>
+  <data name="xrTableCell11.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell11.Text1" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell110.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xrTableCell110.Text1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xrTableCell111.Text" xml:space="preserve">
+    <value>Lorsque la déduction est faite par nom du Goverment pour donner des précisions sur les bons de transfert: d'autres deductors pour donner des précisions sur challan Pas en ce qui concerne le dépôt en banque.</value>
+  </data>
+  <data name="xrTableCell111.Text1" xml:space="preserve">
+    <value>Lorsque la déduction est faite par nom du Goverment pour donner des précisions sur les bons de transfert: d'autres deductors pour donner des précisions sur challan Pas en ce qui concerne le dépôt en banque.</value>
+  </data>
+  <data name="xrTableCell115.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="xrTableCell115.Text1" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="xrTableCell14.Text" xml:space="preserve">
+    <value>Ville / District / Ville</value>
+  </data>
+  <data name="xrTableCell14.Text1" xml:space="preserve">
+    <value>Ville / District / Ville</value>
+  </data>
+  <data name="xrTableCell15.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell15.Text1" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell18.Text" xml:space="preserve">
+    <value>Nom du Permises / Bâtiment</value>
+  </data>
+  <data name="xrTableCell18.Text1" xml:space="preserve">
+    <value>Nom du Permises / Bâtiment</value>
+  </data>
+  <data name="xrTableCell19.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell19.Text1" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell2.Text" xml:space="preserve">
+    <value>prénom</value>
+  </data>
+  <data name="xrTableCell2.Text1" xml:space="preserve">
+    <value>prénom</value>
+  </data>
+  <data name="xrTableCell22.Text" xml:space="preserve">
+    <value>Région / Localité</value>
+  </data>
+  <data name="xrTableCell22.Text1" xml:space="preserve">
+    <value>Région / Localité</value>
+  </data>
+  <data name="xrTableCell23.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell23.Text1" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell26.Text" xml:space="preserve">
+    <value>Route / Nom de la rue / Lane</value>
+  </data>
+  <data name="xrTableCell26.Text1" xml:space="preserve">
+    <value>Route / Nom de la rue / Lane</value>
+  </data>
+  <data name="xrTableCell27.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell27.Text1" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell3.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell3.Text1" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell30.Text" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="xrTableCell30.Text1" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="xrTableCell31.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell31.Text1" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell33.Text" xml:space="preserve">
+    <value>(C)</value>
+  </data>
+  <data name="xrTableCell33.Text1" xml:space="preserve">
+    <value>(C)</value>
+  </data>
+  <data name="xrTableCell34.Text" xml:space="preserve">
+    <value>Déduction fiscale et numéro de compte Collection</value>
+  </data>
+  <data name="xrTableCell34.Text1" xml:space="preserve">
+    <value>Déduction fiscale et numéro de compte Collection</value>
+  </data>
+  <data name="xrTableCell35.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell35.Text1" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell37.Text" xml:space="preserve">
+    <value>(ré)</value>
+  </data>
+  <data name="xrTableCell37.Text1" xml:space="preserve">
+    <value>(ré)</value>
+  </data>
+  <data name="xrTableCell38.Text" xml:space="preserve">
+    <value>Perment Numéro de compte</value>
+  </data>
+  <data name="xrTableCell38.Text1" xml:space="preserve">
+    <value>Perment Numéro de compte</value>
+  </data>
+  <data name="xrTableCell39.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell39.Text1" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell41.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xrTableCell41.Text1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xrTableCell42.Text" xml:space="preserve">
+    <value>A l'adresse de la déduction pour personne qui fait de l'impôt changé (1) Tick 'X' selon le cas Oui</value>
+  </data>
+  <data name="xrTableCell42.Text1" xml:space="preserve">
+    <value>A l'adresse de la déduction pour personne qui fait de l'impôt changé (1) Tick 'X' selon le cas Oui</value>
+  </data>
+  <data name="xrTableCell43.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="xrTableCell43.Text1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="xrTableCell44.Text" xml:space="preserve">
+    <value>Statut tel que défini au sens de l'article 204 lu à l'article 30 Tick 'X' comme gouvernement central applicable</value>
+  </data>
+  <data name="xrTableCell44.Text1" xml:space="preserve">
+    <value>Statut tel que défini au sens de l'article 204 lu à l'article 30 Tick 'X' comme gouvernement central applicable</value>
+  </data>
+  <data name="xrTableCell45.Text" xml:space="preserve">
+    <value>(une)</value>
+  </data>
+  <data name="xrTableCell45.Text1" xml:space="preserve">
+    <value>(une)</value>
+  </data>
+  <data name="xrTableCell46.Text" xml:space="preserve">
+    <value>S'il vous plaît cocher la case ci-dessous indique la section et le type de paiement (autres que «salaires») effectués au cours de l'année à partir de laquelle l'impôt a été requried à déduire à la source par vous en vertu de la Loi de l'impôt sur le revenu de 1961</value>
+  </data>
+  <data name="xrTableCell46.Text1" xml:space="preserve">
+    <value>S'il vous plaît cocher la case ci-dessous indique la section et le type de paiement (autres que «salaires») effectués au cours de l'année à partir de laquelle l'impôt a été requried à déduire à la source par vous en vertu de la Loi de l'impôt sur le revenu de 1961</value>
+  </data>
+  <data name="xrTableCell47.Text" xml:space="preserve">
+    <value>(B)</value>
+  </data>
+  <data name="xrTableCell47.Text1" xml:space="preserve">
+    <value>(B)</value>
+  </data>
+  <data name="xrTableCell48.Text" xml:space="preserve">
+    <value>S'il vous plaît fournir des informations dans ANNEXES séparés selon le enfermé de performa pour chaque type de paiement indiqué au point (a) ci-dessus viz.interest, loyer, etc commission</value>
+  </data>
+  <data name="xrTableCell48.Text1" xml:space="preserve">
+    <value>S'il vous plaît fournir des informations dans ANNEXES séparés selon le enfermé de performa pour chaque type de paiement indiqué au point (a) ci-dessus viz.interest, loyer, etc commission</value>
+  </data>
+  <data name="xrTableCell49.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xrTableCell49.Text1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xrTableCell5.Text" xml:space="preserve">
+    <value>(B)</value>
+  </data>
+  <data name="xrTableCell5.Text1" xml:space="preserve">
+    <value>(B)</value>
+  </data>
+  <data name="xrTableCell50.Text" xml:space="preserve">
+    <value>Détail des impôts déduits et versés au crédit de l'administration centrale:</value>
+  </data>
+  <data name="xrTableCell50.Text1" xml:space="preserve">
+    <value>Détail des impôts déduits et versés au crédit de l'administration centrale:</value>
+  </data>
+  <data name="xrTableCell53.Text" xml:space="preserve">
+    <value>Total Tax
+déposées »
+S.No
+Section du code
+Date à laquelle l'impôt</value>
+  </data>
+  <data name="xrTableCell53.Text1" xml:space="preserve">
+    <value>Total Tax
+déposées »
+S.No
+Section du code
+Date à laquelle l'impôt</value>
+  </data>
+  <data name="xrTableCell54.Text" xml:space="preserve">
+    <value>déposées »</value>
+  </data>
+  <data name="xrTableCell54.Text1" xml:space="preserve">
+    <value>déposées »</value>
+  </data>
+  <data name="xrTableCell55.Text" xml:space="preserve">
+    <value>Chèque / DD Non (le cas échéant)</value>
+  </data>
+  <data name="xrTableCell55.Text1" xml:space="preserve">
+    <value>Chèque / DD Non (le cas échéant)</value>
+  </data>
+  <data name="xrTableCell58.Text" xml:space="preserve">
+    <value>Adresse: Flat / Door / Bloc No.</value>
+  </data>
+  <data name="xrTableCell58.Text1" xml:space="preserve">
+    <value>Adresse: Flat / Door / Bloc No.</value>
+  </data>
+  <data name="xrTableCell59.Text" xml:space="preserve">
+    <value>code de BSR</value>
+  </data>
+  <data name="xrTableCell59.Text1" xml:space="preserve">
+    <value>code de BSR</value>
+  </data>
+  <data name="xrTableCell6.Text" xml:space="preserve">
+    <value>Transfert bon /
+Serial Challan
+Numéro 2)</value>
+  </data>
+  <data name="xrTableCell6.Text1" xml:space="preserve">
+    <value>Transfert bon /
+Serial Challan
+Numéro 2)</value>
+  </data>
+  <data name="xrTableCell61.Text" xml:space="preserve">
+    <value>Qu'il s'agisse
+TDS déposé
+par inscription?
+Oui Non </value>
+  </data>
+  <data name="xrTableCell61.Text1" xml:space="preserve">
+    <value>Qu'il s'agisse
+TDS déposé
+par inscription?
+Oui Non </value>
+  </data>
+  <data name="xrTableCell62.Text" xml:space="preserve">
+    <value>Transfert bon /
+Serial Challan
+Numéro 2)</value>
+  </data>
+  <data name="xrTableCell62.Text1" xml:space="preserve">
+    <value>Transfert bon /
+Serial Challan
+Numéro 2)</value>
+  </data>
+  <data name="xrTableCell63.Text" xml:space="preserve">
+    <value>Qu'il s'agisse
+TDS déposé
+par inscription?
+Oui Non </value>
+  </data>
+  <data name="xrTableCell63.Text1" xml:space="preserve">
+    <value>Qu'il s'agisse
+TDS déposé
+par inscription?
+Oui Non </value>
+  </data>
+  <data name="xrTableCell64.Text" xml:space="preserve">
+    <value>-95</value>
+  </data>
+  <data name="xrTableCell64.Text1" xml:space="preserve">
+    <value>-95</value>
+  </data>
+  <data name="xrTableCell65.Text" xml:space="preserve">
+    <value>-96</value>
+  </data>
+  <data name="xrTableCell65.Text1" xml:space="preserve">
+    <value>-96</value>
+  </data>
+  <data name="xrTableCell66.Text" xml:space="preserve">
+    <value>-97</value>
+  </data>
+  <data name="xrTableCell66.Text1" xml:space="preserve">
+    <value>-97</value>
+  </data>
+  <data name="xrTableCell67.Text" xml:space="preserve">
+    <value>-99</value>
+  </data>
+  <data name="xrTableCell67.Text1" xml:space="preserve">
+    <value>-99</value>
+  </data>
+  <data name="xrTableCell68.Text" xml:space="preserve">
+    <value>-98</value>
+  </data>
+  <data name="xrTableCell68.Text1" xml:space="preserve">
+    <value>-98</value>
+  </data>
+  <data name="xrTableCell69.Text" xml:space="preserve">
+    <value>-100</value>
+  </data>
+  <data name="xrTableCell69.Text1" xml:space="preserve">
+    <value>-100</value>
+  </data>
+  <data name="xrTableCell7.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell7.Text1" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="xrTableCell70.Text" xml:space="preserve">
+    <value>-101</value>
+  </data>
+  <data name="xrTableCell70.Text1" xml:space="preserve">
+    <value>-101</value>
+  </data>
+  <data name="xrTableCell71.Text" xml:space="preserve">
+    <value>-102</value>
+  </data>
+  <data name="xrTableCell71.Text1" xml:space="preserve">
+    <value>-102</value>
+  </data>
+  <data name="xrTableCell72.Text" xml:space="preserve">
+    <value>-104</value>
+  </data>
+  <data name="xrTableCell72.Text1" xml:space="preserve">
+    <value>-104</value>
+  </data>
+  <data name="xrTableCell73.Text" xml:space="preserve">
+    <value>-103</value>
+  </data>
+  <data name="xrTableCell73.Text1" xml:space="preserve">
+    <value>-103</value>
+  </data>
+  <data name="xrTableCell74.Text" xml:space="preserve">
+    <value>-105</value>
+  </data>
+  <data name="xrTableCell74.Text1" xml:space="preserve">
+    <value>-105</value>
+  </data>
+  <data name="xrTableCell75.Text" xml:space="preserve">
+    <value>-106</value>
+  </data>
+  <data name="xrTableCell75.Text1" xml:space="preserve">
+    <value>-106</value>
+  </data>
+  <data name="xrTableCell76.Text" xml:space="preserve">
+    <value>-107</value>
+  </data>
+  <data name="xrTableCell76.Text1" xml:space="preserve">
+    <value>-107</value>
+  </data>
+  <data name="xrTableCell77.Text" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="xrTableCell77.Text1" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="xrTableCell78.Text" xml:space="preserve">
+    <value>-2</value>
+  </data>
+  <data name="xrTableCell78.Text1" xml:space="preserve">
+    <value>-2</value>
+  </data>
+  <data name="xrTableCell79.Text" xml:space="preserve">
+    <value>-3</value>
+  </data>
+  <data name="xrTableCell79.Text1" xml:space="preserve">
+    <value>-3</value>
+  </data>
+  <data name="xrTableCell80.Text" xml:space="preserve">
+    <value>-4</value>
+  </data>
+  <data name="xrTableCell80.Text1" xml:space="preserve">
+    <value>-4</value>
+  </data>
+  <data name="xrTableCell81.Text" xml:space="preserve">
+    <value>-5</value>
+  </data>
+  <data name="xrTableCell81.Text1" xml:space="preserve">
+    <value>-5</value>
+  </data>
+  <data name="xrTableCell82.Text" xml:space="preserve">
+    <value>-6</value>
+  </data>
+  <data name="xrTableCell82.Text1" xml:space="preserve">
+    <value>-6</value>
+  </data>
+  <data name="xrTableCell83.Text" xml:space="preserve">
+    <value>-7</value>
+  </data>
+  <data name="xrTableCell83.Text1" xml:space="preserve">
+    <value>-7</value>
+  </data>
+  <data name="xrTableCell84.Text" xml:space="preserve">
+    <value>-8</value>
+  </data>
+  <data name="xrTableCell84.Text1" xml:space="preserve">
+    <value>-8</value>
+  </data>
+  <data name="xrTableCell85.Text" xml:space="preserve">
+    <value>-9</value>
+  </data>
+  <data name="xrTableCell85.Text1" xml:space="preserve">
+    <value>-9</value>
+  </data>
+  <data name="xrTableCell86.Text" xml:space="preserve">
+    <value>-dix</value>
+  </data>
+  <data name="xrTableCell86.Text1" xml:space="preserve">
+    <value>#NAME?</value>
+  </data>
+  <data name="xrTableCell87.Text" xml:space="preserve">
+    <value>-11</value>
+  </data>
+  <data name="xrTableCell87.Text1" xml:space="preserve">
+    <value>-11</value>
+  </data>
+  <data name="xrTableCell88.Text" xml:space="preserve">
+    <value>-12</value>
+  </data>
+  <data name="xrTableCell88.Text1" xml:space="preserve">
+    <value>-12</value>
+  </data>
+  <data name="xrTableCell89.Text" xml:space="preserve">
+    <value>-13</value>
+  </data>
+  <data name="xrTableCell89.Text1" xml:space="preserve">
+    <value>-13</value>
+  </data>
+</root>

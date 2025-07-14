@@ -1,0 +1,1007 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xrDetails.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gray</value>
+  </data>
+  <data name="xrDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.5pt, style=Bold</value>
+  </data>
+  <assembly alias="DevExpress.Data.v13.2" name="DevExpress.Data.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrDetails.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="xrTableCell17.Weight" type="System.Double, mscorlib">
+    <value>0.18847308096104704</value>
+  </data>
+  <data name="xrTableCell20.Weight" type="System.Double, mscorlib">
+    <value>0.3932239115384869</value>
+  </data>
+  <data name="xrTableCell18.Weight" type="System.Double, mscorlib">
+    <value>0.42747307258035433</value>
+  </data>
+  <data name="xrTableCell21.Weight" type="System.Double, mscorlib">
+    <value>0.56225800749792643</value>
+  </data>
+  <data name="xrTableCell24.Weight" type="System.Double, mscorlib">
+    <value>0.50502790770673267</value>
+  </data>
+  <data name="xrTableCell19.Weight" type="System.Double, mscorlib">
+    <value>0.34097191147347311</value>
+  </data>
+  <data name="xrTableCell22.Weight" type="System.Double, mscorlib">
+    <value>0.29128545096507485</value>
+  </data>
+  <data name="xrTableCell23.Weight" type="System.Double, mscorlib">
+    <value>0.29128665727690467</value>
+  </data>
+  <data name="xrTableRow3.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrDetails.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>721.0001, 25</value>
+  </data>
+  <data name="Detail.HeightF" type="System.Single, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Detail.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="xrlblCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 11pt, style=Bold</value>
+  </data>
+  <data name="xrlblCaption.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>124.000038, 4.16666651</value>
+  </data>
+  <data name="xrlblCaption.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>507.2917, 19</value>
+  </data>
+  <data name="xrlblCaption.Text" xml:space="preserve">
+    <value>ANNEXURE - DEDUCTEE WISE BREAK-UP OF TDS</value>
+  </data>
+  <data name="xrlblCaption.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrNote.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrNote.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>33.3333664, 23.2083321</value>
+  </data>
+  <data name="xrNote.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>681.6666, 17.9999962</value>
+  </data>
+  <data name="xrNote.Text" xml:space="preserve">
+    <value>(Please use seperate Annexure for each line-item in the table at S.No. 4 of main Form 26Q)</value>
+  </data>
+  <data name="xrNote.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrlblDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrlblDetails.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 41.2083321</value>
+  </data>
+  <data name="xrlblDetails.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>721.0002, 19.0000038</value>
+  </data>
+  <data name="xrlblDetails.Text" xml:space="preserve">
+    <value>Details of amounts paid/credited during the quarter ended 31-Mar-2015 (DD-MM-YYYY) and of tax deducted at souce</value>
+  </data>
+  <data name="xrlblDetails.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrCodeDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrCodeDetails.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 67.20832</value>
+  </data>
+  <data name="xrCodeDetails.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>286.541626, 21.0000076</value>
+  </data>
+  <data name="xrCodeDetails.Text" xml:space="preserve">
+    <value>BSR Code of the branch where tax is deposited</value>
+  </data>
+  <data name="xrLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrLabel1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>389.583344, 67.20832</value>
+  </data>
+  <data name="xrLabel1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>111.458313, 21.0000076</value>
+  </data>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>Name of Deductor</value>
+  </data>
+  <data name="xrProject.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrProject.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>501.041656, 67.20832</value>
+  </data>
+  <data name="xrProject.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>221.9584, 20.9999924</value>
+  </data>
+  <data name="xrTotalAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrTotalAmount.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>313.0417, 223.708374</value>
+  </data>
+  <data name="xrTotalAmount.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>157.791748, 23</value>
+  </data>
+  <data name="xrLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrLabel8.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 223.708374</value>
+  </data>
+  <data name="xrLabel8.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>286.541626, 23</value>
+  </data>
+  <data name="xrLabel8.Text" xml:space="preserve">
+    <value>Total of the above</value>
+  </data>
+  <data name="xrOthersAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrOthersAmount.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>313.0417, 200.708359</value>
+  </data>
+  <data name="xrOthersAmount.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>157.791718, 23</value>
+  </data>
+  <data name="xrLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrLabel7.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 200.708359</value>
+  </data>
+  <data name="xrLabel7.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>286.541656, 23</value>
+  </data>
+  <data name="xrLabel7.Text" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="xrInsAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrInsAmount.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>313.041626, 177.708344</value>
+  </data>
+  <data name="xrInsAmount.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>157.791809, 23</value>
+  </data>
+  <data name="xrLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrLabel6.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 177.708344</value>
+  </data>
+  <data name="xrLabel6.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>286.5417, 23</value>
+  </data>
+  <data name="xrLabel6.Text" xml:space="preserve">
+    <value>Interest</value>
+  </data>
+  <data name="xrTotalTDSAmount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrTotalTDSAmount.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>313.041626, 146.708359</value>
+  </data>
+  <data name="xrTotalTDSAmount.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>157.791779, 23</value>
+  </data>
+  <data name="xrLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrLabel5.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 142.208359</value>
+  </data>
+  <data name="xrLabel5.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>286.541718, 35.5</value>
+  </data>
+  <data name="xrLabel5.Text" xml:space="preserve">
+    <value>Total TDS to be allocated amoung deductees as in the vertical total of col. 425</value>
+  </data>
+  <data name="xrPANNumber.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrPANNumber.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>501.041656, 123.208336</value>
+  </data>
+  <data name="xrPANNumber.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>173, 19.0000229</value>
+  </data>
+  <data name="xrPANNumber.Text" xml:space="preserve">
+    <value>BLRT00644A</value>
+  </data>
+  <data name="xrTanCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrTanCaption.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>389.583344, 123.208336</value>
+  </data>
+  <data name="xrTanCaption.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>55.208313, 19.0000229</value>
+  </data>
+  <data name="xrTanCaption.Text" xml:space="preserve">
+    <value>TAN</value>
+  </data>
+  <data name="xrPaymentCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrPaymentCode.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>313.041656, 123.208336</value>
+  </data>
+  <data name="xrPaymentCode.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>66.625, 19.0000229</value>
+  </data>
+  <data name="xrPaymentCode.Text" xml:space="preserve">
+    <value>94C</value>
+  </data>
+  <data name="xrLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrLabel4.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 123.208336</value>
+  </data>
+  <data name="xrLabel4.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>286.541626, 19.0000229</value>
+  </data>
+  <data name="xrLabel4.Text" xml:space="preserve">
+    <value>Section under which payment made</value>
+  </data>
+  <data name="xrLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrLabel3.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 106.208328</value>
+  </data>
+  <data name="xrLabel3.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>286.5416, 17.0000076</value>
+  </data>
+  <data name="xrLabel3.Text" xml:space="preserve">
+    <value>Challan Serial No.</value>
+  </data>
+  <data name="xrLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="xrLabel2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 88.20833</value>
+  </data>
+  <data name="xrLabel2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>286.541626, 18</value>
+  </data>
+  <data name="xrLabel2.Text" xml:space="preserve">
+    <value>Date on which tax deposited(dd/mm/yyyy)</value>
+  </data>
+  <data name="xrTableHeader.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gray</value>
+  </data>
+  <data name="xrTableHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.5pt</value>
+  </data>
+  <data name="xrTableHeader.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 263.541656</value>
+  </data>
+  <data name="xrTableCell4.Text" xml:space="preserve">
+    <value>Sr.No</value>
+  </data>
+  <data name="xrTableCell4.Weight" type="System.Double, mscorlib">
+    <value>0.16327473363008424</value>
+  </data>
+  <data name="xrTableCell1.Text" xml:space="preserve">
+    <value>Deductee Code
+(01-Company
+02-Other than 
+Company)</value>
+  </data>
+  <data name="xrTableCell1.Weight" type="System.Double, mscorlib">
+    <value>0.34065094207425378</value>
+  </data>
+  <data name="xrTableCell5.Text" xml:space="preserve">
+    <value>PAN of the Deductee</value>
+  </data>
+  <data name="xrTableCell5.Weight" type="System.Double, mscorlib">
+    <value>0.37032105560049933</value>
+  </data>
+  <data name="xrTableCell2.Text" xml:space="preserve">
+    <value>Name of Deductee</value>
+  </data>
+  <data name="xrTableCell2.Weight" type="System.Double, mscorlib">
+    <value>0.48708583229800295</value>
+  </data>
+  <data name="xrTableCell6.Text" xml:space="preserve">
+    <value>Date of 
+Payment /Credit</value>
+  </data>
+  <data name="xrTableCell6.Weight" type="System.Double, mscorlib">
+    <value>0.43750705939245133</value>
+  </data>
+  <data name="xrTableCell3.Text" xml:space="preserve">
+    <value>Amount Paid
+      /credited 
+          Rs.</value>
+  </data>
+  <data name="xrTableCell3.Weight" type="System.Double, mscorlib">
+    <value>0.29538490336921019</value>
+  </data>
+  <data name="xrTableCell7.Text" xml:space="preserve">
+    <value>Paid by book entry or otherwise</value>
+  </data>
+  <data name="xrTableCell7.Weight" type="System.Double, mscorlib">
+    <value>0.25234158856784134</value>
+  </data>
+  <data name="xrTableCell8.Text" xml:space="preserve">
+    <value>TDS</value>
+  </data>
+  <data name="xrTableCell8.Weight" type="System.Double, mscorlib">
+    <value>0.25234158856784134</value>
+  </data>
+  <data name="xrTableRow1.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrTableCell9.Text" xml:space="preserve">
+    <value>414</value>
+  </data>
+  <data name="xrTableCell9.Weight" type="System.Double, mscorlib">
+    <value>0.16327473363008424</value>
+  </data>
+  <data name="xrTableCell10.Text" xml:space="preserve">
+    <value>415</value>
+  </data>
+  <data name="xrTableCell10.Weight" type="System.Double, mscorlib">
+    <value>0.34065094207425378</value>
+  </data>
+  <data name="xrTableCell11.Text" xml:space="preserve">
+    <value>416</value>
+  </data>
+  <data name="xrTableCell11.Weight" type="System.Double, mscorlib">
+    <value>0.37032105560049933</value>
+  </data>
+  <data name="xrTableCell12.Text" xml:space="preserve">
+    <value>417</value>
+  </data>
+  <data name="xrTableCell12.Weight" type="System.Double, mscorlib">
+    <value>0.48708583229800295</value>
+  </data>
+  <data name="xrTableCell13.Text" xml:space="preserve">
+    <value>418</value>
+  </data>
+  <data name="xrTableCell13.Weight" type="System.Double, mscorlib">
+    <value>0.43750705939245133</value>
+  </data>
+  <data name="xrTableCell14.Text" xml:space="preserve">
+    <value>419</value>
+  </data>
+  <data name="xrTableCell14.Weight" type="System.Double, mscorlib">
+    <value>0.29538490336921019</value>
+  </data>
+  <data name="xrTableCell15.Text" xml:space="preserve">
+    <value>420</value>
+  </data>
+  <data name="xrTableCell15.Weight" type="System.Double, mscorlib">
+    <value>0.25234158856784134</value>
+  </data>
+  <data name="xrTableCell16.Text" xml:space="preserve">
+    <value>421</value>
+  </data>
+  <data name="xrTableCell16.Weight" type="System.Double, mscorlib">
+    <value>0.25234158856784134</value>
+  </data>
+  <data name="xrTableRow2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableRow2.Weight" type="System.Double, mscorlib">
+    <value>0.41666699218750003</value>
+  </data>
+  <data name="xrTableHeader.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>721, 88.54169</value>
+  </data>
+  <data name="grhAnnexure.HeightF" type="System.Single, mscorlib">
+    <value>352.083344</value>
+  </data>
+  <data name="xrLabel18.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>2.00039554, 373.041718</value>
+  </data>
+  <data name="xrLabel18.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>720.9998, 23</value>
+  </data>
+  <data name="xrLabel18.Text" xml:space="preserve">
+    <value>*Write 'B' if ' no deduction' is on account of declaration under section 197A.</value>
+  </data>
+  <data name="xrLabel17.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 350.041718</value>
+  </data>
+  <data name="xrLabel17.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>720.9998, 23</value>
+  </data>
+  <data name="xrLabel17.Text" xml:space="preserve">
+    <value>*Write 'A' if 'lower deduction' or ' no deduction' is on account of a certificate under section 197.</value>
+  </data>
+  <data name="xrLabel16.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>0, 327.041656</value>
+  </data>
+  <data name="xrLabel16.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrLabel16.Text" xml:space="preserve">
+    <value>Note :</value>
+  </data>
+  <data name="lblDate.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gainsboro</value>
+  </data>
+  <data name="lblDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblDate.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>47.29627, 291.187164</value>
+  </data>
+  <data name="lblDate.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>102.162064, 23</value>
+  </data>
+  <data name="lblDate.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel15.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gainsboro</value>
+  </data>
+  <data name="xrLabel15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="xrLabel15.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>149.458359, 291.1872</value>
+  </data>
+  <data name="xrLabel15.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>364.7917, 23</value>
+  </data>
+  <data name="xrLabel15.Text" xml:space="preserve">
+    <value>Name and designation of person responsible for deducting tax at source</value>
+  </data>
+  <data name="xrLabel15.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblDesignation.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gray</value>
+  </data>
+  <data name="lblDesignation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblDesignation.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>514.249939, 291.187164</value>
+  </data>
+  <data name="lblDesignation.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>208.749939, 23</value>
+  </data>
+  <data name="lblDesignation.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel13.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gainsboro</value>
+  </data>
+  <data name="xrLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="xrLabel13.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>0, 291.187164</value>
+  </data>
+  <data name="xrLabel13.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>47.17105, 23</value>
+  </data>
+  <data name="xrLabel13.Text" xml:space="preserve">
+    <value>Date    :</value>
+  </data>
+  <data name="xrLabel13.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel12.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gainsboro</value>
+  </data>
+  <data name="xrLabel12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="xrLabel12.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>0, 261.9791</value>
+  </data>
+  <data name="xrLabel12.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>47.1710548, 23</value>
+  </data>
+  <data name="xrLabel12.Text" xml:space="preserve">
+    <value>Place  :</value>
+  </data>
+  <data name="xrLabel12.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblPlace.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gainsboro</value>
+  </data>
+  <data name="lblPlace.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblPlace.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>47.17105, 261.9791</value>
+  </data>
+  <data name="lblPlace.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>102.287354, 23</value>
+  </data>
+  <data name="lblPlace.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel10.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gainsboro</value>
+  </data>
+  <data name="xrLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold, Italic</value>
+  </data>
+  <data name="xrLabel10.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>0, 197.521149</value>
+  </data>
+  <data name="xrLabel10.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>723, 23</value>
+  </data>
+  <data name="xrLabel10.Text" xml:space="preserve">
+    <value>Verification</value>
+  </data>
+  <data name="xrLabel10.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblResponsiblePerson.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gainsboro</value>
+  </data>
+  <data name="lblResponsiblePerson.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt</value>
+  </data>
+  <data name="lblResponsiblePerson.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>21.5416279, 233.9791</value>
+  </data>
+  <data name="lblResponsiblePerson.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>202.125137, 23</value>
+  </data>
+  <data name="xrLabel9.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gainsboro</value>
+  </data>
+  <data name="xrLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt</value>
+  </data>
+  <data name="xrLabel9.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>0, 233.9791</value>
+  </data>
+  <data name="xrLabel9.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>21.54163, 23</value>
+  </data>
+  <data name="xrLabel9.Text" xml:space="preserve">
+    <value>I, </value>
+  </data>
+  <data name="lblPersonSign.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gray</value>
+  </data>
+  <data name="lblPersonSign.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="lblPersonSign.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>470.499939, 261.9791</value>
+  </data>
+  <data name="lblPersonSign.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>252.5, 23</value>
+  </data>
+  <data name="lblPersonSign.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel14.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gainsboro</value>
+  </data>
+  <data name="xrLabel14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="xrLabel14.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>149.458359, 261.9791</value>
+  </data>
+  <data name="xrLabel14.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>321.0416, 23</value>
+  </data>
+  <data name="xrLabel14.Text" xml:space="preserve">
+    <value>Signature of the person responsible for deducting tax at source</value>
+  </data>
+  <data name="xrLabel14.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrLabel11.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gainsboro</value>
+  </data>
+  <data name="xrLabel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt</value>
+  </data>
+  <data name="xrLabel11.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>223.666763, 233.9791</value>
+  </data>
+  <data name="xrLabel11.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>499.3332, 23</value>
+  </data>
+  <data name="xrLabel11.Text" xml:space="preserve">
+    <value>hereby certify that all the particulars furnished above are correct and complete.</value>
+  </data>
+  <data name="xrTable2.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gray</value>
+  </data>
+  <data name="xrTable2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.5pt</value>
+  </data>
+  <data name="xrTable2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99998224, 43.75</value>
+  </data>
+  <data name="xrTableCell33.Text" xml:space="preserve">
+    <value>Sr.No</value>
+  </data>
+  <data name="xrTableCell33.Weight" type="System.Double, mscorlib">
+    <value>0.18795179639679749</value>
+  </data>
+  <data name="xrTableCell36.Text" xml:space="preserve">
+    <value>Surcharge</value>
+  </data>
+  <data name="xrTableCell36.Weight" type="System.Double, mscorlib">
+    <value>0.39213594102938731</value>
+  </data>
+  <data name="xrTableCell37.Text" xml:space="preserve">
+    <value>Education Cess</value>
+  </data>
+  <data name="xrTableCell37.Weight" type="System.Double, mscorlib">
+    <value>0.42629110281944504</value>
+  </data>
+  <data name="xrTableCell34.Text" xml:space="preserve">
+    <value>Total Tax deducted
+(421+422+423)
+           Rs.</value>
+  </data>
+  <data name="xrTableCell34.Weight" type="System.Double, mscorlib">
+    <value>0.560702485701688</value>
+  </data>
+  <data name="xrTableCell38.Text" xml:space="preserve">
+    <value>Total Tax deposited
+        Rs.</value>
+  </data>
+  <data name="xrTableCell38.Weight" type="System.Double, mscorlib">
+    <value>0.50363121282964374</value>
+  </data>
+  <data name="xrTableCell35.Text" xml:space="preserve">
+    <value>Date of deduction</value>
+  </data>
+  <data name="xrTableCell35.Weight" type="System.Double, mscorlib">
+    <value>0.34002884101806663</value>
+  </data>
+  <data name="xrTableCell39.Text" xml:space="preserve">
+    <value>Rate at which
+deducted</value>
+  </data>
+  <data name="xrTableCell39.Weight" type="System.Double, mscorlib">
+    <value>0.29048056460319671</value>
+  </data>
+  <data name="xrTableCell40.Text" xml:space="preserve">
+    <value>Reason for non-
+deduction / lower deduction</value>
+  </data>
+  <data name="xrTableCell40.Weight" type="System.Double, mscorlib">
+    <value>0.29877805560177512</value>
+  </data>
+  <data name="xrTableRow5.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrTableCell41.Text" xml:space="preserve">
+    <value>414</value>
+  </data>
+  <data name="xrTableCell41.Weight" type="System.Double, mscorlib">
+    <value>0.18795179639679749</value>
+  </data>
+  <data name="xrTableCell42.Text" xml:space="preserve">
+    <value>422</value>
+  </data>
+  <data name="xrTableCell42.Weight" type="System.Double, mscorlib">
+    <value>0.39213594102938731</value>
+  </data>
+  <data name="xrTableCell43.Text" xml:space="preserve">
+    <value>423</value>
+  </data>
+  <data name="xrTableCell43.Weight" type="System.Double, mscorlib">
+    <value>0.42629110281944504</value>
+  </data>
+  <data name="xrTableCell44.Text" xml:space="preserve">
+    <value>424</value>
+  </data>
+  <data name="xrTableCell44.Weight" type="System.Double, mscorlib">
+    <value>0.560702485701688</value>
+  </data>
+  <data name="xrTableCell45.Text" xml:space="preserve">
+    <value>425</value>
+  </data>
+  <data name="xrTableCell45.Weight" type="System.Double, mscorlib">
+    <value>0.50363121282964374</value>
+  </data>
+  <data name="xrTableCell46.Text" xml:space="preserve">
+    <value>426</value>
+  </data>
+  <data name="xrTableCell46.Weight" type="System.Double, mscorlib">
+    <value>0.34002884101806663</value>
+  </data>
+  <data name="xrTableCell47.Text" xml:space="preserve">
+    <value>427</value>
+  </data>
+  <data name="xrTableCell47.Weight" type="System.Double, mscorlib">
+    <value>0.29048056460319671</value>
+  </data>
+  <data name="xrTableCell48.Text" xml:space="preserve">
+    <value>428</value>
+  </data>
+  <data name="xrTableCell48.Weight" type="System.Double, mscorlib">
+    <value>0.29877805560177512</value>
+  </data>
+  <data name="xrTableRow6.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableRow6.Weight" type="System.Double, mscorlib">
+    <value>0.27631589472129081</value>
+  </data>
+  <data name="xrTableCell49.Weight" type="System.Double, mscorlib">
+    <value>0.18795179639679749</value>
+  </data>
+  <data name="xrTableCell50.Weight" type="System.Double, mscorlib">
+    <value>0.39213594102938731</value>
+  </data>
+  <data name="xrTableCell51.Weight" type="System.Double, mscorlib">
+    <value>0.42629110281944504</value>
+  </data>
+  <data name="xrTableCell52.Weight" type="System.Double, mscorlib">
+    <value>0.560702485701688</value>
+  </data>
+  <data name="xrTableCell53.Weight" type="System.Double, mscorlib">
+    <value>0.50363121282964374</value>
+  </data>
+  <data name="xrTableCell54.Weight" type="System.Double, mscorlib">
+    <value>0.34002884101806663</value>
+  </data>
+  <data name="xrTableCell55.Weight" type="System.Double, mscorlib">
+    <value>0.29048056460319671</value>
+  </data>
+  <data name="xrTableCell56.Weight" type="System.Double, mscorlib">
+    <value>0.29877805560177512</value>
+  </data>
+  <data name="xrTableRow7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.5pt, style=Bold</value>
+  </data>
+  <data name="xrTableRow7.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrTableRow7.Weight" type="System.Double, mscorlib">
+    <value>0.27631589472129081</value>
+  </data>
+  <data name="xrTableCell57.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="xrTableCell57.Weight" type="System.Double, mscorlib">
+    <value>0.18795179639679749</value>
+  </data>
+  <data name="xrTableCell58.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrTableCell58.Weight" type="System.Double, mscorlib">
+    <value>0.39213594102938731</value>
+  </data>
+  <data name="xrTableCell59.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrTableCell59.Weight" type="System.Double, mscorlib">
+    <value>0.42629110281944504</value>
+  </data>
+  <data name="xrTableCell60.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrTableCell60.Weight" type="System.Double, mscorlib">
+    <value>0.560702485701688</value>
+  </data>
+  <data name="xrTableCell61.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrTableCell61.Weight" type="System.Double, mscorlib">
+    <value>0.50363121282964374</value>
+  </data>
+  <data name="xrTableCell62.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell62.Weight" type="System.Double, mscorlib">
+    <value>0.34002884101806663</value>
+  </data>
+  <data name="xrTableCell63.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrTableCell63.Weight" type="System.Double, mscorlib">
+    <value>0.29048056460319671</value>
+  </data>
+  <data name="xrTableCell64.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v13.2">
+    <value>MiddleRight</value>
+  </data>
+  <data name="xrTableCell64.Weight" type="System.Double, mscorlib">
+    <value>0.29877805560177512</value>
+  </data>
+  <data name="xrTableRow8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.5pt, style=Bold</value>
+  </data>
+  <data name="xrTableRow8.Weight" type="System.Double, mscorlib">
+    <value>0.27631589472129081</value>
+  </data>
+  <data name="xrTable2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>721, 144.791687</value>
+  </data>
+  <data name="xrTable1.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>Gray</value>
+  </data>
+  <data name="xrTable1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.5pt, style=Bold</value>
+  </data>
+  <data name="xrTable1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v13.2">
+    <value>1.99988687, 0</value>
+  </data>
+  <data name="xrTableCell25.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="xrTableCell25.Weight" type="System.Double, mscorlib">
+    <value>0.18847308096104704</value>
+  </data>
+  <data name="xrTableCell26.Weight" type="System.Double, mscorlib">
+    <value>0.3932239115384869</value>
+  </data>
+  <data name="xrTableCell27.Weight" type="System.Double, mscorlib">
+    <value>0.42747307258035433</value>
+  </data>
+  <data name="xrTableCell28.Weight" type="System.Double, mscorlib">
+    <value>0.5622582614583117</value>
+  </data>
+  <data name="xrTableCell29.Weight" type="System.Double, mscorlib">
+    <value>0.50502765374634739</value>
+  </data>
+  <data name="xrTableCell30.Weight" type="System.Double, mscorlib">
+    <value>0.34097191147347311</value>
+  </data>
+  <data name="xrTableCell31.Weight" type="System.Double, mscorlib">
+    <value>0.29128545096507485</value>
+  </data>
+  <data name="xrTableCell32.Weight" type="System.Double, mscorlib">
+    <value>0.29128665727690467</value>
+  </data>
+  <data name="xrTableRow4.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrTable1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>721.0001, 25</value>
+  </data>
+  <data name="grfFooter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="grfFooter.HeightF" type="System.Single, mscorlib">
+    <value>396.875</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

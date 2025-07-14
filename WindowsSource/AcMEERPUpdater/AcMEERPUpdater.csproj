@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72CF4CED-F597-4488-B66A-BD63C02E90BA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AcMEERPUpdater</RootNamespace>
+    <AssemblyName>AcMEERPUpdater</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Update.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app1.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\Bosco.DAO\MySQL\MySql.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SimpleEncrypt, Version=1.0.3048.24602, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\SimpleEncrypt.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Log" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AcmeerpAssemblyInfo.cs">
+      <Link>Properties\AcmeerpAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="EmbeddedAssembly.cs" />
+    <Compile Include="General.cs" />
+    <Compile Include="frmUpdater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdater.Designer.cs">
+      <DependentUpon>frmUpdater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmUpdater.resx">
+      <DependentUpon>frmUpdater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="app1.manifest">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dbscript\dbscript.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dbscript\version.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\MySql.Data.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Config.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TargetPath.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="updatefiles\DevExpress.XtraSpellChecker.v13.2.dll" />
+    <EmbeddedResource Include="updatefiles\DevExpress.SpellChecker.v13.2.Core.dll" />
+    <EmbeddedResource Include="updatefiles\Newtonsoft.Json.dll" />
+    <EmbeddedResource Include="updatefiles\mysqldump.exe" />
+    <EmbeddedResource Include="dbscript\VerifyInvalidTables.sql" />
+    <EmbeddedResource Include="dbscript\VerifyInvalidFDVouchers.sql" />
+    <EmbeddedResource Include="dbscript\DROPFD.sql" />
+    <EmbeddedResource Include="updatefiles\Acme.erpLogo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="updatefiles\AcMEService.dll" />
+    <EmbeddedResource Include="updatefiles\ACPP.exe" />
+    <EmbeddedResource Include="updatefiles\Bosco.DAO.dll" />
+    <EmbeddedResource Include="updatefiles\Bosco.DAO.Schema.dll" />
+    <EmbeddedResource Include="updatefiles\Bosco.HOSQL.dll" />
+    <EmbeddedResource Include="updatefiles\Bosco.Model.dll" />
+    <EmbeddedResource Include="updatefiles\Bosco.Report.dll" />
+    <EmbeddedResource Include="updatefiles\Bosco.SQL.dll" />
+    <EmbeddedResource Include="updatefiles\Bosco.Utility.dll" />
+    <EmbeddedResource Include="updatefiles\en-US\ACPP.resources.dll" />
+    <EmbeddedResource Include="updatefiles\en-US\Bosco.Utility.resources.dll" />
+    <EmbeddedResource Include="updatefiles\ReportSetting.xml" />
+    <EmbeddedResource Include="updatefiles\fr-FR\ACPP.resources.dll" />
+    <EmbeddedResource Include="updatefiles\fr-FR\Bosco.Utility.resources.dll" />
+    <EmbeddedResource Include="updatefiles\Payroll.DAO.dll" />
+    <EmbeddedResource Include="updatefiles\Payroll.DAO.Schema.dll" />
+    <EmbeddedResource Include="updatefiles\PAYROLL.exe" />
+    <EmbeddedResource Include="updatefiles\Payroll.Model.dll" />
+    <EmbeddedResource Include="updatefiles\Payroll.SQL.dll" />
+    <EmbeddedResource Include="updatefiles\Payroll.Utility.dll" />
+    <EmbeddedResource Include="updatefiles\AcMEDSync.dll" />
+    <EmbeddedResource Include="updatefiles\DevExpress.Pdf.v13.2.Core.dll" />
+    <EmbeddedResource Include="updatefiles\DevExpress.Pdf.v13.2.Drawing.dll" />
+    <EmbeddedResource Include="updatefiles\DevExpress.XtraPdfViewer.v13.2.dll" />
+    <EmbeddedResource Include="Resources\SimpleEncrypt.dll" />
+    <Content Include="Update.ico" />
+    <EmbeddedResource Include="updatefiles\AcMEDS.exe" />
+    <EmbeddedResource Include="updatefiles\SUPPORT.resources.dll" />
+    <EmbeddedResource Include="updatefiles\mysql.exe" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

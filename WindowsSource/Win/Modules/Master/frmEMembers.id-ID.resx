@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Tambah Anggota Berwenang</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>&amp;Tutup</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;Simpan</value>
+  </data>
+  <data name="dtDOB.SuperTip" xml:space="preserve">
+    <value>DOB/Executive Member's DOB.</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>Info Anggota</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>DOJ</value>
+  </data>
+  <data name="layoutControlItem11.Text" xml:space="preserve">
+    <value>Hubungan Dengan Pejabat Kantor</value>
+  </data>
+  <data name="layoutControlItem13.Text" xml:space="preserve">
+    <value>Telepon</value>
+  </data>
+  <data name="layoutControlItem14.Text" xml:space="preserve">
+    <value>Negara</value>
+  </data>
+  <data name="layoutControlItem15.Text" xml:space="preserve">
+    <value>Kode Pin</value>
+  </data>
+  <data name="layoutControlItem16.Text" xml:space="preserve">
+    <value>PAN/UID #</value>
+  </data>
+  <data name="layoutControlItem18.Text" xml:space="preserve">
+    <value>Agama</value>
+  </data>
+  <data name="layoutControlItem19.Text" xml:space="preserve">
+    <value>Pekerjaan</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="layoutControlItem20.Text" xml:space="preserve">
+    <value>DOB</value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="layoutControlItem24.Text" xml:space="preserve">
+    <value>Tempat</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Alamat</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>Kantor diadakan dalam asosiasi</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>Peranan</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>Tanggal Keluar</value>
+  </data>
+  <data name="lblCountry.Text" xml:space="preserve">
+    <value>Negara&lt;color=red&gt;*</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Nama&lt;color=red&gt; *</value>
+  </data>
+  <data name="lblNameOfFather.Text" xml:space="preserve">
+    <value>Nama Ayah/Suami</value>
+  </data>
+  <data name="lblNationality.Text" xml:space="preserve">
+    <value>Kebangsaan
+&lt;color=red&gt; *</value>
+  </data>
+  <data name="lkpCountry.SuperTip" xml:space="preserve">
+    <value>Country/Country.</value>
+  </data>
+  <data name="txtAssociation.SuperTip" xml:space="preserve">
+    <value>Office Held in Association/Office Held in Association.</value>
+  </data>
+  <data name="txtEmail.SuperTip" xml:space="preserve">
+    <value>EMail/Executive Member's Email Address./  Ex: Test@gmail.com</value>
+  </data>
+  <data name="txtFather.SuperTip" xml:space="preserve">
+    <value>Name of the Father/Husband/Executive Member's Father/Husband.</value>
+  </data>
+  <data name="txtFax.SuperTip" xml:space="preserve">
+    <value>PAN/SSN/PAN/SSN.</value>
+  </data>
+  <data name="txtMemoAddress.SuperTip" xml:space="preserve">
+    <value>Address/ Executive Member's Address.</value>
+  </data>
+  <data name="txtMemoNote.SuperTip" xml:space="preserve">
+    <value>Notes/Notes for Executive Member.</value>
+  </data>
+  <data name="txtMemoNotes.Text" xml:space="preserve">
+    <value>Keterangan</value>
+  </data>
+  <data name="txtName.SuperTip" xml:space="preserve">
+    <value>Name/Executive Member's Name.</value>
+  </data>
+  <data name="txtNationality.SuperTip" xml:space="preserve">
+    <value>Nationality/Executive Member's Nationality.</value>
+  </data>
+  <data name="txtOccupation.SuperTip" xml:space="preserve">
+    <value>Occupation/Executive Member's Occupation</value>
+  </data>
+  <data name="txtPan.SuperTip" xml:space="preserve">
+    <value>PAN/SSN/PAN/SSN.</value>
+  </data>
+  <data name="txtPhone.SuperTip" xml:space="preserve">
+    <value>Phone/Phone Number./Ex: 044-297575/ 9626135762.</value>
+  </data>
+  <data name="txtPinCode.SuperTip" xml:space="preserve">
+    <value>Pin Code/Pin Code./  Ex: 897969</value>
+  </data>
+  <data name="txtPlace.SuperTip" xml:space="preserve">
+    <value>Place/Place.</value>
+  </data>
+  <data name="txtRelationship.SuperTip" xml:space="preserve">
+    <value>Relationship with Office Bearer/Relationship with Office Bearer.</value>
+  </data>
+  <data name="txtReligion.SuperTip" xml:space="preserve">
+    <value>Religion/Executive Member's Religion.</value>
+  </data>
+  <data name="txtRole.SuperTip" xml:space="preserve">
+    <value>Role/Executive Member's Role</value>
+  </data>
+  <data name="txtState.SuperTip" xml:space="preserve">
+    <value>State/Executive Member's State.</value>
+  </data>
+  <data name="txtURL.SuperTip" xml:space="preserve">
+    <value>URL/Executive Member's URL./  Ex: www.google.com</value>
+  </data>
+</root>

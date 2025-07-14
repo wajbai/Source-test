@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="User" xml:space="preserve">
+    <value>Bosco.SQL.UserSQL,Bosco.SQL</value>
+  </data>
+  <data name="LedgerGroup" xml:space="preserve">
+    <value>Bosco.SQL.LedgerGroupSQL,Bosco.SQL</value>
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>Bosco.SQL.BankSQL,Bosco.SQL</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Bosco.SQL.CountrySQL,Bosco.SQL</value>
+  </data>
+  <data name="CostCentre" xml:space="preserve">
+    <value>Bosco.SQL.CostCentreSQL,Bosco.SQL</value>
+  </data>
+  <data name="DonorAuditor" xml:space="preserve">
+    <value>Bosco.SQL.DonorAuditorSQL,Bosco.SQL</value>
+  </data>
+  <data name="InKindArticle" xml:space="preserve">
+    <value>Bosco.SQL.InKindArticleSQL,Bosco.SQL</value>
+  </data>
+  <data name="ExecutiveMembers" xml:space="preserve">
+    <value>Bosco.SQL.ExecutiveMemberSQL,Bosco.SQL</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Bosco.SQL.ProjectSQL,Bosco.SQL</value>
+  </data>
+  <data name="Voucher" xml:space="preserve">
+    <value>Bosco.SQL.VoucherSQL,Bosco.SQL</value>
+  </data>
+  <data name="LedgerBank" xml:space="preserve">
+    <value>Bosco.SQL.LedgerSQL,Bosco.SQL</value>
+  </data>
+  <data name="Purposes" xml:space="preserve">
+    <value>Bosco.SQL.PurposeSQL,Bosco.SQL</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Bosco.SQL.SettingSQL,Bosco.SQL</value>
+  </data>
+  <data name="AuditInfo" xml:space="preserve">
+    <value>Bosco.SQL.AuditInfoSQL,Bosco.SQL</value>
+  </data>
+  <data name="UserRights" xml:space="preserve">
+    <value>Bosco.SQL.UserRightsSQL,Bosco.SQL</value>
+  </data>
+  <data name="AddressBook" xml:space="preserve">
+    <value>Bosco.SQL.AddressBookSQL,Bosco.SQL</value>
+  </data>
+  <data name="ProjectCatogory" xml:space="preserve">
+    <value>Bosco.SQL.ProjectCatogory,Bosco.SQL</value>
+  </data>
+  <data name="UserRole" xml:space="preserve">
+    <value>Bosco.SQL.UserRoleSQL,Bosco.SQL</value>
+  </data>
+  <data name="ManageSecurity" xml:space="preserve">
+    <value>Bosco.SQL.ManageSecuritySQL,Bosco.SQL</value>
+  </data>
+  <data name="MasterRights" xml:space="preserve">
+    <value>Bosco.SQL.MasterRightsSQL,Bosco.SQL</value>
+  </data>
+  <data name="UISetting" xml:space="preserve">
+    <value>Bosco.SQL.UISettingSQL,Bosco.SQL</value>
+  </data>
+  <data name="Mapping" xml:space="preserve">
+    <value>Bosco.SQL.MappingSQL,Bosco.SQL</value>
+  </data>
+  <data name="VoucherMaster" xml:space="preserve">
+    <value>Bosco.SQL.VoucherMasterSQL,Bosco.SQL</value>
+  </data>
+  <data name="VoucherTransDetails" xml:space="preserve">
+    <value>Bosco.SQL.VoucherTransSQL,Bosco.SQL</value>
+  </data>
+  <data name="MasterTransactionCostCentre" xml:space="preserve">
+    <value>Bosco.SQL.CostCentreMasterSQL,Bosco.SQL</value>
+  </data>
+  <data name="FixedDeposit" xml:space="preserve">
+    <value>Bosco.SQL.FixedDepositSQL,Bosco.SQL</value>
+  </data>
+  <data name="TransBalance" xml:space="preserve">
+    <value>Bosco.SQL.BalanceSQL,Bosco.SQL</value>
+  </data>
+  <data name="AccountingPeriod" xml:space="preserve">
+    <value>Bosco.SQL.AccountingPeriodSQL,Bosco.SQL</value>
+  </data>
+  <data name="FDRenewal" xml:space="preserve">
+    <value>Bosco.SQL.FDRenewalSQL,Bosco.SQL</value>
+  </data>
+  <data name="InKindReceived" xml:space="preserve">
+    <value>Bosco.SQL.InKindReceivedSQL,Bosco.SQL</value>
+  </data>
+  <data name="Budget" xml:space="preserve">
+    <value>Bosco.SQL.BudgetSQL,Bosco.SQL</value>
+  </data>
+  <data name="FDAccount" xml:space="preserve">
+    <value>Bosco.SQL.FDAccountSQL,Bosco.SQL</value>
+  </data>
+  <data name="LegalEntity" xml:space="preserve">
+    <value>Bosco.SQL.LegalEntitySQL,Bosco.SQL</value>
+  </data>
+  <data name="DashBoard" xml:space="preserve">
+    <value>Bosco.SQL.DashBoardSQL,Bosco.SQL</value>
+  </data>
+  <data name="DeducteeTax" xml:space="preserve">
+    <value>Bosco.SQL.DeducteeTaxSQL,Bosco.SQL</value>
+  </data>
+  <data name="DeducteeType" xml:space="preserve">
+    <value>Bosco.SQL.DeducteeTypeSQL,Bosco.SQL</value>
+  </data>
+  <data name="NatureofPayments" xml:space="preserve">
+    <value>Bosco.SQL.NatureofPaymentSQL,Bosco.SQL</value>
+  </data>
+  <data name="CostCentreCategory" xml:space="preserve">
+    <value>Bosco.SQL.CostCentreCategorySQL,Bosco.SQL</value>
+  </data>
+  <data name="ExportVouchers" xml:space="preserve">
+    <value>Bosco.SQL.ExportVouchersSQL,Bosco.SQL</value>
+  </data>
+  <data name="ImportLedger" xml:space="preserve">
+    <value>Bosco.SQL.HeadOfficeLedgersSQL,Bosco.SQL</value>
+  </data>
+  <data name="ImportMaster" xml:space="preserve">
+    <value>Bosco.SQL.ImportMasterSQL,Bosco.SQL</value>
+  </data>
+  <data name="TDSSection" xml:space="preserve">
+    <value>Bosco.SQL.TDSSectionSQL,Bosco.SQL</value>
+  </data>
+  <data name="LedgerProfile" xml:space="preserve">
+    <value>Bosco.SQL.LedgerProfileSQL,Bosco.SQL</value>
+  </data>
+  <data name="TDSBooking" xml:space="preserve">
+    <value>Bosco.SQL.TDSBookingSQL,Bosco.SQL</value>
+  </data>
+  <data name="TDSDeduction" xml:space="preserve">
+    <value>Bosco.SQL.TDSDeductionSQL,Bosco.SQL</value>
+  </data>
+  <data name="TDSBookingDetail" xml:space="preserve">
+    <value>Bosco.SQL.TDSBookingDetailSQL,Bosco.SQL</value>
+  </data>
+  <data name="TDSDeductionDetail" xml:space="preserve">
+    <value>Bosco.SQL.TDSDeductionDetailSQL,Bosco.SQL</value>
+  </data>
+  <data name="SubBranchList" xml:space="preserve">
+    <value>Bosco.SQL.SubBranchSQL,Bosco.SQL</value>
+  </data>
+  <data name="TDSPartyPayment" xml:space="preserve">
+    <value>Bosco.SQL.PartyPaymentSQL,Bosco.SQL</value>
+  </data>
+  <data name="TDSPartyPaymentDetail" xml:space="preserve">
+    <value>Bosco.SQL.PartyPaymentDetailSQL,Bosco.SQL</value>
+  </data>
+  <data name="TDSPayment" xml:space="preserve">
+    <value>Bosco.SQL.TDSPaymentSQL,Bosco.SQL</value>
+  </data>
+  <data name="TDSPayemtDetail" xml:space="preserve">
+    <value>Bosco.SQL.TDSPaymentDetailSQL,Bosco.SQL</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Bosco.SQL.StateSQL,Bosco.SQL</value>
+  </data>
+  <data name="Audit" xml:space="preserve">
+    <value>Bosco.SQL.AuditTypeSQL,Bosco.SQL</value>
+  </data>
+  <data name="AcMePlusMigration" xml:space="preserve">
+    <value>Bosco.SQL.AcMePlusMigrationSQL,Bosco.SQL</value>
+  </data>
+  <data name="TallyMigration" xml:space="preserve">
+    <value>Bosco.SQL.TallyMigrationSQL,Bosco.SQL</value>
+  </data>
+  <data name="TDSCompanyDeductor" xml:space="preserve">
+    <value>Bosco.SQL.TDSCompanyDeductors,Bosco.SQL</value>
+  </data>
+  <data name="AuditLockTrans" xml:space="preserve">
+    <value>Bosco.SQL.AuditLockTransSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetDepreciation" xml:space="preserve">
+    <value>Bosco.SQL.AssetDepreciationSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetClass" xml:space="preserve">
+    <value>Bosco.SQL.AssetClassSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetInsurance" xml:space="preserve">
+    <value>Bosco.SQL.AssetInsurancePlanSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetItem" xml:space="preserve">
+    <value>Bosco.SQL.AssetItemSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetLocation" xml:space="preserve">
+    <value>Bosco.SQL.LocationSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetService" xml:space="preserve">
+    <value>Bosco.SQL.AssetServiceSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetUnitOfMeasure" xml:space="preserve">
+    <value>Bosco.SQL.AssetUnitOfMeasureSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetCategory" xml:space="preserve">
+    <value>Bosco.SQL.AssetCategorySQL,Bosco.SQL</value>
+  </data>
+  <data name="StockCategory" xml:space="preserve">
+    <value>Bosco.SQL.StockCategorySQL,Bosco.SQL</value>
+  </data>
+  <data name="StockGroup" xml:space="preserve">
+    <value>Bosco.SQL.StockGroupSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockItem" xml:space="preserve">
+    <value>Bosco.SQL.StockItemSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockLocation" xml:space="preserve">
+    <value>Bosco.SQL.StockLocationSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockUnitofMeasure" xml:space="preserve">
+    <value>Bosco.SQL.StockUnitofMeasureSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetCustodians" xml:space="preserve">
+    <value>Bosco.SQL.CustodiansSQL,Bosco.SQL</value>
+  </data>
+  <data name="VendorInfo" xml:space="preserve">
+    <value>Bosco.SQL.VendorInfoSQL,Bosco.SQL</value>
+  </data>
+  <data name="ManufactureInfo" xml:space="preserve">
+    <value>Bosco.SQL.ManufactureInfoSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetTransferVoucher" xml:space="preserve">
+    <value>Bosco.SQL.AssetTransferSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetInsuranchVoucher" xml:space="preserve">
+    <value>Bosco.SQL.InsuranceSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetAMCVoucher" xml:space="preserve">
+    <value>Bosco.SQL.AMCVoucherSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetPurchaseVoucher" xml:space="preserve">
+    <value>Bosco.SQL.AssetPurchaseVoucherSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetSalesVoucher" xml:space="preserve">
+    <value>Bosco.SQL.AssetSalesVoucherSQL,Bosco.SQL</value>
+  </data>
+  <data name="Depriciation" xml:space="preserve">
+    <value>Bosco.SQL.DepriciationVoucherSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockPurchaseSales" xml:space="preserve">
+    <value>Bosco.SQL.StockPurchaseSalesSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockSales" xml:space="preserve">
+    <value>Bosco.SQL.StockSales,Bosco.SQL</value>
+  </data>
+  <data name="StockPurchaseDetail" xml:space="preserve">
+    <value>Bosco.SQL.StockPurchaseDetailSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockMasterPurchase" xml:space="preserve">
+    <value>Bosco.SQL.StockPurchaseSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockPurchaseReturns" xml:space="preserve">
+    <value>Bosco.SQL.StockPurchaseReturnSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockMasterSales" xml:space="preserve">
+    <value>Bosco.SQL.StockSalesSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockSalesDetail" xml:space="preserve">
+    <value>Bosco.SQL.StockSalesDetailSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockUpdation" xml:space="preserve">
+    <value>Bosco.SQL.StockBalanceSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockItemTransfer" xml:space="preserve">
+    <value>Bosco.SQL.StockItemTransferSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetInsuranceRenewal" xml:space="preserve">
+    <value>Bosco.SQL.InsuranceRenewalSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetLedgerMapping" xml:space="preserve">
+    <value>Bosco.SQL.AssetLedgerMappingSQL,Bosco.SQL</value>
+  </data>
+  <data name="StockLedgerMapping" xml:space="preserve">
+    <value>Bosco.SQL.StockLedgerMappingSQL,Bosco.SQL</value>
+  </data>
+  <data name="VoucherDepreciation" xml:space="preserve">
+    <value>Bosco.SQL.VoucherDepreciationSQL,Bosco.SQL</value>
+  </data>
+  <data name="PortalMessage" xml:space="preserve">
+    <value>Bosco.SQL.PortalMessageSQL,Bosco.SQL</value>
+  </data>
+  <data name="Block" xml:space="preserve">
+    <value>Bosco.SQL.BlockSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetMapping" xml:space="preserve">
+    <value>Bosco.SQL.AssetMappingSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetRenewInsurance" xml:space="preserve">
+    <value>Bosco.SQL.InsuranceRenewSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetInOut" xml:space="preserve">
+    <value>Bosco.SQL.AssetInwardOutwardSQL,Bosco.SQL</value>
+  </data>
+  <data name="AssetAMCRenewal" xml:space="preserve">
+    <value>Bosco.SQL.AssetAMCRenewalSQL,Bosco.SQL</value>
+  </data>
+  <data name="DonorProspect" xml:space="preserve">
+    <value>Bosco.SQL.ProspectSQL,Bosco.SQL</value>
+  </data>
+  <data name="FrontOffice" xml:space="preserve">
+    <value>Bosco.SQL.DonorFrontOfficeSQL,Bosco.SQL</value>
+  </data>
+  <data name="InstutionType" xml:space="preserve">
+    <value>Bosco.SQL.InstitutionTypeSQL,Bosco.SQL</value>
+  </data>
+  <data name="DonorRegistrationType" xml:space="preserve">
+    <value>Bosco.SQL.DonorRegistrationTypeSQL,Bosco.SQL</value>
+  </data>
+  <data name="DonorTitle" xml:space="preserve">
+    <value>Bosco.SQL.DonorTitleSQL,Bosco.SQL</value>
+  </data>
+  <data name="MasterDonorReference" xml:space="preserve">
+    <value>Bosco.SQL.MasterDonorReferenceSQL,Bosco.SQL</value>
+  </data>
+  <data name="Denomination" xml:space="preserve">
+    <value>Bosco.SQL.DenominationSql,Bosco.SQL</value>
+  </data>
+  <data name="CustomReport" xml:space="preserve">
+    <value>Bosco.SQL.ReportCustomizationSQL,Bosco.SQL</value>
+  </data>
+  <data name="GSTDetails" xml:space="preserve">
+    <value>Bosco.SQL.GSTClassSQL,Bosco.SQL</value>
+  </data>
+  <data name="TallyExport" xml:space="preserve">
+    <value>Bosco.SQL.TallyMigrationSQL,Bosco.SQL</value>
+  </data>
+  <data name="StatisticsType" xml:space="preserve">
+    <value>Bosco.SQL.StatisticsTypeSQL,Bosco.SQL</value>
+  </data>
+  <data name="SubLedger" xml:space="preserve">
+    <value>Bosco.SQL.SubLedgerSQL,Bosco.SQL</value>
+  </data>
+  <data name="CongregationLedgers" xml:space="preserve">
+    <value>Bosco.SQL.LedgerSQL,Bosco.SQL</value>
+  </data>
+</root>

@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Adicionar O Compravante</value>
+  </data>
+  <data name="barButtonItem10.Caption" xml:space="preserve">
+    <value>F4 - Recibos</value>
+  </data>
+  <data name="barButtonItem11.Caption" xml:space="preserve">
+    <value>F2 - Data</value>
+  </data>
+  <data name="barButtonItem12.Caption" xml:space="preserve">
+    <value>F12 - Configurar</value>
+  </data>
+  <data name="barButtonItem17.Caption" xml:space="preserve">
+    <value>F11 - Doador         </value>
+  </data>
+  <data name="barButtonItem8.Caption" xml:space="preserve">
+    <value>F7 - Jornal</value>
+  </data>
+  <data name="barButtonItem9.Caption" xml:space="preserve">
+    <value>F3 - Projecto </value>
+  </data>
+  <data name="bbiClose.Caption" xml:space="preserve">
+    <value>&lt;Color=Blue&gt;&lt;b&gt;Alt+C&lt;/b&gt;&lt;/color&gt;   Fechar</value>
+  </data>
+  <data name="bbiConfigure.Caption" xml:space="preserve">
+    <value>F12 -Configurar </value>
+  </data>
+  <data name="bbiContra.Caption" xml:space="preserve">
+    <value>F6 - COntra</value>
+  </data>
+  <data name="bbiCostCentre.Caption" xml:space="preserve">
+    <value>F10 - Centro de Custo</value>
+  </data>
+  <data name="bbiDeleteCashBank.Caption" xml:space="preserve">
+    <value>&lt;Color=Blue&gt;&lt;b&gt;Alt+D&lt;/b&gt;&lt;/color&gt;   Anular a Caixa/Banco 
+
+ </value>
+  </data>
+  <data name="bbiDeleteTrans.Caption" xml:space="preserve">
+    <value>&lt;Color=Blue&gt;&lt;b&gt;Ctrl+D&lt;/b&gt;&lt;/color&gt;   Anular a Transaccao</value>
+  </data>
+  <data name="bbiDonor.Caption" xml:space="preserve">
+    <value>F11 - Doador  </value>
+  </data>
+  <data name="bbiLedger.Caption" xml:space="preserve">
+    <value>F9 - Livro-razao
+      </value>
+  </data>
+  <data name="bbiMoveToCashBank.Caption" xml:space="preserve">
+    <value>&lt;Color=Blue&gt;&lt;b&gt;Alt+I&lt;/b&gt;&lt;/color&gt;   Mover a Caixa/Banco    </value>
+  </data>
+  <data name="bbiMoveToTrans.Caption" xml:space="preserve">
+    <value>&lt;Color=Blue&gt;&lt;b&gt;Ctrl+I&lt;/b&gt;&lt;/color&gt;   Move to Transaccao   </value>
+  </data>
+  <data name="bbiNew.Caption" xml:space="preserve">
+    <value>&lt;Color=Blue&gt;&lt;b&gt;Alt+N&lt;/b&gt;&lt;/color&gt;   Novo</value>
+  </data>
+  <data name="bbiPayment.Caption" xml:space="preserve">
+    <value>F5 -Pagamentos
+   </value>
+  </data>
+  <data name="bbiProject.Caption" xml:space="preserve">
+    <value>F8  - Projecto
+        </value>
+  </data>
+  <data name="bbiSave.Caption" xml:space="preserve">
+    <value>&lt;Color=Blue&gt;&lt;b&gt;Alt+S&lt;/b&gt;&lt;/color&gt;   Salvar
+  </value>
+  </data>
+  <data name="btnClose.SuperTip" xml:space="preserve">
+    <value>Alt + C/        Click on this to Close.</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="btnNew.SuperTip" xml:space="preserve">
+    <value>Alt + N/    Click to add New Transaction.</value>
+  </data>
+  <data name="btnNew.Text" xml:space="preserve">
+    <value>&amp;Novo</value>
+  </data>
+  <data name="btnSave.SuperTip" xml:space="preserve">
+    <value>Alt + S/    Click to Save transaction.</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;Salvar</value>
+  </data>
+  <data name="colAction.Caption" xml:space="preserve">
+    <value>Accao</value>
+  </data>
+  <data name="colAmount.Caption" xml:space="preserve">
+    <value>Montante</value>
+  </data>
+  <data name="colBudgetAmount.Caption" xml:space="preserve">
+    <value>Montante de Orcamento</value>
+  </data>
+  <data name="colBudgetAmt.Caption" xml:space="preserve">
+    <value>Montante de Orcamento</value>
+  </data>
+  <data name="colCashAmount.Caption" xml:space="preserve">
+    <value>Montante</value>
+  </data>
+  <data name="colCashCheque.Caption" xml:space="preserve">
+    <value>Numero de referencia de cheque do projecto de demanda</value>
+  </data>
+  <data name="colCashLedger.Caption" xml:space="preserve">
+    <value>Banco de numerário</value>
+  </data>
+  <data name="colCashLedgerName.Caption" xml:space="preserve">
+    <value>Livro-razao</value>
+  </data>
+  <data name="colCheque.Caption" xml:space="preserve">
+    <value>Numero de referencia de cheque do projecto de demanda</value>
+  </data>
+  <data name="colCode.Caption" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="colCostCentre.Caption" xml:space="preserve">
+    <value>Centro de Custo</value>
+  </data>
+  <data name="colDeleteBank.Caption" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="colFlagName.Caption" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="colHEAD.Caption" xml:space="preserve">
+    <value>Cabeca</value>
+  </data>
+  <data name="colLedCode.Caption" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="colLedger.Caption" xml:space="preserve">
+    <value>Livro-razao</value>
+  </data>
+  <data name="colLedgerBal.Caption" xml:space="preserve">
+    <value>Saldo actual</value>
+  </data>
+  <data name="colLedgerBalance.Caption" xml:space="preserve">
+    <value>Saldo actual</value>
+  </data>
+  <data name="colLedgerCode.Caption" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="colLedgerName.Caption" xml:space="preserve">
+    <value>Livro-razao</value>
+  </data>
+  <data name="colMaterializedOn.Caption" xml:space="preserve">
+    <value>Realizado em</value>
+  </data>
+  <data name="colName.Caption" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="colName1.Caption" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="colReceiptType.Caption" xml:space="preserve">
+    <value>Tipo de recibo</value>
+  </data>
+  <data name="colSourceName.Caption" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="colTempAmount.Caption" xml:space="preserve">
+    <value>Montante de Temp</value>
+  </data>
+  <data name="colTempAmt.Caption" xml:space="preserve">
+    <value>Montante de Temp</value>
+  </data>
+  <data name="colValueDate.Caption" xml:space="preserve">
+    <value>Realizado em</value>
+  </data>
+  <data name="emptysizing.CustomizationFormText" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="emptysizing.Text" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="gbMasterInfo.Text" xml:space="preserve">
+    <value>Compravante</value>
+  </data>
+  <data name="labelControl10.Text" xml:space="preserve">
+    <value>Mes</value>
+  </data>
+  <data name="labelControl11.Text" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>Data de Maturidade</value>
+  </data>
+  <data name="labelControl3.Text" xml:space="preserve">
+    <value>Grau</value>
+  </data>
+  <data name="labelControl4.Text" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="labelControl5.Text" xml:space="preserve">
+    <value>Mes</value>
+  </data>
+  <data name="labelControl6.Text" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="labelControl7.Text" xml:space="preserve">
+    <value>Data de Maturidade</value>
+  </data>
+  <data name="labelControl8.Text" xml:space="preserve">
+    <value>Grau</value>
+  </data>
+  <data name="labelControl9.Text" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>&amp;Novo</value>
+  </data>
+  <data name="layoutControlItem12.Text" xml:space="preserve">
+    <value>Objectivo</value>
+  </data>
+  <data name="layoutControlItem13.Text" xml:space="preserve">
+    <value>Moeda</value>
+  </data>
+  <data name="layoutControlItem15.Text" xml:space="preserve">
+    <value>taxa de câmbio</value>
+  </data>
+  <data name="layoutControlItem16.Text" xml:space="preserve">
+    <value>Montante actual</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Doador</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>Nome/ endereco</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>Tipo de recibo</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>Narracao</value>
+  </data>
+  <data name="lblCalculatedAmt.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lblCalculatedAmtCap.Text" xml:space="preserve">
+    <value>Montante calculado</value>
+  </data>
+  <data name="lblDay.Text" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="lblDonorCurrency.Text" xml:space="preserve">
+    <value>($)</value>
+  </data>
+  <data name="lblEntry.Text" xml:space="preserve">
+    <value>Pagamentos</value>
+  </data>
+  <data name="lblInterestRateval.Text" xml:space="preserve">
+    <value>Grau</value>
+  </data>
+  <data name="lblIntrestRate.Text" xml:space="preserve">
+    <value>Grau de Lucro</value>
+  </data>
+  <data name="lblMaturityDate.Text" xml:space="preserve">
+    <value>Data de Maturidade</value>
+  </data>
+  <data name="lblMaturitydateval.Text" xml:space="preserve">
+    <value>Data de Maturidade</value>
+  </data>
+  <data name="lblMth.Text" xml:space="preserve">
+    <value>Mes</value>
+  </data>
+  <data name="lblPeriodYrCap.Text" xml:space="preserve">
+    <value>Periodo</value>
+  </data>
+  <data name="lblTransactionDate.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="lblTransactionType.Text" xml:space="preserve">
+    <value>Tipo de Compravante</value>
+  </data>
+  <data name="lblVoucher.CustomizationFormText" xml:space="preserve">
+    <value>Compravante</value>
+  </data>
+  <data name="lblVoucher.Text" xml:space="preserve">
+    <value>Compravante #</value>
+  </data>
+  <data name="lblYr.Text" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="lkpCountry.SuperTip" xml:space="preserve">
+    <value>Currency of the Contribution Amount</value>
+  </data>
+  <data name="rgTransactionType.Properties.Items1" xml:space="preserve">
+    <value>Recibo</value>
+  </data>
+  <data name="rgTransactionType.Properties.Items3" xml:space="preserve">
+    <value>Pagamento</value>
+  </data>
+  <data name="rgTransactionType.Properties.Items5" xml:space="preserve">
+    <value>Contra</value>
+  </data>
+  <data name="simpleLabelItem1.Text" xml:space="preserve">
+    <value>Montante calculado</value>
+  </data>
+  <data name="simpleLabelItem2.Text" xml:space="preserve">
+    <value>Montante</value>
+  </data>
+  <data name="simpleLabelItem9.Text" xml:space="preserve">
+    <value>&lt;Color=Blue&gt;&lt;B&gt;F10&lt;/Color&gt;&lt;/B&gt; - Projecto</value>
+  </data>
+  <data name="txtActualAmount.SuperTip" xml:space="preserve">
+    <value>Actual Contribution Amount</value>
+  </data>
+  <data name="txtExchangeRate.SuperTip" xml:space="preserve">
+    <value>Exchange Rate of the Contribution Amount</value>
+  </data>
+  <data name="txtNameAddress.SuperTip" xml:space="preserve">
+    <value>Name &amp; Address/         Name/Address of the Payee/Receiver</value>
+  </data>
+  <data name="txtNarration.SuperTip" xml:space="preserve">
+    <value>Narration/      Narration of the Voucher</value>
+  </data>
+</root>

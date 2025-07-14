@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="barManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 20</value>
+  </metadata>
+  <data name="bbiDate.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;F3&lt;/b&gt;&lt;/color&gt; Date</value>
+  </data>
+  <data name="bbiNextDate.Caption" xml:space="preserve">
+    <value>&lt;color=blue&gt;&lt;b&gt;F4&lt;/b&gt;&lt;/color&gt; Next Date</value>
+  </data>
+  <data name="bbiProject.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;F5&lt;/color&gt;&lt;/b&gt; Project</value>
+  </data>
+  <data name="bbiPurchase.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;F6&lt;/color&gt;&lt;/b&gt; Purchase</value>
+  </data>
+  <data name="bbiInkind.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;F7&lt;/color&gt;&lt;/b&gt; In-Kind</value>
+  </data>
+  <data name="bbiSales.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;F8&lt;/color&gt;&lt;/b&gt; Sales</value>
+  </data>
+  <data name="bbiDispose.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;F9&lt;/color&gt;&lt;/b&gt; Disposal</value>
+  </data>
+  <data name="bbiDonation.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;F10&lt;/color&gt;&lt;/b&gt; Donation</value>
+  </data>
+  <data name="bbiAssetItem.Caption" xml:space="preserve">
+    <value>&lt;color=blue&gt;&lt;u&gt;&lt;b&gt;A&lt;/b&gt;&lt;/u&gt;&lt;/color&gt;sset Item</value>
+  </data>
+  <data name="bbiBankAccount.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;&lt;u&gt;B&lt;/u&gt;&lt;/color&gt;&lt;/b&gt;ank Account
+</value>
+  </data>
+  <data name="bbiCostcentre.Caption" xml:space="preserve">
+    <value>Cost C&lt;b&gt;&lt;color=blue&gt;&lt;u&gt;e&lt;/u&gt;&lt;/color&gt;&lt;/b&gt;nter</value>
+  </data>
+  <data name="bbiCustodian.Caption" xml:space="preserve">
+    <value>C&lt;b&gt;&lt;color=blue&gt;&lt;u&gt;u&lt;/u&gt;&lt;/color&gt;&lt;/b&gt;stodian
+</value>
+  </data>
+  <data name="bbiDonor.Caption" xml:space="preserve">
+    <value>D&lt;b&gt;&lt;color=blue&gt;&lt;u&gt;o&lt;/u&gt;&lt;/color&gt;&lt;/b&gt;nor</value>
+  </data>
+  <data name="bbiLedger.Caption" xml:space="preserve">
+    <value>Led&lt;b&gt;&lt;color=blue&gt;&lt;u&gt;g&lt;/u&gt;&lt;/color&gt;&lt;/b&gt;er   
+</value>
+  </data>
+  <data name="bbiLedgerOption.Caption" xml:space="preserve">
+    <value>Ledge&lt;b&gt;&lt;color=blue&gt;&lt;u&gt;r&lt;/u&gt;&lt;/color&gt;&lt;/b&gt; Option
+</value>
+  </data>
+  <data name="bbiLocation.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;&lt;u&gt;L&lt;/u&gt;&lt;/color&gt;&lt;/b&gt;ocation</value>
+  </data>
+  <data name="bbiMappLocation.Caption" xml:space="preserve">
+    <value>Loca&lt;b&gt;&lt;color=blue&gt;&lt;u&gt;t&lt;/u&gt;&lt;/color&gt;&lt;/b&gt;ion Mapping
+</value>
+  </data>
+  <data name="bbiManufacturer.Caption" xml:space="preserve">
+    <value>Manu&lt;color=blue&gt;&lt;u&gt;&lt;b&gt;f&lt;/b&gt;&lt;/u&gt;&lt;/color&gt;acturer</value>
+  </data>
+  <data name="bbiMapping.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;&lt;u&gt;M&lt;/u&gt;&lt;/color&gt;&lt;/b&gt;apping</value>
+  </data>
+  <data name="bbiVendor.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;&lt;u&gt;V&lt;/u&gt;&lt;/color&gt;&lt;/b&gt;endor</value>
+  </data>
+  <data name="bbiConfigure.Caption" xml:space="preserve">
+    <value>&lt;b&gt;&lt;color=blue&gt;F12&lt;/color&gt;&lt;/b&gt; Configure</value>
+  </data>
+  <data name="bbiAssetVoucherView.Caption" xml:space="preserve">
+    <value>Voucher View</value>
+  </data>
+  <data name="bar1.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="barDockControlTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="barDockControlTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="barDockControlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 792</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="barDockControlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="barDockControlBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 754</value>
+  </data>
+  <data name="barDockControlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 0</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="barDockControlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="barDockControlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 792</value>
+  </data>
+  <data name="barDockControlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="barDockControlRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="barDockControlRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 792</value>
+  </data>
+  <data name="barDockControlRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>43</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 754</value>
+  </data>
+  <data name="&gt;&gt;barManager1.Name" xml:space="preserve">
+    <value>barManager1</value>
+  </data>
+  <data name="&gt;&gt;barManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarManager, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bar1.Name" xml:space="preserve">
+    <value>bar1</value>
+  </data>
+  <data name="&gt;&gt;bar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiDate.Name" xml:space="preserve">
+    <value>bbiDate</value>
+  </data>
+  <data name="&gt;&gt;bbiDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiNextDate.Name" xml:space="preserve">
+    <value>bbiNextDate</value>
+  </data>
+  <data name="&gt;&gt;bbiNextDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiProject.Name" xml:space="preserve">
+    <value>bbiProject</value>
+  </data>
+  <data name="&gt;&gt;bbiProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiPurchase.Name" xml:space="preserve">
+    <value>bbiPurchase</value>
+  </data>
+  <data name="&gt;&gt;bbiPurchase.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiInkind.Name" xml:space="preserve">
+    <value>bbiInkind</value>
+  </data>
+  <data name="&gt;&gt;bbiInkind.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSales.Name" xml:space="preserve">
+    <value>bbiSales</value>
+  </data>
+  <data name="&gt;&gt;bbiSales.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiDispose.Name" xml:space="preserve">
+    <value>bbiDispose</value>
+  </data>
+  <data name="&gt;&gt;bbiDispose.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiDonation.Name" xml:space="preserve">
+    <value>bbiDonation</value>
+  </data>
+  <data name="&gt;&gt;bbiDonation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiAssetItem.Name" xml:space="preserve">
+    <value>bbiAssetItem</value>
+  </data>
+  <data name="&gt;&gt;bbiAssetItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiBankAccount.Name" xml:space="preserve">
+    <value>bbiBankAccount</value>
+  </data>
+  <data name="&gt;&gt;bbiBankAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiCostcentre.Name" xml:space="preserve">
+    <value>bbiCostcentre</value>
+  </data>
+  <data name="&gt;&gt;bbiCostcentre.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiCustodian.Name" xml:space="preserve">
+    <value>bbiCustodian</value>
+  </data>
+  <data name="&gt;&gt;bbiCustodian.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiDonor.Name" xml:space="preserve">
+    <value>bbiDonor</value>
+  </data>
+  <data name="&gt;&gt;bbiDonor.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiLedger.Name" xml:space="preserve">
+    <value>bbiLedger</value>
+  </data>
+  <data name="&gt;&gt;bbiLedger.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiLedgerOption.Name" xml:space="preserve">
+    <value>bbiLedgerOption</value>
+  </data>
+  <data name="&gt;&gt;bbiLedgerOption.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiLocation.Name" xml:space="preserve">
+    <value>bbiLocation</value>
+  </data>
+  <data name="&gt;&gt;bbiLocation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiMappLocation.Name" xml:space="preserve">
+    <value>bbiMappLocation</value>
+  </data>
+  <data name="&gt;&gt;bbiMappLocation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiManufacturer.Name" xml:space="preserve">
+    <value>bbiManufacturer</value>
+  </data>
+  <data name="&gt;&gt;bbiManufacturer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiMapping.Name" xml:space="preserve">
+    <value>bbiMapping</value>
+  </data>
+  <data name="&gt;&gt;bbiMapping.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiVendor.Name" xml:space="preserve">
+    <value>bbiVendor</value>
+  </data>
+  <data name="&gt;&gt;bbiVendor.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiConfigure.Name" xml:space="preserve">
+    <value>bbiConfigure</value>
+  </data>
+  <data name="&gt;&gt;bbiConfigure.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiAssetVoucherView.Name" xml:space="preserve">
+    <value>bbiAssetVoucherView</value>
+  </data>
+  <data name="&gt;&gt;bbiAssetVoucherView.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UCAssetVoucherShortcuts</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

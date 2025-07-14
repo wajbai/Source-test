@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TDS Policy</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="colApplicableFrom.Caption" xml:space="preserve">
+    <value>Applicable From</value>
+  </data>
+  <data name="colbandApplicableFrom.Caption" xml:space="preserve">
+    <value>Applicable From</value>
+  </data>
+  <data name="colbandEdCessExemptionLimit.Caption" xml:space="preserve">
+    <value>Exemption Limit</value>
+  </data>
+  <data name="colbandEdCessRate.Caption" xml:space="preserve">
+    <value>Rate(%)</value>
+  </data>
+  <data name="colbandNOP.Caption" xml:space="preserve">
+    <value>Nature of Payment</value>
+  </data>
+  <data name="colbandPolicyId.Caption" xml:space="preserve">
+    <value>bandedGridColumn1</value>
+  </data>
+  <data name="colbandSecEdCessExemption.Caption" xml:space="preserve">
+    <value>Exemption Limit</value>
+  </data>
+  <data name="colbandSecEdCessRate.Caption" xml:space="preserve">
+    <value>Rate(%)</value>
+  </data>
+  <data name="colbandSurchargeExcemption.Caption" xml:space="preserve">
+    <value>Exemption Limit</value>
+  </data>
+  <data name="colbandSurchargeRate.Caption" xml:space="preserve">
+    <value>Rate(%)</value>
+  </data>
+  <data name="colbandTaxType.Caption" xml:space="preserve">
+    <value>Tax Type</value>
+  </data>
+  <data name="colbandTDSExemptionLimit.Caption" xml:space="preserve">
+    <value>Exemption Limit</value>
+  </data>
+  <data name="colbandTDSExemptionLimitWithoutPan.Caption" xml:space="preserve">
+    <value>Exemption Limit</value>
+  </data>
+  <data name="colbandTDSRate.Caption" xml:space="preserve">
+    <value>Rate(%)</value>
+  </data>
+  <data name="colbandTDSWithoutPan.Caption" xml:space="preserve">
+    <value>Rate(%)</value>
+  </data>
+  <data name="colDelete.Caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="colEdCessEexmptionLimit.Caption" xml:space="preserve">
+    <value>Exemption Limit</value>
+  </data>
+  <data name="colEdCessRate.Caption" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="colName.Caption" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="colNOP.Caption" xml:space="preserve">
+    <value>Nature of Payment</value>
+  </data>
+  <data name="colSecCeesEdcEexmptionLimit.Caption" xml:space="preserve">
+    <value>Exemption Limit</value>
+  </data>
+  <data name="colSecCessEdRate.Caption" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="colSurchargeRate.Caption" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="colSurchargeRateEexmptionLimit.Caption" xml:space="preserve">
+    <value>Exemption Limit</value>
+  </data>
+  <data name="colTaxType.Caption" xml:space="preserve">
+    <value>Tax Type</value>
+  </data>
+  <data name="colTDSExemption.Caption" xml:space="preserve">
+    <value>Exemption Limit</value>
+  </data>
+  <data name="colTDSRate.Caption" xml:space="preserve">
+    <value>Rate </value>
+  </data>
+  <data name="gridBand3.Caption" xml:space="preserve">
+    <value>TDS</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>Deductee Type</value>
+  </data>
+  <data name="lblRecordCount.Text" xml:space="preserve">
+    <value>#  0</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="rcolNOP.Caption" xml:space="preserve">
+    <value>Nature of Payments</value>
+  </data>
+  <data name="simpleLabelItem1.Text" xml:space="preserve">
+    <value>Applicable From is mandatory to define TDS Policy</value>
+  </data>
+  <data name="simpleLabelItem2.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="simpleLabelItem4.Text" xml:space="preserve">
+    <value>Deductee Status</value>
+  </data>
+  <data name="simpleLabelItem6.Text" xml:space="preserve">
+    <value>Resident Status</value>
+  </data>
+</root>

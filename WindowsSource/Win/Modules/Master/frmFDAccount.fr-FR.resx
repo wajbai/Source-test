@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>compte FD</value>
+  </data>
+  <data name="btnClose.SuperTip" xml:space="preserve">
+    <value>Fermer(Alt+C)/Cliquez sur ce pour fermer</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>&amp;Fermer</value>
+  </data>
+  <data name="btnSave.SuperTip" xml:space="preserve">
+    <value>Save(Alt+S)/Cliquez pour enregistrer les détails donnés</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>&amp;Sauvegarder</value>
+  </data>
+  <data name="cboInsType.SuperTip" xml:space="preserve">
+    <value>Type d' intérêt / intérêts type de calcul</value>
+  </data>
+  <data name="cboInterestMode.SuperTip" xml:space="preserve">
+    <value>Renouvellement Type / Sélectionnez un type de renouveau</value>
+  </data>
+  <data name="cboInterestType.SuperTip" xml:space="preserve">
+    <value>Type d' intérêt / intérêts type calcultion</value>
+  </data>
+  <data name="colProject.Caption" xml:space="preserve">
+    <value>Projet</value>
+  </data>
+  <data name="deCreatedDate.SuperTip" xml:space="preserve">
+    <value>Investi/Créé le / Date de investi ou créé</value>
+  </data>
+  <data name="deDateOfMaturity.SuperTip" xml:space="preserve">
+    <value>Échéance/Date d'échéance du dépôt fixe</value>
+  </data>
+  <data name="dteClosedOn.SuperTip" xml:space="preserve">
+    <value>Retrait On/Date de retrait</value>
+  </data>
+  <data name="dteFDMaturityDate.SuperTip" xml:space="preserve">
+    <value>Date de Maturité/Date d'échéance du dépôt fixe</value>
+  </data>
+  <data name="dteRenewalOn.SuperTip" xml:space="preserve">
+    <value>Renouvellement On / Renouvellement date du dépôt fixe</value>
+  </data>
+  <data name="glkpBankInterestLedger.SuperTip" xml:space="preserve">
+    <value>Pour / Dr / Sélectionnez un registre bancaire</value>
+  </data>
+  <data name="glkpBranch.SuperTip" xml:space="preserve">
+    <value>Direction / Sélectionnez une succursale bancaire</value>
+  </data>
+  <data name="glkpCashBankLedgers.SuperTip" xml:space="preserve">
+    <value>By / Cr / Sélectionnez un registre bancaire</value>
+  </data>
+  <data name="glkpFDLedgerDetails.SuperTip" xml:space="preserve">
+    <value>Pour / Dr / Sélectionnez un registre FD</value>
+  </data>
+  <data name="glkpInterestLedger.SuperTip" xml:space="preserve">
+    <value>By / Cr / Sélectionnez un FD Ledger</value>
+  </data>
+  <data name="glkpLedgers.SuperTip" xml:space="preserve">
+    <value>FD Ledger Nom / Sélectionnez un registre FD</value>
+  </data>
+  <data name="glkpProDetails.SuperTip" xml:space="preserve">
+    <value>FD Ledger Nom / Sélectionnez un registre FD</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>Bon Non&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>Taux d'intérêt (%)</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>Narration</value>
+  </data>
+  <data name="lblAccountHolder.Text" xml:space="preserve">
+    <value>Nom d'investissement</value>
+  </data>
+  <data name="lblAccountNumber.Text" xml:space="preserve">
+    <value>FD A/c n</value>
+  </data>
+  <data name="lblAmount.Text" xml:space="preserve">
+    <value>Montant&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblAssignFDMaturedOn.Text" xml:space="preserve">
+    <value>Affiné Sur</value>
+  </data>
+  <data name="lblBranch.Text" xml:space="preserve">
+    <value>Direction&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblCapBankInterestLedger.Text" xml:space="preserve">
+    <value>Pour/Dr&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblCapInterestLedger.Text" xml:space="preserve">
+    <value>Par/Cr&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblCashBankLedgerCap.Text" xml:space="preserve">
+    <value>Bal :</value>
+  </data>
+  <data name="lblCashBankLedgers.Text" xml:space="preserve">
+    <value>Bal :</value>
+  </data>
+  <data name="lblClosedOn.Text" xml:space="preserve">
+    <value>Retrait sur​​&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblClosingAmount.Text" xml:space="preserve">
+    <value>Montant de retrait</value>
+  </data>
+  <data name="lblCurrentDate.Text" xml:space="preserve">
+    <value>Date à Sur</value>
+  </data>
+  <data name="lblDateofMaturity.Text" xml:space="preserve">
+    <value>Date de Maturité&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblExpectedInterestedAmount.Text" xml:space="preserve">
+    <value>Attendu que sur l'intérêt</value>
+  </data>
+  <data name="lblFDAccountNo.Text" xml:space="preserve">
+    <value>FD A Number/c&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblFDDateOfMaturity.Text" xml:space="preserve">
+    <value>Date de Maturité&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblFDInterestRate.Text" xml:space="preserve">
+    <value>Taux d'intérêt (%)</value>
+  </data>
+  <data name="lblFDIntrestAmount.Text" xml:space="preserve">
+    <value>Montant investi</value>
+  </data>
+  <data name="lblFDLedgerBal.Text" xml:space="preserve">
+    <value>Bal :</value>
+  </data>
+  <data name="lblFDLedgerName.Text" xml:space="preserve">
+    <value>FD Ledger</value>
+  </data>
+  <data name="lblFDLedgerTo.Text" xml:space="preserve">
+    <value>Pour/Dr&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblFDNo.Text" xml:space="preserve">
+    <value>Reçu Non</value>
+  </data>
+  <data name="lblFDReceiptNo.Text" xml:space="preserve">
+    <value>Reçu Non</value>
+  </data>
+  <data name="lblFDRenewalDetails.Text" xml:space="preserve">
+    <value>FD Détails Renouvellement</value>
+  </data>
+  <data name="lblFDRenewalInterestAmt.Text" xml:space="preserve">
+    <value>intérêt accumulé</value>
+  </data>
+  <data name="lblFDRenewalOn.Text" xml:space="preserve">
+    <value>Renouvellement Sur&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblFDRenewalPrinicipalAmount.Text" xml:space="preserve">
+    <value>Le montant principal</value>
+  </data>
+  <data name="lblInsRate.Text" xml:space="preserve">
+    <value>Taux d'intérêt (%)</value>
+  </data>
+  <data name="lblInterestRate.Text" xml:space="preserve">
+    <value>Taux d'intérêt (%)</value>
+  </data>
+  <data name="lblIntrestAmount.Text" xml:space="preserve">
+    <value>Montant d'intérêt attendu</value>
+  </data>
+  <data name="lblIntrestLedger.Text" xml:space="preserve">
+    <value>Bal :</value>
+  </data>
+  <data name="lblInvestedOn.Text" xml:space="preserve">
+    <value>Investi/Créé le&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblLastRenewedOn.Text" xml:space="preserve">
+    <value>Dernier renouvellement sur</value>
+  </data>
+  <data name="lblLedgerBal.Text" xml:space="preserve">
+    <value>Bal :</value>
+  </data>
+  <data name="lblLedgerFrom.Text" xml:space="preserve">
+    <value>Par/Cr&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblLedgerName.Text" xml:space="preserve">
+    <value>FD Ledger Nom&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblMaturityDate.Text" xml:space="preserve">
+    <value>Date d'échéance</value>
+  </data>
+  <data name="lblOpDateAsOn.Text" xml:space="preserve">
+    <value>Solde d'ouverture que sur</value>
+  </data>
+  <data name="lblProject.Text" xml:space="preserve">
+    <value>Projet&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblRenewalIntrestAmount.Text" xml:space="preserve">
+    <value>Actual Montant d'Intérêts</value>
+  </data>
+  <data name="lblRenewalProject.Text" xml:space="preserve">
+    <value>Projet</value>
+  </data>
+  <data name="lblRenewalType.Text" xml:space="preserve">
+    <value>Type de renouvellement&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lblTotalAmount.Text" xml:space="preserve">
+    <value>Montant principal Après renouvellement</value>
+  </data>
+  <data name="lblTransMode.Text" xml:space="preserve">
+    <value>DR</value>
+  </data>
+  <data name="lblVoucherNo.Text" xml:space="preserve">
+    <value>Bon Non&lt;color=red&gt; *&lt;/color&gt;</value>
+  </data>
+  <data name="lcgFDAccountDetails.Text" xml:space="preserve">
+    <value>Compte FD Détails</value>
+  </data>
+  <data name="lcgGroupCaption.Text" xml:space="preserve">
+    <value>Ouverture</value>
+  </data>
+  <data name="lcgRenewalDetails.Text" xml:space="preserve">
+    <value>FD Détails Renouvellement</value>
+  </data>
+  <data name="mtxtNotes.SuperTip" xml:space="preserve">
+    <value>Narration / Narration sur le dépôt fixe</value>
+  </data>
+  <data name="simpleLabelItem1.Text" xml:space="preserve">
+    <value>Banque</value>
+  </data>
+  <data name="simpleLabelItem2.Text" xml:space="preserve">
+    <value>Attendu que sur l'intérêt</value>
+  </data>
+  <data name="simpleLabelItem3.Text" xml:space="preserve">
+    <value>Pas de Renouvellements</value>
+  </data>
+  <data name="simpleLabelItem4.Text" xml:space="preserve">
+    <value>Intérêt reçu</value>
+  </data>
+  <data name="txtAccountHolder.SuperTip" xml:space="preserve">
+    <value>Titulaire du compte / titulaire du compte Nom</value>
+  </data>
+  <data name="txtAccountNumber.SuperTip" xml:space="preserve">
+    <value>FD Nombre A / c / numéro de compte de dépôt fixe</value>
+  </data>
+  <data name="txtAmount.SuperTip" xml:space="preserve">
+    <value>Montant / Montant investi</value>
+  </data>
+  <data name="txtFdInterestRate.SuperTip" xml:space="preserve">
+    <value>Taux d'intérêt / Taux d'intérêt pour le montant investi</value>
+  </data>
+  <data name="txtFDReceiptNo.SuperTip" xml:space="preserve">
+    <value>Receiopt No / Numéro de reçu</value>
+  </data>
+  <data name="txtIntrestRate.SuperTip" xml:space="preserve">
+    <value>Taux d'intérêt / Taux d'intérêt pour le montant investi</value>
+  </data>
+  <data name="txtReceiptNo.SuperTip" xml:space="preserve">
+    <value>Réception No / Numéro de reçu</value>
+  </data>
+  <data name="txtRenewalVoucherNo.SuperTip" xml:space="preserve">
+    <value>Bon Non / Nombre Voucher</value>
+  </data>
+  <data name="txtVoucherNo.SuperTip" xml:space="preserve">
+    <value>Bon Non / Nombre Voucher</value>
+  </data>
+</root>

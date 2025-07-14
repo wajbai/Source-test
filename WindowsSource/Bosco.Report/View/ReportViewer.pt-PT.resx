@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ReportViewer</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Name" xml:space="preserve">
+    <value>barButtonItem2</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem1.Name" xml:space="preserve">
+    <value>barStaticItem1</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barToolbarsListItem1.Name" xml:space="preserve">
+    <value>barToolbarsListItem1</value>
+  </data>
+  <data name="&gt;&gt;barToolbarsListItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarToolbarsListItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barToolbarsListItem2.Name" xml:space="preserve">
+    <value>barToolbarsListItem2</value>
+  </data>
+  <data name="&gt;&gt;barToolbarsListItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarToolbarsListItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiDilldown.Name" xml:space="preserve">
+    <value>bbiDilldown</value>
+  </data>
+  <data name="&gt;&gt;bbiDilldown.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiProperty.Name" xml:space="preserve">
+    <value>bbiProperty</value>
+  </data>
+  <data name="&gt;&gt;bbiProperty.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiRefresh.Name" xml:space="preserve">
+    <value>bbiRefresh</value>
+  </data>
+  <data name="&gt;&gt;bbiRefresh.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;imgCollection.Name" xml:space="preserve">
+    <value>imgCollection</value>
+  </data>
+  <data name="&gt;&gt;imgCollection.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pbmReport.Name" xml:space="preserve">
+    <value>pbmReport</value>
+  </data>
+  <data name="&gt;&gt;pbmReport.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintBarManager, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pcReport.Name" xml:space="preserve">
+    <value>pcReport</value>
+  </data>
+  <data name="&gt;&gt;pcReport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pcReport.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Control.PrintControl, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pcReport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;previewBar1.Name" xml:space="preserve">
+    <value>previewBar1</value>
+  </data>
+  <data name="&gt;&gt;previewBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PreviewBar, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;previewBar2.Name" xml:space="preserve">
+    <value>previewBar2</value>
+  </data>
+  <data name="&gt;&gt;previewBar2.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PreviewBar, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem1.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem1</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem10.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem10</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem11.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem11</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem12.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem12</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem12.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem13.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem13</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem14.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem14</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem14.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem15.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem15</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem15.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem16.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem16</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem16.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem17.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem17</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem17.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem2.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem2</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem3.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem3</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem4.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem4</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem5.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem5</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem6.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem6</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem7.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem7</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem8.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem8</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem9.Name" xml:space="preserve">
+    <value>printPreviewBarCheckItem9</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarCheckItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarCheckItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem1.Name" xml:space="preserve">
+    <value>printPreviewBarItem1</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem10.Name" xml:space="preserve">
+    <value>printPreviewBarItem10</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem11.Name" xml:space="preserve">
+    <value>printPreviewBarItem11</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem12.Name" xml:space="preserve">
+    <value>printPreviewBarItem12</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem12.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem13.Name" xml:space="preserve">
+    <value>printPreviewBarItem13</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem14.Name" xml:space="preserve">
+    <value>printPreviewBarItem14</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem14.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem15.Name" xml:space="preserve">
+    <value>printPreviewBarItem15</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem15.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem16.Name" xml:space="preserve">
+    <value>printPreviewBarItem16</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem16.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem17.Name" xml:space="preserve">
+    <value>printPreviewBarItem17</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem17.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem18.Name" xml:space="preserve">
+    <value>printPreviewBarItem18</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem18.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem19.Name" xml:space="preserve">
+    <value>printPreviewBarItem19</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem19.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem2.Name" xml:space="preserve">
+    <value>printPreviewBarItem2</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem20.Name" xml:space="preserve">
+    <value>printPreviewBarItem20</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem20.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem21.Name" xml:space="preserve">
+    <value>printPreviewBarItem21</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem21.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem22.Name" xml:space="preserve">
+    <value>printPreviewBarItem22</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem22.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem23.Name" xml:space="preserve">
+    <value>printPreviewBarItem23</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem23.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem24.Name" xml:space="preserve">
+    <value>printPreviewBarItem24</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem24.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem25.Name" xml:space="preserve">
+    <value>printPreviewBarItem25</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem25.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem26.Name" xml:space="preserve">
+    <value>printPreviewBarItem26</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem26.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem27.Name" xml:space="preserve">
+    <value>printPreviewBarItem27</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem27.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem28.Name" xml:space="preserve">
+    <value>printPreviewBarItem28</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem28.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem29.Name" xml:space="preserve">
+    <value>printPreviewBarItem29</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem29.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem3.Name" xml:space="preserve">
+    <value>printPreviewBarItem3</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem30.Name" xml:space="preserve">
+    <value>printPreviewBarItem30</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem30.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem4.Name" xml:space="preserve">
+    <value>printPreviewBarItem4</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem5.Name" xml:space="preserve">
+    <value>printPreviewBarItem5</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem6.Name" xml:space="preserve">
+    <value>printPreviewBarItem6</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem7.Name" xml:space="preserve">
+    <value>printPreviewBarItem7</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem8.Name" xml:space="preserve">
+    <value>printPreviewBarItem8</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem9.Name" xml:space="preserve">
+    <value>printPreviewBarItem9</value>
+  </data>
+  <data name="&gt;&gt;printPreviewBarItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewBarItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewRepositoryItemComboBox1.Name" xml:space="preserve">
+    <value>printPreviewRepositoryItemComboBox1</value>
+  </data>
+  <data name="&gt;&gt;printPreviewRepositoryItemComboBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewRepositoryItemComboBox, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewStaticItem1.Name" xml:space="preserve">
+    <value>printPreviewStaticItem1</value>
+  </data>
+  <data name="&gt;&gt;printPreviewStaticItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewStaticItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewStaticItem2.Name" xml:space="preserve">
+    <value>printPreviewStaticItem2</value>
+  </data>
+  <data name="&gt;&gt;printPreviewStaticItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewStaticItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewSubItem1.Name" xml:space="preserve">
+    <value>printPreviewSubItem1</value>
+  </data>
+  <data name="&gt;&gt;printPreviewSubItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewSubItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewSubItem2.Name" xml:space="preserve">
+    <value>printPreviewSubItem2</value>
+  </data>
+  <data name="&gt;&gt;printPreviewSubItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewSubItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewSubItem3.Name" xml:space="preserve">
+    <value>printPreviewSubItem3</value>
+  </data>
+  <data name="&gt;&gt;printPreviewSubItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewSubItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;printPreviewSubItem4.Name" xml:space="preserve">
+    <value>printPreviewSubItem4</value>
+  </data>
+  <data name="&gt;&gt;printPreviewSubItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.PrintPreviewSubItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;progressBarEditItem1.Name" xml:space="preserve">
+    <value>progressBarEditItem1</value>
+  </data>
+  <data name="&gt;&gt;progressBarEditItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.ProgressBarEditItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemImageEdit1.Name" xml:space="preserve">
+    <value>repositoryItemImageEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemImageEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemImageEdit2.Name" xml:space="preserve">
+    <value>repositoryItemImageEdit2</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemImageEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemImageEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemProgressBar1.Name" xml:space="preserve">
+    <value>repositoryItemProgressBar1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemProgressBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemProgressBar, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Name" xml:space="preserve">
+    <value>repositoryItemTextEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemZoomTrackBar1.Name" xml:space="preserve">
+    <value>repositoryItemZoomTrackBar1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemZoomTrackBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemZoomTrackBar, DevExpress.XtraEditors.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;zoomBarEditItem1.Name" xml:space="preserve">
+    <value>zoomBarEditItem1</value>
+  </data>
+  <data name="&gt;&gt;zoomBarEditItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.ZoomBarEditItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;zoomTrackBarEditItem1.Name" xml:space="preserve">
+    <value>zoomTrackBarEditItem1</value>
+  </data>
+  <data name="&gt;&gt;zoomTrackBarEditItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraPrinting.Preview.ZoomTrackBarEditItem, DevExpress.XtraPrinting.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="barToolbarsListItem1.Caption" xml:space="preserve">
+    <value>Bars</value>
+  </data>
+  <data name="barToolbarsListItem2.Caption" xml:space="preserve">
+    <value>barToolbarsListItem2</value>
+  </data>
+  <data name="bbiProperty.Caption" xml:space="preserve">
+    <value>Customise</value>
+  </data>
+  <data name="bbiProperty.Description" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="bbiProperty.Hint" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="previewBar1.Text" xml:space="preserve">
+    <value>Toolbar</value>
+  </data>
+  <data name="previewBar2.Text" xml:space="preserve">
+    <value>Status Bar</value>
+  </data>
+  <data name="printPreviewBarCheckItem1.Caption" xml:space="preserve">
+    <value>PDF File</value>
+  </data>
+  <data name="printPreviewBarCheckItem1.Hint" xml:space="preserve">
+    <value>PDF File</value>
+  </data>
+  <data name="printPreviewBarCheckItem10.Caption" xml:space="preserve">
+    <value>PDF File</value>
+  </data>
+  <data name="printPreviewBarCheckItem10.Hint" xml:space="preserve">
+    <value>PDF File</value>
+  </data>
+  <data name="printPreviewBarCheckItem11.Caption" xml:space="preserve">
+    <value>MHT File</value>
+  </data>
+  <data name="printPreviewBarCheckItem11.Hint" xml:space="preserve">
+    <value>MHT File</value>
+  </data>
+  <data name="printPreviewBarCheckItem12.Caption" xml:space="preserve">
+    <value>RTF File</value>
+  </data>
+  <data name="printPreviewBarCheckItem12.Hint" xml:space="preserve">
+    <value>RTF File</value>
+  </data>
+  <data name="printPreviewBarCheckItem13.Caption" xml:space="preserve">
+    <value>XLS File</value>
+  </data>
+  <data name="printPreviewBarCheckItem13.Hint" xml:space="preserve">
+    <value>XLS File</value>
+  </data>
+  <data name="printPreviewBarCheckItem14.Caption" xml:space="preserve">
+    <value>XLSX File</value>
+  </data>
+  <data name="printPreviewBarCheckItem14.Hint" xml:space="preserve">
+    <value>XLSX File</value>
+  </data>
+  <data name="printPreviewBarCheckItem15.Caption" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="printPreviewBarCheckItem15.Hint" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="printPreviewBarCheckItem16.Caption" xml:space="preserve">
+    <value>Text File</value>
+  </data>
+  <data name="printPreviewBarCheckItem16.Hint" xml:space="preserve">
+    <value>Text File</value>
+  </data>
+  <data name="printPreviewBarCheckItem17.Caption" xml:space="preserve">
+    <value>Image File</value>
+  </data>
+  <data name="printPreviewBarCheckItem17.Hint" xml:space="preserve">
+    <value>Image File</value>
+  </data>
+  <data name="printPreviewBarCheckItem2.Caption" xml:space="preserve">
+    <value>HTML File</value>
+  </data>
+  <data name="printPreviewBarCheckItem2.Hint" xml:space="preserve">
+    <value>HTML File</value>
+  </data>
+  <data name="printPreviewBarCheckItem3.Caption" xml:space="preserve">
+    <value>MHT File</value>
+  </data>
+  <data name="printPreviewBarCheckItem3.Hint" xml:space="preserve">
+    <value>MHT File</value>
+  </data>
+  <data name="printPreviewBarCheckItem4.Caption" xml:space="preserve">
+    <value>RTF File</value>
+  </data>
+  <data name="printPreviewBarCheckItem4.Hint" xml:space="preserve">
+    <value>RTF File</value>
+  </data>
+  <data name="printPreviewBarCheckItem5.Caption" xml:space="preserve">
+    <value>XLS File</value>
+  </data>
+  <data name="printPreviewBarCheckItem5.Hint" xml:space="preserve">
+    <value>XLS File</value>
+  </data>
+  <data name="printPreviewBarCheckItem6.Caption" xml:space="preserve">
+    <value>XLSX File</value>
+  </data>
+  <data name="printPreviewBarCheckItem6.Hint" xml:space="preserve">
+    <value>XLSX File</value>
+  </data>
+  <data name="printPreviewBarCheckItem7.Caption" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="printPreviewBarCheckItem7.Hint" xml:space="preserve">
+    <value>CSV File</value>
+  </data>
+  <data name="printPreviewBarCheckItem8.Caption" xml:space="preserve">
+    <value>Text File</value>
+  </data>
+  <data name="printPreviewBarCheckItem8.Hint" xml:space="preserve">
+    <value>Text File</value>
+  </data>
+  <data name="printPreviewBarCheckItem9.Caption" xml:space="preserve">
+    <value>Image File</value>
+  </data>
+  <data name="printPreviewBarCheckItem9.Hint" xml:space="preserve">
+    <value>Image File</value>
+  </data>
+  <data name="printPreviewBarItem1.Caption" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="printPreviewBarItem1.Hint" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="printPreviewBarItem10.Caption" xml:space="preserve">
+    <value>Page Set&amp;up...</value>
+  </data>
+  <data name="printPreviewBarItem10.Hint" xml:space="preserve">
+    <value>Page Setup</value>
+  </data>
+  <data name="printPreviewBarItem11.Caption" xml:space="preserve">
+    <value>Header And Footer</value>
+  </data>
+  <data name="printPreviewBarItem11.Hint" xml:space="preserve">
+    <value>Header And Footer</value>
+  </data>
+  <data name="printPreviewBarItem12.Caption" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="printPreviewBarItem12.Hint" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="printPreviewBarItem13.Caption" xml:space="preserve">
+    <value>Hand Tool</value>
+  </data>
+  <data name="printPreviewBarItem13.Hint" xml:space="preserve">
+    <value>Hand Tool</value>
+  </data>
+  <data name="printPreviewBarItem14.Caption" xml:space="preserve">
+    <value>Magnifier</value>
+  </data>
+  <data name="printPreviewBarItem14.Hint" xml:space="preserve">
+    <value>Magnifier</value>
+  </data>
+  <data name="printPreviewBarItem15.Caption" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="printPreviewBarItem15.Hint" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="printPreviewBarItem16.Caption" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="printPreviewBarItem16.Hint" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="printPreviewBarItem17.Caption" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="printPreviewBarItem17.Hint" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="printPreviewBarItem18.Caption" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="printPreviewBarItem18.Hint" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="printPreviewBarItem19.Caption" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="printPreviewBarItem19.Hint" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="printPreviewBarItem2.Caption" xml:space="preserve">
+    <value>Document Map</value>
+  </data>
+  <data name="printPreviewBarItem2.Hint" xml:space="preserve">
+    <value>Document Map</value>
+  </data>
+  <data name="printPreviewBarItem20.Caption" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="printPreviewBarItem20.Hint" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="printPreviewBarItem21.Caption" xml:space="preserve">
+    <value>Multiple Pages</value>
+  </data>
+  <data name="printPreviewBarItem21.Hint" xml:space="preserve">
+    <value>Multiple Pages</value>
+  </data>
+  <data name="printPreviewBarItem22.Caption" xml:space="preserve">
+    <value>&amp;Color...</value>
+  </data>
+  <data name="printPreviewBarItem22.Hint" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="printPreviewBarItem23.Caption" xml:space="preserve">
+    <value>&amp;Watermark...</value>
+  </data>
+  <data name="printPreviewBarItem23.Hint" xml:space="preserve">
+    <value>Watermark</value>
+  </data>
+  <data name="printPreviewBarItem24.Caption" xml:space="preserve">
+    <value>Export Document...</value>
+  </data>
+  <data name="printPreviewBarItem24.Hint" xml:space="preserve">
+    <value>Export Document...</value>
+  </data>
+  <data name="printPreviewBarItem25.Caption" xml:space="preserve">
+    <value>Send via E-Mail...</value>
+  </data>
+  <data name="printPreviewBarItem25.Hint" xml:space="preserve">
+    <value>Send via E-Mail...</value>
+  </data>
+  <data name="printPreviewBarItem26.Caption" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="printPreviewBarItem26.Hint" xml:space="preserve">
+    <value>Close Preview</value>
+  </data>
+  <data name="printPreviewBarItem27.Caption" xml:space="preserve">
+    <value>&amp;Facing</value>
+  </data>
+  <data name="printPreviewBarItem28.Caption" xml:space="preserve">
+    <value>&amp;Continuous</value>
+  </data>
+  <data name="printPreviewBarItem29.Caption" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="printPreviewBarItem29.Hint" xml:space="preserve">
+    <value>Close Preview</value>
+  </data>
+  <data name="printPreviewBarItem3.Caption" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="printPreviewBarItem3.Hint" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="printPreviewBarItem30.Caption" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="printPreviewBarItem30.Hint" xml:space="preserve">
+    <value>Close Preview</value>
+  </data>
+  <data name="printPreviewBarItem4.Caption" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="printPreviewBarItem4.Hint" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="printPreviewBarItem5.Caption" xml:space="preserve">
+    <value>Customize</value>
+  </data>
+  <data name="printPreviewBarItem5.Hint" xml:space="preserve">
+    <value>Customize</value>
+  </data>
+  <data name="printPreviewBarItem6.Caption" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="printPreviewBarItem6.Hint" xml:space="preserve">
+    <value>Open a document</value>
+  </data>
+  <data name="printPreviewBarItem7.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="printPreviewBarItem7.Hint" xml:space="preserve">
+    <value>Save the document</value>
+  </data>
+  <data name="printPreviewBarItem8.Caption" xml:space="preserve">
+    <value>&amp;Print...</value>
+  </data>
+  <data name="printPreviewBarItem8.Hint" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="printPreviewBarItem9.Caption" xml:space="preserve">
+    <value>P&amp;rint</value>
+  </data>
+  <data name="printPreviewBarItem9.Hint" xml:space="preserve">
+    <value>Quick Print</value>
+  </data>
+  <data name="printPreviewStaticItem1.Caption" xml:space="preserve">
+    <value>Nothing</value>
+  </data>
+  <data name="printPreviewStaticItem2.Caption" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="printPreviewSubItem1.Caption" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="printPreviewSubItem2.Caption" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="printPreviewSubItem3.Caption" xml:space="preserve">
+    <value>&amp;Background</value>
+  </data>
+  <data name="printPreviewSubItem4.Caption" xml:space="preserve">
+    <value>&amp;Page Layout</value>
+  </data>
+  <data name="zoomBarEditItem1.Caption" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="zoomBarEditItem1.Hint" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+</root>
